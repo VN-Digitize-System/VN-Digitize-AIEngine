@@ -1,0 +1,32 @@
+crop_deskew:
+  enabled: true
+  blur_kernel_size: 5 # GaussianBlur kernel — must be odd
+  canny_threshold1: 75
+  canny_threshold2: 200
+  morph_kernel_size: 20 # Morphological closing kernel size
+  min_area_ratio: 0.10 # Min contour area relative to full image area
+  perspective_padding: 10 # Pixel padding added after perspective warp
+  max_skew_angle: 45.0 # Max angle (degrees) deskew will correct
+
+enhance:
+  enabled: true
+  clahe:
+    clip_limit: 2.0
+    tile_grid_size: [8, 8]
+  binarize:
+    enabled: false           # true → pure black/white (tốt cho OCR engine nội bộ)
+    block_size: 11 # adaptiveThreshold block size — must be odd
+    c_constant: 2
+  denoise:
+    enabled: true
+    kernel_size: 3 # medianBlur kernel — must be odd
+
+detect:
+  blank_page:
+    enabled: true
+    white_pixel_ratio_threshold: 0.99 # Flag as blank if >= 99% pixels are white
+  orientation:
+    enabled: true
+    gradient_xy_threshold: 0.85  # SobelX/SobelY < this → flag wrong orientation (90deg)
+  barcode:
+    enabled: true
