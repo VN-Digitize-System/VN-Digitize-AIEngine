@@ -64,7 +64,7 @@ class DocumentPreprocessor:
             peri = cv2.arcLength(c, True)
             # --- BƯỚC NÂNG CẤP: Tăng epsilon từ 0.02 lên 0.04 hoặc 0.05 ---
             # Giúp chấp nhận các đường viền bị cong vênh
-            approx = cv2.approxPolyDP(c, 0.04 * peri, True)
+            approx = cv2.approxPolyDP(c, 0.05 * peri, True)
             
             if len(approx) == 4:
                 screen_cnt = approx
