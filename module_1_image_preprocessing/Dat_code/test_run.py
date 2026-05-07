@@ -31,4 +31,8 @@ def test_deskew_only(image_path):
     plt.show()
 
 # Thay tên file bằng ảnh nghiêng bạn vừa chụp
-test_deskew_only("test_images/0133.jpg")
+test_deskew_only("test_images/f1.jpg")
+
+#Better: 2, 0006, 0007, 0008, 0012, 0014, 0015, 0016, ~0018,0024, 0025
+
+#Error: 3, 4, 0004, 0009, 0010, 0011, 0013, 0017, 0020

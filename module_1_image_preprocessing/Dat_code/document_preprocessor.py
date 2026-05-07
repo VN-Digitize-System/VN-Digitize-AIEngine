@@ -72,7 +72,8 @@ class DocumentPreprocessor:
                 
         if screen_cnt is None:
             print("Cảnh báo: Vẫn không tìm thấy viền tài liệu, trả về ảnh gốc!")
-            return original
+            # Trả về ảnh gốc cho cả kết quả cắt VÀ kết quả debug
+            return original, original.copy()
 
         # 6. Nhân tọa độ góc với tỷ lệ (ratio) để áp dụng lên ảnh gốc sắc nét
         pts = screen_cnt.reshape(4, 2) * ratio
@@ -97,7 +98,22 @@ class DocumentPreprocessor:
         M = cv2.getPerspectiveTransform(rect, dst)
         warped = cv2.warpPerspective(original, M, (maxWidth, maxHeight))
 
-        return warped
+        warped = cv2.warpPerspective(original, M, (maxWidth, maxHeight))
+
+        # --- CODE THÊM VÀO ĐỂ VẼ GÓC ---
+        debug_img_A = original.copy()
+        if screen_cnt is not None:
+            # Vẽ đường bao 4 cạnh (màu xanh lá)
+            # Lưu ý: phải nhân với ratio vì lúc tìm viền ảnh đã bị thu nhỏ
+            scaled_cnt = (screen_cnt.reshape(4, 2) * ratio).astype(int)
+            cv2.drawContours(debug_img_A, [scaled_cnt], -1, (0, 255, 0), 5)
+            
+            # Vẽ 4 chấm tròn tại 4 góc (màu đỏ)
+            for point in scaled_cnt:
+                cv2.circle(debug_img_A, tuple(point), 15, (0, 0, 255), -1)
+
+        # Trả về cả ảnh đã cắt và ảnh gốc có vẽ góc
+        return warped, debug_img_A
 
     def enhance_document(self, warped_image):
         """Hàm tẩy trắng nền ố vàng và làm đậm nét chữ"""
