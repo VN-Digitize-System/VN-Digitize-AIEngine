@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import cv2
 import numpy as np
-import pytesseract 
+from pyzbar.pyzbar import decode
 
 from .config import DetectConfig
 from .models import BarcodeInfo
@@ -134,37 +134,6 @@ def detect_blank_page(image: np.ndarray, cfg: DetectConfig) -> bool:
     return is_blank
 
 
-# def detect_wrong_orientation(image: np.ndarray, cfg: DetectConfig) -> bool:
-#     """
-#     Detect 90-degree wrong orientation using Sobel gradient energy ratio.
-
-#     For a correctly-oriented portrait document, vertical edges (SobelX) are
-#     >= horizontal edges (SobelY) because text characters have strong vertical
-#     strokes. When the document is rotated 90°, SobelY dominates instead.
-
-#     Threshold: SobelX / SobelY < gradient_xy_threshold → flag WARN_ROTATED.
-
-#     Note: 180° (upside-down) cannot be reliably detected by gradient energy
-#     alone — the ratio is identical for 0° and 180°. Upside-down detection
-#     requires OCR-level confidence scoring (handled in Module 2).
-#     """
-#     if not cfg.orientation.enabled:
-#         return False
-
-#     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) if len(image.shape) == 3 else image
-#     blurred = cv2.GaussianBlur(gray, (5, 5), 0)
-
-#     energy_x = float(np.mean(np.abs(cv2.Sobel(blurred, cv2.CV_64F, 1, 0, ksize=3))))
-#     energy_y = float(np.mean(np.abs(cv2.Sobel(blurred, cv2.CV_64F, 0, 1, ksize=3))))
-#     ratio = energy_x / (energy_y + 1e-9)
-
-#     is_wrong = ratio < cfg.orientation.gradient_xy_threshold
-#     logger.debug(
-#         f"Orientation: SobelX={energy_x:.2f}, SobelY={energy_y:.2f}, "
-#         f"X/Y={ratio:.3f}, threshold={cfg.orientation.gradient_xy_threshold}, wrong={is_wrong}"
-#     )
-#     return is_wrong
-
 import cv2
 import numpy as np
 
@@ -239,39 +208,39 @@ def detect_barcodes(image: np.ndarray, cfg: DetectConfig) -> list[BarcodeInfo]:
 
     results: list[BarcodeInfo] = []
 
-    # QR Code
-    qr = cv2.QRCodeDetector()
-    data, points, _ = qr.detectAndDecode(image)
-    if data and points is not None:
-        pts = points[0].astype(int)
-        x, y = int(pts[:, 0].min()), int(pts[:, 1].min())
-        w, h = int(pts[:, 0].max()) - x, int(pts[:, 1].max()) - y
-        results.append(BarcodeInfo(
-            barcode_type="QR_CODE",
-            data=data,
-            bbox={"x": x, "y": y, "width": w, "height": h},
-        ))
-        logger.info(f"QR code detected: {data[:60]!r}")
+    # 1. Chuyển ảnh sang thang xám (Grayscale)
+    # PyZbar đọc ảnh xám nhanh và chính xác hơn ảnh màu rất nhiều
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) if len(image.shape) == 3 else image
 
-    # 1D Barcodes (Code128, EAN, etc.)
     try:
-        bd = cv2.barcode.BarcodeDetector()
-        ok, decoded_info, decoded_type, points = bd.detectAndDecodeMulti(image)
-        if ok and decoded_info:
-            for info, btype, pts in zip(decoded_info, decoded_type, points):
-                if not info:
-                    continue
-                pts = pts.astype(int)
-                x, y = int(pts[:, 0].min()), int(pts[:, 1].min())
-                w, h = int(pts[:, 0].max()) - x, int(pts[:, 1].max()) - y
+        # 2. Quét toàn bộ mã (QR Code + Barcode 1D) trong 1 dòng lệnh duy nhất!
+        decoded_objects = decode(gray)
+
+        # 3. Duyệt qua từng mã tìm được
+        for obj in decoded_objects:
+            try:
+                # obj.data trả về dạng byte (b'...'), ta cần decode thành chuỗi UTF-8
+                data = obj.data.decode('utf-8')
+                btype = obj.type  # Loại mã: 'QRCODE', 'CODE128', 'EAN13', v.v.
+                
+                # obj.rect cung cấp sẵn tọa độ Bounding Box cực kỳ chuẩn xác
+                rect = obj.rect
+                
+                # Đóng gói vào chuẩn của team
                 results.append(BarcodeInfo(
-                    barcode_type=str(btype),
-                    data=info,
-                    bbox={"x": x, "y": y, "width": w, "height": h},
+                    barcode_type=btype,
+                    data=data,
+                    bbox={"x": rect.left, "y": rect.top, "width": rect.width, "height": rect.height},
                 ))
-                logger.info(f"Barcode detected ({btype}): {info[:60]!r}")
-    except AttributeError:
-        logger.debug("cv2.barcode module not available in this OpenCV build, skipping 1D detection")
+                logger.info(f"Barcode detected ({btype}): {data[:60]!r}")
+                
+            except Exception as e:
+                # Nếu 1 mã bị lỗi định dạng chữ, bỏ qua và đọc mã tiếp theo
+                logger.warning(f"Lỗi giải mã nội dung của 1 barcode: {e}")
+                continue
+
+    except Exception as e:
+        logger.error(f"Lỗi hệ thống pyzbar: {e}")
 
     logger.debug(f"Barcode scan complete: {len(results)} found")
     return results

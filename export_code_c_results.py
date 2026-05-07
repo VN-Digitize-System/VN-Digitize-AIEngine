@@ -50,7 +50,7 @@ def export_final_results(input_folder, output_folder):
 
 if __name__ == "__main__":
     # Cấu hình đường dẫn
-    INPUT_DIR = "tests/module_1/rotate_images" # Folder chứa ảnh gốc của bạn
-    OUTPUT_DIR = "tests/module_1/code_c_outputs_rotate" # Folder sẽ chứa ảnh đã tẩy trắng
+    INPUT_DIR = "tests/module_1/QR_images" # Folder chứa ảnh gốc của bạn
+    OUTPUT_DIR = "tests/module_1/code_c_outputs_QR" # Folder sẽ chứa ảnh đã tẩy trắng
     
     export_final_results(INPUT_DIR, OUTPUT_DIR)

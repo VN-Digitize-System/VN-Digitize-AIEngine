@@ -131,5 +131,5 @@ def test_detection_features(input_folder):
 
 if __name__ == "__main__":
     # Trỏ vào thư mục chứa 4 tấm hình mồi nhử của bạn
-    INPUT_DIR = "tests/module_1/rotate_images"
+    INPUT_DIR = "tests/module_1/detect_images"
     test_detection_features(INPUT_DIR)
