@@ -100,15 +100,15 @@ def test_detection_features(input_folder):
             orient_status = "⚠️ Unknown (Lỗi Crop)"
         elif is_blank:
             blank_status = "❌ CÓ"
-            orient_status = "⚠️ N/A (Trang trắng không có nội dung)"
+            orient_status = "⚠️ Trang trắng không có nội dung"
         else:
             blank_status = "✅ Không"
             
             # --- LOGIC MỚI DO BẠN ĐỀ XUẤT ---
             if abs(skew_angle) > 10.0:
-                orient_status = f"⚠️ Nghiêng ({skew_angle:.1f}°) - Nên chỉnh thẳng lại điện thoại!"
+                orient_status = f"⚠️  Nghiêng - Xin chỉnh thẳng lại tài liệu!"
             else:
-                orient_status = f"✅ Ổn định ({skew_angle:.1f}°)"
+                orient_status = f"✅ Ổn định"
             # -------------------------------
 
         # --- IN KẾT QUẢ TRỰC QUAN ---
@@ -117,7 +117,7 @@ def test_detection_features(input_folder):
         
         # --- CẬP NHẬT TRẠNG THÁI MÃ VẠCH ---
         if crop_failed:
-            print(f" 🏷️  Mã vạch: \t\t⚠️ Unknown (Lỗi Crop)")
+            print(f" 🏷️  Mã vạch: \t\t ⚠️ Unknown (Lỗi Crop)")
         else:
             if barcodes:
                 print(f" 🏷️  Mã vạch (Tìm thấy {len(barcodes)}):")
@@ -131,5 +131,5 @@ def test_detection_features(input_folder):
 
 if __name__ == "__main__":
     # Trỏ vào thư mục chứa 4 tấm hình mồi nhử của bạn
-    INPUT_DIR = "tests/module_1/detect_images"
+    INPUT_DIR = "tests/module_1/rotate_images"
     test_detection_features(INPUT_DIR)
