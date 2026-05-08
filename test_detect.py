@@ -115,16 +115,13 @@ def test_detection_features(input_folder):
         print(f" ⚪ Trang trắng: \t{blank_status}")
         print(f" 📐 Chiều tài liệu:\t{orient_status}")
         
-        # --- CẬP NHẬT TRẠNG THÁI MÃ VẠCH ---
-        if crop_failed:
-            print(f" 🏷️  Mã vạch: \t\t ⚠️ Unknown (Lỗi Crop)")
+        # --- CẬP NHẬT TRẠNG THÁI MÃ VẠCH (Tách khỏi crop_failed) ---
+        if barcodes:
+            print(f" 🏷️  Mã vạch (Tìm thấy {len(barcodes)}):")
+            for bc in barcodes:
+                print(f"    - [{bc.barcode_type}] Nội dung: {bc.data}")
         else:
-            if barcodes:
-                print(f" 🏷️  Mã vạch (Tìm thấy {len(barcodes)}):")
-                for bc in barcodes:
-                    print(f"    - [{bc.barcode_type}] Nội dung: {bc.data}")
-            else:
-                print(f" 🏷️  Mã vạch: \t\t✅ Không tìm thấy")
+            print(f" 🏷️  Mã vạch: \t\t✅ Không tìm thấy")
             
         if crop_failed:
             print(f" ⚠️ CẢNH BÁO: \t\t❌ Xin hãy chụp lại hình do không thể nhận diện được góc tài liệu!")

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import cv2
 import numpy as np
-from pyzbar.pyzbar import decode
+from pyzbar.pyzbar import decode, ZBarSymbol
 
 from .config import DetectConfig
 from .models import BarcodeInfo
@@ -202,45 +202,124 @@ def detect_wrong_orientation(image: np.ndarray, cfg: DetectConfig) -> bool:
     return is_wrong
 
 
+# from .config import DetectConfig
+# from .models import BarcodeInfo
+# from shared_utils.logger import get_logger
+# logger = get_logger(__name__)
+
 def detect_barcodes(image: np.ndarray, cfg: DetectConfig) -> list[BarcodeInfo]:
     if not cfg.barcode.enabled:
         return []
 
     results: list[BarcodeInfo] = []
+    seen_data = set() # Bộ lọc chống trùng lặp nếu tìm thấy 1 mã nhiều lần
 
-    # 1. Chuyển ảnh sang thang xám (Grayscale)
-    # PyZbar đọc ảnh xám nhanh và chính xác hơn ảnh màu rất nhiều
+    # 1. Chuyển ảnh gốc sang xám
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) if len(image.shape) == 3 else image
 
-    try:
-        # 2. Quét toàn bộ mã (QR Code + Barcode 1D) trong 1 dòng lệnh duy nhất!
-        decoded_objects = decode(gray)
+    # 2. Tạo phiên bản: Tăng cường độ tương phản (CLAHE) - Cứu tinh cho ảnh bóng râm, thiếu sáng
+    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+    enhanced_gray = clahe.apply(gray)
 
-        # 3. Duyệt qua từng mã tìm được
-        for obj in decoded_objects:
-            try:
-                # obj.data trả về dạng byte (b'...'), ta cần decode thành chuỗi UTF-8
+    # 3. Tạo phiên bản: Trắng Đen tuyệt đối (Otsu Threshold)
+    _, binary = cv2.threshold(enhanced_gray, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+
+    # 4. Gói tất cả các phiên bản vào một mảng để đi "đánh bắt"
+    versions_to_try = [
+        ("Raw Gray", gray),
+        ("CLAHE Enhanced", enhanced_gray),
+        ("Binarized", binary)
+    ]
+
+    # 5. TẠO PHIÊN BẢN THU NHỎ NẾU ẢNH QUÁ TO (Chống nhiễu hạt)
+    h, w = gray.shape
+    scale = 1.0
+    max_dim = 1500 # Đưa ảnh về kích thước lý tưởng cho pyzbar
+    if max(h, w) > max_dim:
+        scale = max_dim / max(h, w)
+        resized_gray = cv2.resize(gray, (0, 0), fx=scale, fy=scale)
+        versions_to_try.append(("Resized Gray", resized_gray))
+
+    # Danh sách các loại mã thông dụng trong hồ sơ, hóa đơn (Bỏ qua Databar lỗi thời)
+    allowed_symbols = [
+        ZBarSymbol.QRCODE, 
+        ZBarSymbol.CODE128, 
+        ZBarSymbol.EAN13, 
+        ZBarSymbol.EAN8,
+        ZBarSymbol.CODE39
+    ]
+
+    # BẮT ĐẦU QUÉT: Quét lần lượt từng phiên bản ảnh
+    for name, img_version in versions_to_try:
+        try:
+            decoded_objects = decode(img_version, symbols=allowed_symbols)
+            
+            for obj in decoded_objects:
                 data = obj.data.decode('utf-8')
-                btype = obj.type  # Loại mã: 'QRCODE', 'CODE128', 'EAN13', v.v.
                 
-                # obj.rect cung cấp sẵn tọa độ Bounding Box cực kỳ chuẩn xác
+                # Nếu mã này đã đọc được ở phiên bản trước rồi thì bỏ qua
+                if data in seen_data:
+                    continue
+                
+                seen_data.add(data)
+                btype = obj.type
                 rect = obj.rect
                 
-                # Đóng gói vào chuẩn của team
+                # Xử lý tọa độ Bounding Box nếu đang dùng ảnh thu nhỏ
+                if name == "Resized Gray":
+                    x, y = int(rect.left / scale), int(rect.top / scale)
+                    bw, bh = int(rect.width / scale), int(rect.height / scale)
+                else:
+                    x, y, bw, bh = rect.left, rect.top, rect.width, rect.height
+
                 results.append(BarcodeInfo(
                     barcode_type=btype,
                     data=data,
-                    bbox={"x": rect.left, "y": rect.top, "width": rect.width, "height": rect.height},
+                    bbox={"x": x, "y": y, "width": bw, "height": bh},
                 ))
-                logger.info(f"Barcode detected ({btype}): {data[:60]!r}")
-                
-            except Exception as e:
-                # Nếu 1 mã bị lỗi định dạng chữ, bỏ qua và đọc mã tiếp theo
-                logger.warning(f"Lỗi giải mã nội dung của 1 barcode: {e}")
-                continue
+                logger.info(f"Barcode detected ({btype}) via [{name}]: {data[:60]!r}")
+            
+            # EARLY EXIT: Nếu phiên bản hiện tại đã vét sạch được mã, DỪNG LẠI NGAY để tiết kiệm CPU!
+            if len(results) > 0:
+                logger.debug(f"Đã tìm thấy mã vạch thành công ở bộ lọc [{name}]. Dừng quét.")
+                break
 
-    except Exception as e:
-        logger.error(f"Lỗi hệ thống pyzbar: {e}")
+        except Exception as e:
+            logger.warning(f"Lỗi giải mã ở bộ lọc [{name}]: {e}")
+    
+
+    # ==========================================
+    # CẢI TIẾN: ĐỘNG CƠ KÉP (OPENCV FALLBACK)
+    # ==========================================
+    if len(results) == 0:
+        logger.debug("PyZbar bất lực (Có thể do QR chứa Logo). Kích hoạt OpenCV Fallback...")
+        try:
+            qr_cv = cv2.QRCodeDetector()
+            # Quét trên ảnh gốc xám
+            ok, decoded_info, points, _ = qr_cv.detectAndDecodeMulti(gray)
+            
+            if ok and decoded_info is not None:
+                for info, pts in zip(decoded_info, points):
+                    if not info: # Bỏ qua nếu tìm thấy hình vuông nhưng không đọc được chữ
+                        continue
+                        
+                    # Lọc trùng lặp
+                    if info in seen_data:
+                        continue
+                    seen_data.add(info)
+                    
+                    pts = pts.astype(int)
+                    x, y = int(pts[:, 0].min()), int(pts[:, 1].min())
+                    w, h = int(pts[:, 0].max()) - x, int(pts[:, 1].max()) - y
+                    
+                    results.append(BarcodeInfo(
+                        barcode_type="QR_CODE",
+                        data=info,
+                        bbox={"x": x, "y": y, "width": w, "height": h},
+                    ))
+                    logger.info(f"Barcode detected (QR_CODE) via [OpenCV Fallback]: {info[:60]!r}")
+        except Exception as e:
+            logger.warning(f"Lỗi OpenCV Fallback: {e}")
 
     logger.debug(f"Barcode scan complete: {len(results)} found")
     return results
