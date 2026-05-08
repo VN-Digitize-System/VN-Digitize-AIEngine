@@ -45,6 +45,8 @@ class ImagePreprocessor:
 
         warnings: list[str] = []
 
+        barcodes = detect_barcodes(original, self._config.detect)
+
         # ==========================================
         # BƯỚC 1: CẮT GÓC & XOAY PHẲNG 
         # ==========================================
@@ -60,8 +62,6 @@ class ImagePreprocessor:
             
             # Gán giá trị an toàn mặc định, KHÔNG GỌI HÀM để tránh lãng phí tài nguyên
             is_blank = False 
-            is_wrong_orientation = False
-            barcodes = []
             processed = original # Trả về ảnh gốc vì không thể enhance được
             
         else:
@@ -70,8 +70,6 @@ class ImagePreprocessor:
             # ==========================================
             is_blank = detect_blank_page(cropped, self._config.detect)
                 
-            barcodes = detect_barcodes(cropped, self._config.detect)
-
             # ==========================================
             # BƯỚC 3: TẨY TRẮNG VÀ LÀM NÉT
             # ==========================================
