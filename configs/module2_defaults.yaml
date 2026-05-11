@@ -1,0 +1,25 @@
+detection:
+  # Set to true to use OpenCV pre-detection + EasyOCR recognizer-only (faster,
+  # but may miss text on complex or rotated documents).  Default false uses
+  # full EasyOCR pipeline (CRAFT + recognizer) for best accuracy.
+  enabled: false
+  min_text_height: 8           # px — skip regions shorter than this
+  min_text_width: 30           # px — skip regions narrower than this
+  dilate_kernel_width: 40      # horizontal kernel to merge chars into lines
+  dilate_kernel_height: 5
+  max_region_height_ratio: 0.15  # skip regions taller than 15% of image height
+
+recognition:
+  model_name: "vgg_transformer"  # VietOCR fallback name (unused with EasyOCR)
+  device: "cpu"
+  beam_search: false
+  min_confidence: 0.0          # filter blocks below this confidence
+  max_image_dimension: 1024    # resize longest side to this before OCR (SLA guard)
+  languages:
+    - "vi"
+    - "en"
+
+upside_down:
+  enabled: true
+  min_blocks_required: 3       # need at least n blocks for a reliable estimate
+  confidence_threshold: 0.40   # avg_confidence below this → flag WARN_UPSIDE_DOWN
