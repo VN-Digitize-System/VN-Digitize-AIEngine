@@ -8,7 +8,7 @@ import numpy as np
 from .config import PreprocessConfig
 from .models import BarcodeInfo, PreprocessResult
 from ._crop_deskew import detect_and_crop
-from ._detect import detect_barcodes, detect_blank_page, detect_wrong_orientation
+from ._detect import detect_barcodes, detect_blank_page
 from ._enhance import enhance_image
 from shared_utils.logger import get_logger
 
@@ -26,18 +26,6 @@ class ImagePreprocessor:
         return cls(config=PreprocessConfig.from_yaml(config_path))
 
     def process(self, image: np.ndarray | str | Path) -> PreprocessResult:
-        """
-        Process a document image through the full preprocessing pipeline.
-
-        Accepts a numpy BGR array or a file path. Always returns a PreprocessResult —
-        never raises an exception. Errors are captured in result.error_code.
-
-        Pipeline order:
-          1. Load & validate image
-          2. Detect (blank page, orientation, barcodes) on the original
-          3. Crop & deskew
-          4. Enhance (CLAHE → binarize → denoise)
-        """
         source = image if not isinstance(image, np.ndarray) else "numpy array"
         logger.info(f"Processing: {source}")
 
@@ -57,38 +45,55 @@ class ImagePreprocessor:
 
         warnings: list[str] = []
 
-        is_blank = detect_blank_page(original, self._config.detect)
-        if is_blank:
-            warnings.append("BLANK_PAGE")
+        barcodes = detect_barcodes(original, self._config.detect)
 
-        # Skip orientation check on blank pages — no content means no reliable gradient
-        is_wrong_orientation = (
-            detect_wrong_orientation(original, self._config.detect)
-            if not is_blank else False
-        )
-        if is_wrong_orientation:
-            warnings.append("WRONG_ORIENTATION")
+        # ==========================================
+        # BƯỚC 1: CẮT GÓC & XOAY PHẲNG 
+        # ==========================================
+        cropped, skew_angle, debug_img = detect_and_crop(original, self._config.crop_deskew)
 
-        barcodes: list[BarcodeInfo] = detect_barcodes(original, self._config.detect)
+        crop_area = cropped.shape[0] * cropped.shape[1]
+        orig_area = original.shape[0] * original.shape[1]
+        crop_failed = crop_area >= 0.95 * orig_area
 
-        cropped, skew_angle = detect_and_crop(original, self._config.crop_deskew)
-        processed = enhance_image(cropped, self._config.enhance)
+        if crop_failed:
+            warnings.append("CROP_FAILED_PLEASE_RETAKE")
+            logger.warning("⚠️ Lỗi Crop: Bỏ qua các bước phân tích nhận diện để tiết kiệm CPU.")
+            
+            # Gán giá trị an toàn mặc định, KHÔNG GỌI HÀM để tránh lãng phí tài nguyên
+            is_blank = False 
+            processed = original # Trả về ảnh gốc vì không thể enhance được
+            
+        else:
+            # ==========================================
+            # BƯỚC 2: NHẬN DIỆN (CHỈ CHẠY KHI CROP THÀNH CÔNG)
+            # ==========================================
+            is_blank = detect_blank_page(cropped, self._config.detect)
+                
+            # ==========================================
+            # BƯỚC 3: TẨY TRẮNG VÀ LÀM NÉT
+            # ==========================================
+            processed = enhance_image(cropped, self._config.enhance)
 
         logger.info(
-            f"Done — blank={is_blank}, wrong_orientation={is_wrong_orientation}, "
-            f"angle={skew_angle:.1f}°, barcodes={len(barcodes)}"
+            f"Done — blank={is_blank}, angle={skew_angle:.1f}°, barcodes={len(barcodes)}"
         )
 
-        return PreprocessResult(
+        # Khởi tạo gói hàng kết quả
+        result = PreprocessResult(
             processed_image=processed,
             is_blank=is_blank,
-            is_wrong_orientation=is_wrong_orientation,
+            is_wrong_orientation=False, # Gán cứng False để không phá vỡ cấu trúc models.py
             skew_angle=skew_angle,
             barcodes=barcodes,
             warnings=warnings,
-            error_code=None,
-            error_message=None,
+            error_code=None
         )
+        
+        # --- THÊM ĐÚNG 1 DÒNG NÀY ĐỂ NHÉT ẢNH DEBUG VÀO GÓI HÀNG ---
+        result.debug_image = debug_img
+        
+        return result
 
     def _load_image(
         self, image: np.ndarray | str | Path
