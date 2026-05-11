@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import Literal
 
 import yaml
 
@@ -22,7 +23,7 @@ class RecognitionConfig:
     device: str = "cpu"
     beam_search: bool = False
     min_confidence: float = 0.0
-    max_image_dimension: int = 1600   # resize longest side before OCR to meet SLA
+    max_image_dimension: int = 1600  # resize longest side before OCR to meet SLA
     languages: list[str] = field(default_factory=lambda: ["vi", "en"])
 
 
@@ -34,10 +35,32 @@ class UpsideDownConfig:
 
 
 @dataclass
+class ConfidenceConfig:
+    flag_threshold: float = 0.70  # blocks/words below this are flagged for UI highlight
+
+
+@dataclass
+class VietOCRConfig:
+    enabled: bool = True
+    model_name: str = "vgg_transformer"
+    device: str = "cpu"
+    beam_search: bool = False
+
+
+@dataclass
+class HandwritingConfig:
+    mode: Literal["auto", "printed", "handwriting"] = "auto"
+    laplacian_threshold: float = 150.0  # variance below this → handwriting mode
+
+
+@dataclass
 class OCRConfig:
     detection: DetectionConfig = field(default_factory=DetectionConfig)
     recognition: RecognitionConfig = field(default_factory=RecognitionConfig)
     upside_down: UpsideDownConfig = field(default_factory=UpsideDownConfig)
+    confidence: ConfidenceConfig = field(default_factory=ConfidenceConfig)
+    vietocr: VietOCRConfig = field(default_factory=VietOCRConfig)
+    handwriting: HandwritingConfig = field(default_factory=HandwritingConfig)
 
     @classmethod
     def from_yaml(cls, path: str | Path) -> OCRConfig:
@@ -74,6 +97,25 @@ class OCRConfig:
                 enabled=ud.get("enabled", True),
                 min_blocks_required=ud.get("min_blocks_required", 3),
                 confidence_threshold=ud.get("confidence_threshold", 0.40),
+            )
+
+        if conf_data := data.get("confidence"):
+            config.confidence = ConfidenceConfig(
+                flag_threshold=conf_data.get("flag_threshold", 0.70),
+            )
+
+        if vt := data.get("vietocr"):
+            config.vietocr = VietOCRConfig(
+                enabled=vt.get("enabled", True),
+                model_name=vt.get("model_name", "vgg_transformer"),
+                device=vt.get("device", "cpu"),
+                beam_search=vt.get("beam_search", False),
+            )
+
+        if hw := data.get("handwriting"):
+            config.handwriting = HandwritingConfig(
+                mode=hw.get("mode", "auto"),
+                laplacian_threshold=hw.get("laplacian_threshold", 150.0),
             )
 
         return config

@@ -1,6 +1,8 @@
 opencv-python
 numpy
 PyYAML
-Pillow
+Pillow>=11.0.0
 matplotlib
 easyocr
+vietocr
+jiwer

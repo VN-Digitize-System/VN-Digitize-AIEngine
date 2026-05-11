@@ -1,17 +1,6 @@
-#!/usr/bin/env python3
-"""
-Test runner for Module 1 - Image Preprocessing.
-
-Usage:
-    python tests/module_1/test_runner.py
-
-Place test images (.jpg / .jpeg / .png) in:
-    tests/module_1/input_images/
-
-Results (processed image + debug visualisation) are written to:
-    tests/module_1/output_images/
-"""
 from __future__ import annotations
+from module_1_image_preprocessing.visualizer import visualize_result
+from module_1_image_preprocessing import ImagePreprocessor
 
 import io
 import sys
@@ -21,13 +10,12 @@ from pathlib import Path
 import cv2
 
 # Force UTF-8 output on Windows terminals that default to cp1252
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+sys.stdout = io.TextIOWrapper(
+    sys.stdout.buffer, encoding="utf-8", errors="replace")
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from module_1_image_preprocessing import ImagePreprocessor
-from module_1_image_preprocessing.visualizer import visualize_result
 
 INPUT_DIR = Path(__file__).parent / "input_images"
 OUTPUT_DIR = Path(__file__).parent / "output_images"
@@ -64,7 +52,8 @@ def run() -> None:
         elapsed = time.perf_counter() - t0
 
         if result.error_code:
-            print(col.format(img_path.name, "—", "—", "—", "—", f"✗ {result.error_code}"))
+            print(col.format(img_path.name, "—", "—",
+                  "—", "—", f"✗ {result.error_code}"))
             err_count += 1
             continue
 
@@ -93,7 +82,8 @@ def run() -> None:
         ok_count += 1
 
     print(sep)
-    print(f"Processed: {len(image_paths)} | OK: {ok_count} | Errors: {err_count}")
+    print(
+        f"Processed: {len(image_paths)} | OK: {ok_count} | Errors: {err_count}")
     print(f"Output saved to: {OUTPUT_DIR}\n")
 
 

@@ -1,36 +1,39 @@
 from __future__ import annotations
 
+import threading
 import cv2
 import numpy as np
 
 from shared_utils.logger import get_logger
 from .config import RecognitionConfig
+from .models import WordToken
 
 logger = get_logger(__name__)
 
 _reader = None
 _reader_config_key: tuple | None = None
+_reader_lock = threading.Lock()
 
 
 def _get_reader(config: RecognitionConfig):
     global _reader, _reader_config_key
 
     key = (tuple(config.languages), config.device)
-    if _reader is None or _reader_config_key != key:
-        logger.info(
-            "Loading EasyOCR model (langs=%s, device=%s) — first call may take a moment...",
-            config.languages, config.device,
-        )
-        try:
-            import easyocr
-            gpu = config.device != "cpu"
-            _reader = easyocr.Reader(config.languages, gpu=gpu)
-            _reader_config_key = key
-            logger.info("EasyOCR model loaded successfully.")
-        except Exception as exc:
-            raise RuntimeError(str(exc)) from exc
-
-    return _reader
+    with _reader_lock:
+        if _reader is None or _reader_config_key != key:
+            logger.info(
+                "Loading EasyOCR model (langs=%s, device=%s) — first call may take a moment...",
+                config.languages, config.device,
+            )
+            try:
+                import easyocr
+                gpu = config.device != "cpu"
+                _reader = easyocr.Reader(config.languages, gpu=gpu)
+                _reader_config_key = key
+                logger.info("EasyOCR model loaded successfully.")
+            except Exception as exc:
+                raise RuntimeError(str(exc)) from exc
+        return _reader
 
 
 def _resize_for_ocr(image: np.ndarray, max_dim: int) -> tuple[np.ndarray, float]:
@@ -120,7 +123,54 @@ def recognize_full_page(
 
 def corners_to_bbox(corners) -> dict:
     """Convert EasyOCR corner list to {"x","y","width","height"}."""
-    xs = [int(p[0]) for p in corners]
-    ys = [int(p[1]) for p in corners]
+    xs = [round(p[0]) for p in corners]
+    ys = [round(p[1]) for p in corners]
     x, y = min(xs), min(ys)
     return {"x": x, "y": y, "width": max(xs) - x, "height": max(ys) - y}
+
+
+def build_word_tokens(
+    text: str,
+    conf: float,
+    bbox: dict,
+    flag_threshold: float,
+) -> list[WordToken]:
+    """
+    EasyOCR provides only block-level confidence, so all words in a block share
+    the same confidence score. Bbox is estimated by distributing block width
+    proportionally to each word's character count (approximate, sufficient for
+    UI highlighting — character-level estimation requires a future spec).
+    """
+    words_text = [w for w in text.split() if w]
+    if not words_text:
+        return []
+
+    block_x = bbox["x"]
+    block_y = bbox["y"]
+    block_w = bbox["width"]
+    block_h = bbox["height"]
+
+    # Distribute width: word chars + inter-word spaces (~1 char-width each)
+    total_chars = sum(len(w) for w in words_text)
+    total_units = total_chars + max(0, len(words_text) - 1)
+    unit_w = block_w / total_units if total_units > 0 else block_w
+
+    conf_pct = min(100, round(conf * 100))
+    flagged = conf < flag_threshold
+
+    tokens: list[WordToken] = []
+    cur_x = float(block_x)
+    for word_text in words_text:
+        word_w = max(1, round(len(word_text) * unit_w))
+        # Clamp last word to avoid overflowing block bbox due to float rounding
+        word_w = min(word_w, block_x + block_w - round(cur_x))
+        tokens.append(WordToken(
+            text=word_text,
+            confidence=conf,
+            confidence_pct=conf_pct,
+            bbox={"x": round(cur_x), "y": block_y, "width": word_w, "height": block_h},
+            is_flagged=flagged,
+        ))
+        cur_x += word_w + unit_w
+
+    return tokens

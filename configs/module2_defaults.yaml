@@ -23,3 +23,19 @@ upside_down:
   enabled: true
   min_blocks_required: 3       # need at least n blocks for a reliable estimate
   confidence_threshold: 0.40   # avg_confidence below this → flag WARN_UPSIDE_DOWN
+
+confidence:
+  flag_threshold: 0.70         # blocks/words below this are flagged for UI yellow/red highlight
+
+vietocr:
+  enabled: true
+  model_name: "vgg_transformer"   # "vgg_seq2seq" for higher accuracy (slower)
+  device: "cpu"                   # "cuda" if GPU available
+  beam_search: false
+
+handwriting:
+  # "auto"        → Laplacian variance decides per-image
+  # "printed"     → always route to EasyOCR
+  # "handwriting" → always route to VietOCR
+  mode: "auto"
+  laplacian_threshold: 150.0      # variance below this → handwriting mode
