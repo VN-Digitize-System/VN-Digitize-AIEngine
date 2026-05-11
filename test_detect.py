@@ -127,6 +127,6 @@ def test_detection_features(input_folder):
             print(f" ⚠️ CẢNH BÁO: \t\t❌ Xin hãy chụp lại hình do không thể nhận diện được góc tài liệu!")
 
 if __name__ == "__main__":
-    # Trỏ vào thư mục chứa 4 tấm hình mồi nhử của bạn
+    # Trỏ vào thư mục chứa tấm hình mồi nhử của bạn
     INPUT_DIR = "tests/module_1/QR_images"
     test_detection_features(INPUT_DIR)
