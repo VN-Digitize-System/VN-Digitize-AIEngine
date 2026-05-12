@@ -6,14 +6,12 @@ import numpy as np
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from module_1_image_preprocessing.Dat_code.document_preprocessor import DocumentPreprocessor
 from module_1_image_preprocessing.preprocessor import ImagePreprocessor
 
 def batch_compare_with_corners(input_folder, output_folder):
     print(f"--- BẮT ĐẦU CHẠY BATCH A/B TESTING (CÓ VẼ GÓC) ---")
     os.makedirs(output_folder, exist_ok=True)
     
-    processor_A = DocumentPreprocessor()
     config_path = "configs/module1_defaults.yaml"
     processor_B = ImagePreprocessor.from_yaml(config_path)
 
@@ -26,11 +24,7 @@ def batch_compare_with_corners(input_folder, output_folder):
         original_img = cv2.imread(img_path)
         original_rgb = cv2.cvtColor(original_img, cv2.COLOR_BGR2RGB)
 
-        # --- CHẠY CODE A ---
-        # Code A giờ trả về 2 biến: ảnh crop và ảnh debug có vẽ góc
-        result_A_crop, debug_A_img = processor_A.deskew_and_crop(img_path)
-        result_A_crop_rgb = cv2.cvtColor(result_A_crop, cv2.COLOR_BGR2RGB) if result_A_crop is not None else np.zeros_like(original_rgb)
-        debug_A_rgb = cv2.cvtColor(debug_A_img, cv2.COLOR_BGR2RGB) if debug_A_img is not None else original_rgb.copy()
+      
 
         # --- CHẠY CODE B ---
         # Truyền ma trận ảnh numpy vào thay vì đường dẫn string. 
@@ -47,23 +41,13 @@ def batch_compare_with_corners(input_folder, output_folder):
         # --- HIỂN THỊ LƯỚI 2x2 ---
         plt.figure(figsize=(16, 12))
 
-        # Hàng 1: Hiển thị 4 góc detect được trên ảnh gốc
-        plt.subplot(2, 2, 1)
-        plt.title("Góc detect bởi Code A")
-        plt.imshow(debug_A_rgb)
-        plt.axis("off")
 
         plt.subplot(2, 2, 2)
         plt.title("Góc detect bởi Code C")
         plt.imshow(debug_B_rgb)
         plt.axis("off")
 
-        # Hàng 2: Hiển thị kết quả cắt gọt cuối cùng
-        plt.subplot(2, 2, 3)
-        plt.title("Kết quả Crop - Code A")
-        plt.imshow(result_A_crop_rgb)
-        plt.axis("off")
-
+   
         plt.subplot(2, 2, 4)
         plt.title("Kết quả Crop - Code C")
         plt.imshow(result_B_crop_rgb)
@@ -78,6 +62,6 @@ def batch_compare_with_corners(input_folder, output_folder):
     print("\n--- HOÀN THÀNH ---")
 
 # Chạy Test
-INPUT_DIR = "tests/module_1/Test_case"
-OUTPUT_DIR = "tests/module_1/compare_corners_enhance_results_11"
+INPUT_DIR = "tests/module_1/detect_images"
+OUTPUT_DIR = "tests/module_1/corner_less_30"
 batch_compare_with_corners(INPUT_DIR, OUTPUT_DIR)

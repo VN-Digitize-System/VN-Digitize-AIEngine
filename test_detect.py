@@ -128,5 +128,5 @@ def test_detection_features(input_folder):
 
 if __name__ == "__main__":
     # Trỏ vào thư mục chứa tấm hình mồi nhử của bạn
-    INPUT_DIR = "tests/module_1/QR_images"
+    INPUT_DIR = "tests/module_1/Barcode_images"
     test_detection_features(INPUT_DIR)

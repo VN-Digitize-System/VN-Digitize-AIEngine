@@ -54,15 +54,20 @@ class ImagePreprocessor:
 
         crop_area = cropped.shape[0] * cropped.shape[1]
         orig_area = original.shape[0] * original.shape[1]
-        crop_failed = crop_area >= 0.95 * orig_area
+        crop_ratio = crop_area / orig_area
+        
+        # 🚨 CƠ CHẾ PHÒNG THỦ KÉP (DUAL FAIL-SAFE)
+        # 1. Quá to (>= 0.90): Cắt nhầm toàn bộ viền ngoài của ảnh
+        # 2. Quá nhỏ (<= 0.15): Cắt nhầm vết nhiễu/logo trên một bản Scan phẳng
+        crop_failed = (crop_ratio >= 0.90) or (crop_ratio <= 0.30)
 
         if crop_failed:
             warnings.append("CROP_FAILED_PLEASE_RETAKE")
-            logger.warning("⚠️ Lỗi Crop: Bỏ qua các bước phân tích nhận diện để tiết kiệm CPU.")
+            logger.warning(f"⚠️ Lỗi Crop (Tỷ lệ: {crop_ratio:.2f}). Kích hoạt Bypass: Dùng ảnh gốc.")
             
-            # Gán giá trị an toàn mặc định, KHÔNG GỌI HÀM để tránh lãng phí tài nguyên
+            # Gán giá trị an toàn mặc định
             is_blank = False 
-            processed = original # Trả về ảnh gốc vì không thể enhance được
+            processed = original
             
         else:
             # ==========================================
