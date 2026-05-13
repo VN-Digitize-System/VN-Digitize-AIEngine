@@ -1,0 +1,86 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_036.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+Truong hop bo hang hóa bao gom hang hóa có xuat xú va hang hóa khong có xuat
+xúr, bo hang hóa duac coi la có xuat xúr néu tri gia hai quan cua hang hoa khong
+có xuat xr khöng vuot qua 20% gia xuat xung cua bö hang hóa dó.
+Dieu 19.Nguyen tac lanh tho
+1. Quy dinh tai Dieu 5 Thong tu nay phai duac dam bao thuc hien hoan
+toan va khong bi gian doan tai lanh tho cua mot Nuc thanh vien.Lanh thobao
+gom khu vuc tr do, khu ché xuat duoc thanh lap trén pham vi lanh thö theo quy
+dinh cua moi Nuoc thanh vien.
+2. Trurng hgp hang hóa có xuát xú dugc xuat khau tir lanh thö cua mt
+Nuc thanh vien dén mt Nuóc khong phai la thanh vien va sau dó duc tai nhap
+ve Nuóc thanh vien xuat khau, s duoc coi la khöng có xuat xu, trir trung hop
+c6 the chung minh duoc voi co quan hai quan rang:
+a) Hang hoa tai nhap chinh la hang hóa da duqc xuat khau di.
+b Hang hóa tai nhap khong trai qua cong doan vugt qua cong doan can
+thiét de bao quan hang hóa trong dieu kien tot trong qua trinh luu kho  Nuöc
+khong phai thanh vien hoac trong qua trinh xuat khau.
+Dieu 20. Qua canh va chuyen tai
+1. Hang hóa gir nguyénxuat xú néu hang hóa dó dugc van chuyen tryrc tiép
+dén Nuc thanh vien nhap khau ma khong qua canh tai lanh tho cua mt Nuoc
+khong phai thanh vien.
+2.Hang hoa gir nguyen xuat xur néu dugc qua canh hoac luu kho tam thi
+tai mt hay nhieu Nuóc khong phai thanh vién néu dap rng cac diéu ki&n sau:
+a) Hang hóa nam duói su giam sat cua co quan hai quan tai lanh tho cua
+möt hoac nhieu Nuc khong phai thanh vien noi hang hoa qua canh hoac luu kho
+va khong nham muc dich thuong mai, tieu dung, sur dung hoac khai thac tai mot
+hoac nhieu Nuröc khong phai thanh vien noi hang hóa duqc qua canh.
+b Hang hóa khong trai qua bat ky cong doan nao, ngoai trir viêc d hang.
+böc hang, them hoac dan nhan theo quy dinh cua Nuöc thanh vien nhap khau hay
+cua mt hoac nhieu nu&c khong phai thanh vien noi qua canh, chia nho lo hang
+1on dui su giam sat cua co quan hai quan tai mt hoac nhieu Nuc khong phai
+thanh vien noi qua canh hoac luu kho, hoac bat ky cong doan can thiet nao de bao
+quan hang hóa trong tinh trang tot.
+3. Nha nhap khau xuat trinh chürng tir theo yéu cau cua Co quan hai quan
+cua Nuc thanh vien nhap khau de chtrng minh hang hóa nam dui su giam sat
+cua co quan hai quan tai quc gia noi qua canh hoac luu kho. Ch'rng tir chung
+minh viec dap 'mg quy dinh tai khoan 1 Dieu nay phai cung cap cho Co quan hai
+quan cua Nuc thanh vien nhap khau bao gom:
+a) Bát ky chúng tu van tái ch suöt dápúng cac tieu chuan quöc té va chúng
+minh rang hang hóa duqc van chuyén trurc tiép tir Nuóc thanh vien xuat khau qua
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.90]: Truong hop bo hang hóa bao gom hang hóa có xuat xú va hang hóa khong có xuat
+#2 [Score: 0.91]: xúr, bo hang hóa duac coi la có xuat xúr néu tri gia hai quan cua hang hoa khong
+#3 [Score: 0.94]: có xuat xr khöng vuot qua 20% gia xuat xung cua bö hang hóa dó.
+#4 [Score: 0.91]: Dieu 19.Nguyen tac lanh tho
+#5 [Score: 0.92]: 1. Quy dinh tai Dieu 5 Thong tu nay phai duac dam bao thuc hien hoan
+#6 [Score: 0.91]: toan va khong bi gian doan tai lanh tho cua mot Nuc thanh vien.Lanh thobao
+#7 [Score: 0.93]: gom khu vuc tr do, khu ché xuat duoc thanh lap trén pham vi lanh thö theo quy
+#8 [Score: 0.94]: dinh cua moi Nuoc thanh vien.
+#9 [Score: 0.92]: 2. Trurng hgp hang hóa có xuát xú dugc xuat khau tir lanh thö cua mt
+#10 [Score: 0.94]: Nuc thanh vien dén mt Nuóc khong phai la thanh vien va sau dó duc tai nhap
+#11 [Score: 0.93]: ve Nuóc thanh vien xuat khau, s duoc coi la khöng có xuat xu, trir trung hop
+#12 [Score: 0.93]: c6 the chung minh duoc voi co quan hai quan rang:
+#13 [Score: 0.96]: a) Hang hoa tai nhap chinh la hang hóa da duqc xuat khau di.
+#14 [Score: 0.92]: b Hang hóa tai nhap khong trai qua cong doan vugt qua cong doan can
+#15 [Score: 0.91]: thiét de bao quan hang hóa trong dieu kien tot trong qua trinh luu kho  Nuöc
+#16 [Score: 0.97]: khong phai thanh vien hoac trong qua trinh xuat khau.
+#17 [Score: 0.89]: Dieu 20. Qua canh va chuyen tai
+#18 [Score: 0.87]: 1. Hang hóa gir nguyénxuat xú néu hang hóa dó dugc van chuyen tryrc tiép
+#19 [Score: 0.91]: dén Nuc thanh vien nhap khau ma khong qua canh tai lanh tho cua mt Nuoc
+#20 [Score: 0.98]: khong phai thanh vien.
+#21 [Score: 0.91]: 2.Hang hoa gir nguyen xuat xur néu dugc qua canh hoac luu kho tam thi
+#22 [Score: 0.94]: tai mt hay nhieu Nuóc khong phai thanh vién néu dap rng cac diéu ki&n sau:
+#23 [Score: 0.92]: a) Hang hóa nam duói su giam sat cua co quan hai quan tai lanh tho cua
+#24 [Score: 0.96]: möt hoac nhieu Nuc khong phai thanh vien noi hang hoa qua canh hoac luu kho
+#25 [Score: 0.95]: va khong nham muc dich thuong mai, tieu dung, sur dung hoac khai thac tai mot
+#26 [Score: 0.95]: hoac nhieu Nuröc khong phai thanh vien noi hang hóa duqc qua canh.
+#27 [Score: 0.92]: b Hang hóa khong trai qua bat ky cong doan nao, ngoai trir viêc d hang.
+#28 [Score: 0.94]: böc hang, them hoac dan nhan theo quy dinh cua Nuöc thanh vien nhap khau hay
+#29 [Score: 0.92]: cua mt hoac nhieu nu&c khong phai thanh vien noi qua canh, chia nho lo hang
+#30 [Score: 0.93]: 1on dui su giam sat cua co quan hai quan tai mt hoac nhieu Nuc khong phai
+#31 [Score: 0.94]: thanh vien noi qua canh hoac luu kho, hoac bat ky cong doan can thiet nao de bao
+#32 [Score: 0.97]: quan hang hóa trong tinh trang tot.
+#33 [Score: 0.92]: 3. Nha nhap khau xuat trinh chürng tir theo yéu cau cua Co quan hai quan
+#34 [Score: 0.92]: cua Nuc thanh vien nhap khau de chtrng minh hang hóa nam dui su giam sat
+#35 [Score: 0.92]: cua co quan hai quan tai quc gia noi qua canh hoac luu kho. Ch'rng tir chung
+#36 [Score: 0.93]: minh viec dap 'mg quy dinh tai khoan 1 Dieu nay phai cung cap cho Co quan hai
+#37 [Score: 0.97]: quan cua Nuc thanh vien nhap khau bao gom:
+#38 [Score: 0.90]: a) Bát ky chúng tu van tái ch suöt dápúng cac tieu chuan quöc té va chúng
+#39 [Score: 0.92]: minh rang hang hóa duqc van chuyén trurc tiép tir Nuóc thanh vien xuat khau qua

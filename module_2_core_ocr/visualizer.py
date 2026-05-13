@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-from pathlib import Path
 from .models import OcrResult
 
 def draw_ocr_results(image: np.ndarray, ocr_result: OcrResult, save_path: str = "debug_ocr_result.jpg"):

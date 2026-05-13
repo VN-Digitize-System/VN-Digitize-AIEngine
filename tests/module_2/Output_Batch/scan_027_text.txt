@@ -1,0 +1,108 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_027.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+2
+OVERLEAF NOTES
+Box 1: State the full legal name, address, (ineluding country) of the exporter.
+Bex 2: Provide the producer of the goods (name and country). If the producer and the exporter are the same, complete box
+with the details as on Box 1. If the exporter or the producer wishes this information to be confidential, then it is acceptable to
+state Available to the competent authority or authorized body upon request.
+Box 3: State the full legal name, address (including country) of the importer
+Box 4: State the certificate number. This box is for the use of the issuing authority
+Box 5: Provided it is known cormplete the means of transport and route and specify the departure date, transport vehicle No.
+port of loading and discharge.
+Box 6: In the case where invoices are issued by a non-party, the Non-party invoice box should be ticked () and such
+information as the name and address of the company issuing the invoice shall be indicated. In an exceptional case where the
+invoice issued by a non-party is not available at the time of issuance of the certificate of origin, filling Box 6 shall not be
+required.
+Box 7: This box shall bear observations made by the country of exportation, for example:
+Issued Retrospeetively: In exceptional cases where a Certificate of Origin has not been issued prior to or at the time of
+shipment or the Certificate of Origin may be issued retrospectively, in accordance with paragraph 1 of Article 3.25 (Certificate
+of Origin Issued Retrospectively).
+Certified True Copy: In case of loss or destruction of the original Certificate of Origin in accordance with Article 3.26
+(Loss of the Certificate of Origin).
+Replacement:_In case of issuing a replacement Certificate of Origin in accordance with Article 3.28 (Treatment of
+Erroneous Declaration in the Certificate of Origin), indicate the number of the previous Certificate of Origin.
+Box 8:State the item number.
+Box 9: Provide a full description of each good. The description should be sufficiently detailed to enable the products to be
+identified by the Customs Officers examining them and relate it to the invoice description and to the HS description of the
+good. Shipping Marks and nurmbers on the packages, number and kind of package shall also be specified. For cach good,
+identify the correct six-digit HS tariff classification of the good. If the tariff classification is given in more than six-digits,
+only the first six-digits will be taken into consideration.
+Box 10: For exports from a Party to the other Party to be eligible for preferential treatment the exporter must indicate in Box
+10 the origin criteria on the basis of which he or she claims that his or her goods qualify for preferential treatment, in the
+manner shown in the following table:
+Origin Criteria
+(a) Goods wholly obtained or produced in the country of exportation satisfying Article 3.3 (Wholly
+Obtained Goods)
+(b) Goods satisfying Article 3.4 (Sufficient Working or Processing)
+Change in Tariff Classification
+DD.
+Qualifying Value Content
+QVC
+Specific Manufacturing or Processing
+sp
+Article 3.2 (Originating Goods)
+(c) Goods Produced Exelusively from originating materials in accordance with subparagraph 1(c) of
+PE
+Box 11:Gross weight should be shown here. Other units of measurernent e.g. volume or number of items which would
+indicate exact quantities may be used when customary.
+Box 12:Invoice number and date of invoices should be shown here. In an exceptional case where the invoice issued by a
+nonparty is not available at the time of issuance of the certificate of origin, filling Bo 12 shall not be required.
+Box 13: This box must be completed, signed, and dated by the exporter. Insert the place, date of signature.
+Box 14: This box must be completed, signed, dated, and stamped by the authorised person of the Competent Authority
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.98]: 2
+#2 [Score: 0.96]: OVERLEAF NOTES
+#3 [Score: 0.99]: Box 1: State the full legal name, address, (ineluding country) of the exporter.
+#4 [Score: 0.98]: Bex 2: Provide the producer of the goods (name and country). If the producer and the exporter are the same, complete box
+#5 [Score: 0.99]: with the details as on Box 1. If the exporter or the producer wishes this information to be confidential, then it is acceptable to
+#6 [Score: 0.99]: state Available to the competent authority or authorized body upon request.
+#7 [Score: 0.98]: Box 3: State the full legal name, address (including country) of the importer
+#8 [Score: 0.99]: Box 4: State the certificate number. This box is for the use of the issuing authority
+#9 [Score: 0.98]: Box 5: Provided it is known cormplete the means of transport and route and specify the departure date, transport vehicle No.
+#10 [Score: 1.00]: port of loading and discharge.
+#11 [Score: 0.99]: Box 6: In the case where invoices are issued by a non-party, the Non-party invoice box should be ticked () and such
+#12 [Score: 1.00]: information as the name and address of the company issuing the invoice shall be indicated. In an exceptional case where the
+#13 [Score: 0.99]: invoice issued by a non-party is not available at the time of issuance of the certificate of origin, filling Box 6 shall not be
+#14 [Score: 0.99]: required.
+#15 [Score: 0.99]: Box 7: This box shall bear observations made by the country of exportation, for example:
+#16 [Score: 0.99]: Issued Retrospeetively: In exceptional cases where a Certificate of Origin has not been issued prior to or at the time of
+#17 [Score: 0.99]: shipment or the Certificate of Origin may be issued retrospectively, in accordance with paragraph 1 of Article 3.25 (Certificate
+#18 [Score: 0.98]: of Origin Issued Retrospectively).
+#19 [Score: 0.99]: Certified True Copy: In case of loss or destruction of the original Certificate of Origin in accordance with Article 3.26
+#20 [Score: 0.99]: (Loss of the Certificate of Origin).
+#21 [Score: 0.98]: Replacement:_In case of issuing a replacement Certificate of Origin in accordance with Article 3.28 (Treatment of
+#22 [Score: 1.00]: Erroneous Declaration in the Certificate of Origin), indicate the number of the previous Certificate of Origin.
+#23 [Score: 1.00]: Box 8:State the item number.
+#24 [Score: 0.98]: Box 9: Provide a full description of each good. The description should be sufficiently detailed to enable the products to be
+#25 [Score: 0.99]: identified by the Customs Officers examining them and relate it to the invoice description and to the HS description of the
+#26 [Score: 0.98]: good. Shipping Marks and nurmbers on the packages, number and kind of package shall also be specified. For cach good,
+#27 [Score: 0.99]: identify the correct six-digit HS tariff classification of the good. If the tariff classification is given in more than six-digits,
+#28 [Score: 1.00]: only the first six-digits will be taken into consideration.
+#29 [Score: 0.99]: Box 10: For exports from a Party to the other Party to be eligible for preferential treatment the exporter must indicate in Box
+#30 [Score: 0.99]: 10 the origin criteria on the basis of which he or she claims that his or her goods qualify for preferential treatment, in the
+#31 [Score: 1.00]: manner shown in the following table:
+#32 [Score: 0.96]: Origin Criteria
+#33 [Score: 0.96]: (a) Goods wholly obtained or produced in the country of exportation satisfying Article 3.3 (Wholly
+#34 [Score: 0.96]: Obtained Goods)
+#35 [Score: 0.98]: (b) Goods satisfying Article 3.4 (Sufficient Working or Processing)
+#36 [Score: 0.98]: Change in Tariff Classification
+#37 [Score: 0.52]: DD.
+#38 [Score: 0.99]: Qualifying Value Content
+#39 [Score: 1.00]: QVC
+#40 [Score: 1.00]: Specific Manufacturing or Processing
+#41 [Score: 0.63]: sp
+#42 [Score: 0.99]: Article 3.2 (Originating Goods)
+#43 [Score: 0.97]: (c) Goods Produced Exelusively from originating materials in accordance with subparagraph 1(c) of
+#44 [Score: 0.99]: PE
+#45 [Score: 0.97]: Box 11:Gross weight should be shown here. Other units of measurernent e.g. volume or number of items which would
+#46 [Score: 0.98]: indicate exact quantities may be used when customary.
+#47 [Score: 0.99]: Box 12:Invoice number and date of invoices should be shown here. In an exceptional case where the invoice issued by a
+#48 [Score: 0.98]: nonparty is not available at the time of issuance of the certificate of origin, filling Bo 12 shall not be required.
+#49 [Score: 0.99]: Box 13: This box must be completed, signed, and dated by the exporter. Insert the place, date of signature.
+#50 [Score: 0.99]: Box 14: This box must be completed, signed, dated, and stamped by the authorised person of the Competent Authority

@@ -1,0 +1,158 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_022.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+10
+Ma HS
+Mo ta hang hoa
+Quy tac cu the mat hang
+(1)
+(2)
+(3)
+(4)
+dung quy tac CTSH
+thay vi CTH
+Chuong 86
+Dau may,cac phuong tien di
+CTH
+QVC 35%
+chuyén tren duong sat hoac
+dung tau dien va cac b phan.cua
+chung cac bphan co dinh va
+ghép ni dung ray xe lura hoac
+tau dien va b phan cua chung
+thiét bi tin hieu giao thong bang
+co khike ca co dien cac loai.
+Chuong 87
+Xe trr phuong tian chay tren
+CTH, tuy nhien trong
+QVC 35%
+dung sat hoac dung tau dien, va
+truong hop hang hóa
+cac bphan vaphu kin cua
+va cac b phan hoac
+chüng.
+phu kien cua chung
+dugc phan loai trong
+cung mt nhóm thi ap
+dung quy tac CTSH
+thay vi CTH
+Chuong 88
+Phuong tien bay, tau v tru,va
+CTH
+QVC 35%
+cac b phan cua chung.
+Chuong 89
+Tau thuy, thuyen va cac két cau
+CTH
+QVC 35%
+noi.
+Chuong 90
+Dung cu va thiet bi quang hoc,
+CTH, tuy nhien trong
+QVC 35%
+nhiep anh, dien anh, do luong.
+trung hop hang hóa
+kim tra,chinh xac,y te hoac
+va cac b phan hoac
+phau thuat; cac b phan va ph
+phu kien cua chüng
+kien cua chüng.
+dugc phan loai trong
+cung mt nhóm thi ap
+dung quy tac CTSH
+thay vi CTH
+Chuong 91
+Dong ho thi gian,dong ho ca
+CTH
+QVC 35%
+nhan va cac bo phan cua chung.
+Chuong 92
+Nhac cy; cac bo phan va phu kien
+CTH
+QVC 35%
+cua chung.
+Chuong 93
+Vu khi va dan; cac b phan va phu
+CTH
+QVC 35%
+kien cua chüng.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.99]: 10
+#2 [Score: 0.96]: Ma HS
+#3 [Score: 0.95]: Mo ta hang hoa
+#4 [Score: 0.94]: Quy tac cu the mat hang
+#5 [Score: 1.00]: (1)
+#6 [Score: 0.95]: (2)
+#7 [Score: 0.89]: (3)
+#8 [Score: 0.99]: (4)
+#9 [Score: 0.95]: dung quy tac CTSH
+#10 [Score: 1.00]: thay vi CTH
+#11 [Score: 1.00]: Chuong 86
+#12 [Score: 0.89]: Dau may,cac phuong tien di
+#13 [Score: 1.00]: CTH
+#14 [Score: 1.00]: QVC 35%
+#15 [Score: 0.91]: chuyén tren duong sat hoac
+#16 [Score: 0.97]: dung tau dien va cac b phan.cua
+#17 [Score: 0.88]: chung cac bphan co dinh va
+#18 [Score: 0.97]: ghép ni dung ray xe lura hoac
+#19 [Score: 0.89]: tau dien va b phan cua chung
+#20 [Score: 0.91]: thiét bi tin hieu giao thong bang
+#21 [Score: 0.92]: co khike ca co dien cac loai.
+#22 [Score: 1.00]: Chuong 87
+#23 [Score: 0.91]: Xe trr phuong tian chay tren
+#24 [Score: 0.97]: CTH, tuy nhien trong
+#25 [Score: 1.00]: QVC 35%
+#26 [Score: 0.90]: dung sat hoac dung tau dien, va
+#27 [Score: 0.94]: truong hop hang hóa
+#28 [Score: 0.91]: cac bphan vaphu kin cua
+#29 [Score: 0.95]: va cac b phan hoac
+#30 [Score: 0.92]: chüng.
+#31 [Score: 0.93]: phu kien cua chung
+#32 [Score: 0.95]: dugc phan loai trong
+#33 [Score: 0.96]: cung mt nhóm thi ap
+#34 [Score: 0.96]: dung quy tac CTSH
+#35 [Score: 1.00]: thay vi CTH
+#36 [Score: 1.00]: Chuong 88
+#37 [Score: 0.89]: Phuong tien bay, tau v tru,va
+#38 [Score: 1.00]: CTH
+#39 [Score: 1.00]: QVC 35%
+#40 [Score: 0.89]: cac b phan cua chung.
+#41 [Score: 0.97]: Chuong 89
+#42 [Score: 0.93]: Tau thuy, thuyen va cac két cau
+#43 [Score: 1.00]: CTH
+#44 [Score: 1.00]: QVC 35%
+#45 [Score: 0.99]: noi.
+#46 [Score: 1.00]: Chuong 90
+#47 [Score: 0.92]: Dung cu va thiet bi quang hoc,
+#48 [Score: 0.97]: CTH, tuy nhien trong
+#49 [Score: 1.00]: QVC 35%
+#50 [Score: 0.90]: nhiep anh, dien anh, do luong.
+#51 [Score: 0.94]: trung hop hang hóa
+#52 [Score: 0.89]: kim tra,chinh xac,y te hoac
+#53 [Score: 0.98]: va cac b phan hoac
+#54 [Score: 0.93]: phau thuat; cac b phan va ph
+#55 [Score: 0.86]: phu kien cua chüng
+#56 [Score: 0.94]: kien cua chüng.
+#57 [Score: 0.92]: dugc phan loai trong
+#58 [Score: 0.93]: cung mt nhóm thi ap
+#59 [Score: 0.94]: dung quy tac CTSH
+#60 [Score: 1.00]: thay vi CTH
+#61 [Score: 0.98]: Chuong 91
+#62 [Score: 0.88]: Dong ho thi gian,dong ho ca
+#63 [Score: 1.00]: CTH
+#64 [Score: 1.00]: QVC 35%
+#65 [Score: 0.95]: nhan va cac bo phan cua chung.
+#66 [Score: 1.00]: Chuong 92
+#67 [Score: 0.91]: Nhac cy; cac bo phan va phu kien
+#68 [Score: 1.00]: CTH
+#69 [Score: 0.95]: QVC 35%
+#70 [Score: 0.92]: cua chung.
+#71 [Score: 1.00]: Chuong 93
+#72 [Score: 0.90]: Vu khi va dan; cac b phan va phu
+#73 [Score: 1.00]: CTH
+#74 [Score: 0.94]: QVC 35%
+#75 [Score: 0.93]: kien cua chüng.

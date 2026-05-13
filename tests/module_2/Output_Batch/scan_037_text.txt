@@ -1,0 +1,86 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_037.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+10
+Nuc khong phai thanh vien noi hang hoa duoc qua canh,de sang Nuóc thanh
+vien nhap khau.
+b) Giay chúng nhan dugc phat hanh bi Co quan hai quan cua Nuöc khong
+phai thanh vien noi hang hóa duoc qua canh trong d6 m ta chinh xac hang hóa
+ngay va dja diém boc hang va boc lai hang hoa tai Nuoc khong phai thanh vien
+dó va tinh trang cua hang hoa.
+c) Chung tir khac chúng minh lö hang duqc van chuyen truc tiép trong
+trung hop khong có cac chung tir quy dinh tai diém a va diém b khoan nay.
+Dieu 21.Khu ché xuat, khu kinh té hoac khu thuong mai tur do
+Hang hóa duqc san xuat tai khu che xuat, khu kinh té hoac khu thuong mai
+tur do tai lanh tho cua mot Nuc thanh vien,duoc coi la c6 xuat xur tai Nuoc thanh
+vien dó khi xuat khau hang hóa sang Nuóc thanh vien kia néu dap mg cac quy
+dinh tai Thöng tu nay va có chumg tir chung nhan xuat xur hang hóa.
+CHUONGIII
+CHUNG NHAN VA KIEM TRAXUAT XU'HANG HOA
+Dieu 22.Quy dinh chung ve co ché chung nhan xuat xür hang hóa
+1. Hang h6a co xuat xur tur lanh tho cua Cac tieu vuong quöc A-rap Thong
+nhat khi nhap khau vao Viet Nam duqc hung uu dai thué quan theo Hiep dinh
+khi np cho co quan hai quan mt trong nhting chung tir chüng nhan xuat xur hang
+h6a sau:
+a) C/O duc cap dap úng quy dinh tai Dieu 23 Thong tu nay.
+b) Chúng tir tu chúng nhan xuát xú hang hóa do nha xuat khau d dieu kien
+phat hanh theo quy dinh tai Dieu 24 Thong tu nay.
+c) Chüng tu tu churng nhan xuat xü hang hoa do nha xuat khau phat hanh
+dói vói 1 hang có xuat xú có tri gia khöng vuqt qua 500 (nam tram) d-la My
+theo mau quy dinh tai Phu luc IV kem theo Thong tu nay. Tuy nhien,lo hang d6
+khong phai la mot phan cua chuoi cac lo hang lien tiep nhap khau ma co quan hai
+quan Viet Nam nghi ng co sap dat hoac len ke hoach nham tron tranhviec tuan
+thu quy dinh phap luat cua Viet Nam.
+2. Hang hóa co xuat xu tir Viet Nam nhap khau vao Cac tieu vuong quöc
+A-rap Thöng nhat duoc hung uu dai thué quan theo Hiep dinh khi co mot trong
+nhing churng tur chung nhan xuat xur hang hóa sau:
+a) C/O duqc cap däp ung quy dinh tai Diéu 23 Thong tu nay.
+b) Chúng tir tr chúmg nhan xuat xur hang hóa do nha xuat khau phat hanh
+doi v6i 1o hang c6 xuat xúr c6 tri gia khong vuqt qua 500 (nam tram) do-la My
+theo mau quy dinh tai Phu luc IV kem theo Thong tu nay.Tuy nhien,lo hang do
+khong phai la mot phan cua chuoi cac lo hang lien tiep nhap khau ma coquan hai
+quan Cac tieu vuong quoc A-rap Thong nhat nghi ng c6 sap dat hoac len ke
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.99]: 10
+#2 [Score: 0.91]: Nuc khong phai thanh vien noi hang hoa duoc qua canh,de sang Nuóc thanh
+#3 [Score: 0.92]: vien nhap khau.
+#4 [Score: 0.91]: b) Giay chúng nhan dugc phat hanh bi Co quan hai quan cua Nuöc khong
+#5 [Score: 0.93]: phai thanh vien noi hang hóa duoc qua canh trong d6 m ta chinh xac hang hóa
+#6 [Score: 0.93]: ngay va dja diém boc hang va boc lai hang hoa tai Nuoc khong phai thanh vien
+#7 [Score: 0.95]: dó va tinh trang cua hang hoa.
+#8 [Score: 0.89]: c) Chung tir khac chúng minh lö hang duqc van chuyen truc tiép trong
+#9 [Score: 0.94]: trung hop khong có cac chung tir quy dinh tai diém a va diém b khoan nay.
+#10 [Score: 0.89]: Dieu 21.Khu ché xuat, khu kinh té hoac khu thuong mai tur do
+#11 [Score: 0.95]: Hang hóa duqc san xuat tai khu che xuat, khu kinh té hoac khu thuong mai
+#12 [Score: 0.89]: tur do tai lanh tho cua mot Nuc thanh vien,duoc coi la c6 xuat xur tai Nuoc thanh
+#13 [Score: 0.93]: vien dó khi xuat khau hang hóa sang Nuóc thanh vien kia néu dap mg cac quy
+#14 [Score: 0.93]: dinh tai Thöng tu nay va có chumg tir chung nhan xuat xur hang hóa.
+#15 [Score: 0.98]: CHUONGIII
+#16 [Score: 0.90]: CHUNG NHAN VA KIEM TRAXUAT XU'HANG HOA
+#17 [Score: 0.90]: Dieu 22.Quy dinh chung ve co ché chung nhan xuat xür hang hóa
+#18 [Score: 0.89]: 1. Hang h6a co xuat xur tur lanh tho cua Cac tieu vuong quöc A-rap Thong
+#19 [Score: 0.94]: nhat khi nhap khau vao Viet Nam duqc hung uu dai thué quan theo Hiep dinh
+#20 [Score: 0.92]: khi np cho co quan hai quan mt trong nhting chung tir chüng nhan xuat xur hang
+#21 [Score: 0.87]: h6a sau:
+#22 [Score: 0.95]: a) C/O duc cap dap úng quy dinh tai Dieu 23 Thong tu nay.
+#23 [Score: 0.88]: b) Chúng tir tu chúng nhan xuát xú hang hóa do nha xuat khau d dieu kien
+#24 [Score: 0.95]: phat hanh theo quy dinh tai Dieu 24 Thong tu nay.
+#25 [Score: 0.89]: c) Chüng tu tu churng nhan xuat xü hang hoa do nha xuat khau phat hanh
+#26 [Score: 0.94]: dói vói 1 hang có xuat xú có tri gia khöng vuqt qua 500 (nam tram) d-la My
+#27 [Score: 0.91]: theo mau quy dinh tai Phu luc IV kem theo Thong tu nay. Tuy nhien,lo hang d6
+#28 [Score: 0.89]: khong phai la mot phan cua chuoi cac lo hang lien tiep nhap khau ma co quan hai
+#29 [Score: 0.92]: quan Viet Nam nghi ng co sap dat hoac len ke hoach nham tron tranhviec tuan
+#30 [Score: 0.93]: thu quy dinh phap luat cua Viet Nam.
+#31 [Score: 0.91]: 2. Hang hóa co xuat xu tir Viet Nam nhap khau vao Cac tieu vuong quöc
+#32 [Score: 0.93]: A-rap Thöng nhat duoc hung uu dai thué quan theo Hiep dinh khi co mot trong
+#33 [Score: 0.92]: nhing churng tur chung nhan xuat xur hang hóa sau:
+#34 [Score: 0.91]: a) C/O duqc cap däp ung quy dinh tai Diéu 23 Thong tu nay.
+#35 [Score: 0.92]: b) Chúng tir tr chúmg nhan xuat xur hang hóa do nha xuat khau phat hanh
+#36 [Score: 0.93]: doi v6i 1o hang c6 xuat xúr c6 tri gia khong vuqt qua 500 (nam tram) do-la My
+#37 [Score: 0.91]: theo mau quy dinh tai Phu luc IV kem theo Thong tu nay.Tuy nhien,lo hang do
+#38 [Score: 0.90]: khong phai la mot phan cua chuoi cac lo hang lien tiep nhap khau ma coquan hai
+#39 [Score: 0.94]: quan Cac tieu vuong quoc A-rap Thong nhat nghi ng c6 sap dat hoac len ke

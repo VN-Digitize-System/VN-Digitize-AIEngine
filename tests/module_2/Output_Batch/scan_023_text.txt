@@ -1,0 +1,88 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_023.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+11
+Ma HS
+M6 ta hang hoa
+Quy tac cu the mat hang
+(1)
+(2)
+(3)
+(4)
+Chuong 94
+D ni that b d giung,dm,
+CTH, tuy nhien trong
+QVC 35%
+khung dem, nem va cac do dung
+trung hop hang hóa
+nhi tuong tu;den va bden,
+va cac bo phan hoac
+chua duac chi tiét hoac ghi  noi
+phu kien cua chüng
+khac;bien hi@u duoc chieu sang,
+duoc phan loai trong
+bien de ten dugc chieu sang va
+cüng möt nhóm thi áp
+cac loai tuong tur, nha lap ghep.
+dung quy tac CTSH
+thay vi CTH
+Chuong 95
+Dö choi, thiét bi tr choi va dung 
+CTH
+QVC 35%
+cu,thiet bi the thaocac b phan
+va phu kian cua chung.
+Chuong 96
+Cac mat hang khac.
+CTH
+QVC 35%
+Chuong 97
+Cac tac pham nghe thuat, d suu
+CTH
+QVC 35%
+tam va do co.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 1.00]: 11
+#2 [Score: 0.98]: Ma HS
+#3 [Score: 0.98]: M6 ta hang hoa
+#4 [Score: 0.95]: Quy tac cu the mat hang
+#5 [Score: 0.99]: (1)
+#6 [Score: 0.99]: (2)
+#7 [Score: 1.00]: (3)
+#8 [Score: 0.97]: (4)
+#9 [Score: 1.00]: Chuong 94
+#10 [Score: 0.89]: D ni that b d giung,dm,
+#11 [Score: 0.97]: CTH, tuy nhien trong
+#12 [Score: 1.00]: QVC 35%
+#13 [Score: 0.89]: khung dem, nem va cac do dung
+#14 [Score: 0.95]: trung hop hang hóa
+#15 [Score: 0.89]: nhi tuong tu;den va bden,
+#16 [Score: 0.91]: va cac bo phan hoac
+#17 [Score: 0.93]: chua duac chi tiét hoac ghi  noi
+#18 [Score: 0.87]: phu kien cua chüng
+#19 [Score: 0.89]: khac;bien hi@u duoc chieu sang,
+#20 [Score: 0.97]: duoc phan loai trong
+#21 [Score: 0.86]: bien de ten dugc chieu sang va
+#22 [Score: 0.91]: cüng möt nhóm thi áp
+#23 [Score: 0.94]: cac loai tuong tur, nha lap ghep.
+#24 [Score: 0.98]: dung quy tac CTSH
+#25 [Score: 0.99]: thay vi CTH
+#26 [Score: 1.00]: Chuong 95
+#27 [Score: 0.92]: Dö choi, thiét bi tr choi va dung 
+#28 [Score: 1.00]: CTH
+#29 [Score: 1.00]: QVC 35%
+#30 [Score: 0.89]: cu,thiet bi the thaocac b phan
+#31 [Score: 0.94]: va phu kian cua chung.
+#32 [Score: 1.00]: Chuong 96
+#33 [Score: 0.99]: Cac mat hang khac.
+#34 [Score: 0.99]: CTH
+#35 [Score: 1.00]: QVC 35%
+#36 [Score: 0.99]: Chuong 97
+#37 [Score: 0.94]: Cac tac pham nghe thuat, d suu
+#38 [Score: 1.00]: CTH
+#39 [Score: 1.00]: QVC 35%
+#40 [Score: 0.96]: tam va do co.

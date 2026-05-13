@@ -1,0 +1,88 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_035.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+2.Trung hop hang hóa ap dung tieu chi Ham luong gia tri gia tang,tri gia
+cua phu kien,phu tung, dung cu va tai lieu huong dan hoac tai lieu mang tinh
+thöng tin khác, duqc tinh la có xuat xu hoac khong có xuat xu, tuy tirng trung
+hop cu thé khi tinh Ham luong gia tr gia tang.
+Dieu 14. Nguyen lieu dóng goi va bao bi dóng gói dé bän le
+1. Nguyen lieu dong goi va bao bi dong g6i de ban le khi duqc phan loai
+cung vi hang hoa theo Quy tac 5 cua He thong hai hoa, thi khong duoc xét den
+khi xác dinh tat ca nguy&n liêu khöng có xuat xur dé san xuat ra hang hóa dap úng
+hay khong dap ung tieu chi chuyén doi ma so hang hóa.
+2.Trung hop hang hóa áp dung tieu chi Ham luqng gia tri gia tang, tri gia
+cua nguyen lieu dóng gói va bao bi dóng gói de ban lé,duoc tinh la có xuat xu
+hoac khöng co xuat xur, tuy ting trung hop cu the.
+Dieu 15.Don vi xét xuat xu hang hoa
+Don vi xét xuat xur hang hóa la mot san pham cu the va duqc coi la don vi
+co ban khi phan loai theo He thong hai hoa.
+1. Mot san pham bao gom mot nhóm hoac cum san pham duqc phan loai
+theo mt nhom duy nhat, toan bo nhom hoac cum san pham do tao thanh don vj
+xét xuat xür hang hoa.
+2.Mot 18 hang bao gom mot so san pham giong nhau dugc phan loai theo
+mot dong thue duy nhat,moi san pham duoc xem xét rieng le khi xac dinh hang
+hoa co xuat xur hay khong co xuat xur.
+Dieu 16. Nguyen liêu dóng gói va bao bi dóng goi dé van chuyén
+Nguyen li@u dóng goi va bao bi dong gói hang hóa de van chuyén khong
+duoc tinh khi xac dinh xuat xu cua hang hoa.
+Dieu 17. Hang hóa hoac nguyen lieu giöng nhau va có thé thay thé lan nhau
+1. Viec xac dinh xuat xur cua hang hóa hoac nguyen lieu giöng nhau va có
+the thay thelan nhau duoc thuc hien thong qua phan loai thuc te tung hang hoa
+hoac nguyén li@u hoac trong truong hop co bat ky khó khan nao, thong qua vi@c
+sir dung bat ky phuong phap quan ly hang ton kho nhu tinh trung binh, nhap sau
+xuat truc hoac nhap truc xuat truöc, duoc cong nhan trong cac nguyen tac ke
+toän tong hqp cua mot Nuc thanh vien noi ma qua trinh san xuat duoc thuc hien
+hoac duqc chap nhan boi Nuoc thanh vien d6.
+2. Phuong phap quan ly hang ton kho theo quy dinh tai khoan 1 Dieu nay
+doi vói hang hóa hoac nguyen lieu giong nhau va co the thay the lan nhau, tiép
+tuc dugc su dung cho hang hoa hoac nguyen lieu giong nhau va co the thay the
+lan nhau do trong suot nam tai chinh cua Nuoc thanh vien da lya chon phuong
+phap quan ly hang ton kho.
+Dieu 18.B hang hoa
+B hang hóa dugc quy dinh theo Quy tac chung cua H@ thong hai hoa duoc
+coi la có xuat xü khi tat ca cac hang hoa thanh phan cua bo hang hoa co xuat xur.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.92]: 2.Trung hop hang hóa ap dung tieu chi Ham luong gia tri gia tang,tri gia
+#2 [Score: 0.91]: cua phu kien,phu tung, dung cu va tai lieu huong dan hoac tai lieu mang tinh
+#3 [Score: 0.92]: thöng tin khác, duqc tinh la có xuat xu hoac khong có xuat xu, tuy tirng trung
+#4 [Score: 0.95]: hop cu thé khi tinh Ham luong gia tr gia tang.
+#5 [Score: 0.90]: Dieu 14. Nguyen lieu dóng goi va bao bi dóng gói dé bän le
+#6 [Score: 0.92]: 1. Nguyen lieu dong goi va bao bi dong g6i de ban le khi duqc phan loai
+#7 [Score: 0.93]: cung vi hang hoa theo Quy tac 5 cua He thong hai hoa, thi khong duoc xét den
+#8 [Score: 0.91]: khi xác dinh tat ca nguy&n liêu khöng có xuat xur dé san xuat ra hang hóa dap úng
+#9 [Score: 0.95]: hay khong dap ung tieu chi chuyén doi ma so hang hóa.
+#10 [Score: 0.92]: 2.Trung hop hang hóa áp dung tieu chi Ham luqng gia tri gia tang, tri gia
+#11 [Score: 0.87]: cua nguyen lieu dóng gói va bao bi dóng gói de ban lé,duoc tinh la có xuat xu
+#12 [Score: 0.93]: hoac khöng co xuat xur, tuy ting trung hop cu the.
+#13 [Score: 0.88]: Dieu 15.Don vi xét xuat xu hang hoa
+#14 [Score: 0.91]: Don vi xét xuat xur hang hóa la mot san pham cu the va duqc coi la don vi
+#15 [Score: 0.97]: co ban khi phan loai theo He thong hai hoa.
+#16 [Score: 0.92]: 1. Mot san pham bao gom mot nhóm hoac cum san pham duqc phan loai
+#17 [Score: 0.91]: theo mt nhom duy nhat, toan bo nhom hoac cum san pham do tao thanh don vj
+#18 [Score: 0.93]: xét xuat xür hang hoa.
+#19 [Score: 0.91]: 2.Mot 18 hang bao gom mot so san pham giong nhau dugc phan loai theo
+#20 [Score: 0.90]: mot dong thue duy nhat,moi san pham duoc xem xét rieng le khi xac dinh hang
+#21 [Score: 0.96]: hoa co xuat xur hay khong co xuat xur.
+#22 [Score: 0.91]: Dieu 16. Nguyen liêu dóng gói va bao bi dóng goi dé van chuyén
+#23 [Score: 0.93]: Nguyen li@u dóng goi va bao bi dong gói hang hóa de van chuyén khong
+#24 [Score: 0.95]: duoc tinh khi xac dinh xuat xu cua hang hoa.
+#25 [Score: 0.88]: Dieu 17. Hang hóa hoac nguyen lieu giöng nhau va có thé thay thé lan nhau
+#26 [Score: 0.93]: 1. Viec xac dinh xuat xur cua hang hóa hoac nguyen lieu giöng nhau va có
+#27 [Score: 0.90]: the thay thelan nhau duoc thuc hien thong qua phan loai thuc te tung hang hoa
+#28 [Score: 0.94]: hoac nguyén li@u hoac trong truong hop co bat ky khó khan nao, thong qua vi@c
+#29 [Score: 0.97]: sir dung bat ky phuong phap quan ly hang ton kho nhu tinh trung binh, nhap sau
+#30 [Score: 0.92]: xuat truc hoac nhap truc xuat truöc, duoc cong nhan trong cac nguyen tac ke
+#31 [Score: 0.92]: toän tong hqp cua mot Nuc thanh vien noi ma qua trinh san xuat duoc thuc hien
+#32 [Score: 0.92]: hoac duqc chap nhan boi Nuoc thanh vien d6.
+#33 [Score: 0.93]: 2. Phuong phap quan ly hang ton kho theo quy dinh tai khoan 1 Dieu nay
+#34 [Score: 0.92]: doi vói hang hóa hoac nguyen lieu giong nhau va co the thay the lan nhau, tiép
+#35 [Score: 0.91]: tuc dugc su dung cho hang hoa hoac nguyen lieu giong nhau va co the thay the
+#36 [Score: 0.92]: lan nhau do trong suot nam tai chinh cua Nuoc thanh vien da lya chon phuong
+#37 [Score: 0.98]: phap quan ly hang ton kho.
+#38 [Score: 0.91]: Dieu 18.B hang hoa
+#39 [Score: 0.91]: B hang hóa dugc quy dinh theo Quy tac chung cua H@ thong hai hoa duoc
+#40 [Score: 0.93]: coi la có xuat xü khi tat ca cac hang hoa thanh phan cua bo hang hoa co xuat xur.

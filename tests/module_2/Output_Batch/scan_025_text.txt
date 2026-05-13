@@ -1,0 +1,124 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_025.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+Phu luc II
+MAUC/O UAE-VN
+(Ban hanh kem theo Thöng tu sö24/2026/TT-BCT
+ngay 0$ thang 5 näm 2026 cia B6 truong B8 Cong Thuong
+quydinh Quy tac xuat xir hang hoa trong Hiep dinhDoi tac kinh tetoan dien
+Viet Nam va Cac tieu vuong quoc A-rap Thöng nhat
+1. Exporters Name, Address, Country
+4.CERTIFICATE NO
+2. Produceras Name, Address, Country (optional)
+COMPREHENSIVE ECONOMIC PARTNERSHIP
+AGREEMENTBETWEENTHE GOVERNMENT
+OF THE UNITED ARAB EMIRATESAND THE
+3. Importers Name and Address, Country
+GOVERNMENT OF THE SOCIALIST REPUBLIC
+OF VIET NAM
+CERTIFICATE OF ORIGIN
+FORMUAE-VN
+Issued in
+(Country)
+See Overleaf Notes
+5. Means of transport and route, (optional)
+6
+Shipment Date:
+ Non-party invoice
+Vessel's Name / Aircraft, etc.
+Port of Discharge:
+(Name of non-party)
+Port of Destination:
+7.Observations
+8. Item
+9. Marks and numbers on packages; Number and kind
+10.Origin
+Criteria
+11. Gross
+12.Number and
+number
+of packages; Description of goods; HS code in six
+Weight,
+date of
+digits
+Quantity
+invoices
+13. Declaration by the exporter
+14.Certification
+The Undersigned hereby declares that he/she has read the We hereby certify the authenticity of this certificate and
+instructions for filling out this certificate and that the goods comply
+ [ that it was issued in accordance with the provisions of the
+with the origin requirements specified in this Agreement.
+Agreement.
+Date
+Stamp
+and
+[QR Code
+Website]
+or
+Stamp and Signature
+Date, signature and stamp of
+Competent Authority
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.96]: Phu luc II
+#2 [Score: 0.96]: MAUC/O UAE-VN
+#3 [Score: 0.93]: (Ban hanh kem theo Thöng tu sö24/2026/TT-BCT
+#4 [Score: 0.89]: ngay 0$ thang 5 näm 2026 cia B6 truong B8 Cong Thuong
+#5 [Score: 0.87]: quydinh Quy tac xuat xir hang hoa trong Hiep dinhDoi tac kinh tetoan dien
+#6 [Score: 0.87]: Viet Nam va Cac tieu vuong quoc A-rap Thöng nhat
+#7 [Score: 0.99]: 1. Exporters Name, Address, Country
+#8 [Score: 0.97]: 4.CERTIFICATE NO
+#9 [Score: 0.98]: 2. Produceras Name, Address, Country (optional)
+#10 [Score: 0.98]: COMPREHENSIVE ECONOMIC PARTNERSHIP
+#11 [Score: 0.98]: AGREEMENTBETWEENTHE GOVERNMENT
+#12 [Score: 0.96]: OF THE UNITED ARAB EMIRATESAND THE
+#13 [Score: 0.99]: 3. Importers Name and Address, Country
+#14 [Score: 0.99]: GOVERNMENT OF THE SOCIALIST REPUBLIC
+#15 [Score: 0.93]: OF VIET NAM
+#16 [Score: 0.98]: CERTIFICATE OF ORIGIN
+#17 [Score: 0.99]: FORMUAE-VN
+#18 [Score: 0.95]: Issued in
+#19 [Score: 1.00]: (Country)
+#20 [Score: 0.98]: See Overleaf Notes
+#21 [Score: 0.97]: 5. Means of transport and route, (optional)
+#22 [Score: 0.99]: 6
+#23 [Score: 0.98]: Shipment Date:
+#24 [Score: 0.97]:  Non-party invoice
+#25 [Score: 0.96]: Vessel's Name / Aircraft, etc.
+#26 [Score: 0.97]: Port of Discharge:
+#27 [Score: 1.00]: (Name of non-party)
+#28 [Score: 0.97]: Port of Destination:
+#29 [Score: 0.99]: 7.Observations
+#30 [Score: 0.86]: 8. Item
+#31 [Score: 0.99]: 9. Marks and numbers on packages; Number and kind
+#32 [Score: 0.99]: 10.Origin
+#33 [Score: 0.99]: Criteria
+#34 [Score: 0.99]: 11. Gross
+#35 [Score: 0.99]: 12.Number and
+#36 [Score: 1.00]: number
+#37 [Score: 0.99]: of packages; Description of goods; HS code in six
+#38 [Score: 0.99]: Weight,
+#39 [Score: 0.98]: date of
+#40 [Score: 1.00]: digits
+#41 [Score: 1.00]: Quantity
+#42 [Score: 1.00]: invoices
+#43 [Score: 1.00]: 13. Declaration by the exporter
+#44 [Score: 0.97]: 14.Certification
+#45 [Score: 0.96]: The Undersigned hereby declares that he/she has read the We hereby certify the authenticity of this certificate and
+#46 [Score: 0.97]: instructions for filling out this certificate and that the goods comply
+#47 [Score: 0.97]:  [ that it was issued in accordance with the provisions of the
+#48 [Score: 0.99]: with the origin requirements specified in this Agreement.
+#49 [Score: 1.00]: Agreement.
+#50 [Score: 0.99]: Date
+#51 [Score: 0.81]: Stamp
+#52 [Score: 0.98]: and
+#53 [Score: 0.99]: [QR Code
+#54 [Score: 0.99]: Website]
+#55 [Score: 1.00]: or
+#56 [Score: 0.99]: Stamp and Signature
+#57 [Score: 1.00]: Date, signature and stamp of
+#58 [Score: 0.99]: Competent Authority

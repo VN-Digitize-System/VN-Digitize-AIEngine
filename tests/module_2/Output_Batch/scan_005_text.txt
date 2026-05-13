@@ -1,0 +1,86 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_005.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+9. Vat pham da qua sur dung thu duqc tai lanh tho cua Nuroc thanh vien d6
+vói dieu kién hang hóa d6 chi phu hop de tai che thanh nguyén lieu tho.
+10. Phé thai hoac phé li@u thu dugc tur qua trinh sur dung, tieu dung hoac
+san xuat tai lanh tho cua Nuoc thanh vien d6.
+11. Hang hóa dugc san xuat hoac thu dugc tai lanh tho cua Nuöc thanh
+vien d6 chi tur cac hang h6a theo quy dinh tir khoan 1 den khoan10 Dieu nay
+hoac tir cac dan xuat cua chüng trong qua trinh san xuat.
+Dieu 7. Cong doan gia cong, ché bién day du
+1. Theo quy dinh tai khoan 2 Diéu 5 Thong tu nay, hang hoa dugc coi la
+da trai qua cong doan gia cong, ché bién day du va có xuat xü tai lanh tho cua
+mot Nuc thanh vien néu hang hoa dó dap ng mot trong cac dieu kien sau day:
+a) Chuyen doi ma so hang h6a  cap do Nhóm (CTH) c6 nghia la tat ca
+nguyén lieu khöng có xuat xur dugc sur dung dé san xuat ra hang hóa, phai chuyén
+doi ma so hang hoa  cap d 4 so.
+b) Ham luong gia tri gia tang (QVC) khöng thap hon 35% gia xuat xuong.
+QVC la Ham luong gia tr gia tang cua hang hóa, duac biéu th duói dang
+phan tram (%.
+QVC duoc tinh nhu sau:
+Giaxuat xu&ng-V.N.M
+QVC=
+x100
+Gia xuat xuöng
+Gia xuat xung la gia thanh toan cho hang hóa xuat xuöng cua nha san xuat
+tai Nuc thanh vien thuc hien cong doan gia cong hoac che bién cuoi cung vi
+dieu kien gia dó bao gm tri gia cua toan bo nguyen lieu dugc su dung, trr di thue
+noi dja da hoac có the dugc hoan tra khi hang hoa duac xuat khau.
+V.N.M la tri giá hai quan tai thi diém nhap kháu cúa nguyên lieu khöng
+co xuat xur dugc su dung bao gom chi phi van chuyén va bao hiém phat sinh trong
+qua trinhvan chuyen nguyen lieu dén cang nhap khau tai lanh tho cua Nuc thanh
+vien nhap khau hoac trong trung hop khong biet va khong the xac minh duoc giá
+tri nay,la gia dau tien có thé xac minh duoc cua nguyen lieu tai Nuoc thanh vien
+xuát khau. Trung hop nha san xuat hang hóa mua nguyén liu khöng có xuat xú 
+tai lanh tho cua Nuc thanh vien noi nha san xuat dat tru s,tri gia cua nguyen
+lieu nay khong bao gm cu6c phi,bao hiem,chi phi dong g6i va bat ky chi phi
+nao khac phat sinh trong qua trinh van chuyen nguyén li@u tir kho cua nha cung
+cap den dia diém cua nha san xuat.
+2. Khong xét dén quy dinh tai khoan 1 Dieu nay, hang hóa duqc phan loai
+tai Phu luc I ban hanh kem theo Thong tu nay, phai dap rng quy tac cu the duoc
+quy dinh chi tiét tai Phu luc nay.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.93]: 9. Vat pham da qua sur dung thu duqc tai lanh tho cua Nuroc thanh vien d6
+#2 [Score: 0.93]: vói dieu kién hang hóa d6 chi phu hop de tai che thanh nguyén lieu tho.
+#3 [Score: 0.90]: 10. Phé thai hoac phé li@u thu dugc tur qua trinh sur dung, tieu dung hoac
+#4 [Score: 0.91]: san xuat tai lanh tho cua Nuoc thanh vien d6.
+#5 [Score: 0.91]: 11. Hang hóa dugc san xuat hoac thu dugc tai lanh tho cua Nuöc thanh
+#6 [Score: 0.89]: vien d6 chi tur cac hang h6a theo quy dinh tir khoan 1 den khoan10 Dieu nay
+#7 [Score: 0.96]: hoac tir cac dan xuat cua chüng trong qua trinh san xuat.
+#8 [Score: 0.92]: Dieu 7. Cong doan gia cong, ché bién day du
+#9 [Score: 0.95]: 1. Theo quy dinh tai khoan 2 Diéu 5 Thong tu nay, hang hoa dugc coi la
+#10 [Score: 0.92]: da trai qua cong doan gia cong, ché bién day du va có xuat xü tai lanh tho cua
+#11 [Score: 0.92]: mot Nuc thanh vien néu hang hoa dó dap ng mot trong cac dieu kien sau day:
+#12 [Score: 0.90]: a) Chuyen doi ma so hang h6a  cap do Nhóm (CTH) c6 nghia la tat ca
+#13 [Score: 0.92]: nguyén lieu khöng có xuat xur dugc sur dung dé san xuat ra hang hóa, phai chuyén
+#14 [Score: 0.95]: doi ma so hang hoa  cap d 4 so.
+#15 [Score: 0.96]: b) Ham luong gia tri gia tang (QVC) khöng thap hon 35% gia xuat xuong.
+#16 [Score: 0.94]: QVC la Ham luong gia tr gia tang cua hang hóa, duac biéu th duói dang
+#17 [Score: 0.94]: phan tram (%.
+#18 [Score: 0.94]: QVC duoc tinh nhu sau:
+#19 [Score: 0.93]: Giaxuat xu&ng-V.N.M
+#20 [Score: 0.99]: QVC=
+#21 [Score: 0.91]: x100
+#22 [Score: 0.92]: Gia xuat xuöng
+#23 [Score: 0.92]: Gia xuat xung la gia thanh toan cho hang hóa xuat xuöng cua nha san xuat
+#24 [Score: 0.91]: tai Nuc thanh vien thuc hien cong doan gia cong hoac che bién cuoi cung vi
+#25 [Score: 0.88]: dieu kien gia dó bao gm tri gia cua toan bo nguyen lieu dugc su dung, trr di thue
+#26 [Score: 0.94]: noi dja da hoac có the dugc hoan tra khi hang hoa duac xuat khau.
+#27 [Score: 0.93]: V.N.M la tri giá hai quan tai thi diém nhap kháu cúa nguyên lieu khöng
+#28 [Score: 0.90]: co xuat xur dugc su dung bao gom chi phi van chuyén va bao hiém phat sinh trong
+#29 [Score: 0.92]: qua trinhvan chuyen nguyen lieu dén cang nhap khau tai lanh tho cua Nuc thanh
+#30 [Score: 0.89]: vien nhap khau hoac trong trung hop khong biet va khong the xac minh duoc giá
+#31 [Score: 0.88]: tri nay,la gia dau tien có thé xac minh duoc cua nguyen lieu tai Nuoc thanh vien
+#32 [Score: 0.93]: xuát khau. Trung hop nha san xuat hang hóa mua nguyén liu khöng có xuat xú 
+#33 [Score: 0.92]: tai lanh tho cua Nuc thanh vien noi nha san xuat dat tru s,tri gia cua nguyen
+#34 [Score: 0.90]: lieu nay khong bao gm cu6c phi,bao hiem,chi phi dong g6i va bat ky chi phi
+#35 [Score: 0.93]: nao khac phat sinh trong qua trinh van chuyen nguyén li@u tir kho cua nha cung
+#36 [Score: 0.94]: cap den dia diém cua nha san xuat.
+#37 [Score: 0.92]: 2. Khong xét dén quy dinh tai khoan 1 Dieu nay, hang hóa duqc phan loai
+#38 [Score: 0.95]: tai Phu luc I ban hanh kem theo Thong tu nay, phai dap rng quy tac cu the duoc
+#39 [Score: 0.98]: quy dinh chi tiét tai Phu luc nay.

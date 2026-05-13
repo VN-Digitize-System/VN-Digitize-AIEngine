@@ -1,0 +1,46 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_029.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+Phu luc III
+MAU KHAI BAOCUANHAXUAT KHAUDUDIEUKIEN
+(Ban hanh kém theo Thóng tu s62 4/2026/TT-BCT
+ngay 0S thang 5 näm 2026cua Bo truöng B8 Cong Thuong
+quy dinh Quy tác xuat xir hang hoa trong Hiep dinh Döi tac kinh té toán dién
+Viet Nam va Cäc tiéu vuong quóc A-rap Thong nhät
+The exporter of the goods covered by this document (authorisation No (1.....
+declares that, except where otherwise clearly indicated, these goods are of (2)....
+preferential origin in accordance with the rules of origin of the UAE-Vietnam
+CEPA and that the origin criteria met is(3....
+(4) Place and Date
+5 Name,signature and seal of the exporter
+Trong do:
+(1) Ma sö cua nha xuat khau du diéu kien.
+(2 Nuc xuat xur cua hang hoa.
+(3) Tieu chi xuat xúr theo Phu luc I Thong tu nay.
+(4) Dia diém, ngay khai bao cua nha xuat khau du diéu kien.
+(5) Ten, chur ky va con dau cua nha xuat khau. C6 the khong can ghi ten
+ngui ky trong trurng hop nha xuat khau d dieu kien khong phai ky tén.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.92]: Phu luc III
+#2 [Score: 0.95]: MAU KHAI BAOCUANHAXUAT KHAUDUDIEUKIEN
+#3 [Score: 0.94]: (Ban hanh kém theo Thóng tu s62 4/2026/TT-BCT
+#4 [Score: 0.86]: ngay 0S thang 5 näm 2026cua Bo truöng B8 Cong Thuong
+#5 [Score: 0.90]: quy dinh Quy tác xuat xir hang hoa trong Hiep dinh Döi tac kinh té toán dién
+#6 [Score: 0.88]: Viet Nam va Cäc tiéu vuong quóc A-rap Thong nhät
+#7 [Score: 0.95]: The exporter of the goods covered by this document (authorisation No (1.....
+#8 [Score: 0.97]: declares that, except where otherwise clearly indicated, these goods are of (2)....
+#9 [Score: 0.96]: preferential origin in accordance with the rules of origin of the UAE-Vietnam
+#10 [Score: 0.94]: CEPA and that the origin criteria met is(3....
+#11 [Score: 0.97]: (4) Place and Date
+#12 [Score: 0.95]: 5 Name,signature and seal of the exporter
+#13 [Score: 0.94]: Trong do:
+#14 [Score: 0.92]: (1) Ma sö cua nha xuat khau du diéu kien.
+#15 [Score: 0.90]: (2 Nuc xuat xur cua hang hoa.
+#16 [Score: 0.95]: (3) Tieu chi xuat xúr theo Phu luc I Thong tu nay.
+#17 [Score: 0.90]: (4) Dia diém, ngay khai bao cua nha xuat khau du diéu kien.
+#18 [Score: 0.93]: (5) Ten, chur ky va con dau cua nha xuat khau. C6 the khong can ghi ten
+#19 [Score: 0.94]: ngui ky trong trurng hop nha xuat khau d dieu kien khong phai ky tén.

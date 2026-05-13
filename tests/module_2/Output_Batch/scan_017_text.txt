@@ -1,0 +1,162 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_017.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+5
+Ma HS
+Mo ta hang hoa
+Quy tac cu the mat hang
+(1)
+(2)
+(3)
+(4)
+ex 2515
+Da hoa (Marbles).
+CTSH
+QVC 35%
+Chuong 26
+Quang, xi va tro.
+CTH
+QVC 35%
+Chuong 27
+Nhien liu khoang, dau khoang va
+CTH
+QVC 35%
+cac san pham chung cat tir chüng.
+cac chat chura bi-tum; cac loai sap
+khoang chat.
+Chuong 28
+Hoa chat v co cac hop chat v
+CTH
+QVC 35%
+co hoac htru co cua kim loai quy,
+kim loai dat hiém,cac nguyen to
+phong xa hoac cac chat dong vi.
+Chuong 29
+Hoa chat htru co.
+CTH
+QVC 35%
+Chuong 30
+Dugc Pham.
+CTH
+QVC 35%
+Chuong 31
+Phan bon.
+CTH
+QVC 35%
+Chuong 32
+Cac chat chiet xuat lam thuoc
+CTH
+QVC 35%
+nhuom hoac thuoc da ta nanh va
+cac chat dan xuat cua chung;
+thuöc nhuom, thubc mau va cac
+chat mau khac son va véc ni; chat
+gan va cac loai ma tit khac; cac
+loai myc.
+Chuong 33
+Tinh dau va cac chat tua nhua;
+CTH
+QVC 35%
+nurc hoa, my pham hoac cac che
+pham dung cho v@ sinh.
+Chuong 34
+Xa phong, cac chat htru co hoat
+CTH
+QVC 35%
+dong be mat, cac che pham dung
+de giatrura,cac ch pham boi
+tron, cac loai sap nhan tao, sap da
+dugc che bién, cac ch& pham dung
+de danh bong hoac tay sach,nen
+va cac.san pham tuong tu,bt
+nhao dung lam hinh mau,sap
+dung trong nha khoa" va cac che
+pham dung trong nha khoa co
+thanh phan co ban la thach cao.
+Chuong 35
+Cac chat chura albumin cac dang
+CTH
+QVC 35%
+tinh bot bien tinh keo hoenzym.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.99]: 5
+#2 [Score: 0.96]: Ma HS
+#3 [Score: 0.96]: Mo ta hang hoa
+#4 [Score: 0.96]: Quy tac cu the mat hang
+#5 [Score: 0.98]: (1)
+#6 [Score: 0.93]: (2)
+#7 [Score: 0.98]: (3)
+#8 [Score: 0.89]: (4)
+#9 [Score: 0.98]: ex 2515
+#10 [Score: 0.98]: Da hoa (Marbles).
+#11 [Score: 1.00]: CTSH
+#12 [Score: 0.99]: QVC 35%
+#13 [Score: 0.99]: Chuong 26
+#14 [Score: 1.00]: Quang, xi va tro.
+#15 [Score: 1.00]: CTH
+#16 [Score: 1.00]: QVC 35%
+#17 [Score: 1.00]: Chuong 27
+#18 [Score: 0.95]: Nhien liu khoang, dau khoang va
+#19 [Score: 1.00]: CTH
+#20 [Score: 0.98]: QVC 35%
+#21 [Score: 0.92]: cac san pham chung cat tir chüng.
+#22 [Score: 0.93]: cac chat chura bi-tum; cac loai sap
+#23 [Score: 0.98]: khoang chat.
+#24 [Score: 0.95]: Chuong 28
+#25 [Score: 0.88]: Hoa chat v co cac hop chat v
+#26 [Score: 1.00]: CTH
+#27 [Score: 0.99]: QVC 35%
+#28 [Score: 0.93]: co hoac htru co cua kim loai quy,
+#29 [Score: 0.91]: kim loai dat hiém,cac nguyen to
+#30 [Score: 0.90]: phong xa hoac cac chat dong vi.
+#31 [Score: 0.99]: Chuong 29
+#32 [Score: 0.95]: Hoa chat htru co.
+#33 [Score: 0.99]: CTH
+#34 [Score: 0.95]: QVC 35%
+#35 [Score: 0.96]: Chuong 30
+#36 [Score: 0.93]: Dugc Pham.
+#37 [Score: 1.00]: CTH
+#38 [Score: 1.00]: QVC 35%
+#39 [Score: 1.00]: Chuong 31
+#40 [Score: 0.96]: Phan bon.
+#41 [Score: 1.00]: CTH
+#42 [Score: 1.00]: QVC 35%
+#43 [Score: 0.97]: Chuong 32
+#44 [Score: 0.88]: Cac chat chiet xuat lam thuoc
+#45 [Score: 1.00]: CTH
+#46 [Score: 1.00]: QVC 35%
+#47 [Score: 0.93]: nhuom hoac thuoc da ta nanh va
+#48 [Score: 0.90]: cac chat dan xuat cua chung;
+#49 [Score: 0.88]: thuöc nhuom, thubc mau va cac
+#50 [Score: 0.92]: chat mau khac son va véc ni; chat
+#51 [Score: 0.94]: gan va cac loai ma tit khac; cac
+#52 [Score: 0.97]: loai myc.
+#53 [Score: 1.00]: Chuong 33
+#54 [Score: 0.89]: Tinh dau va cac chat tua nhua;
+#55 [Score: 1.00]: CTH
+#56 [Score: 0.99]: QVC 35%
+#57 [Score: 0.94]: nurc hoa, my pham hoac cac che
+#58 [Score: 0.95]: pham dung cho v@ sinh.
+#59 [Score: 0.97]: Chuong 34
+#60 [Score: 0.89]: Xa phong, cac chat htru co hoat
+#61 [Score: 1.00]: CTH
+#62 [Score: 0.94]: QVC 35%
+#63 [Score: 0.91]: dong be mat, cac che pham dung
+#64 [Score: 0.89]: de giatrura,cac ch pham boi
+#65 [Score: 0.99]: tron, cac loai sap nhan tao, sap da
+#66 [Score: 0.91]: dugc che bién, cac ch& pham dung
+#67 [Score: 0.93]: de danh bong hoac tay sach,nen
+#68 [Score: 0.89]: va cac.san pham tuong tu,bt
+#69 [Score: 0.92]: nhao dung lam hinh mau,sap
+#70 [Score: 0.94]: dung trong nha khoa" va cac che
+#71 [Score: 0.92]: pham dung trong nha khoa co
+#72 [Score: 0.98]: thanh phan co ban la thach cao.
+#73 [Score: 0.98]: Chuong 35
+#74 [Score: 0.91]: Cac chat chura albumin cac dang
+#75 [Score: 1.00]: CTH
+#76 [Score: 1.00]: QVC 35%
+#77 [Score: 0.91]: tinh bot bien tinh keo hoenzym.

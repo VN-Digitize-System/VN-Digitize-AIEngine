@@ -1,0 +1,82 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_011.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+15
+thuc cua Chüng tir chüng nhan xuat xú hang hóa hoac xuat xü cua hang hóa hoac
+thu tra li xac nhan hang hóa khöng dáp úrng quy tac xuat xur hoac Chüng tir chtng
+nhan xuat xur hang hóa khong hop le, co quan hai quan hoac co quan có tham
+quyén cúa Nuc thanh vien nhap kháu, tuy theo tirng trung hop, dugc phép tir 
+choi cho hung uu dai thué quan.
+Dieu 34. Luru trir ho so
+1. Nha san xuat, nha xuat khau phai luu gir cac chürng tir chtmg minh hang
+hóa có xuat xú khong it hon 5 nam ke tir ngay phat hanh Chúrng tir chúmg nhan xuat
+xúr hang hóa hoac nhieu hon theo quy dinh phap luat cua Nuóc thanh vien dó
+2. Nha nhap khau phai luu gir cac chúng tur chtng minh hang hóa có xuat
+xúr de duqc hung uu dai thue quan khong it hon 5 nam ke tur ngay nhap khau
+hoac nhieu hon theo quy dinh phap luat cua Nuoc thanh vien dó.
+3. Co quan có tham quyen hoac co quan, tö chúrc cäp C/O phai luu gitr cac
+chüng tur trong don de nghi cap Chüng tir chüng nhan xuat xur hang hóa khong it
+hon 5 nam ke tir ngay phat hanh Chüng tir chüng nhan xuat xur hang hóa hoac
+nhieu hon theo quy dinh phap luat cua Nuc thanh vien dó.
+4. Ho so luu tr theo quy dinh tai khoan 1, khoan 2 va khoan 3 Dieu nay
+dugc luru trü bang bat ky hinh thüc nao co the cho phep truy xuat nhanh chóng.
+bao gom ca  dang ky thuat so, dien tu, quang hoc, tir tinh hoac van ban.
+CHUONGIV
+DIEU KHOAN THI HANH
+Dieu 35.To churc thuc hien
+1.Cac ni dung huóng dan, thöng nhat cach hiéu lien quan dén Quy tac
+xuat xu hang hóa do Uy ban hon hop thurc thi Hiep dinh hoac Tiéu ban ve Quy tac
+xuat xu hang hóa thóng nhat tai bao cao trong khuön kho Hiep dinh la can cu de
+cac co quan, tö churc cap C/O va Co quan hai quan thuc hien.
+2. Cac nöi dung neu tai khoan 1 Dieu nay duqc thöng bao dén cäc co quan
+to chúrc cap C/O va Co quan hai quan thong qua B Cong Thuong va B Tai chinh.
+3. Trung hop cac van ban quy pham pháp luat vien dan tai Thöng tur nay
+dugc sura doi, bo sung hoac thay thê bang van ban quy pham phap luat khäc thi ap
+dung theo van ban stra doi, bo sung hoac thay the do.
+Dieu 36.Hieu lurc thi hanh
+1.Thong tu nay c6 hi@u luc thi hanh ke tur ngay05thang 5 nam 2026.
+2. Co quan, tö chúrc cap C/O xem xét cäp sau C/O m áu UAE-VN theo quy
+dinh tai Thong tu nay doi v6i hang h6a cua Viet Nam xuat khau tir ngay 03 thang
+02 nam 2026.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.98]: 15
+#2 [Score: 0.91]: thuc cua Chüng tir chüng nhan xuat xú hang hóa hoac xuat xü cua hang hóa hoac
+#3 [Score: 0.90]: thu tra li xac nhan hang hóa khöng dáp úrng quy tac xuat xur hoac Chüng tir chtng
+#4 [Score: 0.93]: nhan xuat xur hang hóa khong hop le, co quan hai quan hoac co quan có tham
+#5 [Score: 0.94]: quyén cúa Nuc thanh vien nhap kháu, tuy theo tirng trung hop, dugc phép tir 
+#6 [Score: 0.96]: choi cho hung uu dai thué quan.
+#7 [Score: 0.87]: Dieu 34. Luru trir ho so
+#8 [Score: 0.92]: 1. Nha san xuat, nha xuat khau phai luu gir cac chürng tir chtmg minh hang
+#9 [Score: 0.91]: hóa có xuat xú khong it hon 5 nam ke tir ngay phat hanh Chúrng tir chúmg nhan xuat
+#10 [Score: 0.94]: xúr hang hóa hoac nhieu hon theo quy dinh phap luat cua Nuóc thanh vien dó
+#11 [Score: 0.91]: 2. Nha nhap khau phai luu gir cac chúng tur chtng minh hang hóa có xuat
+#12 [Score: 0.89]: xúr de duqc hung uu dai thue quan khong it hon 5 nam ke tur ngay nhap khau
+#13 [Score: 0.94]: hoac nhieu hon theo quy dinh phap luat cua Nuoc thanh vien dó.
+#14 [Score: 0.92]: 3. Co quan có tham quyen hoac co quan, tö chúrc cäp C/O phai luu gitr cac
+#15 [Score: 0.92]: chüng tur trong don de nghi cap Chüng tir chüng nhan xuat xur hang hóa khong it
+#16 [Score: 0.90]: hon 5 nam ke tir ngay phat hanh Chüng tir chüng nhan xuat xur hang hóa hoac
+#17 [Score: 0.96]: nhieu hon theo quy dinh phap luat cua Nuc thanh vien dó.
+#18 [Score: 0.92]: 4. Ho so luu tr theo quy dinh tai khoan 1, khoan 2 va khoan 3 Dieu nay
+#19 [Score: 0.93]: dugc luru trü bang bat ky hinh thüc nao co the cho phep truy xuat nhanh chóng.
+#20 [Score: 0.96]: bao gom ca  dang ky thuat so, dien tu, quang hoc, tir tinh hoac van ban.
+#21 [Score: 0.99]: CHUONGIV
+#22 [Score: 0.92]: DIEU KHOAN THI HANH
+#23 [Score: 0.90]: Dieu 35.To churc thuc hien
+#24 [Score: 0.89]: 1.Cac ni dung huóng dan, thöng nhat cach hiéu lien quan dén Quy tac
+#25 [Score: 0.91]: xuat xu hang hóa do Uy ban hon hop thurc thi Hiep dinh hoac Tiéu ban ve Quy tac
+#26 [Score: 0.92]: xuat xu hang hóa thóng nhat tai bao cao trong khuön kho Hiep dinh la can cu de
+#27 [Score: 0.94]: cac co quan, tö churc cap C/O va Co quan hai quan thuc hien.
+#28 [Score: 0.91]: 2. Cac nöi dung neu tai khoan 1 Dieu nay duqc thöng bao dén cäc co quan
+#29 [Score: 0.94]: to chúrc cap C/O va Co quan hai quan thong qua B Cong Thuong va B Tai chinh.
+#30 [Score: 0.95]: 3. Trung hop cac van ban quy pham pháp luat vien dan tai Thöng tur nay
+#31 [Score: 0.92]: dugc sura doi, bo sung hoac thay thê bang van ban quy pham phap luat khäc thi ap
+#32 [Score: 0.94]: dung theo van ban stra doi, bo sung hoac thay the do.
+#33 [Score: 0.90]: Dieu 36.Hieu lurc thi hanh
+#34 [Score: 0.93]: 1.Thong tu nay c6 hi@u luc thi hanh ke tur ngay05thang 5 nam 2026.
+#35 [Score: 0.97]: 2. Co quan, tö chúrc cap C/O xem xét cäp sau C/O m áu UAE-VN theo quy
+#36 [Score: 0.94]: dinh tai Thong tu nay doi v6i hang h6a cua Viet Nam xuat khau tir ngay 03 thang
+#37 [Score: 0.93]: 02 nam 2026.

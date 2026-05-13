@@ -1,0 +1,76 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_001.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+BO CONG THUONG
+CONG HOA XA HOI CHU NGHIA VIET NAM
+Doc lap-Tudo-Hanh phuc
+S6:2 4 /2026/TT-BCT
+Ha Noi, ngay 0S thang 5 nam 2026
+THONG TU
+Quy dinh Quy tac xuát xr hang hóa
+trong Hiep dinh Doi tac kinh te toan dien giura
+Chinh phü nuoc Cong hoa Xa hoi Chu nghia Viet Nam
+va Chinh phu Cac Tieu vuong quoc A-rap thong nhat
+Cän cir Ngh dinh sö 40/2025/ND-CP cia Chinh phi quy dinh chic náng.
+nhiem vu, quyen han ya co cau to chirc cua Bo Cong Thuong, duoc sia doi, bo
+sung bi Nghi dinh so 109/2025/ND-CP, Nghi dinh s6 193/2025/ND-CP;
+Cän ci Nghi dinh so 31/2018/ND-CP cua Chinh phi quy dinh chi tiét Lua
+Quan ly ngoai thuong vé xuat xie hang hoa;
+Cän cu Nghi dinh sö 146/2025/ND-CP cüa Chinh phu quy dinh ve phan
+quyen, phan cäp trong linh vuc cóng nghiép va thuong mai;
+Thuc hien Hiep dinh Doi tac kinh té toan dien giia Chinh phi muóc Cong
+hoa Xa hoi Chi nghia Viét Nam va Chinh phi Cäc Tiéu vuong quöc A-rap thong
+nhat ky ngay 28 thang 10 nam 2024;
+Theo dé nghi cia Cuc truong Cuc Xuat nhap khau
+Bö truöng Bö Cong Thuong ban hanh Thong tu quy dinh Quy tac xuat xit
+hang hoa trongHiep dinhDói tac kinh té toan diengiita Chinhphinróc Cong höa
+Xa hoi Chu nghia Viet Nam va Chinhphu Cac Tieuvuong quoc A-rap thong nhat
+CHU'ONG I
+QUY DINH CHUNG
+Diéu 1. Pham vi diéu chinh
+Thong tu nay quy dinh Quy tac xuat xür hang hoa trong Hi&p dinh Döi tac
+kinh té toan dien giua Chinh phu nuc Cong hoa Xa hoi Chu nghia Viet Nam va
+Chinh phu Cac Tieu vuong quoc A-rap thong nhat (sau day goi la Hiep dinh)
+Dieu 2.Doi tuang äp dung
+Thong tur nay áp dung dói voi:
+1. Co quan, to chúrc cap Giay churng nhan xuat xur hang hóa (C/O)
+2. Thuong nhan.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.94]: BO CONG THUONG
+#2 [Score: 0.89]: CONG HOA XA HOI CHU NGHIA VIET NAM
+#3 [Score: 0.92]: Doc lap-Tudo-Hanh phuc
+#4 [Score: 0.93]: S6:2 4 /2026/TT-BCT
+#5 [Score: 0.91]: Ha Noi, ngay 0S thang 5 nam 2026
+#6 [Score: 0.97]: THONG TU
+#7 [Score: 0.94]: Quy dinh Quy tac xuát xr hang hóa
+#8 [Score: 0.91]: trong Hiep dinh Doi tac kinh te toan dien giura
+#9 [Score: 0.91]: Chinh phü nuoc Cong hoa Xa hoi Chu nghia Viet Nam
+#10 [Score: 0.90]: va Chinh phu Cac Tieu vuong quoc A-rap thong nhat
+#11 [Score: 0.95]: Cän cir Ngh dinh sö 40/2025/ND-CP cia Chinh phi quy dinh chic náng.
+#12 [Score: 0.88]: nhiem vu, quyen han ya co cau to chirc cua Bo Cong Thuong, duoc sia doi, bo
+#13 [Score: 0.95]: sung bi Nghi dinh so 109/2025/ND-CP, Nghi dinh s6 193/2025/ND-CP;
+#14 [Score: 0.93]: Cän ci Nghi dinh so 31/2018/ND-CP cua Chinh phi quy dinh chi tiét Lua
+#15 [Score: 0.93]: Quan ly ngoai thuong vé xuat xie hang hoa;
+#16 [Score: 0.92]: Cän cu Nghi dinh sö 146/2025/ND-CP cüa Chinh phu quy dinh ve phan
+#17 [Score: 0.95]: quyen, phan cäp trong linh vuc cóng nghiép va thuong mai;
+#18 [Score: 0.89]: Thuc hien Hiep dinh Doi tac kinh té toan dien giia Chinh phi muóc Cong
+#19 [Score: 0.92]: hoa Xa hoi Chi nghia Viét Nam va Chinh phi Cäc Tiéu vuong quöc A-rap thong
+#20 [Score: 0.89]: nhat ky ngay 28 thang 10 nam 2024;
+#21 [Score: 0.92]: Theo dé nghi cia Cuc truong Cuc Xuat nhap khau
+#22 [Score: 0.89]: Bö truöng Bö Cong Thuong ban hanh Thong tu quy dinh Quy tac xuat xit
+#23 [Score: 0.85]: hang hoa trongHiep dinhDói tac kinh té toan diengiita Chinhphinróc Cong höa
+#24 [Score: 0.86]: Xa hoi Chu nghia Viet Nam va Chinhphu Cac Tieuvuong quoc A-rap thong nhat
+#25 [Score: 0.89]: CHU'ONG I
+#26 [Score: 0.95]: QUY DINH CHUNG
+#27 [Score: 0.92]: Diéu 1. Pham vi diéu chinh
+#28 [Score: 0.94]: Thong tu nay quy dinh Quy tac xuat xür hang hoa trong Hi&p dinh Döi tac
+#29 [Score: 0.91]: kinh té toan dien giua Chinh phu nuc Cong hoa Xa hoi Chu nghia Viet Nam va
+#30 [Score: 0.92]: Chinh phu Cac Tieu vuong quoc A-rap thong nhat (sau day goi la Hiep dinh)
+#31 [Score: 0.83]: Dieu 2.Doi tuang äp dung
+#32 [Score: 0.94]: Thong tur nay áp dung dói voi:
+#33 [Score: 0.94]: 1. Co quan, to chúrc cap Giay churng nhan xuat xur hang hóa (C/O)
+#34 [Score: 0.99]: 2. Thuong nhan.

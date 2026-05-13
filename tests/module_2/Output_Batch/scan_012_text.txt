@@ -1,0 +1,56 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_012.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+16
+3.Co quan hai quan chap nhan chimg tir chüng nhan xuat xü hang hoa duoc
+phat hanh theo quy dinh tai Thong tu nay de xem xét cho huong uu dai thué quan
+trong Hiep dinh dói vi cac lo hang dang ky t khai hai quan nhap khau tur ngay
+03 thang 02 nam 2026./.
+Noinhan:
+KT.BO TRUONG
+- Thu tuong, cac Pho Thu tuong Chinh phu;
+THU'TRUONG
+-Van phong Chu tich nuc,Van phong Tong Bi thu,
+Van phong Quöc hoi, Van phong TU va cac Ban cua Dang
+ - Cac bo, co quan ngang b, co quan thu§c Chinh phu;
+- UBND cac tinh, TP truc thuc TU;
+- Vien KSND toi cao, Toa an ND toi cao;
+- Cuc Kiem tra van ban va Quan ly XLVPHC - B Tu phap
+- Cong bao;
+- Kiem toan Nha nuoc;
+-Cong thong tin dien tir Chinh phu;
+Nguyen Sinh Nhat Tan
+- Cong thong tin dion tur B Cong Thuong;
+- S Cong Thuong cac tinh, thanh ph;
+- B Cong Thuong: B trung. cac Thur trung;
+cac Cuc, V thuc B, cac to chrc cap C/O;
+-Luu:VT,XNK(5)
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.99]: 16
+#2 [Score: 0.89]: 3.Co quan hai quan chap nhan chimg tir chüng nhan xuat xü hang hoa duoc
+#3 [Score: 0.91]: phat hanh theo quy dinh tai Thong tu nay de xem xét cho huong uu dai thué quan
+#4 [Score: 0.94]: trong Hiep dinh dói vi cac lo hang dang ky t khai hai quan nhap khau tur ngay
+#5 [Score: 0.99]: 03 thang 02 nam 2026./.
+#6 [Score: 0.93]: Noinhan:
+#7 [Score: 0.93]: KT.BO TRUONG
+#8 [Score: 0.94]: - Thu tuong, cac Pho Thu tuong Chinh phu;
+#9 [Score: 0.93]: THU'TRUONG
+#10 [Score: 0.91]: -Van phong Chu tich nuc,Van phong Tong Bi thu,
+#11 [Score: 0.95]: Van phong Quöc hoi, Van phong TU va cac Ban cua Dang
+#12 [Score: 0.94]:  - Cac bo, co quan ngang b, co quan thu§c Chinh phu;
+#13 [Score: 0.92]: - UBND cac tinh, TP truc thuc TU;
+#14 [Score: 0.96]: - Vien KSND toi cao, Toa an ND toi cao;
+#15 [Score: 0.98]: - Cuc Kiem tra van ban va Quan ly XLVPHC - B Tu phap
+#16 [Score: 0.94]: - Cong bao;
+#17 [Score: 0.94]: - Kiem toan Nha nuoc;
+#18 [Score: 0.94]: -Cong thong tin dien tir Chinh phu;
+#19 [Score: 0.94]: Nguyen Sinh Nhat Tan
+#20 [Score: 0.95]: - Cong thong tin dion tur B Cong Thuong;
+#21 [Score: 0.97]: - S Cong Thuong cac tinh, thanh ph;
+#22 [Score: 0.89]: - B Cong Thuong: B trung. cac Thur trung;
+#23 [Score: 0.96]: cac Cuc, V thuc B, cac to chrc cap C/O;
+#24 [Score: 0.86]: -Luu:VT,XNK(5)

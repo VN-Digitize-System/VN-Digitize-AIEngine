@@ -1,0 +1,66 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_014.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+sö hang hoa kem theo cum tir"ngoai tru",Quy tac xuat xur hang hoa nay yeu cau
+nguyén liu b loai trur phai co xuat xur de hang hóa có xuat xur.
+8. Di vi Cot 3 va Cot 4 Ph luc nay, cac thuat ngu duói day duoc hieu
+nhu sau:
+aThuat nguToan bo nguyen lieu thuoc Chuong. co xuat xu thuar
+tüy (WOnghia la cac nguyen li@u noi tren phai dap ng cac tieu chi xuat xur
+thuan tüy theo quy dinh tai Dieu 6 Thong tu nay.
+b) CC (Chuyen döi Chuong) nghia la tat ca cac nguyen liéu khong c6 xuat
+xur duqc sur dung de san xuat ra hang hoa phai chuyén doi ma sö hang hoa  cap
+do 2 so.
+c) CTH (Chuyen doi Nhóm) nghia la tat ca cac nguyen li@u khong co xuat
+xur duqc su dung de san xuat ra hang hóa phai chuyen di ma sö hang hóa  cap
+do 4 so.
+d) CTSH (Chuyén di Phan nhom) nghia la tat ca cac nguyén li@u khong
+co xuat xu dugc su dung de san xuat ra hang hóa phai chuyén doi ma so hang hóa
+ cap do 6 so.
+d) QVC nghia la Ham luong gia tri gia tang dap úng quy dinh tai khoan 1
+Dieu 7 Thong tu nay.
+e) N/A nghia la khong có quy tac xuat xú nao duoc ap dung.
+9. Doi voi Chuong 3, ca, dong vat giap xac, dong vat than mem va dong
+vat khöng xuong söng duói nuóc khac dugc coi la có xuat xú ngay ca khi chüng
+duqc nuoi tir ca con hoac au trung khong c6 xuat xur."Ca con nghia la ca chua
+trung thanh  giai doan hau au trung, bao gom ca giong, con, ca hi non va luon
+con.
+10. Dói vi ghi chu cua Phan IItu Chuong 6 dén Churong 14, hang hoa
+nöng nghiêp va tröng vun duoc trong trén lanh thö cua mt Nuc thanh vien
+duac coi la co xuat xr tai lanh thö cua Nuc thanh vien dó ngay ca khi duoc trong
+tir hat, cu, goc ghép, giam canh, ghép, choi, bup hoac cac b phan song khac cua
+cay nhap khau tur mot Nuoc khong tham gia Hiep dinh.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.89]: sö hang hoa kem theo cum tir"ngoai tru",Quy tac xuat xur hang hoa nay yeu cau
+#2 [Score: 0.94]: nguyén liu b loai trur phai co xuat xur de hang hóa có xuat xur.
+#3 [Score: 0.91]: 8. Di vi Cot 3 va Cot 4 Ph luc nay, cac thuat ngu duói day duoc hieu
+#4 [Score: 0.95]: nhu sau:
+#5 [Score: 0.89]: aThuat nguToan bo nguyen lieu thuoc Chuong. co xuat xu thuar
+#6 [Score: 0.89]: tüy (WOnghia la cac nguyen li@u noi tren phai dap ng cac tieu chi xuat xur
+#7 [Score: 0.96]: thuan tüy theo quy dinh tai Dieu 6 Thong tu nay.
+#8 [Score: 0.92]: b) CC (Chuyen döi Chuong) nghia la tat ca cac nguyen liéu khong c6 xuat
+#9 [Score: 0.93]: xur duqc sur dung de san xuat ra hang hoa phai chuyén doi ma sö hang hoa  cap
+#10 [Score: 0.78]: do 2 so.
+#11 [Score: 0.89]: c) CTH (Chuyen doi Nhóm) nghia la tat ca cac nguyen li@u khong co xuat
+#12 [Score: 0.93]: xur duqc su dung de san xuat ra hang hóa phai chuyen di ma sö hang hóa  cap
+#13 [Score: 0.90]: do 4 so.
+#14 [Score: 0.92]: d) CTSH (Chuyén di Phan nhom) nghia la tat ca cac nguyén li@u khong
+#15 [Score: 0.91]: co xuat xu dugc su dung de san xuat ra hang hóa phai chuyén doi ma so hang hóa
+#16 [Score: 0.91]:  cap do 6 so.
+#17 [Score: 0.93]: d) QVC nghia la Ham luong gia tri gia tang dap úng quy dinh tai khoan 1
+#18 [Score: 0.92]: Dieu 7 Thong tu nay.
+#19 [Score: 0.94]: e) N/A nghia la khong có quy tac xuat xú nao duoc ap dung.
+#20 [Score: 0.90]: 9. Doi voi Chuong 3, ca, dong vat giap xac, dong vat than mem va dong
+#21 [Score: 0.93]: vat khöng xuong söng duói nuóc khac dugc coi la có xuat xú ngay ca khi chüng
+#22 [Score: 0.92]: duqc nuoi tir ca con hoac au trung khong c6 xuat xur."Ca con nghia la ca chua
+#23 [Score: 0.94]: trung thanh  giai doan hau au trung, bao gom ca giong, con, ca hi non va luon
+#24 [Score: 1.00]: con.
+#25 [Score: 0.89]: 10. Dói vi ghi chu cua Phan IItu Chuong 6 dén Churong 14, hang hoa
+#26 [Score: 0.92]: nöng nghiêp va tröng vun duoc trong trén lanh thö cua mt Nuc thanh vien
+#27 [Score: 0.92]: duac coi la co xuat xr tai lanh thö cua Nuc thanh vien dó ngay ca khi duoc trong
+#28 [Score: 0.92]: tir hat, cu, goc ghép, giam canh, ghép, choi, bup hoac cac b phan song khac cua
+#29 [Score: 0.95]: cay nhap khau tur mot Nuoc khong tham gia Hiep dinh.

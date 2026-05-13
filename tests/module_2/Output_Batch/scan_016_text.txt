@@ -1,0 +1,190 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_016.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+MaHS
+Mo ta hang hoa
+Quy tac cu the mat hang
+(1)
+(2)
+(3)
+(4)
+Chuong 11
+Cac san pham xay xat; malt; tinh
+CTH
+QVC 35%
+böt; inulin; gluten lúa mi.
+Chuong 12
+Hat dau va qua co daucac loai
+Toan b nguyen lieu
+N/A
+hat,hat giong va qua khac cay
+thuc Chuong 12 c6
+cong nghiep hoac cay duqc liu;
+xuat xur thuan tüy
+rom, ra va co kho.
+Chuong 13
+Nhua canh kién do; gom, nhua
+CTH
+QVC 35%
+cay, cac chat nhua va cac chat
+chiet xuat tur thuc vat khac.
+Chuong 14
+Vat lieu thuc vat dung de tét ben
+CTH
+QVC 35%
+cac san pham thuc vat chua dugc
+chi tiét hoac ghi  noi khac.
+Chuong 15
+Chat béo va dau có nguon göc tir
+CTSH
+QVC 35%
+dong vat, thuc vat hoac vi sinh vat
+va cac san pham tach tir chüng;
+chat beo an duoc da che bien cac
+loai sap dong vat hoac thurc vat.
+Chuong 16
+Cac che pham tir thit, ca, dong vat
+CTSH
+QVC 35%
+giap xac, dng vat than mem hoac
+dong vat thüy sinh khong xuong
+song khac.
+Chuong 17
+Dung va cac loai keo dung
+CTSH
+QVC 35%
+Chuong 18
+Ca cao va cac che pham tir ca cao.
+CTSH
+QVC 35%
+Chuong 19
+Che pham tur ngu coc,bt,tinh
+CTH
+QVC 35%
+bot hoac sua; cac loai banh.
+Chuong 20
+Cac chepham tu rau,qua,qua
+CTSH
+QVC 35%
+hach (nuts) hoac cac phan khac
+cua cay.
+Chuong 21
+Cac che pham an duge khac.
+CTSH
+QVC 35%
+Chuong 22
+D uong, ruqu va giam.
+CTH
+QVC 35%
+Chuong 23
+Phe lieu va phe thai tur nganh cong
+CTSH
+QVC 35%
+nghiep thuc pham thuc an gia suc
+da che bién.
+Chuong 24
+Thuóc la va nguyen lieu thay the
+CTH
+QVC 35%
+la thuoc la da che bién.
+Chuong 25
+Muiluu huynhdat va da thach
+CTH
+QVC 35%
+cao, voi.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.96]: MaHS
+#2 [Score: 0.88]: Mo ta hang hoa
+#3 [Score: 0.96]: Quy tac cu the mat hang
+#4 [Score: 0.99]: (1)
+#5 [Score: 0.94]: (2)
+#6 [Score: 0.97]: (3)
+#7 [Score: 0.89]: (4)
+#8 [Score: 0.99]: Chuong 11
+#9 [Score: 0.94]: Cac san pham xay xat; malt; tinh
+#10 [Score: 1.00]: CTH
+#11 [Score: 0.93]: QVC 35%
+#12 [Score: 0.94]: böt; inulin; gluten lúa mi.
+#13 [Score: 0.99]: Chuong 12
+#14 [Score: 0.89]: Hat dau va qua co daucac loai
+#15 [Score: 0.88]: Toan b nguyen lieu
+#16 [Score: 0.99]: N/A
+#17 [Score: 0.91]: hat,hat giong va qua khac cay
+#18 [Score: 0.99]: thuc Chuong 12 c6
+#19 [Score: 0.93]: cong nghiep hoac cay duqc liu;
+#20 [Score: 0.89]: xuat xur thuan tüy
+#21 [Score: 0.97]: rom, ra va co kho.
+#22 [Score: 0.97]: Chuong 13
+#23 [Score: 0.92]: Nhua canh kién do; gom, nhua
+#24 [Score: 0.99]: CTH
+#25 [Score: 0.99]: QVC 35%
+#26 [Score: 0.90]: cay, cac chat nhua va cac chat
+#27 [Score: 0.97]: chiet xuat tur thuc vat khac.
+#28 [Score: 0.99]: Chuong 14
+#29 [Score: 0.92]: Vat lieu thuc vat dung de tét ben
+#30 [Score: 1.00]: CTH
+#31 [Score: 1.00]: QVC 35%
+#32 [Score: 0.95]: cac san pham thuc vat chua dugc
+#33 [Score: 0.94]: chi tiét hoac ghi  noi khac.
+#34 [Score: 0.99]: Chuong 15
+#35 [Score: 0.86]: Chat béo va dau có nguon göc tir
+#36 [Score: 1.00]: CTSH
+#37 [Score: 1.00]: QVC 35%
+#38 [Score: 0.88]: dong vat, thuc vat hoac vi sinh vat
+#39 [Score: 0.95]: va cac san pham tach tir chüng;
+#40 [Score: 0.84]: chat beo an duoc da che bien cac
+#41 [Score: 0.94]: loai sap dong vat hoac thurc vat.
+#42 [Score: 0.99]: Chuong 16
+#43 [Score: 0.89]: Cac che pham tir thit, ca, dong vat
+#44 [Score: 1.00]: CTSH
+#45 [Score: 1.00]: QVC 35%
+#46 [Score: 0.92]: giap xac, dng vat than mem hoac
+#47 [Score: 0.95]: dong vat thüy sinh khong xuong
+#48 [Score: 0.98]: song khac.
+#49 [Score: 0.99]: Chuong 17
+#50 [Score: 0.98]: Dung va cac loai keo dung
+#51 [Score: 1.00]: CTSH
+#52 [Score: 0.98]: QVC 35%
+#53 [Score: 0.99]: Chuong 18
+#54 [Score: 0.97]: Ca cao va cac che pham tir ca cao.
+#55 [Score: 1.00]: CTSH
+#56 [Score: 0.99]: QVC 35%
+#57 [Score: 0.98]: Chuong 19
+#58 [Score: 0.81]: Che pham tur ngu coc,bt,tinh
+#59 [Score: 1.00]: CTH
+#60 [Score: 0.97]: QVC 35%
+#61 [Score: 0.95]: bot hoac sua; cac loai banh.
+#62 [Score: 0.99]: Chuong 20
+#63 [Score: 0.89]: Cac chepham tu rau,qua,qua
+#64 [Score: 1.00]: CTSH
+#65 [Score: 0.99]: QVC 35%
+#66 [Score: 0.98]: hach (nuts) hoac cac phan khac
+#67 [Score: 0.98]: cua cay.
+#68 [Score: 0.99]: Chuong 21
+#69 [Score: 0.96]: Cac che pham an duge khac.
+#70 [Score: 1.00]: CTSH
+#71 [Score: 0.93]: QVC 35%
+#72 [Score: 0.97]: Chuong 22
+#73 [Score: 0.90]: D uong, ruqu va giam.
+#74 [Score: 1.00]: CTH
+#75 [Score: 0.99]: QVC 35%
+#76 [Score: 0.99]: Chuong 23
+#77 [Score: 0.89]: Phe lieu va phe thai tur nganh cong
+#78 [Score: 1.00]: CTSH
+#79 [Score: 1.00]: QVC 35%
+#80 [Score: 0.91]: nghiep thuc pham thuc an gia suc
+#81 [Score: 0.96]: da che bién.
+#82 [Score: 1.00]: Chuong 24
+#83 [Score: 0.93]: Thuóc la va nguyen lieu thay the
+#84 [Score: 1.00]: CTH
+#85 [Score: 1.00]: QVC 35%
+#86 [Score: 0.93]: la thuoc la da che bién.
+#87 [Score: 0.98]: Chuong 25
+#88 [Score: 0.92]: Muiluu huynhdat va da thach
+#89 [Score: 1.00]: CTH
+#90 [Score: 0.99]: QVC 35%
+#91 [Score: 0.99]: cao, voi.

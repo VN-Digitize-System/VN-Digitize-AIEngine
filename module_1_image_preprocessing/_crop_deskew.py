@@ -87,26 +87,6 @@ def detect_and_crop(
     
     return rotated, hough_angle, debug_img
 
-
-# def _find_document_contour(
-#     contours: list, image_shape: tuple, cfg: CropDeskewConfig
-# ) -> np.ndarray | None:
-#     image_area = image_shape[0] * image_shape[1]
-#     min_area = image_area * cfg.min_area_ratio
-
-#     for contour in sorted(contours, key=cv2.contourArea, reverse=True)[:8]:
-#         if cv2.contourArea(contour) < min_area:
-#             break
-
-#         peri = cv2.arcLength(contour, True)
-
-#         # Iterative Search (Code B)
-#         for eps in _APPROX_EPSILONS:
-#             approx = cv2.approxPolyDP(contour, eps * peri, True)
-#             if len(approx) == 4:
-#                 return approx.reshape(4, 2).astype(np.float32)
-#     return None
-
 def _find_document_contour(
     contours: list, image_shape: tuple, cfg: CropDeskewConfig
 ) -> np.ndarray | None:

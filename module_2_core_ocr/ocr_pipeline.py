@@ -2,9 +2,6 @@ import numpy as np
 from paddleocr import PaddleOCR
 from shared_utils.logger import get_logger
 
-# Kế thừa Gói hàng từ Module 1
-from module_1_image_preprocessing.models import PreprocessResult
-
 # Nhập nội bộ
 from .models import OcrResult, OcrWord, BoundingBox
 from .config import OcrConfig
@@ -22,28 +19,38 @@ class OcrEngine:
             lang=self._config.lang,
         )
 
-    def process(self, preprocessed_data: PreprocessResult) -> OcrResult:
-        # 1. Kiểm tra đầu vào từ Module 1
-        if not preprocessed_data or preprocessed_data.processed_image is None:
-            return OcrResult(is_success=False, words=[], full_text="", error_message="Ảnh đầu vào trống hoặc bị lỗi Crop.")
+    def process(self, preprocessor, image_path: str) -> tuple[OcrResult, np.ndarray | None]:
+        """
+        Nhận đối tượng preprocessor để tự điều phối luồng đi từ M1 sang M2.
+        Trả về 2 giá trị: (Kết quả OCR, Ảnh đã qua xử lý để vẽ debug)
+        """
         
-        # 2. Cơ chế tiết kiệm tài nguyên (Kế thừa trí tuệ Module 1)
-        if preprocessed_data.is_blank:
-            logger.warning("Trang trắng. Bỏ qua chạy OCR AI để tiết kiệm CPU.")
-            return OcrResult(is_success=True, words=[], full_text="[TRANG_TRẮNG]")
+        # 1. Gọi Module 1 và truyền công tắc lấy từ Config của Module 2
+        logger.info(f"Đang thực thi Pipeline với skip_crop={self._config.skip_preprocessing_crop}")
+        
+        m1_result = preprocessor.process(
+            image_path, 
+            skip_crop=self._config.skip_preprocessing_crop
+        )
 
-        # 3. Kích hoạt AI
-        image = preprocessed_data.processed_image
-        logger.info("Đang chạy OCR Detection & Recognition...")
+        # 2. Kiểm tra nếu Module 1 báo lỗi hoặc trang trắng
+        if not m1_result or m1_result.processed_image is None:
+            m2_result = OcrResult(is_success=False, words=[], full_text="", error_message="M1 Fail")
+            return m2_result, None
+            
+        if m1_result.is_blank:
+            m2_result = OcrResult(is_success=True, words=[], full_text="[BLANK_PAGE]")
+            return m2_result, m1_result.processed_image
+
+        # 3. Chạy OCR trên ảnh đã xử lý từ M1
+        image = m1_result.processed_image
         
         try:
-            # PaddleOCR trả về format khá lằng nhằng: [[[[x,y],[x,y],[x,y],[x,y]], ("text", confidence)], ...]
             raw_result = self.ocr.ocr(image, cls=self._config.use_angle_cls)
             
             words = []
             full_text_parts = []
             
-            # Đảm bảo có kết quả trả về
             if raw_result and raw_result[0]:
                 for line in raw_result[0]:
                     box = line[0]           # Tọa độ 4 góc
@@ -58,7 +65,9 @@ class OcrEngine:
                     full_text_parts.append(text)
                     
             logger.info(f"Hoàn tất. Trích xuất được {len(words)} dòng chữ.")
-            return OcrResult(
+            
+            # Thay vì return thẳng, ta GÁN kết quả vào biến m2_result
+            m2_result = OcrResult(
                 is_success=True,
                 words=words,
                 full_text="\n".join(full_text_parts)
@@ -66,4 +75,7 @@ class OcrEngine:
             
         except Exception as e:
             logger.error(f"Lỗi hệ thống OCR: {e}")
-            return OcrResult(is_success=False, words=[], full_text="", error_message=str(e))
+            m2_result = OcrResult(is_success=False, words=[], full_text="", error_message=str(e))
+        
+    
+        return m2_result, m1_result.processed_image

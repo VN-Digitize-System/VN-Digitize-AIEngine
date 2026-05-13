@@ -1,0 +1,30 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_031.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+Phu luc IV
+MAU KHAI BAO CUANHAXUAT KHAU BATKY
+Ban hanh kém theo Thongtu so24/2026/TT-BCT
+ngay 0S thang 5 nam 2026 cua Bo truong B Cong Thuong
+quy dinh Quy tác xuat xir hang hóa trong Hiep dinh Dói tác kinh te toan dien
+Viét Nam vá Cäc tiéu vuong quöc A-rap Thong nhat)
+The exporter of the goods covered by this document declares that these goods,
+unless otherwise clearly specified, comply with and satisfy the provisions of
+Chapter 3 (Rules of Origin) of the UAE-Vietnam CEPA.
+Place and Date
+Name, signature and seal of the exporter
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.98]: Phu luc IV
+#2 [Score: 0.93]: MAU KHAI BAO CUANHAXUAT KHAU BATKY
+#3 [Score: 0.88]: Ban hanh kém theo Thongtu so24/2026/TT-BCT
+#4 [Score: 0.92]: ngay 0S thang 5 nam 2026 cua Bo truong B Cong Thuong
+#5 [Score: 0.88]: quy dinh Quy tác xuat xir hang hóa trong Hiep dinh Dói tác kinh te toan dien
+#6 [Score: 0.89]: Viét Nam vá Cäc tiéu vuong quöc A-rap Thong nhat)
+#7 [Score: 0.99]: The exporter of the goods covered by this document declares that these goods,
+#8 [Score: 0.97]: unless otherwise clearly specified, comply with and satisfy the provisions of
+#9 [Score: 0.96]: Chapter 3 (Rules of Origin) of the UAE-Vietnam CEPA.
+#10 [Score: 0.97]: Place and Date
+#11 [Score: 0.97]: Name, signature and seal of the exporter

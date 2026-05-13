@@ -1,0 +1,82 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_004.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+CHU'ONGII
+CACH XAC DINH XUAT XU HANG HOA
+Dieu 5.Hang h6a coxuat xu
+Hang hóa duoc coi la co xuat xur tai lanh tho cua mot Nuc thanh vien neu
+hang hoado:
+1. Có xuat xu thuan túy tai lanh tho cua Nu&c thanh vien dó theo quy dinh
+tai Dieu 6 Thong tu nay.
+2.Co xuat xu khong thuan tüy tai lanh th cua Nuc thanh vien d6 vi
+dieu kien hang hóa dó trai qua cac cong doan gia cong, ché bien day du theo quy
+dinh tai Dieu 7 Thong tu nay.
+3. Duoc san xuat tai lanh thö cua Nuóc thanh vien dó chi ti nguyen lieu
+co xuat xur.
+Diéu 6.Hang hoa co xuat xér thuan tüy
+Theo quy dinh tai khoan 1 Dieu 5 Thong tu nay, hang hóa dugc coi la co
+xuat xur thuan tüy hoac duoc san xuat toan bo tai lanh tho cua mot Nuc thanh
+vien trong cac truong hop sau:
+1. Cay trong va san pham tir cay trong duqc trong, thu luqm hoac thu hoach
+tai lanh tho cua Nuoc thanh vien d6.
+2.Dong vat song duoc sinh ra hoac nuoi dung tai lanh tho cua Nuoc thanh
+vien do.
+3.Hang hóa thu duoc tur dong vat song tai lanh tho cua Nuoc thanh vien do.
+4.Khoang san hoac tai nguyen thien nhien duoc khai thac hoac thu duoc tu
+dat, long dat, vung nuóc, day bien hoac durói day bien cua Nuoc thanh vien do.
+5.Hang hoa thu duoc tur san ban, danh bay, thu thap, san bat, danh bat hoac
+nuoi trong thuy san tai lanh tho cua Nuoc thanh vien dó.
+6. Hai san va cäc san pham tir bien khac danh bat ngoai lanh hai cua lanh
+tho cua Nuóc thanh vien boi tau dugc dang ky,ghi ly lich,niem yét hoac cap
+giay phép tai mot Nuoc thanh vien va treo c cua Nu&c thanh vien dó.
+7.Hang hoa duoc san xuat ngay tren boong tau duoc dang ky,ghi ly lich.
+niem yet hoac cap giay phep tai mot Nuc thanh vienva treo c cua Nuc thanh
+vien do chi tu hang hóa duoc quy dinh tai khoan 8 Dieu nay.
+8. Hang hóa, trur hai san va cac san pham tur bién khac, thu duroc hoac khai
+thac tir day bien, day dai duong hoac long dat duói them luc dia hoac vung dac
+quyen kinh te cua bat ky Nuoc thanhvien,boi mot Nuoc thanh vien hoac ca nhan,
+to churc cua mot Nuoc thanh vien,voi dieu kien Nuoc thanh vien dó hoac ca nhan,
+to chuc cua mt Nuóc thanh vien co quyen khai thac day bien, day dai duong
+hoac long dat, phu hop voi quy dinh luat phap quoc té.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.93]: CHU'ONGII
+#2 [Score: 0.98]: CACH XAC DINH XUAT XU HANG HOA
+#3 [Score: 0.86]: Dieu 5.Hang h6a coxuat xu
+#4 [Score: 0.89]: Hang hóa duoc coi la co xuat xur tai lanh tho cua mot Nuc thanh vien neu
+#5 [Score: 0.91]: hang hoado:
+#6 [Score: 0.92]: 1. Có xuat xu thuan túy tai lanh tho cua Nu&c thanh vien dó theo quy dinh
+#7 [Score: 0.95]: tai Dieu 6 Thong tu nay.
+#8 [Score: 0.89]: 2.Co xuat xu khong thuan tüy tai lanh th cua Nuc thanh vien d6 vi
+#9 [Score: 0.93]: dieu kien hang hóa dó trai qua cac cong doan gia cong, ché bien day du theo quy
+#10 [Score: 0.96]: dinh tai Dieu 7 Thong tu nay.
+#11 [Score: 0.89]: 3. Duoc san xuat tai lanh thö cua Nuóc thanh vien dó chi ti nguyen lieu
+#12 [Score: 0.95]: co xuat xur.
+#13 [Score: 0.84]: Diéu 6.Hang hoa co xuat xér thuan tüy
+#14 [Score: 0.92]: Theo quy dinh tai khoan 1 Dieu 5 Thong tu nay, hang hóa dugc coi la co
+#15 [Score: 0.91]: xuat xur thuan tüy hoac duoc san xuat toan bo tai lanh tho cua mot Nuc thanh
+#16 [Score: 0.97]: vien trong cac truong hop sau:
+#17 [Score: 0.94]: 1. Cay trong va san pham tir cay trong duqc trong, thu luqm hoac thu hoach
+#18 [Score: 0.90]: tai lanh tho cua Nuoc thanh vien d6.
+#19 [Score: 0.90]: 2.Dong vat song duoc sinh ra hoac nuoi dung tai lanh tho cua Nuoc thanh
+#20 [Score: 0.86]: vien do.
+#21 [Score: 0.89]: 3.Hang hóa thu duoc tur dong vat song tai lanh tho cua Nuoc thanh vien do.
+#22 [Score: 0.91]: 4.Khoang san hoac tai nguyen thien nhien duoc khai thac hoac thu duoc tu
+#23 [Score: 0.90]: dat, long dat, vung nuóc, day bien hoac durói day bien cua Nuoc thanh vien do.
+#24 [Score: 0.90]: 5.Hang hoa thu duoc tur san ban, danh bay, thu thap, san bat, danh bat hoac
+#25 [Score: 0.91]: nuoi trong thuy san tai lanh tho cua Nuoc thanh vien dó.
+#26 [Score: 0.92]: 6. Hai san va cäc san pham tir bien khac danh bat ngoai lanh hai cua lanh
+#27 [Score: 0.90]: tho cua Nuóc thanh vien boi tau dugc dang ky,ghi ly lich,niem yét hoac cap
+#28 [Score: 0.89]: giay phép tai mot Nuoc thanh vien va treo c cua Nu&c thanh vien dó.
+#29 [Score: 0.93]: 7.Hang hoa duoc san xuat ngay tren boong tau duoc dang ky,ghi ly lich.
+#30 [Score: 0.90]: niem yet hoac cap giay phep tai mot Nuc thanh vienva treo c cua Nuc thanh
+#31 [Score: 0.93]: vien do chi tu hang hóa duoc quy dinh tai khoan 8 Dieu nay.
+#32 [Score: 0.93]: 8. Hang hóa, trur hai san va cac san pham tur bién khac, thu duroc hoac khai
+#33 [Score: 0.91]: thac tir day bien, day dai duong hoac long dat duói them luc dia hoac vung dac
+#34 [Score: 0.90]: quyen kinh te cua bat ky Nuoc thanhvien,boi mot Nuoc thanh vien hoac ca nhan,
+#35 [Score: 0.89]: to churc cua mot Nuoc thanh vien,voi dieu kien Nuoc thanh vien dó hoac ca nhan,
+#36 [Score: 0.92]: to chuc cua mt Nuóc thanh vien co quyen khai thac day bien, day dai duong
+#37 [Score: 0.95]: hoac long dat, phu hop voi quy dinh luat phap quoc té.

@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 
 from .config import PreprocessConfig
-from .models import BarcodeInfo, PreprocessResult
+from .models import PreprocessResult
 from ._crop_deskew import detect_and_crop
 from ._detect import detect_barcodes, detect_blank_page
 from ._enhance import enhance_image
@@ -25,7 +25,7 @@ class ImagePreprocessor:
     def from_yaml(cls, config_path: str | Path) -> ImagePreprocessor:
         return cls(config=PreprocessConfig.from_yaml(config_path))
 
-    def process(self, image: np.ndarray | str | Path) -> PreprocessResult:
+    def process(self, image: str | np.ndarray, skip_crop: bool = False) -> PreprocessResult:
         source = image if not isinstance(image, np.ndarray) else "numpy array"
         logger.info(f"Processing: {source}")
 
@@ -47,37 +47,47 @@ class ImagePreprocessor:
 
         barcodes = detect_barcodes(original, self._config.detect)
 
+       # ==========================================
+        # BƯỚC 1: CẮT GÓC & XOAY PHẲNG (CÓ CÔNG TẮC)
         # ==========================================
-        # BƯỚC 1: CẮT GÓC & XOAY PHẲNG 
-        # ==========================================
-        cropped, skew_angle, debug_img = detect_and_crop(original, self._config.crop_deskew)
-
-        crop_area = cropped.shape[0] * cropped.shape[1]
-        orig_area = original.shape[0] * original.shape[1]
-        crop_ratio = crop_area / orig_area
-        
-        # 🚨 CƠ CHẾ PHÒNG THỦ KÉP (DUAL FAIL-SAFE)
-        # 1. Quá to (>= 0.90): Cắt nhầm toàn bộ viền ngoài của ảnh
-        # 2. Quá nhỏ (<= 0.15): Cắt nhầm vết nhiễu/logo trên một bản Scan phẳng
-        crop_failed = (crop_ratio >= 0.90) or (crop_ratio <= 0.30)
-
-        if crop_failed:
-            warnings.append("CROP_FAILED_PLEASE_RETAKE")
-            logger.warning(f"⚠️ Lỗi Crop (Tỷ lệ: {crop_ratio:.2f}). Kích hoạt Bypass: Dùng ảnh gốc.")
+        if skip_crop:
+            # NẾU BẬT CÔNG TẮC: Bypass hoàn toàn hàm Crop
+            logger.info("🔘 CÔNG TẮC BẬT (skip_crop=True): Bỏ qua cắt viền, dùng thẳng ảnh gốc.")
+            cropped = original.copy()
+            skew_angle = 0.0
+            crop_failed = False
             
-            # Gán giá trị an toàn mặc định
-            is_blank = False 
-            processed = original
+            # THÊM DÒNG NÀY: Khởi tạo debug_img khi không crop
+            debug_img = None 
             
         else:
-            # ==========================================
-            # BƯỚC 2: NHẬN DIỆN (CHỈ CHẠY KHI CROP THÀNH CÔNG)
-            # ==========================================
-            is_blank = detect_blank_page(cropped, self._config.detect)
-                
-            # ==========================================
-            # BƯỚC 3: TẨY TRẮNG VÀ LÀM NÉT
-            # ==========================================
+            # NẾU TẮT CÔNG TẮC: Chạy Crop bình thường cho ảnh chụp
+            cropped, skew_angle, debug_img = detect_and_crop(original, self._config.crop_deskew)
+            
+            crop_area = cropped.shape[0] * cropped.shape[1]
+            orig_area = original.shape[0] * original.shape[1]
+            crop_ratio = crop_area / orig_area
+            
+            # Giữ lại lớp phòng thủ kép để bọc lót
+            crop_failed = (crop_ratio >= 0.90) or (crop_ratio <= 0.30)
+            
+            if crop_failed:
+                warnings.append("CROP_FAILED_PLEASE_RETAKE")
+                logger.warning(f"⚠️ Lỗi Crop (Tỷ lệ: {crop_ratio:.2f}). Kích hoạt Bypass tự động.")
+                cropped = original.copy() # Lùi về dùng ảnh gốc
+                skew_angle = 0.0
+
+        # ==========================================
+        # BƯỚC 2 & 3: TRANG TRẮNG VÀ TẨY TRẮNG
+        # ==========================================
+        is_blank = detect_blank_page(cropped, self._config.detect)
+        
+        # Nếu đã skip_crop hoặc crop_failed, BỎ QUA LUÔN ENHANCE
+        if crop_failed or skip_crop:
+            logger.info("🔘 Bỏ qua tẩy trắng (Enhance) để giữ nguyên độ sắc nét của bản Scan.")
+            processed = cropped 
+        else:
+            # Chỉ tẩy trắng đối với ảnh chụp thật (đã qua crop thành công)
             processed = enhance_image(cropped, self._config.enhance)
 
         logger.info(

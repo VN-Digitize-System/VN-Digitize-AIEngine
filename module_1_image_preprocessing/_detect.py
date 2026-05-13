@@ -10,60 +10,6 @@ from shared_utils.logger import get_logger
 
 logger = get_logger(__name__)
 
-
-# def detect_blank_page(image: np.ndarray, cfg: DetectConfig) -> bool:
-#     if not cfg.blank_page.enabled:
-#         return False
-
-#     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) if len(image.shape) == 3 else image
-#     _, binary = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-
-#     white_ratio = float(np.sum(binary == 255) / binary.size)
-#     is_blank = white_ratio >= cfg.blank_page.white_pixel_ratio_threshold
-
-#     if is_blank:
-#         logger.warning(f"Blank page detected (white_ratio={white_ratio:.3f})")
-#     else:
-#         logger.debug(f"Blank page check passed: white_ratio={white_ratio:.3f}")
-
-#     return is_blank
-
-# def detect_blank_page(image: np.ndarray, cfg: DetectConfig) -> bool:
-#     if not cfg.blank_page.enabled:
-#         return False
-
-#     # Chuyển xám
-#     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) if len(image.shape) == 3 else image
-    
-#     # --- BẮT ĐẦU KỸ THUẬT CẠO LỀ (MARGIN SHAVING) ---
-#     h, w = gray.shape
-#     margin_y = int(h * 0.05)  # Cắt bỏ 5% lề trên và dưới
-#     margin_x = int(w * 0.05)  # Cắt bỏ 5% lề trái và phải
-    
-#     # Chỉ lấy vùng lõi ở giữa để xét trang trắng
-#     core_roi = gray[margin_y:h-margin_y, margin_x:w-margin_x]
-#     # ------------------------------------------------
-
-#     # 1. Làm mờ để xóa các nếp gấp mờ trên vùng lõi
-#     blurred = cv2.GaussianBlur(core_roi, (5, 5), 0)
-
-#     # 2. Bắt viền bằng Canny
-#     edges = cv2.Canny(blurred, 30, 150)
-
-#     # 3. Tính tỷ lệ pixel Viền (Edge Ratio) trên vùng lõi
-#     edge_ratio = float(np.count_nonzero(edges) / edges.size)
-
-#     # Giới hạn 1% (0.01)
-#     is_blank = edge_ratio < 0.01
-
-#     if is_blank:
-#         logger.warning(f"Blank page detected (edge_ratio={edge_ratio:.5f} < 0.01)")
-#     else:
-#         logger.debug(f"Blank page check passed: edge_ratio={edge_ratio:.5f}")
-
-#     return is_blank
-
-
 def detect_blank_page(image: np.ndarray, cfg: DetectConfig) -> bool:
     if not cfg.blank_page.enabled:
         return False

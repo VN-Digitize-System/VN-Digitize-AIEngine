@@ -1,0 +1,180 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_018.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+Ma HS
+Mo ta hang hoa
+Quy tac cu the mat hang
+(1)
+(2)
+(3)
+(4)
+Churong 36
+Chat no; cac san pham phao;
+CTH
+QVC 35%
+diemcac hop kim tu chaycac
+ché pham de chay khac.
+Chuong 37
+Vat lieu anh hoac dien anh.
+CTH
+QVC 35%
+Chuong 38
+Cac san pham hoa chat khac.
+CTH
+QVC 35%
+Chuong 39
+Plastic va cac san pham bang
+HLD
+QVC 35%
+plastic.
+Chuong 40
+Cao su va cac san pham bang cao
+CTH
+QVC 35%
+su.
+Chuong 41
+Da söng (tr'r da long) va da thuc.
+CTH
+QVC 35%
+Chuong 42
+Cac san pham bang da thuöc; yen
+CTH
+QVC 35%
+cuong va byen cuong cac mat
+hang du lich, ti xach va cac loai
+d chúra tuong tu; cac san pham
+lam tir ru$t döng vat (trir rut con
+tam).
+Chuong 43
+Da long va da 1ong nhan tao cac
+CTH
+QVC 35%
+san pham lam tur da long va da
+long nhan tao.
+Chuong 44
+G va cac mat hang bang g; than
+CTH
+QVC 35%
+tir go.
+Chuong 45
+Lie va cac san pham bang lie.
+CTH
+QVC 35%
+Chuong 46
+San pham lam tur rom, co giay
+CTH
+QVC 35%
+hoac tir cac loai vat lieu tet ben
+khac; cac san pham bang lieu gai
+va song may.
+Chuong 47
+Bt giay t g hoac tur nguyen
+CTH
+QVC 35%
+li@u xo xenlulo khac;giay loai
+hoac bia loai thu hoi (phe li@u va
+vun thira).
+Chuong 48
+Giay va bia cac san pham lam
+CTH
+QVC 35%
+bang bot giay, bang giay hoac
+bang bia.
+Chuong 49
+Sach,bao, tranh anh va cac san
+CTH
+QVC 35%
+pham khac cua cong nghiep in;
+cac loai ban thao viet bang tay,
+danh may va so do.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.89]: Ma HS
+#2 [Score: 0.95]: Mo ta hang hoa
+#3 [Score: 0.94]: Quy tac cu the mat hang
+#4 [Score: 0.97]: (1)
+#5 [Score: 0.98]: (2)
+#6 [Score: 0.96]: (3)
+#7 [Score: 0.97]: (4)
+#8 [Score: 0.99]: Churong 36
+#9 [Score: 0.88]: Chat no; cac san pham phao;
+#10 [Score: 1.00]: CTH
+#11 [Score: 1.00]: QVC 35%
+#12 [Score: 0.94]: diemcac hop kim tu chaycac
+#13 [Score: 0.92]: ché pham de chay khac.
+#14 [Score: 1.00]: Chuong 37
+#15 [Score: 0.96]: Vat lieu anh hoac dien anh.
+#16 [Score: 1.00]: CTH
+#17 [Score: 1.00]: QVC 35%
+#18 [Score: 1.00]: Chuong 38
+#19 [Score: 0.95]: Cac san pham hoa chat khac.
+#20 [Score: 0.99]: CTH
+#21 [Score: 1.00]: QVC 35%
+#22 [Score: 1.00]: Chuong 39
+#23 [Score: 0.93]: Plastic va cac san pham bang
+#24 [Score: 0.70]: HLD
+#25 [Score: 1.00]: QVC 35%
+#26 [Score: 1.00]: plastic.
+#27 [Score: 0.97]: Chuong 40
+#28 [Score: 0.95]: Cao su va cac san pham bang cao
+#29 [Score: 1.00]: CTH
+#30 [Score: 0.96]: QVC 35%
+#31 [Score: 1.00]: su.
+#32 [Score: 1.00]: Chuong 41
+#33 [Score: 0.94]: Da söng (tr'r da long) va da thuc.
+#34 [Score: 1.00]: CTH
+#35 [Score: 1.00]: QVC 35%
+#36 [Score: 0.96]: Chuong 42
+#37 [Score: 0.93]: Cac san pham bang da thuöc; yen
+#38 [Score: 1.00]: CTH
+#39 [Score: 0.94]: QVC 35%
+#40 [Score: 0.93]: cuong va byen cuong cac mat
+#41 [Score: 0.92]: hang du lich, ti xach va cac loai
+#42 [Score: 0.91]: d chúra tuong tu; cac san pham
+#43 [Score: 0.91]: lam tir ru$t döng vat (trir rut con
+#44 [Score: 0.97]: tam).
+#45 [Score: 1.00]: Chuong 43
+#46 [Score: 0.90]: Da long va da 1ong nhan tao cac
+#47 [Score: 0.99]: CTH
+#48 [Score: 1.00]: QVC 35%
+#49 [Score: 0.88]: san pham lam tur da long va da
+#50 [Score: 0.95]: long nhan tao.
+#51 [Score: 1.00]: Chuong 44
+#52 [Score: 0.94]: G va cac mat hang bang g; than
+#53 [Score: 1.00]: CTH
+#54 [Score: 0.96]: QVC 35%
+#55 [Score: 0.89]: tir go.
+#56 [Score: 0.99]: Chuong 45
+#57 [Score: 0.98]: Lie va cac san pham bang lie.
+#58 [Score: 1.00]: CTH
+#59 [Score: 1.00]: QVC 35%
+#60 [Score: 1.00]: Chuong 46
+#61 [Score: 0.89]: San pham lam tur rom, co giay
+#62 [Score: 0.99]: CTH
+#63 [Score: 1.00]: QVC 35%
+#64 [Score: 0.89]: hoac tir cac loai vat lieu tet ben
+#65 [Score: 0.92]: khac; cac san pham bang lieu gai
+#66 [Score: 1.00]: va song may.
+#67 [Score: 1.00]: Chuong 47
+#68 [Score: 0.85]: Bt giay t g hoac tur nguyen
+#69 [Score: 1.00]: CTH
+#70 [Score: 0.99]: QVC 35%
+#71 [Score: 0.89]: li@u xo xenlulo khac;giay loai
+#72 [Score: 0.97]: hoac bia loai thu hoi (phe li@u va
+#73 [Score: 0.94]: vun thira).
+#74 [Score: 1.00]: Chuong 48
+#75 [Score: 0.89]: Giay va bia cac san pham lam
+#76 [Score: 1.00]: CTH
+#77 [Score: 0.93]: QVC 35%
+#78 [Score: 0.88]: bang bot giay, bang giay hoac
+#79 [Score: 0.98]: bang bia.
+#80 [Score: 0.99]: Chuong 49
+#81 [Score: 0.93]: Sach,bao, tranh anh va cac san
+#82 [Score: 1.00]: CTH
+#83 [Score: 1.00]: QVC 35%
+#84 [Score: 0.92]: pham khac cua cong nghiep in;
+#85 [Score: 0.93]: cac loai ban thao viet bang tay,
+#86 [Score: 0.98]: danh may va so do.

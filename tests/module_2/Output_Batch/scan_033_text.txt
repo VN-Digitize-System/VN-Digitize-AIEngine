@@ -1,0 +1,86 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_033.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+Dieu 8.Hang hoa trung gian
+Trung hop hang hóa có xuat xúr tai lanh thö cua möt Nuöc thanh vien theo
+quy dinh tai Dieu 7 Thong tu nay duoc sur dung de san xuat ra mot san pham khac
+cac dieu kien ap dung cho san pham khac d6 khong ap dung doi vói hang hóa
+düng lam nguyen liu va khong tinh dén cac nguyén lieu khong co xuat xu da
+dugc sur dung trong qua trinh san xuat ra hang hóa dó.
+Dieu 9.Cong gop
+1. Hang h6a có xuat xú tai möt Nu&c thanh vien duqc sur dung lam nguyén
+li@u cho thanh pham duqc ché bién hoac san xuat tai lanh th cua Nuc thanh vien
+khac s duoc coi la nguyen lieu coxuat xur tai Nuc thanh vien noi gia cong hoac
+che bién ra thanh pham.
+2. Hang hóa có xuat xúr tai mt Nuöc thanh vien nhung chi trai qua cong
+doan gia cöng, ché bién don gian theo quy dinh tai Dieu 11 Thong tu nay tai Nuóc
+thanh vien khac thi s duqc gir nguyen xuat xur cua Nuoc thanh vien ban dau.
+Dieu 10.Han mtrc linh hoat
+1. Hang hóa khong dap úng quy täc chuyén doi ma sö hang hóa van duqc
+coi la có xuat xur néu tri gia cua tat ca cac nguyén li@u khong co xuat xur de san
+xuat ra hang hoa khong trai qua chuyén di ma sö hang hoa, khong vuot qua 20%
+gia xuat xuong cua hang hoa do.
+2.Tri gia cua nguyen li@u khong có xuat xü theo quy dinh tai khoan 1 Dieu
+nay van durqc tinh vao V.N.M khi ap dung tieu chi Ham luong gia tri gia tang.
+Diéu 11. Cong doan gia cong, ché bién don gian
+1. Don gian la hoat dong khong can ky nang dac biet, may móc, dung cu
+hoac thiet bi duoc san xuat hoac lap dat dac biet de thuc hien hoat dong do.Cac
+mat hang thu cong do nghe nhan lam ra nhu theu, do gom, chan det may, do trang
+surc thu cong va chan khau tay khong duoc coi la cong doan gia cong don gian.
+2. Tron don gian la hoat döng khong can ky nang dac bit, may móc, dung
+cu hoac thiet b duoc san xuat hoac lap dat dac biet de thurc hien hoat dong dó.
+3. Du dap úng quy dinh tai Dieu 7 Thong tu nay, hang hoa s khong dugc
+coi la c6 xuat xúr cua mt Nuc thanh vien néu cac cong doan gia cong, che bién
+sau day duqc thuc hien rieng r hoac két hop vi nhau tai Nuöc thanh vien dó:
+a) Giét mo dong vat.
+b Cac cong doan bao quan de gir cho hang hóa van trong tinh trang tot
+trong qua trinh van chuyén va luru kho nhu say kho, cap dong, thong gi6, lam lanh
+va cac cong doan tuong tu.
+c) Ray, rra, cat don gian, rach, uon, cuon hoac dui thang, mai sac, nghien
+don gian, cat lat.
+d) Lam sach, bao gom loai bo oxit, dau m, son hoac löp phu ben ngoai khac.
+d) Cac cong doan son va danh bong don gian.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.95]: Dieu 8.Hang hoa trung gian
+#2 [Score: 0.91]: Trung hop hang hóa có xuat xúr tai lanh thö cua möt Nuöc thanh vien theo
+#3 [Score: 0.90]: quy dinh tai Dieu 7 Thong tu nay duoc sur dung de san xuat ra mot san pham khac
+#4 [Score: 0.91]: cac dieu kien ap dung cho san pham khac d6 khong ap dung doi vói hang hóa
+#5 [Score: 0.89]: düng lam nguyen liu va khong tinh dén cac nguyén lieu khong co xuat xu da
+#6 [Score: 0.94]: dugc sur dung trong qua trinh san xuat ra hang hóa dó.
+#7 [Score: 0.93]: Dieu 9.Cong gop
+#8 [Score: 0.91]: 1. Hang h6a có xuat xú tai möt Nu&c thanh vien duqc sur dung lam nguyén
+#9 [Score: 0.94]: li@u cho thanh pham duqc ché bién hoac san xuat tai lanh th cua Nuc thanh vien
+#10 [Score: 0.90]: khac s duoc coi la nguyen lieu coxuat xur tai Nuc thanh vien noi gia cong hoac
+#11 [Score: 0.96]: che bién ra thanh pham.
+#12 [Score: 0.93]: 2. Hang hóa có xuat xúr tai mt Nuöc thanh vien nhung chi trai qua cong
+#13 [Score: 0.94]: doan gia cöng, ché bién don gian theo quy dinh tai Dieu 11 Thong tu nay tai Nuóc
+#14 [Score: 0.95]: thanh vien khac thi s duqc gir nguyen xuat xur cua Nuoc thanh vien ban dau.
+#15 [Score: 0.94]: Dieu 10.Han mtrc linh hoat
+#16 [Score: 0.90]: 1. Hang hóa khong dap úng quy täc chuyén doi ma sö hang hóa van duqc
+#17 [Score: 0.88]: coi la có xuat xur néu tri gia cua tat ca cac nguyén li@u khong co xuat xur de san
+#18 [Score: 0.95]: xuat ra hang hoa khong trai qua chuyén di ma sö hang hoa, khong vuot qua 20%
+#19 [Score: 0.96]: gia xuat xuong cua hang hoa do.
+#20 [Score: 0.89]: 2.Tri gia cua nguyen li@u khong có xuat xü theo quy dinh tai khoan 1 Dieu
+#21 [Score: 0.94]: nay van durqc tinh vao V.N.M khi ap dung tieu chi Ham luong gia tri gia tang.
+#22 [Score: 0.95]: Diéu 11. Cong doan gia cong, ché bién don gian
+#23 [Score: 0.94]: 1. Don gian la hoat dong khong can ky nang dac biet, may móc, dung cu
+#24 [Score: 0.90]: hoac thiet bi duoc san xuat hoac lap dat dac biet de thuc hien hoat dong do.Cac
+#25 [Score: 0.96]: mat hang thu cong do nghe nhan lam ra nhu theu, do gom, chan det may, do trang
+#26 [Score: 0.95]: surc thu cong va chan khau tay khong duoc coi la cong doan gia cong don gian.
+#27 [Score: 0.94]: 2. Tron don gian la hoat döng khong can ky nang dac bit, may móc, dung
+#28 [Score: 0.94]: cu hoac thiet b duoc san xuat hoac lap dat dac biet de thurc hien hoat dong dó.
+#29 [Score: 0.91]: 3. Du dap úng quy dinh tai Dieu 7 Thong tu nay, hang hoa s khong dugc
+#30 [Score: 0.93]: coi la c6 xuat xúr cua mt Nuc thanh vien néu cac cong doan gia cong, che bién
+#31 [Score: 0.95]: sau day duqc thuc hien rieng r hoac két hop vi nhau tai Nuöc thanh vien dó:
+#32 [Score: 0.93]: a) Giét mo dong vat.
+#33 [Score: 0.92]: b Cac cong doan bao quan de gir cho hang hóa van trong tinh trang tot
+#34 [Score: 0.95]: trong qua trinh van chuyén va luru kho nhu say kho, cap dong, thong gi6, lam lanh
+#35 [Score: 0.96]: va cac cong doan tuong tu.
+#36 [Score: 0.96]: c) Ray, rra, cat don gian, rach, uon, cuon hoac dui thang, mai sac, nghien
+#37 [Score: 0.97]: don gian, cat lat.
+#38 [Score: 0.96]: d) Lam sach, bao gom loai bo oxit, dau m, son hoac löp phu ben ngoai khac.
+#39 [Score: 0.97]: d) Cac cong doan son va danh bong don gian.

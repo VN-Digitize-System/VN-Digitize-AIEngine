@@ -1,0 +1,88 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_007.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+11
+hoach nham trön tränh viec tuan thu quy dinh phap luat cua Cac tieu vuong quöc
+A-rap Thong nhat.
+Trong vong 03 ngay lam viec ke tir ngay phat hanh chúrng tir tu chúrng nhan
+xuat xur hang hóa, nha xuat khau Viet Nam khai bao, dang tai chung tir tu chung
+nhan xuat xü hang hóava chüng tur lien quan dén lo hang xuat khau theo quy dinh
+tur diém c dén diem h khoan 1 Dieu 15 Nghi djnh s6 31/2018/ND-CP tren He
+thong quan ly va cap chüng nhan xuat xr dien tur cua B Cong Thuong tai dia chi
+www.ecosys.gov.vn.
+3. Chúng tur chtng nhan xuat xur hang hóa duqc the hien bang tiéng Anh.
+có gia tri trong vong 01 nam ke tir ngay cap hoac phat hanh dé duac hung uu dai
+thué quan va xuat trinh cho co quan hai quan cua Nuc thanh vien nhap khau
+trong thi han dó.
+Dieu 23.C/O mau UAE-VN
+1. C/O mau UAE-VN dap rng cac dieu kien sau
+a) Dugc th hien tren giay trang A4 theo mau quy dinh tai Phu luc II kem
+theo Thong tu nay.
+b) Bao gom 01 ban göc va 02 ban sao. Ban göc durgc nha san xuat hoac nha
+xuat khau guri cho nha nhap khau de nop cho co quan hai quan cua Nuc thanh
+vien nhap khau. Ban sao thur nhat do co quan có tham quyén cua Nu&c thanh vien
+xuat khau luu. Ban sao thü hai do nha san xuat hoac nha xuat khau luu.
+c) C6 the bao gom möt hoac nhieu mat hang trong cung mt l hang.
+d) Duac in ra hoac theo hinh thurc khac ké ca dang dien tur.
+d  dang ban giay hoac  dang dien tu do co quan, tö chuc cap C/O cua
+Nuc thanh vien xuat khau cap hoac duqc trao doi qua h@ thöng dien tur (He thong
+trao doi dr lieu xuat xur dien tur
+2. Mi C/O có mot so se-ri tham chiéu rieng do co quan, tö chúrc cap C/O cap
+3. Mi C/O mang con dau chinh thuc cua co quan co tham quyen cua Nuc
+thanh vien xuat khau, con dau có the dugc the hien duói hinh thuc dien tur.
+4. Truong hgp con dau dugc ap dung theo hinh thuc dien tu, viec xac thuc
+C/O gom ma QR hoac trang di&n tu bao mat phai the hien tren C/O de C/O duqc
+xem la ban goc.
+Dieu 24.Chüng tir tr chüng nhan xuat xúr hang hóa cua nha xuat khau
+du dieu kien
+1. Dieu nay ap dung dói vói nha xuat khau du dieu kien tu chúng nhan xuat
+xur cho hang hóa nhap khau tir Cac tieu vuong quöc A-rap Thöng nhat ve Viet Nam.
+2. C quan hai quan hoac co quan c6 tham quyén cüa Cac tieu vuong quöc
+A-rap Thöng nhat chap thuan cho nha xuat khau duoc phat hanh Chüng tir tu
+chung nhan xuat xr hang hóa theo quy dinh phap luat cua Cac tieu vuong quöc
+A-rap Thong nhat.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 1.00]: 11
+#2 [Score: 0.92]: hoach nham trön tränh viec tuan thu quy dinh phap luat cua Cac tieu vuong quöc
+#3 [Score: 0.98]: A-rap Thong nhat.
+#4 [Score: 0.93]: Trong vong 03 ngay lam viec ke tir ngay phat hanh chúrng tir tu chúrng nhan
+#5 [Score: 0.92]: xuat xur hang hóa, nha xuat khau Viet Nam khai bao, dang tai chung tir tu chung
+#6 [Score: 0.88]: nhan xuat xü hang hóava chüng tur lien quan dén lo hang xuat khau theo quy dinh
+#7 [Score: 0.90]: tur diém c dén diem h khoan 1 Dieu 15 Nghi djnh s6 31/2018/ND-CP tren He
+#8 [Score: 0.91]: thong quan ly va cap chüng nhan xuat xr dien tur cua B Cong Thuong tai dia chi
+#9 [Score: 0.98]: www.ecosys.gov.vn.
+#10 [Score: 0.91]: 3. Chúng tur chtng nhan xuat xur hang hóa duqc the hien bang tiéng Anh.
+#11 [Score: 0.93]: có gia tri trong vong 01 nam ke tir ngay cap hoac phat hanh dé duac hung uu dai
+#12 [Score: 0.95]: thué quan va xuat trinh cho co quan hai quan cua Nuc thanh vien nhap khau
+#13 [Score: 0.98]: trong thi han dó.
+#14 [Score: 0.93]: Dieu 23.C/O mau UAE-VN
+#15 [Score: 0.90]: 1. C/O mau UAE-VN dap rng cac dieu kien sau
+#16 [Score: 0.94]: a) Dugc th hien tren giay trang A4 theo mau quy dinh tai Phu luc II kem
+#17 [Score: 0.95]: theo Thong tu nay.
+#18 [Score: 0.90]: b) Bao gom 01 ban göc va 02 ban sao. Ban göc durgc nha san xuat hoac nha
+#19 [Score: 0.96]: xuat khau guri cho nha nhap khau de nop cho co quan hai quan cua Nuc thanh
+#20 [Score: 0.92]: vien nhap khau. Ban sao thur nhat do co quan có tham quyén cua Nu&c thanh vien
+#21 [Score: 0.93]: xuat khau luu. Ban sao thü hai do nha san xuat hoac nha xuat khau luu.
+#22 [Score: 0.95]: c) C6 the bao gom möt hoac nhieu mat hang trong cung mt l hang.
+#23 [Score: 0.91]: d) Duac in ra hoac theo hinh thurc khac ké ca dang dien tur.
+#24 [Score: 0.90]: d  dang ban giay hoac  dang dien tu do co quan, tö chuc cap C/O cua
+#25 [Score: 0.89]: Nuc thanh vien xuat khau cap hoac duqc trao doi qua h@ thöng dien tur (He thong
+#26 [Score: 0.83]: trao doi dr lieu xuat xur dien tur
+#27 [Score: 0.91]: 2. Mi C/O có mot so se-ri tham chiéu rieng do co quan, tö chúrc cap C/O cap
+#28 [Score: 0.93]: 3. Mi C/O mang con dau chinh thuc cua co quan co tham quyen cua Nuc
+#29 [Score: 0.90]: thanh vien xuat khau, con dau có the dugc the hien duói hinh thuc dien tur.
+#30 [Score: 0.89]: 4. Truong hgp con dau dugc ap dung theo hinh thuc dien tu, viec xac thuc
+#31 [Score: 0.91]: C/O gom ma QR hoac trang di&n tu bao mat phai the hien tren C/O de C/O duqc
+#32 [Score: 0.98]: xem la ban goc.
+#33 [Score: 0.86]: Dieu 24.Chüng tir tr chüng nhan xuat xúr hang hóa cua nha xuat khau
+#34 [Score: 0.90]: du dieu kien
+#35 [Score: 0.87]: 1. Dieu nay ap dung dói vói nha xuat khau du dieu kien tu chúng nhan xuat
+#36 [Score: 0.91]: xur cho hang hóa nhap khau tir Cac tieu vuong quöc A-rap Thöng nhat ve Viet Nam.
+#37 [Score: 0.95]: 2. C quan hai quan hoac co quan c6 tham quyén cüa Cac tieu vuong quöc
+#38 [Score: 0.91]: A-rap Thöng nhat chap thuan cho nha xuat khau duoc phat hanh Chüng tir tu
+#39 [Score: 0.93]: chung nhan xuat xr hang hóa theo quy dinh phap luat cua Cac tieu vuong quöc
+#40 [Score: 0.96]: A-rap Thong nhat.

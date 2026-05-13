@@ -1,0 +1,72 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_006.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+TRUNG TAM LUUTRU QUOCGIAI
+ANGLO DONG VI NAM
+BAN CHAP INH RUNG UONG
+-ny2-9-1975
++
+S245-O/
+OQU
+a vic bo huhgp tinh
+ thiHann ghqu nght ian tho24cua Banghap hanh
+Trung uong,
+qu
+I-wc hap gaclnh ohim ny thnhnhinstinme la
+don
+hanh
+denmc cao.nat nhmg
+oun
+xlt
+bryo thu0o
+lrungWong.
+nghip 1a,ng nghi.pntu co
+phong,tri an,
+ia cninh 4asi con on cht thfch gan an qhims
+Ap.gd
+dcdi
+bxuyenthdng aau tranh cach mang  dn
+4y thah 24 tlnh mo
+Rach-gi
+2lons-chau-haRqch-gi va huyon hst-nst ca elnh can-tho.
+Z-cn-tho,s6c-trang,Vinh-lons,Tri-vinh.
+4-Long-chau-tian,Sa-do,Kat-tuong.
+5-y-thoco-consLong-anEutre.
+6-Tay-niph.Binh-Pbwo-lon.Thu-au-npt tru2huyn Tan-
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.92]: TRUNG TAM LUUTRU QUOCGIAI
+#2 [Score: 0.74]: ANGLO DONG VI NAM
+#3 [Score: 0.78]: BAN CHAP INH RUNG UONG
+#4 [Score: 0.78]: -ny2-9-1975
+#5 [Score: 0.94]: +
+#6 [Score: 0.78]: S245-O/
+#7 [Score: 0.65]: OQU
+#8 [Score: 0.66]: a vic bo huhgp tinh
+#9 [Score: 0.71]:  thiHann ghqu nght ian tho24cua Banghap hanh
+#10 [Score: 0.84]: Trung uong,
+#11 [Score: 0.55]: qu
+#12 [Score: 0.71]: I-wc hap gaclnh ohim ny thnhnhinstinme la
+#13 [Score: 0.97]: don
+#14 [Score: 0.74]: hanh
+#15 [Score: 0.68]: denmc cao.nat nhmg
+#16 [Score: 0.60]: oun
+#17 [Score: 0.69]: xlt
+#18 [Score: 0.67]: bryo thu0o
+#19 [Score: 0.80]: lrungWong.
+#20 [Score: 0.71]: nghip 1a,ng nghi.pntu co
+#21 [Score: 0.82]: phong,tri an,
+#22 [Score: 0.69]: ia cninh 4asi con on cht thfch gan an qhims
+#23 [Score: 0.57]: Ap.gd
+#24 [Score: 0.87]: dcdi
+#25 [Score: 0.73]: bxuyenthdng aau tranh cach mang  dn
+#26 [Score: 0.72]: 4y thah 24 tlnh mo
+#27 [Score: 0.89]: Rach-gi
+#28 [Score: 0.74]: 2lons-chau-haRqch-gi va huyon hst-nst ca elnh can-tho.
+#29 [Score: 0.74]: Z-cn-tho,s6c-trang,Vinh-lons,Tri-vinh.
+#30 [Score: 0.79]: 4-Long-chau-tian,Sa-do,Kat-tuong.
+#31 [Score: 0.69]: 5-y-thoco-consLong-anEutre.
+#32 [Score: 0.71]: 6-Tay-niph.Binh-Pbwo-lon.Thu-au-npt tru2huyn Tan-

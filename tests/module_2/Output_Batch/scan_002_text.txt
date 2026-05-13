@@ -1,0 +1,86 @@
+--- KẾT QUẢ OCR CHO ẢNH: scan_002.png ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+2
+3. Co quan, to chúrc, ca nhan lien quan dén xuat xu hang hóa xuat khau va
+nhap khau.
+Dieu 3.Giai thich tur ngu
+Theo quy dinh tai Thong tu nay, cac thuat ng duói day duqc hieu nhu sau:
+1.Nui trong thuy sanla nui trong cac sinh vat song duoi nuóc,bao gon
+ca,dong vat than mem,dong vat giap xac,dong vat khong xuong song thuy sinh
+khac va thuc vat thuy sinh,tur cac loai giong nhu trüng,ca bot,ca giong va au
+trung, bang cach can thiep vao qua trinh nui trong hoac tang truong de tang cuong
+san xuat nhu tha giong thuong xuyén, cho an hoac bao v@ khoi dong vat an thit.
+2. Chuyen doi ma sö hang hoa la su thay doi  cap d hai so, bon sö hoac
+sau so cua He thong hai hoa mo ta va ma hoa hang hoa.
+3.Co quan co tham quyen:
+a) Dói vi Viet Nam, la B Cong Thuong hoac co quan khac duqc B Cong
+Thuong thong bao theo turng thi diem.
+b) Dói vöi Cac Tieu vuong quöc A-rap Thong nhat, la B Kinh té hoac co
+quan khac duoc B Kinh te thong bao hoac uy quyén cap theo tung thi diem.
+4."Lo hang" la cäc sanpham duqc gui cung nhau tur nha xuat khau dén
+nguoi nhan hang hoac duoc the hien tren cung mot chung turvan tai the hien viec
+van chuyen tir nha xuat khau den ngui nhan hang hay tren cung mot hóa don
+trong truong hop khong co chung tir van tai.
+5. Co quan hai quan:
+a) Doi voi Viet Nam, la Cuc Hai quan - B Tai chinh
+b) ói vói Cac Tiéu vuong quöc A-rap Thöng nhat, la Co quan Lien bang
+ve Nhan dang, Quoc tich, Hai quan va An ninh cang.
+6.Tri gia hai quan la tr gia duoc xac dinh theo Hiep dinh ve Tri gia hai quan
+7. Nha xuat khau la ca nhan, tö chúrc tai Nuöc thanh vien xuat khau, xuat
+khau hang hóa sang Nuoc thanh vien khac va có kha nang chung minh dugc xuat
+xur cua hang hoa xuat khau.Nha xuat khau co the la nha san xuat hoac nguoi thuc
+hien thu tuc xuat khau hang hóa.
+8. "Nguyén li@u giong nhau va co thê thay thé cho nhau" la hang hóa hoac
+nguyén lieu cung loai va co chat luong thuong mai nhu nhau, có cung dac tinh ky
+thuatvavat ly va khi duoc ket hop thanh san pham hoan chinh thi khong the phan
+biet dugc nguyen lieu nayvoi nguyen lieu khac
+9. "Nguyen tac ke toan tong hop" la nhtrng nguyén tac ké toan duoc cong
+nhan hoac duqc phép ap dung tai lanh tho cua mt Nuöc thanh vién, lien quan
+den viec ghi nhan doanh thu, chi phi, tai san vavay ng, cong bo thong tin va lap
+bao cao tai chinh.Cac nguyen tac nay co the bao gom hung dan ph cap de ap
+dung chung cüng nhu cac tieu chuan, thong l va quy trinh chi tiét.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 1.00]: 2
+#2 [Score: 0.91]: 3. Co quan, to chúrc, ca nhan lien quan dén xuat xu hang hóa xuat khau va
+#3 [Score: 0.96]: nhap khau.
+#4 [Score: 0.91]: Dieu 3.Giai thich tur ngu
+#5 [Score: 0.93]: Theo quy dinh tai Thong tu nay, cac thuat ng duói day duqc hieu nhu sau:
+#6 [Score: 0.88]: 1.Nui trong thuy sanla nui trong cac sinh vat song duoi nuóc,bao gon
+#7 [Score: 0.90]: ca,dong vat than mem,dong vat giap xac,dong vat khong xuong song thuy sinh
+#8 [Score: 0.88]: khac va thuc vat thuy sinh,tur cac loai giong nhu trüng,ca bot,ca giong va au
+#9 [Score: 0.92]: trung, bang cach can thiep vao qua trinh nui trong hoac tang truong de tang cuong
+#10 [Score: 0.96]: san xuat nhu tha giong thuong xuyén, cho an hoac bao v@ khoi dong vat an thit.
+#11 [Score: 0.90]: 2. Chuyen doi ma sö hang hoa la su thay doi  cap d hai so, bon sö hoac
+#12 [Score: 0.96]: sau so cua He thong hai hoa mo ta va ma hoa hang hoa.
+#13 [Score: 0.87]: 3.Co quan co tham quyen:
+#14 [Score: 0.91]: a) Dói vi Viet Nam, la B Cong Thuong hoac co quan khac duqc B Cong
+#15 [Score: 0.94]: Thuong thong bao theo turng thi diem.
+#16 [Score: 0.92]: b) Dói vöi Cac Tieu vuong quöc A-rap Thong nhat, la B Kinh té hoac co
+#17 [Score: 0.93]: quan khac duoc B Kinh te thong bao hoac uy quyén cap theo tung thi diem.
+#18 [Score: 0.90]: 4."Lo hang" la cäc sanpham duqc gui cung nhau tur nha xuat khau dén
+#19 [Score: 0.89]: nguoi nhan hang hoac duoc the hien tren cung mot chung turvan tai the hien viec
+#20 [Score: 0.90]: van chuyen tir nha xuat khau den ngui nhan hang hay tren cung mot hóa don
+#21 [Score: 0.91]: trong truong hop khong co chung tir van tai.
+#22 [Score: 0.98]: 5. Co quan hai quan:
+#23 [Score: 0.90]: a) Doi voi Viet Nam, la Cuc Hai quan - B Tai chinh
+#24 [Score: 0.92]: b) ói vói Cac Tiéu vuong quöc A-rap Thöng nhat, la Co quan Lien bang
+#25 [Score: 0.97]: ve Nhan dang, Quoc tich, Hai quan va An ninh cang.
+#26 [Score: 0.92]: 6.Tri gia hai quan la tr gia duoc xac dinh theo Hiep dinh ve Tri gia hai quan
+#27 [Score: 0.92]: 7. Nha xuat khau la ca nhan, tö chúrc tai Nuöc thanh vien xuat khau, xuat
+#28 [Score: 0.94]: khau hang hóa sang Nuoc thanh vien khac va có kha nang chung minh dugc xuat
+#29 [Score: 0.90]: xur cua hang hoa xuat khau.Nha xuat khau co the la nha san xuat hoac nguoi thuc
+#30 [Score: 0.96]: hien thu tuc xuat khau hang hóa.
+#31 [Score: 0.93]: 8. "Nguyén li@u giong nhau va co thê thay thé cho nhau" la hang hóa hoac
+#32 [Score: 0.96]: nguyén lieu cung loai va co chat luong thuong mai nhu nhau, có cung dac tinh ky
+#33 [Score: 0.93]: thuatvavat ly va khi duoc ket hop thanh san pham hoan chinh thi khong the phan
+#34 [Score: 0.89]: biet dugc nguyen lieu nayvoi nguyen lieu khac
+#35 [Score: 0.90]: 9. "Nguyen tac ke toan tong hop" la nhtrng nguyén tac ké toan duoc cong
+#36 [Score: 0.92]: nhan hoac duqc phép ap dung tai lanh tho cua mt Nuöc thanh vién, lien quan
+#37 [Score: 0.90]: den viec ghi nhan doanh thu, chi phi, tai san vavay ng, cong bo thong tin va lap
+#38 [Score: 0.89]: bao cao tai chinh.Cac nguyen tac nay co the bao gom hung dan ph cap de ap
+#39 [Score: 0.96]: dung chung cüng nhu cac tieu chuan, thong l va quy trinh chi tiét.
