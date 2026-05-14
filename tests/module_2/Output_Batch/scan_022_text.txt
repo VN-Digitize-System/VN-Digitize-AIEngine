@@ -2,157 +2,157 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-10
-Ma HS
-Mo ta hang hoa
-Quy tac cu the mat hang
-(1)
-(2)
-(3)
+kiện của chúng
+QVC 35%
+CTH
+Vũ khí và đạn; các bộ phận và phụ
+Chương 93
+của chúng.
+QVC 35%
+CTH
+Nhạc cụ, các bộ phận và phụ kiện
+Chương 92
+nhân và các bộ phận của chúng.
+QVC 35%
+CTH
+Đồng hồ thời gian, đồng hồ cá
+Chương 91
+thay vi CTH
+dụng quy tắc CTSH
+cùng một nhóm thì áp
+được phân loại trong
+kiện của chúng.
+phụ kiện của chúng
+phẫu thuật, các bộ phận và phụ
+và các bộ phận hoặc
+kiếm tra, chính xác, y tế hoặc
+trường hợp hàng hóa
+nhiếp ảnh, điện ảnh, đo lường,
+QVC 35%
+CTH, tuy nhiên trong
+Dụng cụ và thiết bị quang học,
+Chương 90
+nối.
+QVC 35%
+CTH
+Tàu thủy, thuyền và các kết cấu
+Chương 89
+các bộ phận của chúng.
+QVC 35%
+cth
+Phương tiện bay, tàu vũ trụ, và
+Chương 88
+thay vi CTH
+dụng quy tắc CTSH
+cùng một nhóm thì áp
+được phân loại trong
+phụ kiện của chúng
+chúng.
+và các bộ phận hoặc
+các bộ phận và phụ kiện của
+trường hợp hàng hóa
+đường sất hoặc đường tàu điện, và
+QVC 35%
+CTH, tuy nhiên trong
+Xe trừ phương tiện chạy trên
+Chương 87
+cơ khí (kể cả cơ điện) các loại.
+thiết bị tín hiệu giao thông bằng
+tàu điện và bộ phận của chúng;
+ghép nối đường ray xe lửa hoặc
+chúng; các bộ phận cổ định và
+đường tàu điện và các bộ phận của
+chuyển trên đường sắt hoặc
+QVC 35%
+CTH
+Đầu máy, các phương, tiện di
+Chương 86
+thay vì CTH
+dụng quy tắc CTSH
 (4)
-dung quy tac CTSH
-thay vi CTH
-Chuong 86
-Dau may,cac phuong tien di
-CTH
-QVC 35%
-chuyén tren duong sat hoac
-dung tau dien va cac b phan.cua
-chung cac bphan co dinh va
-ghép ni dung ray xe lura hoac
-tau dien va b phan cua chung
-thiét bi tin hieu giao thong bang
-co khike ca co dien cac loai.
-Chuong 87
-Xe trr phuong tian chay tren
-CTH, tuy nhien trong
-QVC 35%
-dung sat hoac dung tau dien, va
-truong hop hang hóa
-cac bphan vaphu kin cua
-va cac b phan hoac
-chüng.
-phu kien cua chung
-dugc phan loai trong
-cung mt nhóm thi ap
-dung quy tac CTSH
-thay vi CTH
-Chuong 88
-Phuong tien bay, tau v tru,va
-CTH
-QVC 35%
-cac b phan cua chung.
-Chuong 89
-Tau thuy, thuyen va cac két cau
-CTH
-QVC 35%
-noi.
-Chuong 90
-Dung cu va thiet bi quang hoc,
-CTH, tuy nhien trong
-QVC 35%
-nhiep anh, dien anh, do luong.
-trung hop hang hóa
-kim tra,chinh xac,y te hoac
-va cac b phan hoac
-phau thuat; cac b phan va ph
-phu kien cua chüng
-kien cua chüng.
-dugc phan loai trong
-cung mt nhóm thi ap
-dung quy tac CTSH
-thay vi CTH
-Chuong 91
-Dong ho thi gian,dong ho ca
-CTH
-QVC 35%
-nhan va cac bo phan cua chung.
-Chuong 92
-Nhac cy; cac bo phan va phu kien
-CTH
-QVC 35%
-cua chung.
-Chuong 93
-Vu khi va dan; cac b phan va phu
-CTH
-QVC 35%
-kien cua chüng.
+(3)
+(2)
+(1)
+Quy tắc cụ thể mặt hàng
+Mô tả hàng hóa
+Mã Hs
+10
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.99]: 10
-#2 [Score: 0.96]: Ma HS
-#3 [Score: 0.95]: Mo ta hang hoa
-#4 [Score: 0.94]: Quy tac cu the mat hang
-#5 [Score: 1.00]: (1)
-#6 [Score: 0.95]: (2)
-#7 [Score: 0.89]: (3)
-#8 [Score: 0.99]: (4)
-#9 [Score: 0.95]: dung quy tac CTSH
-#10 [Score: 1.00]: thay vi CTH
-#11 [Score: 1.00]: Chuong 86
-#12 [Score: 0.89]: Dau may,cac phuong tien di
-#13 [Score: 1.00]: CTH
-#14 [Score: 1.00]: QVC 35%
-#15 [Score: 0.91]: chuyén tren duong sat hoac
-#16 [Score: 0.97]: dung tau dien va cac b phan.cua
-#17 [Score: 0.88]: chung cac bphan co dinh va
-#18 [Score: 0.97]: ghép ni dung ray xe lura hoac
-#19 [Score: 0.89]: tau dien va b phan cua chung
-#20 [Score: 0.91]: thiét bi tin hieu giao thong bang
-#21 [Score: 0.92]: co khike ca co dien cac loai.
-#22 [Score: 1.00]: Chuong 87
-#23 [Score: 0.91]: Xe trr phuong tian chay tren
-#24 [Score: 0.97]: CTH, tuy nhien trong
-#25 [Score: 1.00]: QVC 35%
-#26 [Score: 0.90]: dung sat hoac dung tau dien, va
-#27 [Score: 0.94]: truong hop hang hóa
-#28 [Score: 0.91]: cac bphan vaphu kin cua
-#29 [Score: 0.95]: va cac b phan hoac
-#30 [Score: 0.92]: chüng.
-#31 [Score: 0.93]: phu kien cua chung
-#32 [Score: 0.95]: dugc phan loai trong
-#33 [Score: 0.96]: cung mt nhóm thi ap
-#34 [Score: 0.96]: dung quy tac CTSH
-#35 [Score: 1.00]: thay vi CTH
-#36 [Score: 1.00]: Chuong 88
-#37 [Score: 0.89]: Phuong tien bay, tau v tru,va
-#38 [Score: 1.00]: CTH
-#39 [Score: 1.00]: QVC 35%
-#40 [Score: 0.89]: cac b phan cua chung.
-#41 [Score: 0.97]: Chuong 89
-#42 [Score: 0.93]: Tau thuy, thuyen va cac két cau
-#43 [Score: 1.00]: CTH
-#44 [Score: 1.00]: QVC 35%
-#45 [Score: 0.99]: noi.
-#46 [Score: 1.00]: Chuong 90
-#47 [Score: 0.92]: Dung cu va thiet bi quang hoc,
-#48 [Score: 0.97]: CTH, tuy nhien trong
-#49 [Score: 1.00]: QVC 35%
-#50 [Score: 0.90]: nhiep anh, dien anh, do luong.
-#51 [Score: 0.94]: trung hop hang hóa
-#52 [Score: 0.89]: kim tra,chinh xac,y te hoac
-#53 [Score: 0.98]: va cac b phan hoac
-#54 [Score: 0.93]: phau thuat; cac b phan va ph
-#55 [Score: 0.86]: phu kien cua chüng
-#56 [Score: 0.94]: kien cua chüng.
-#57 [Score: 0.92]: dugc phan loai trong
-#58 [Score: 0.93]: cung mt nhóm thi ap
-#59 [Score: 0.94]: dung quy tac CTSH
-#60 [Score: 1.00]: thay vi CTH
-#61 [Score: 0.98]: Chuong 91
-#62 [Score: 0.88]: Dong ho thi gian,dong ho ca
-#63 [Score: 1.00]: CTH
-#64 [Score: 1.00]: QVC 35%
-#65 [Score: 0.95]: nhan va cac bo phan cua chung.
-#66 [Score: 1.00]: Chuong 92
-#67 [Score: 0.91]: Nhac cy; cac bo phan va phu kien
-#68 [Score: 1.00]: CTH
-#69 [Score: 0.95]: QVC 35%
-#70 [Score: 0.92]: cua chung.
-#71 [Score: 1.00]: Chuong 93
-#72 [Score: 0.90]: Vu khi va dan; cac b phan va phu
-#73 [Score: 1.00]: CTH
-#74 [Score: 0.94]: QVC 35%
-#75 [Score: 0.93]: kien cua chüng.
+#1 [Score: 0.93]: kiện của chúng
+#2 [Score: 0.93]: QVC 35%
+#3 [Score: 0.89]: CTH
+#4 [Score: 0.93]: Vũ khí và đạn; các bộ phận và phụ
+#5 [Score: 0.93]: Chương 93
+#6 [Score: 0.91]: của chúng.
+#7 [Score: 0.92]: QVC 35%
+#8 [Score: 0.90]: CTH
+#9 [Score: 0.91]: Nhạc cụ, các bộ phận và phụ kiện
+#10 [Score: 0.93]: Chương 92
+#11 [Score: 0.92]: nhân và các bộ phận của chúng.
+#12 [Score: 0.93]: QVC 35%
+#13 [Score: 0.92]: CTH
+#14 [Score: 0.94]: Đồng hồ thời gian, đồng hồ cá
+#15 [Score: 0.93]: Chương 91
+#16 [Score: 0.93]: thay vi CTH
+#17 [Score: 0.93]: dụng quy tắc CTSH
+#18 [Score: 0.93]: cùng một nhóm thì áp
+#19 [Score: 0.93]: được phân loại trong
+#20 [Score: 0.91]: kiện của chúng.
+#21 [Score: 0.94]: phụ kiện của chúng
+#22 [Score: 0.93]: phẫu thuật, các bộ phận và phụ
+#23 [Score: 0.93]: và các bộ phận hoặc
+#24 [Score: 0.93]: kiếm tra, chính xác, y tế hoặc
+#25 [Score: 0.94]: trường hợp hàng hóa
+#26 [Score: 0.90]: nhiếp ảnh, điện ảnh, đo lường,
+#27 [Score: 0.92]: QVC 35%
+#28 [Score: 0.93]: CTH, tuy nhiên trong
+#29 [Score: 0.93]: Dụng cụ và thiết bị quang học,
+#30 [Score: 0.93]: Chương 90
+#31 [Score: 0.88]: nối.
+#32 [Score: 0.93]: QVC 35%
+#33 [Score: 0.93]: CTH
+#34 [Score: 0.93]: Tàu thủy, thuyền và các kết cấu
+#35 [Score: 0.93]: Chương 89
+#36 [Score: 0.92]: các bộ phận của chúng.
+#37 [Score: 0.93]: QVC 35%
+#38 [Score: 0.86]: cth
+#39 [Score: 0.94]: Phương tiện bay, tàu vũ trụ, và
+#40 [Score: 0.94]: Chương 88
+#41 [Score: 0.93]: thay vi CTH
+#42 [Score: 0.93]: dụng quy tắc CTSH
+#43 [Score: 0.93]: cùng một nhóm thì áp
+#44 [Score: 0.93]: được phân loại trong
+#45 [Score: 0.94]: phụ kiện của chúng
+#46 [Score: 0.89]: chúng.
+#47 [Score: 0.93]: và các bộ phận hoặc
+#48 [Score: 0.94]: các bộ phận và phụ kiện của
+#49 [Score: 0.93]: trường hợp hàng hóa
+#50 [Score: 0.92]: đường sất hoặc đường tàu điện, và
+#51 [Score: 0.94]: QVC 35%
+#52 [Score: 0.93]: CTH, tuy nhiên trong
+#53 [Score: 0.93]: Xe trừ phương tiện chạy trên
+#54 [Score: 0.93]: Chương 87
+#55 [Score: 0.92]: cơ khí (kể cả cơ điện) các loại.
+#56 [Score: 0.93]: thiết bị tín hiệu giao thông bằng
+#57 [Score: 0.93]: tàu điện và bộ phận của chúng;
+#58 [Score: 0.93]: ghép nối đường ray xe lửa hoặc
+#59 [Score: 0.93]: chúng; các bộ phận cổ định và
+#60 [Score: 0.93]: đường tàu điện và các bộ phận của
+#61 [Score: 0.92]: chuyển trên đường sắt hoặc
+#62 [Score: 0.93]: QVC 35%
+#63 [Score: 0.92]: CTH
+#64 [Score: 0.91]: Đầu máy, các phương, tiện di
+#65 [Score: 0.93]: Chương 86
+#66 [Score: 0.92]: thay vì CTH
+#67 [Score: 0.94]: dụng quy tắc CTSH
+#68 [Score: 0.94]: (4)
+#69 [Score: 0.94]: (3)
+#70 [Score: 0.94]: (2)
+#71 [Score: 0.94]: (1)
+#72 [Score: 0.94]: Quy tắc cụ thể mặt hàng
+#73 [Score: 0.93]: Mô tả hàng hóa
+#74 [Score: 0.85]: Mã Hs
+#75 [Score: 0.93]: 10

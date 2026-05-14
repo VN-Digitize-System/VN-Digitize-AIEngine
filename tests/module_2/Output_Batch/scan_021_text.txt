@@ -2,203 +2,203 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-9
-Ma HS
-Mo ta hang hoa
-Quy tac cu the mat hang
-(I)
-(2)
-(3)
-(4)
-Dang ban thanh pham, hoac
-San xuat tur kim loai
-dang bot
-quy chua gia cong
-ex 7107,
-Kim loai duc dat phu kim loai
-San xuat tur kim loai
-ex 7109 va
-quy, ban thanh pham.
-dugc dat ph kim loai
-ex 7111
-quy, chua gia cong
-Chuong 72
-Sat va thep.
-CTH
+máy trên
+cùng một nhóm thì áp
+bộ phận và phụ kiện của các loại
+được phân loại trong
+hình ảnh và âm thanh truyền hình,
+phụ kiện của chúng
+tạo âm thanh, máy ghi và tái tạo
+và các bộ phận hoặc
+trường hợp hàng hóa
+bộ phận của chúng, máy ghi và tái
+Máy điện và thiết bị điện và các
+Chương 85
+CTH, tuy nhiên trong
 QVC 35%
-Chuong 73
-Cac san pham bang sat hoac thep.
-CTH
-QVC 35%
-Chuong 74
-Dong va cac san pham bang dong.
-CTH
-QVC 35%
-Chuong 75
-Niken va cac san pham bang
-H.LD
-QVC 35%
-niken.
-Chuong 76
-Nhom va cac san pham bang
-HLO
-QVC 35%
-nhom.
-Chuong 78
-Chi va cac san pham bang chi.
-CTH
-QVC 35%
-Chuong 79
-Kem va cac san pham bang km.
-HLO
-QVC 35%
-Chuong 80
-Thiéc va cac san pham bang thiec.
-CTH
-QVC 35%
-Chuong 81
-Kim loai co ban khac; gom kim
-CTSH
-QVC 35%
-loai; cac san pham cua chung.
-Chuong 82
-Dung cu, d nghe, dao, keo, b d
-CTH
-QVC 35%
-an lam tir kim loai co ban; cac b
-phan cua chüng lam tur kim loai co
-ban.
-Churong 83
-Hang tap hoa lam tir kim loai co
-CTH
-QVC 35%
-ban.
-Chuong 84
-L phan ung hat nhanni hoi.
-CTH, tuy nhien trong
-QVC 35%
-may va thiet bi co khi cac bo
-trung hop hang hóa
-phan cua chung.
-va cac b phan hoac
-phu kin cua chüng
-duoc phan loai trong
-cung mt nhóm thi ap
-dung quy tac CTSH
 thay vi CTH
-Chuong 85
-May dien va thiet bi dien va cac
-CTH, tuy nhien trong
+dụng quy tắc CTSH
+cùng một nhóm thì áp
+được phân loại trong
+phụ kiện của chúng
+phận của chúng
+và các bộ phận hoặc
+trường hợp hàng hóa
+máy và thiết bị cơ khí, các bộ
+Chương 84
+CTH, tuy nhiên trong
+Lò phản ứng hạt nhân, nồi hơi,
 QVC 35%
-b phan cua chüng may ghi va tai
-truong hop hang hóa
-tao am thanh, may ghi va tai tao
-va cac b phan hoac
-hinh anh va am thanh truyen hinh,
-ph kin cua chung
-bo phan va phu kien cua cac loai
-duqc phan loai trong
-may tren
-cung mt nhom thi ap
+bản.
+Hàng tạp hóa làm từ kim loại cơ
+Chương 83
+QVC 35%
+CTH
+bản.
+phận của chúng làm từ kim loại cơ
+ăn làm từ kim loại cơ bản; các bộ
+Chương 82
+Dụng cụ, đồ nghề, dao, kéo, bộ đồ
+QVC 35%
+CTH
+loại; các sản phẩm của chúng.
+Chương 81
+Kim loại cơ bản khác; gốm kim
+QVC 35%
+CTSH
+Chương 80
+Thiếc và các sản phẩm bằng thiếc.
+QVC 35%
+CTH
+Chương 79
+Kẽm và các sản phẩm bằng kẽm.
+QVC 35%
+CTH
+Chương 78
+Chì và các sản phẩm bằng chì.
+QVC 35%
+CTH
+nhôm.
+Chương 76
+Nhôm và các sản phẩm bằng
+QVC 35%
+CTH
+niken.
+Chương 75
+Niken và các sản phẩm bằng
+cth
+QVC 35%
+Chương 74
+QVC 35%
+CTH
+Đồng và các sản phẩm bằng đồng.
+Chương 73
+Các sản phẩm bằng sắt hoặc thép.
+QVC 35%
+CTH
+Chương 72
+Sắt và thép.
+QVC 35%
+CTH
+ex 7111
+quý, chưa gia công
+quý, bán thành phẩm.
+ex 7109 và
+được dát phủ kim loại
+ex 7107,
+Kim loại được dát phủ kim loại
+Sản xuất từ kim loại
+dạng bột
+quý chưa gia công
+Dạng bán thành phẩm, hoặc
+Sản xuất từ kim loại
+(1)
+(2)
+(4)
+(3)
+Mã Hs
+Mô tả hàng hóa
+Quy tắc cụ thể mặt hàng
+9
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.99]: 9
-#2 [Score: 0.97]: Ma HS
-#3 [Score: 0.96]: Mo ta hang hoa
-#4 [Score: 0.95]: Quy tac cu the mat hang
-#5 [Score: 0.88]: (I)
-#6 [Score: 0.97]: (2)
-#7 [Score: 0.98]: (3)
-#8 [Score: 0.89]: (4)
-#9 [Score: 0.93]: Dang ban thanh pham, hoac
-#10 [Score: 0.92]: San xuat tur kim loai
-#11 [Score: 0.94]: dang bot
-#12 [Score: 0.98]: quy chua gia cong
-#13 [Score: 1.00]: ex 7107,
-#14 [Score: 0.98]: Kim loai duc dat phu kim loai
-#15 [Score: 0.94]: San xuat tur kim loai
-#16 [Score: 1.00]: ex 7109 va
-#17 [Score: 1.00]: quy, ban thanh pham.
-#18 [Score: 0.90]: dugc dat ph kim loai
-#19 [Score: 1.00]: ex 7111
-#20 [Score: 0.99]: quy, chua gia cong
-#21 [Score: 1.00]: Chuong 72
-#22 [Score: 0.98]: Sat va thep.
-#23 [Score: 1.00]: CTH
-#24 [Score: 0.97]: QVC 35%
-#25 [Score: 0.99]: Chuong 73
-#26 [Score: 0.98]: Cac san pham bang sat hoac thep.
-#27 [Score: 0.99]: CTH
-#28 [Score: 1.00]: QVC 35%
-#29 [Score: 1.00]: Chuong 74
-#30 [Score: 0.98]: Dong va cac san pham bang dong.
-#31 [Score: 0.99]: CTH
-#32 [Score: 1.00]: QVC 35%
-#33 [Score: 1.00]: Chuong 75
-#34 [Score: 0.93]: Niken va cac san pham bang
-#35 [Score: 0.81]: H.LD
-#36 [Score: 1.00]: QVC 35%
-#37 [Score: 0.99]: niken.
-#38 [Score: 1.00]: Chuong 76
-#39 [Score: 0.89]: Nhom va cac san pham bang
-#40 [Score: 0.79]: HLO
-#41 [Score: 1.00]: QVC 35%
-#42 [Score: 0.97]: nhom.
-#43 [Score: 1.00]: Chuong 78
-#44 [Score: 0.95]: Chi va cac san pham bang chi.
-#45 [Score: 1.00]: CTH
-#46 [Score: 0.95]: QVC 35%
-#47 [Score: 1.00]: Chuong 79
-#48 [Score: 0.96]: Kem va cac san pham bang km.
-#49 [Score: 0.74]: HLO
-#50 [Score: 1.00]: QVC 35%
-#51 [Score: 0.99]: Chuong 80
-#52 [Score: 0.94]: Thiéc va cac san pham bang thiec.
-#53 [Score: 1.00]: CTH
-#54 [Score: 1.00]: QVC 35%
-#55 [Score: 1.00]: Chuong 81
-#56 [Score: 0.98]: Kim loai co ban khac; gom kim
-#57 [Score: 1.00]: CTSH
-#58 [Score: 0.98]: QVC 35%
-#59 [Score: 0.97]: loai; cac san pham cua chung.
-#60 [Score: 1.00]: Chuong 82
-#61 [Score: 0.94]: Dung cu, d nghe, dao, keo, b d
-#62 [Score: 1.00]: CTH
-#63 [Score: 0.99]: QVC 35%
-#64 [Score: 0.95]: an lam tir kim loai co ban; cac b
-#65 [Score: 0.93]: phan cua chüng lam tur kim loai co
-#66 [Score: 0.98]: ban.
-#67 [Score: 0.98]: Churong 83
-#68 [Score: 0.95]: Hang tap hoa lam tir kim loai co
-#69 [Score: 1.00]: CTH
-#70 [Score: 1.00]: QVC 35%
-#71 [Score: 0.99]: ban.
-#72 [Score: 0.98]: Chuong 84
-#73 [Score: 0.91]: L phan ung hat nhanni hoi.
-#74 [Score: 0.97]: CTH, tuy nhien trong
-#75 [Score: 0.95]: QVC 35%
-#76 [Score: 0.88]: may va thiet bi co khi cac bo
-#77 [Score: 0.98]: trung hop hang hóa
-#78 [Score: 0.96]: phan cua chung.
-#79 [Score: 0.96]: va cac b phan hoac
-#80 [Score: 0.94]: phu kin cua chüng
-#81 [Score: 0.96]: duoc phan loai trong
-#82 [Score: 0.95]: cung mt nhóm thi ap
-#83 [Score: 0.93]: dung quy tac CTSH
-#84 [Score: 0.96]: thay vi CTH
-#85 [Score: 1.00]: Chuong 85
-#86 [Score: 0.90]: May dien va thiet bi dien va cac
-#87 [Score: 0.98]: CTH, tuy nhien trong
-#88 [Score: 1.00]: QVC 35%
-#89 [Score: 0.89]: b phan cua chüng may ghi va tai
-#90 [Score: 0.95]: truong hop hang hóa
-#91 [Score: 0.95]: tao am thanh, may ghi va tai tao
-#92 [Score: 0.96]: va cac b phan hoac
-#93 [Score: 0.94]: hinh anh va am thanh truyen hinh,
-#94 [Score: 0.94]: ph kin cua chung
-#95 [Score: 0.92]: bo phan va phu kien cua cac loai
-#96 [Score: 0.93]: duqc phan loai trong
-#97 [Score: 0.92]: may tren
-#98 [Score: 0.96]: cung mt nhom thi ap
+#1 [Score: 0.93]: máy trên
+#2 [Score: 0.92]: cùng một nhóm thì áp
+#3 [Score: 0.93]: bộ phận và phụ kiện của các loại
+#4 [Score: 0.93]: được phân loại trong
+#5 [Score: 0.93]: hình ảnh và âm thanh truyền hình,
+#6 [Score: 0.93]: phụ kiện của chúng
+#7 [Score: 0.93]: tạo âm thanh, máy ghi và tái tạo
+#8 [Score: 0.93]: và các bộ phận hoặc
+#9 [Score: 0.94]: trường hợp hàng hóa
+#10 [Score: 0.92]: bộ phận của chúng, máy ghi và tái
+#11 [Score: 0.93]: Máy điện và thiết bị điện và các
+#12 [Score: 0.94]: Chương 85
+#13 [Score: 0.93]: CTH, tuy nhiên trong
+#14 [Score: 0.93]: QVC 35%
+#15 [Score: 0.93]: thay vi CTH
+#16 [Score: 0.94]: dụng quy tắc CTSH
+#17 [Score: 0.93]: cùng một nhóm thì áp
+#18 [Score: 0.93]: được phân loại trong
+#19 [Score: 0.94]: phụ kiện của chúng
+#20 [Score: 0.93]: phận của chúng
+#21 [Score: 0.93]: và các bộ phận hoặc
+#22 [Score: 0.94]: trường hợp hàng hóa
+#23 [Score: 0.92]: máy và thiết bị cơ khí, các bộ
+#24 [Score: 0.93]: Chương 84
+#25 [Score: 0.93]: CTH, tuy nhiên trong
+#26 [Score: 0.93]: Lò phản ứng hạt nhân, nồi hơi,
+#27 [Score: 0.93]: QVC 35%
+#28 [Score: 0.85]: bản.
+#29 [Score: 0.93]: Hàng tạp hóa làm từ kim loại cơ
+#30 [Score: 0.93]: Chương 83
+#31 [Score: 0.93]: QVC 35%
+#32 [Score: 0.93]: CTH
+#33 [Score: 0.77]: bản.
+#34 [Score: 0.93]: phận của chúng làm từ kim loại cơ
+#35 [Score: 0.93]: ăn làm từ kim loại cơ bản; các bộ
+#36 [Score: 0.94]: Chương 82
+#37 [Score: 0.93]: Dụng cụ, đồ nghề, dao, kéo, bộ đồ
+#38 [Score: 0.93]: QVC 35%
+#39 [Score: 0.92]: CTH
+#40 [Score: 0.93]: loại; các sản phẩm của chúng.
+#41 [Score: 0.93]: Chương 81
+#42 [Score: 0.92]: Kim loại cơ bản khác; gốm kim
+#43 [Score: 0.93]: QVC 35%
+#44 [Score: 0.89]: CTSH
+#45 [Score: 0.93]: Chương 80
+#46 [Score: 0.93]: Thiếc và các sản phẩm bằng thiếc.
+#47 [Score: 0.94]: QVC 35%
+#48 [Score: 0.93]: CTH
+#49 [Score: 0.94]: Chương 79
+#50 [Score: 0.91]: Kẽm và các sản phẩm bằng kẽm.
+#51 [Score: 0.93]: QVC 35%
+#52 [Score: 0.92]: CTH
+#53 [Score: 0.93]: Chương 78
+#54 [Score: 0.93]: Chì và các sản phẩm bằng chì.
+#55 [Score: 0.93]: QVC 35%
+#56 [Score: 0.92]: CTH
+#57 [Score: 0.88]: nhôm.
+#58 [Score: 0.93]: Chương 76
+#59 [Score: 0.93]: Nhôm và các sản phẩm bằng
+#60 [Score: 0.93]: QVC 35%
+#61 [Score: 0.89]: CTH
+#62 [Score: 0.87]: niken.
+#63 [Score: 0.93]: Chương 75
+#64 [Score: 0.92]: Niken và các sản phẩm bằng
+#65 [Score: 0.78]: cth
+#66 [Score: 0.93]: QVC 35%
+#67 [Score: 0.93]: Chương 74
+#68 [Score: 0.93]: QVC 35%
+#69 [Score: 0.91]: CTH
+#70 [Score: 0.93]: Đồng và các sản phẩm bằng đồng.
+#71 [Score: 0.94]: Chương 73
+#72 [Score: 0.93]: Các sản phẩm bằng sắt hoặc thép.
+#73 [Score: 0.93]: QVC 35%
+#74 [Score: 0.86]: CTH
+#75 [Score: 0.94]: Chương 72
+#76 [Score: 0.93]: Sắt và thép.
+#77 [Score: 0.93]: QVC 35%
+#78 [Score: 0.91]: CTH
+#79 [Score: 0.93]: ex 7111
+#80 [Score: 0.92]: quý, chưa gia công
+#81 [Score: 0.92]: quý, bán thành phẩm.
+#82 [Score: 0.93]: ex 7109 và
+#83 [Score: 0.93]: được dát phủ kim loại
+#84 [Score: 0.93]: ex 7107,
+#85 [Score: 0.93]: Kim loại được dát phủ kim loại
+#86 [Score: 0.93]: Sản xuất từ kim loại
+#87 [Score: 0.94]: dạng bột
+#88 [Score: 0.93]: quý chưa gia công
+#89 [Score: 0.93]: Dạng bán thành phẩm, hoặc
+#90 [Score: 0.93]: Sản xuất từ kim loại
+#91 [Score: 0.93]: (1)
+#92 [Score: 0.94]: (2)
+#93 [Score: 0.93]: (4)
+#94 [Score: 0.94]: (3)
+#95 [Score: 0.77]: Mã Hs
+#96 [Score: 0.93]: Mô tả hàng hóa
+#97 [Score: 0.93]: Quy tắc cụ thể mặt hàng
+#98 [Score: 0.94]: 9

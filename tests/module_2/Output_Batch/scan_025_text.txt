@@ -2,123 +2,123 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-Phu luc II
-MAUC/O UAE-VN
-(Ban hanh kem theo Thöng tu sö24/2026/TT-BCT
-ngay 0$ thang 5 näm 2026 cia B6 truong B8 Cong Thuong
-quydinh Quy tac xuat xir hang hoa trong Hiep dinhDoi tac kinh tetoan dien
-Viet Nam va Cac tieu vuong quoc A-rap Thöng nhat
-1. Exporters Name, Address, Country
-4.CERTIFICATE NO
-2. Produceras Name, Address, Country (optional)
-COMPREHENSIVE ECONOMIC PARTNERSHIP
-AGREEMENTBETWEENTHE GOVERNMENT
-OF THE UNITED ARAB EMIRATESAND THE
-3. Importers Name and Address, Country
-GOVERNMENT OF THE SOCIALIST REPUBLIC
-OF VIET NAM
-CERTIFICATE OF ORIGIN
-FORMUAE-VN
-Issued in
-(Country)
-See Overleaf Notes
-5. Means of transport and route, (optional)
-6
-Shipment Date:
- Non-party invoice
-Vessel's Name / Aircraft, etc.
-Port of Discharge:
-(Name of non-party)
-Port of Destination:
-7.Observations
-8. Item
-9. Marks and numbers on packages; Number and kind
-10.Origin
-Criteria
-11. Gross
-12.Number and
-number
-of packages; Description of goods; HS code in six
-Weight,
-date of
+Competent Authority
+Date, signature and stamp of
+Stamp and Signature
+Websitel
+00190000009
+[Qui Code
+Stamo
+ard
+Date
+Agreement.
+with the origin requirements specified in this Agreemeat.
+they that it was issued in accordance with the provisions of the 
+instructions for filling out this certificate and that the goods comply
+The Undersigned hereby declares that heishe has read the We hereby centify the authenticity of this certificate and
+13. Declaration by the exporter
+14. Certification
 digits
 Quantity
 invoices
-13. Declaration by the exporter
-14.Certification
-The Undersigned hereby declares that he/she has read the We hereby certify the authenticity of this certificate and
-instructions for filling out this certificate and that the goods comply
- [ that it was issued in accordance with the provisions of the
-with the origin requirements specified in this Agreement.
-Agreement.
-Date
-Stamp
-and
-[QR Code
-Website]
-or
-Stamp and Signature
-Date, signature and stamp of
-Competent Authority
+number
+of packages; Description of goods; HS code in six
+date of
+Weight,
+Criteria
+9. Marks and numbers on packages; Number and kind
+3, Item
+12.Number and
+11,Gross
+10, Origin
+7.Observations
+Port of Destination:
+Port of Discharge:
+(Namc of non-party)
+Vessel's Name / Aircraft, etc.
+Shipment Date:
+Non-party invoice
+5. Moans of transport and route, (optional)
+5
+See Overleaf Notes
+(Country)
+Issued in
+FORMUALLYN
+certificate of origin
+OF VIET NAM
+3, Importer's Name and address, Country
+government of the socialist republic
+OF THE UNITED ARABEMIRATES AND THE
+AGREEMENT BETWEEN THE GOVERNMENT
+2. Producer's Name, Address, Country (optional)
+comprehensive economic partnership
+1. Exporter's Name, Address, Country
+1. CERTIFICATE NO.
+Việt Nam và Các tiểu vương quốc Ả-rập Thống nhất)
+quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
+ngày 05 tháng 5 năm 2026 của Bộ trường Bộ Công Thương
+(Ban hành kèm theo Thông tư số2 4/2026/TT-BCT
+MÃU C/O UAE-VN
+Phụ lục II
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.96]: Phu luc II
-#2 [Score: 0.96]: MAUC/O UAE-VN
-#3 [Score: 0.93]: (Ban hanh kem theo Thöng tu sö24/2026/TT-BCT
-#4 [Score: 0.89]: ngay 0$ thang 5 näm 2026 cia B6 truong B8 Cong Thuong
-#5 [Score: 0.87]: quydinh Quy tac xuat xir hang hoa trong Hiep dinhDoi tac kinh tetoan dien
-#6 [Score: 0.87]: Viet Nam va Cac tieu vuong quoc A-rap Thöng nhat
-#7 [Score: 0.99]: 1. Exporters Name, Address, Country
-#8 [Score: 0.97]: 4.CERTIFICATE NO
-#9 [Score: 0.98]: 2. Produceras Name, Address, Country (optional)
-#10 [Score: 0.98]: COMPREHENSIVE ECONOMIC PARTNERSHIP
-#11 [Score: 0.98]: AGREEMENTBETWEENTHE GOVERNMENT
-#12 [Score: 0.96]: OF THE UNITED ARAB EMIRATESAND THE
-#13 [Score: 0.99]: 3. Importers Name and Address, Country
-#14 [Score: 0.99]: GOVERNMENT OF THE SOCIALIST REPUBLIC
-#15 [Score: 0.93]: OF VIET NAM
-#16 [Score: 0.98]: CERTIFICATE OF ORIGIN
-#17 [Score: 0.99]: FORMUAE-VN
-#18 [Score: 0.95]: Issued in
-#19 [Score: 1.00]: (Country)
-#20 [Score: 0.98]: See Overleaf Notes
-#21 [Score: 0.97]: 5. Means of transport and route, (optional)
-#22 [Score: 0.99]: 6
-#23 [Score: 0.98]: Shipment Date:
-#24 [Score: 0.97]:  Non-party invoice
-#25 [Score: 0.96]: Vessel's Name / Aircraft, etc.
-#26 [Score: 0.97]: Port of Discharge:
-#27 [Score: 1.00]: (Name of non-party)
-#28 [Score: 0.97]: Port of Destination:
-#29 [Score: 0.99]: 7.Observations
-#30 [Score: 0.86]: 8. Item
-#31 [Score: 0.99]: 9. Marks and numbers on packages; Number and kind
-#32 [Score: 0.99]: 10.Origin
-#33 [Score: 0.99]: Criteria
-#34 [Score: 0.99]: 11. Gross
-#35 [Score: 0.99]: 12.Number and
-#36 [Score: 1.00]: number
-#37 [Score: 0.99]: of packages; Description of goods; HS code in six
-#38 [Score: 0.99]: Weight,
-#39 [Score: 0.98]: date of
-#40 [Score: 1.00]: digits
-#41 [Score: 1.00]: Quantity
-#42 [Score: 1.00]: invoices
-#43 [Score: 1.00]: 13. Declaration by the exporter
-#44 [Score: 0.97]: 14.Certification
-#45 [Score: 0.96]: The Undersigned hereby declares that he/she has read the We hereby certify the authenticity of this certificate and
-#46 [Score: 0.97]: instructions for filling out this certificate and that the goods comply
-#47 [Score: 0.97]:  [ that it was issued in accordance with the provisions of the
-#48 [Score: 0.99]: with the origin requirements specified in this Agreement.
-#49 [Score: 1.00]: Agreement.
-#50 [Score: 0.99]: Date
-#51 [Score: 0.81]: Stamp
-#52 [Score: 0.98]: and
-#53 [Score: 0.99]: [QR Code
-#54 [Score: 0.99]: Website]
-#55 [Score: 1.00]: or
-#56 [Score: 0.99]: Stamp and Signature
-#57 [Score: 1.00]: Date, signature and stamp of
-#58 [Score: 0.99]: Competent Authority
+#1 [Score: 0.93]: Competent Authority
+#2 [Score: 0.93]: Date, signature and stamp of
+#3 [Score: 0.93]: Stamp and Signature
+#4 [Score: 0.93]: Websitel
+#5 [Score: 0.29]: 00190000009
+#6 [Score: 0.84]: [Qui Code
+#7 [Score: 0.86]: Stamo
+#8 [Score: 0.60]: ard
+#9 [Score: 0.93]: Date
+#10 [Score: 0.92]: Agreement.
+#11 [Score: 0.91]: with the origin requirements specified in this Agreemeat.
+#12 [Score: 0.91]: they that it was issued in accordance with the provisions of the 
+#13 [Score: 0.93]: instructions for filling out this certificate and that the goods comply
+#14 [Score: 0.93]: The Undersigned hereby declares that heishe has read the We hereby centify the authenticity of this certificate and
+#15 [Score: 0.93]: 13. Declaration by the exporter
+#16 [Score: 0.91]: 14. Certification
+#17 [Score: 0.93]: digits
+#18 [Score: 0.93]: Quantity
+#19 [Score: 0.93]: invoices
+#20 [Score: 0.93]: number
+#21 [Score: 0.92]: of packages; Description of goods; HS code in six
+#22 [Score: 0.93]: date of
+#23 [Score: 0.90]: Weight,
+#24 [Score: 0.93]: Criteria
+#25 [Score: 0.93]: 9. Marks and numbers on packages; Number and kind
+#26 [Score: 0.93]: 3, Item
+#27 [Score: 0.88]: 12.Number and
+#28 [Score: 0.85]: 11,Gross
+#29 [Score: 0.89]: 10, Origin
+#30 [Score: 0.90]: 7.Observations
+#31 [Score: 0.93]: Port of Destination:
+#32 [Score: 0.93]: Port of Discharge:
+#33 [Score: 0.93]: (Namc of non-party)
+#34 [Score: 0.91]: Vessel's Name / Aircraft, etc.
+#35 [Score: 0.90]: Shipment Date:
+#36 [Score: 0.91]: Non-party invoice
+#37 [Score: 0.91]: 5. Moans of transport and route, (optional)
+#38 [Score: 0.54]: 5
+#39 [Score: 0.93]: See Overleaf Notes
+#40 [Score: 0.93]: (Country)
+#41 [Score: 0.93]: Issued in
+#42 [Score: 0.83]: FORMUALLYN
+#43 [Score: 0.92]: certificate of origin
+#44 [Score: 0.93]: OF VIET NAM
+#45 [Score: 0.91]: 3, Importer's Name and address, Country
+#46 [Score: 0.92]: government of the socialist republic
+#47 [Score: 0.92]: OF THE UNITED ARABEMIRATES AND THE
+#48 [Score: 0.92]: AGREEMENT BETWEEN THE GOVERNMENT
+#49 [Score: 0.93]: 2. Producer's Name, Address, Country (optional)
+#50 [Score: 0.93]: comprehensive economic partnership
+#51 [Score: 0.93]: 1. Exporter's Name, Address, Country
+#52 [Score: 0.86]: 1. CERTIFICATE NO.
+#53 [Score: 0.93]: Việt Nam và Các tiểu vương quốc Ả-rập Thống nhất)
+#54 [Score: 0.93]: quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
+#55 [Score: 0.92]: ngày 05 tháng 5 năm 2026 của Bộ trường Bộ Công Thương
+#56 [Score: 0.93]: (Ban hành kèm theo Thông tư số2 4/2026/TT-BCT
+#57 [Score: 0.89]: MÃU C/O UAE-VN
+#58 [Score: 0.94]: Phụ lục II

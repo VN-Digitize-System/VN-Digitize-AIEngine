@@ -2,55 +2,55 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
+Lưu: VT, XNK (5)
+các cục, vụ thuộc bộ, các tổ chức cấp c/o;
+Bộ Công Thương: Bộ trưởng, các Thứ trưởng
+Sử công thương các tinh, thành phố
+Cổng thông tin điện tử bộ công thương
+Nguyễn Sinh Nhật Tân
+Cổng thông tịn điện tử chính phủ
+Kiêm toán nhà nước
+Công báo
+Cục Kiểm tra văn bắn và Quản lý XLVPHC - Bộ Tư pháp
+Viện KSND tối cao, Toà án ND tối cao
+UBND các tỉnh, TP trực thuộc TU
+Các bộ, cơ quan ngang bộ, cơ quan thuộc chính phủ;
+Văn phòng Quốc hội, Văn phòng Tư và các Ban của Đảng
+Văn phòng Chủ tịch nước, Văn phòng Tổng Bí thư,
+THỨ TRƯỞNG
+Thủ tướng, các phó thủ tướng chính phủ
+KT. BỘ TRƯỞNG
+Nơi nhận
+03 tháng 02 năm 2026.].
+trong Hiệp định đối với các lô hàng đăng ký tờ khai hải quan nhập khẩu từ ngày
+phát hành theo quy định tại Thông tư này để xem xét cho hưởng ưu đãi thuế quan
+3. Cơ quan hải quan chấp nhận chứng từ chứng nhận xuất xứ hàng hóa được
 16
-3.Co quan hai quan chap nhan chimg tir chüng nhan xuat xü hang hoa duoc
-phat hanh theo quy dinh tai Thong tu nay de xem xét cho huong uu dai thué quan
-trong Hiep dinh dói vi cac lo hang dang ky t khai hai quan nhap khau tur ngay
-03 thang 02 nam 2026./.
-Noinhan:
-KT.BO TRUONG
-- Thu tuong, cac Pho Thu tuong Chinh phu;
-THU'TRUONG
--Van phong Chu tich nuc,Van phong Tong Bi thu,
-Van phong Quöc hoi, Van phong TU va cac Ban cua Dang
- - Cac bo, co quan ngang b, co quan thu§c Chinh phu;
-- UBND cac tinh, TP truc thuc TU;
-- Vien KSND toi cao, Toa an ND toi cao;
-- Cuc Kiem tra van ban va Quan ly XLVPHC - B Tu phap
-- Cong bao;
-- Kiem toan Nha nuoc;
--Cong thong tin dien tir Chinh phu;
-Nguyen Sinh Nhat Tan
-- Cong thong tin dion tur B Cong Thuong;
-- S Cong Thuong cac tinh, thanh ph;
-- B Cong Thuong: B trung. cac Thur trung;
-cac Cuc, V thuc B, cac to chrc cap C/O;
--Luu:VT,XNK(5)
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.99]: 16
-#2 [Score: 0.89]: 3.Co quan hai quan chap nhan chimg tir chüng nhan xuat xü hang hoa duoc
-#3 [Score: 0.91]: phat hanh theo quy dinh tai Thong tu nay de xem xét cho huong uu dai thué quan
-#4 [Score: 0.94]: trong Hiep dinh dói vi cac lo hang dang ky t khai hai quan nhap khau tur ngay
-#5 [Score: 0.99]: 03 thang 02 nam 2026./.
-#6 [Score: 0.93]: Noinhan:
-#7 [Score: 0.93]: KT.BO TRUONG
-#8 [Score: 0.94]: - Thu tuong, cac Pho Thu tuong Chinh phu;
-#9 [Score: 0.93]: THU'TRUONG
-#10 [Score: 0.91]: -Van phong Chu tich nuc,Van phong Tong Bi thu,
-#11 [Score: 0.95]: Van phong Quöc hoi, Van phong TU va cac Ban cua Dang
-#12 [Score: 0.94]:  - Cac bo, co quan ngang b, co quan thu§c Chinh phu;
-#13 [Score: 0.92]: - UBND cac tinh, TP truc thuc TU;
-#14 [Score: 0.96]: - Vien KSND toi cao, Toa an ND toi cao;
-#15 [Score: 0.98]: - Cuc Kiem tra van ban va Quan ly XLVPHC - B Tu phap
-#16 [Score: 0.94]: - Cong bao;
-#17 [Score: 0.94]: - Kiem toan Nha nuoc;
-#18 [Score: 0.94]: -Cong thong tin dien tir Chinh phu;
-#19 [Score: 0.94]: Nguyen Sinh Nhat Tan
-#20 [Score: 0.95]: - Cong thong tin dion tur B Cong Thuong;
-#21 [Score: 0.97]: - S Cong Thuong cac tinh, thanh ph;
-#22 [Score: 0.89]: - B Cong Thuong: B trung. cac Thur trung;
-#23 [Score: 0.96]: cac Cuc, V thuc B, cac to chrc cap C/O;
-#24 [Score: 0.86]: -Luu:VT,XNK(5)
+#1 [Score: 0.87]: Lưu: VT, XNK (5)
+#2 [Score: 0.92]: các cục, vụ thuộc bộ, các tổ chức cấp c/o;
+#3 [Score: 0.90]: Bộ Công Thương: Bộ trưởng, các Thứ trưởng
+#4 [Score: 0.90]: Sử công thương các tinh, thành phố
+#5 [Score: 0.91]: Cổng thông tin điện tử bộ công thương
+#6 [Score: 0.93]: Nguyễn Sinh Nhật Tân
+#7 [Score: 0.89]: Cổng thông tịn điện tử chính phủ
+#8 [Score: 0.88]: Kiêm toán nhà nước
+#9 [Score: 0.90]: Công báo
+#10 [Score: 0.90]: Cục Kiểm tra văn bắn và Quản lý XLVPHC - Bộ Tư pháp
+#11 [Score: 0.91]: Viện KSND tối cao, Toà án ND tối cao
+#12 [Score: 0.89]: UBND các tỉnh, TP trực thuộc TU
+#13 [Score: 0.91]: Các bộ, cơ quan ngang bộ, cơ quan thuộc chính phủ;
+#14 [Score: 0.92]: Văn phòng Quốc hội, Văn phòng Tư và các Ban của Đảng
+#15 [Score: 0.91]: Văn phòng Chủ tịch nước, Văn phòng Tổng Bí thư,
+#16 [Score: 0.94]: THỨ TRƯỞNG
+#17 [Score: 0.92]: Thủ tướng, các phó thủ tướng chính phủ
+#18 [Score: 0.94]: KT. BỘ TRƯỞNG
+#19 [Score: 0.92]: Nơi nhận
+#20 [Score: 0.91]: 03 tháng 02 năm 2026.].
+#21 [Score: 0.93]: trong Hiệp định đối với các lô hàng đăng ký tờ khai hải quan nhập khẩu từ ngày
+#22 [Score: 0.92]: phát hành theo quy định tại Thông tư này để xem xét cho hưởng ưu đãi thuế quan
+#23 [Score: 0.93]: 3. Cơ quan hải quan chấp nhận chứng từ chứng nhận xuất xứ hàng hóa được
+#24 [Score: 0.93]: 16

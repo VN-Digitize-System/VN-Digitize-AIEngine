@@ -2,165 +2,165 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-8
-Ma HS
-Mo ta hang hoa
-Quy tac cu the mat hang
-(1)
-(2)
-(3)
-(4)
-Chuong 65
-Mu va cac vat doi dau khac va cac
-CTH
-QVC 35%
-b phan cua chüng.
-Chuong 66
-, da che, ba toong, gay tay cam
-CTH
-QVC 35%
-có the chuyen thanh ghe,roi,gay
-dieu khienroi dieu khien sc vat
-tho keo va cac b phan cua cac
-san pham tren.
-Chuong 67
-Long vu va long to che bién, cac
-CTH
-QVC 35%
-san pham bang long v hoac long
-tohoa nhan taocac san pham
-lam tir tóc ngui.
-Chuong 68
-San pham lam bang da, thach cao,
-CTH
-QVC 35%
-xi mang,amiang, mica hoac cac
-vat lieu tuong ty
-Chuong 69
-Do gom, su.
-CTH
-QVC 35%
-Chuong 70
-Thuy tinh va cac san pham bang
-CTH
-QVC 35%
-thuy tinh.
-Chuong 71
-Ngoc trai tur nhien hoac nuoi cay,
-CTH
-QVC 30%
-da quy hoac da ban quy, kim loai
-quy, kim loai dugc dat phu kim
-loai quy, va cac san pham cua
-chüng, d trang suc lam bang chat
-lieu khac, tien kim loai.
-ex 7102,
-Da quy hoac da ban quy (tu nhien,
-CTSH
-QVC 30%
-ex 7103 va
-tong hop hoac tai tao da gia cong.
-ex 7104
-7106,
-Kim loai quy:
-CTH ngoai trur tir
-7108va
-Chua gia cong
-nh6m 7106,7108 va
-7110
-7110 hoac dien phan,
-nhiet phan hoac tach
-bang hoa hoc tir kim
-loai quy thuc nhom
+bản hoặc tinh luyện
+hoặc với kim loại cơ
+hoặc 7110 với nhau
+nhóm 7106, 7108
+từ kim loại quý thuộc
+và/hoặc tạo hợp kim
+7110, hoặc nung chảy
+hoặc
 7106,7108
-hoac
-7110, hoac nung chay
-va/hoac tao hop kim
-tir kim loai quy thuc
-nhom7106,7108
-hoac 7110voi nhau
-hoac voi kim loai co
-ban hoac tinh luyen
+loại quý thuộc nhóm
+bằng hóa học từ kim
+nhiệt phân hoặc tách
+7110 hoặc điện phân
+7110
+nhóm 7106, 7108 và
+- Chưa gia công
+7108 và
+CTH ngoại trừ từ
+Kim loại quý;
+7106,
+ex 7104
+tổng hợp hoặc tái tạo) đã gia công.
+ex 7103 và
+QVC 30%
+CTSH
+Đá quý hoặc đá bán quý (tự nhiên,
+ex 7102,
+liệu khác; tiền kim loại.
+chúng; đồ trang sức làm bằng chất
+loại quý, và các sản phẩm của
+quý, kim loại được đất phủ kim
+đá quý hoặc đá bán quý, kim loại
+Ngọc trai tự nhiên hoặc nuôi cấy,
+QVC 30%
+CTH
+Chương 71
+thủy tinh.
+QVC 35%
+CTH
+Thủy tinh và các sản phẩm bằng
+Chương 70
+QVC 35%
+CTH
+Đồ gốm, sứ.
+Chương 69
+vật liệu tương tự.
+xi măng, amiăng, mica hoặc các
+QVC 35%
+CTH
+Sản phẩm làm bằng đá, thạch cao,
+Chương 68
+làm từ tóc người.
+tơ, hoa nhân tạo, các sản phẩm
+sản phẩm bằng lông vũ hoặc lông
+QVC 35%
+CTH
+Lông vũ và lông tơ chế biến, các
+Chương 67
+sản phẩm trên
+thồ kéo và các bộ phận của các
+điều khiên, roi điều khiến súc vật
+có thể chuyển thành ghế, roi, gậy
+QVC 35%
+CTH
+Chương 66
+Ô, dù che, ba toong, gậy tay cầm
+bộ phận của chúng.
+QVC 35%
+CTH
+Mũ và các vật đội đầu khác và các
+Chương 65
+(4)
+(3)
+(2)
+(1)
+Quy tắc cụ thể mặt hàng
+Mô tã hàng hóa
+Mã hs
+8
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.97]: 8
-#2 [Score: 0.94]: Ma HS
-#3 [Score: 0.97]: Mo ta hang hoa
-#4 [Score: 0.95]: Quy tac cu the mat hang
-#5 [Score: 0.95]: (1)
-#6 [Score: 0.99]: (2)
-#7 [Score: 0.99]: (3)
-#8 [Score: 0.92]: (4)
-#9 [Score: 0.99]: Chuong 65
-#10 [Score: 0.88]: Mu va cac vat doi dau khac va cac
-#11 [Score: 1.00]: CTH
-#12 [Score: 1.00]: QVC 35%
-#13 [Score: 0.97]: b phan cua chüng.
-#14 [Score: 1.00]: Chuong 66
-#15 [Score: 0.91]: , da che, ba toong, gay tay cam
-#16 [Score: 1.00]: CTH
-#17 [Score: 0.95]: QVC 35%
-#18 [Score: 0.93]: có the chuyen thanh ghe,roi,gay
-#19 [Score: 0.84]: dieu khienroi dieu khien sc vat
-#20 [Score: 0.89]: tho keo va cac b phan cua cac
-#21 [Score: 0.99]: san pham tren.
-#22 [Score: 0.99]: Chuong 67
-#23 [Score: 0.88]: Long vu va long to che bién, cac
-#24 [Score: 1.00]: CTH
-#25 [Score: 0.93]: QVC 35%
-#26 [Score: 0.96]: san pham bang long v hoac long
-#27 [Score: 0.93]: tohoa nhan taocac san pham
-#28 [Score: 0.93]: lam tir tóc ngui.
-#29 [Score: 1.00]: Chuong 68
-#30 [Score: 0.97]: San pham lam bang da, thach cao,
-#31 [Score: 1.00]: CTH
-#32 [Score: 1.00]: QVC 35%
-#33 [Score: 0.92]: xi mang,amiang, mica hoac cac
-#34 [Score: 0.90]: vat lieu tuong ty
-#35 [Score: 0.99]: Chuong 69
-#36 [Score: 0.95]: Do gom, su.
-#37 [Score: 1.00]: CTH
-#38 [Score: 1.00]: QVC 35%
-#39 [Score: 0.95]: Chuong 70
-#40 [Score: 0.95]: Thuy tinh va cac san pham bang
-#41 [Score: 1.00]: CTH
-#42 [Score: 1.00]: QVC 35%
-#43 [Score: 0.98]: thuy tinh.
-#44 [Score: 0.97]: Chuong 71
-#45 [Score: 0.88]: Ngoc trai tur nhien hoac nuoi cay,
-#46 [Score: 1.00]: CTH
-#47 [Score: 1.00]: QVC 30%
-#48 [Score: 0.95]: da quy hoac da ban quy, kim loai
-#49 [Score: 0.91]: quy, kim loai dugc dat phu kim
-#50 [Score: 0.96]: loai quy, va cac san pham cua
-#51 [Score: 0.93]: chüng, d trang suc lam bang chat
-#52 [Score: 0.96]: lieu khac, tien kim loai.
-#53 [Score: 0.98]: ex 7102,
-#54 [Score: 0.95]: Da quy hoac da ban quy (tu nhien,
-#55 [Score: 1.00]: CTSH
-#56 [Score: 1.00]: QVC 30%
-#57 [Score: 0.98]: ex 7103 va
-#58 [Score: 0.93]: tong hop hoac tai tao da gia cong.
-#59 [Score: 1.00]: ex 7104
-#60 [Score: 1.00]: 7106,
-#61 [Score: 1.00]: Kim loai quy:
-#62 [Score: 0.84]: CTH ngoai trur tir
-#63 [Score: 0.96]: 7108va
-#64 [Score: 0.96]: Chua gia cong
-#65 [Score: 0.91]: nh6m 7106,7108 va
-#66 [Score: 1.00]: 7110
-#67 [Score: 0.94]: 7110 hoac dien phan,
-#68 [Score: 0.95]: nhiet phan hoac tach
-#69 [Score: 0.98]: bang hoa hoc tir kim
-#70 [Score: 0.93]: loai quy thuc nhom
-#71 [Score: 1.00]: 7106,7108
-#72 [Score: 0.94]: hoac
-#73 [Score: 0.93]: 7110, hoac nung chay
-#74 [Score: 0.94]: va/hoac tao hop kim
-#75 [Score: 0.94]: tir kim loai quy thuc
-#76 [Score: 0.99]: nhom7106,7108
-#77 [Score: 0.91]: hoac 7110voi nhau
-#78 [Score: 0.97]: hoac voi kim loai co
-#79 [Score: 0.97]: ban hoac tinh luyen
+#1 [Score: 0.93]: bản hoặc tinh luyện
+#2 [Score: 0.93]: hoặc với kim loại cơ
+#3 [Score: 0.93]: hoặc 7110 với nhau
+#4 [Score: 0.91]: nhóm 7106, 7108
+#5 [Score: 0.93]: từ kim loại quý thuộc
+#6 [Score: 0.94]: và/hoặc tạo hợp kim
+#7 [Score: 0.93]: 7110, hoặc nung chảy
+#8 [Score: 0.93]: hoặc
+#9 [Score: 0.93]: 7106,7108
+#10 [Score: 0.93]: loại quý thuộc nhóm
+#11 [Score: 0.94]: bằng hóa học từ kim
+#12 [Score: 0.93]: nhiệt phân hoặc tách
+#13 [Score: 0.93]: 7110 hoặc điện phân
+#14 [Score: 0.93]: 7110
+#15 [Score: 0.93]: nhóm 7106, 7108 và
+#16 [Score: 0.88]: - Chưa gia công
+#17 [Score: 0.93]: 7108 và
+#18 [Score: 0.92]: CTH ngoại trừ từ
+#19 [Score: 0.92]: Kim loại quý;
+#20 [Score: 0.92]: 7106,
+#21 [Score: 0.93]: ex 7104
+#22 [Score: 0.93]: tổng hợp hoặc tái tạo) đã gia công.
+#23 [Score: 0.93]: ex 7103 và
+#24 [Score: 0.94]: QVC 30%
+#25 [Score: 0.88]: CTSH
+#26 [Score: 0.93]: Đá quý hoặc đá bán quý (tự nhiên,
+#27 [Score: 0.91]: ex 7102,
+#28 [Score: 0.93]: liệu khác; tiền kim loại.
+#29 [Score: 0.93]: chúng; đồ trang sức làm bằng chất
+#30 [Score: 0.93]: loại quý, và các sản phẩm của
+#31 [Score: 0.92]: quý, kim loại được đất phủ kim
+#32 [Score: 0.94]: đá quý hoặc đá bán quý, kim loại
+#33 [Score: 0.93]: Ngọc trai tự nhiên hoặc nuôi cấy,
+#34 [Score: 0.94]: QVC 30%
+#35 [Score: 0.92]: CTH
+#36 [Score: 0.93]: Chương 71
+#37 [Score: 0.91]: thủy tinh.
+#38 [Score: 0.93]: QVC 35%
+#39 [Score: 0.93]: CTH
+#40 [Score: 0.93]: Thủy tinh và các sản phẩm bằng
+#41 [Score: 0.93]: Chương 70
+#42 [Score: 0.94]: QVC 35%
+#43 [Score: 0.93]: CTH
+#44 [Score: 0.88]: Đồ gốm, sứ.
+#45 [Score: 0.93]: Chương 69
+#46 [Score: 0.91]: vật liệu tương tự.
+#47 [Score: 0.93]: xi măng, amiăng, mica hoặc các
+#48 [Score: 0.93]: QVC 35%
+#49 [Score: 0.92]: CTH
+#50 [Score: 0.93]: Sản phẩm làm bằng đá, thạch cao,
+#51 [Score: 0.94]: Chương 68
+#52 [Score: 0.93]: làm từ tóc người.
+#53 [Score: 0.92]: tơ, hoa nhân tạo, các sản phẩm
+#54 [Score: 0.93]: sản phẩm bằng lông vũ hoặc lông
+#55 [Score: 0.93]: QVC 35%
+#56 [Score: 0.88]: CTH
+#57 [Score: 0.93]: Lông vũ và lông tơ chế biến, các
+#58 [Score: 0.93]: Chương 67
+#59 [Score: 0.93]: sản phẩm trên
+#60 [Score: 0.92]: thồ kéo và các bộ phận của các
+#61 [Score: 0.91]: điều khiên, roi điều khiến súc vật
+#62 [Score: 0.91]: có thể chuyển thành ghế, roi, gậy
+#63 [Score: 0.94]: QVC 35%
+#64 [Score: 0.91]: CTH
+#65 [Score: 0.94]: Chương 66
+#66 [Score: 0.92]: Ô, dù che, ba toong, gậy tay cầm
+#67 [Score: 0.92]: bộ phận của chúng.
+#68 [Score: 0.93]: QVC 35%
+#69 [Score: 0.92]: CTH
+#70 [Score: 0.93]: Mũ và các vật đội đầu khác và các
+#71 [Score: 0.93]: Chương 65
+#72 [Score: 0.94]: (4)
+#73 [Score: 0.94]: (3)
+#74 [Score: 0.94]: (2)
+#75 [Score: 0.93]: (1)
+#76 [Score: 0.93]: Quy tắc cụ thể mặt hàng
+#77 [Score: 0.91]: Mô tã hàng hóa
+#78 [Score: 0.82]: Mã hs
+#79 [Score: 0.94]: 8

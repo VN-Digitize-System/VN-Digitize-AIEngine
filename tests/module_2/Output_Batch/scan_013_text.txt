@@ -2,75 +2,75 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-Phu luc I
-QUY TAC CU THE MAT HANG
-(Ban hánh kém theo Thóng tu sö 4/2026/TT-BCT
-ngay 0$thang 5 nam 2026 cua Btruong B Cóng Thuong
-quy dinh Quy tác xuat xir háng höa trong Hiep dinh Döi tác kinh té toan dién
-Viet Nam va Cac Tiéu vuong quöc A-rap thöng nhát
-1. Trong Phu luc nay, möt sö thuat ngir duroc hiéu nhu sau:
-a Ma HS la ma sö hang hóa trong He thong hai hoa mo ta va ma sö hang
-hoa. Phien ban HS duoc sur dung la Phien ban HS 2022
-b) Phan la cac phan trong He thöng hai hoa m ta va ma sö hang hóa.
-c) Churong la hai sö dau cua ma sö hang hóa trong H@ thong hai hoa m ta
-va ma hoa hang hoa.
-d) Nhóm la bön sö dau cua ma sö hang hóa trong He thöng hai ha mo ta
-va ma so hang hoa.
-d) Phan nhóm la sau sö dau cüa ma sö phan loai hang hóa trong He thöng
-hai hoa mo ta va ma so hang hoa.
-2. Trong Quy tac cu the mat hang, cac ct duqc hieu nhu sau:
-a) Cot 1 - Ma HS (Nhom hoac Phan nhom).
-b) Cot 2 - Mo ta hang hoa, theo H thong hai hoa mo ta va ma so hang hoa.
-c) Cot 3 - Quy tac xuat xú hang hoa.
-d) Cot 4 - Quy tac xuat xur hang hoa thay thé.
-3. Trung hop Quy tac xuat xúr hang hóa duqc quy dinh trong Cot 3 va
-Cot 4,nha xuat khau hoac nha san xuat co the ap dung Quy tac xuat xu hang hoa
-duoc quy dinh trong Cot 3 hoac Cot 4.
-4. Trong mot sö trung hop, Cot 1 cua Phu luc nay c6 tien toex nghia
-la Quy täc xuat xú hang hóa duqc quy dinh tai Cot 3 hoac C$t 4 chi ap dung cho
-mot phan cua Nhóm hoac Phan nhóm hang hóa duqc m ta tai Ct 2.
-5. Trung hop Quy täc xuát xúr hang hóa yeu cau nguyen li@u chuyén döi
-ma sö hang hoa hoac trai qua cong doan gia cong, che bién cu the, Quy tac xuat
-x hang hóa nay chi ap dung vói nguyen lieu khong có xuat xú.
-6. Trung hop Quy tac xuát xú hang hóa áp dung tieu chi chuyén döi ma
-sö hang hóa, hang hóa chi duqc coi la dap ng khi tirng nguyén liu khong có xuat
-xur dugc dung de san xuat ra hang hóa chuyén doi ma sö hang hóa.
-7.Trurng hop Quy tac xuat xur hang hoa ap dung tieu chi chuyén di ma
+7. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đồi mã
+xứ được dùng để sản xuất ra hàng hóa chuyển đổi mã số hàng hóa.
+số hàng hóa, hàng hóa chi được coi là đáp ứng khi từng nguyên liệu khống có xuất
+6. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đổi mã
+xứ hàng hóa này chỉ áp dụng với nguyên liệu không có xuất xứ.
+1 mã số hàng hóa hoặc trải qua công đoạn gia công, chế biến cụ thể, Quy tắc xuất
+5. Trường hợp Quy tắc xuất xứ hàng hóa yêu cầu nguyên liệu chuyền đối
+một phần của Nhóm hoặc Phân nhóm hàng hóa được mồ tả tại Cột 2.
+là Quy tắc xuất xứ hàng hóa được quy định tại Cột 3 hoặc Cột 4 chí áp dụng cho
+4, Trong một số trường hợp, Cột 1 của Phụ lục này có tiền tố ?ex? nghĩa
+được quy định trong cột 3 hoặc cột 4.
+Cột 4, nhà xuất khẩu hoặc nhà sản xuất có thể áp dụng Quy tắc xuất xử hàng hóa
+3. Trường hợp Quy tắc xuất xứ hàng hóa được quy định trong Cột 3 và
+d) Cột 4 - Quy tắc xuất xứ hàng hóa thay thế.
+c) Cột 3 - Quy tắc xuất xứ hàng hóa.
+b) Cột 2 - Mô tả hàng hóa, theo Hệ thống hài hòa mô tả và mã số hàng hóa.
+a) Cột 1 - Mã HS (Nhóm hoặc Phân nhóm).
+2. Trong Quy tắc cụ thể mặt hàng, các cột được hiểu như sau:
+hải hòa mô tả và mã số hàng hóa.
+đ) Phân nhóm là sáu số đầu của mã số phân loại hàng hóa trong Hệ thống
+và mã số hàng hóa.
+d) Nhóm là bốn số đầu của mã số hàng hóa trong Hệ thống hải hòa mô tả
+và mã hóa hàng hóa.
+c) Chương là hai số đầu của mã số hàng hóa trong Hệ thống hài hòa mô tả
+b) Phần là các phần tròng Hệ thống hài hòa mô tả và mã số hàng hóa,
+hóa, Phiên bản HS được sử dụng là Phiên bản HS 2022.
+a) Mã HS là mã số hàng hóa trong Hệ thống hài hòa mô tả và mã số hàng
+1. Trong Phụ lục này, một số thuật ngữ được hiểu như sau:
+Việt Nam và Các Tiểu vương quốc Á-rập thống nhất)
+quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
+ngày 0g tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương
+(Ban hành kèm theo Thông tư sốp 4/2026/TT-BCT
+QUY TẮC CỤ THỂ MẶT HÀNG
+Phụ lục I
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.99]: Phu luc I
-#2 [Score: 0.91]: QUY TAC CU THE MAT HANG
-#3 [Score: 0.95]: (Ban hánh kém theo Thóng tu sö 4/2026/TT-BCT
-#4 [Score: 0.87]: ngay 0$thang 5 nam 2026 cua Btruong B Cóng Thuong
-#5 [Score: 0.88]: quy dinh Quy tác xuat xir háng höa trong Hiep dinh Döi tác kinh té toan dién
-#6 [Score: 0.92]: Viet Nam va Cac Tiéu vuong quöc A-rap thöng nhát
-#7 [Score: 0.93]: 1. Trong Phu luc nay, möt sö thuat ngir duroc hiéu nhu sau:
-#8 [Score: 0.92]: a Ma HS la ma sö hang hóa trong He thong hai hoa mo ta va ma sö hang
-#9 [Score: 0.92]: hoa. Phien ban HS duoc sur dung la Phien ban HS 2022
-#10 [Score: 0.91]: b) Phan la cac phan trong He thöng hai hoa m ta va ma sö hang hóa.
-#11 [Score: 0.94]: c) Churong la hai sö dau cua ma sö hang hóa trong H@ thong hai hoa m ta
-#12 [Score: 0.90]: va ma hoa hang hoa.
-#13 [Score: 0.90]: d) Nhóm la bön sö dau cua ma sö hang hóa trong He thöng hai ha mo ta
-#14 [Score: 0.89]: va ma so hang hoa.
-#15 [Score: 0.93]: d) Phan nhóm la sau sö dau cüa ma sö phan loai hang hóa trong He thöng
-#16 [Score: 0.94]: hai hoa mo ta va ma so hang hoa.
-#17 [Score: 0.94]: 2. Trong Quy tac cu the mat hang, cac ct duqc hieu nhu sau:
-#18 [Score: 0.96]: a) Cot 1 - Ma HS (Nhom hoac Phan nhom).
-#19 [Score: 0.94]: b) Cot 2 - Mo ta hang hoa, theo H thong hai hoa mo ta va ma so hang hoa.
-#20 [Score: 0.91]: c) Cot 3 - Quy tac xuat xú hang hoa.
-#21 [Score: 0.89]: d) Cot 4 - Quy tac xuat xur hang hoa thay thé.
-#22 [Score: 0.92]: 3. Trung hop Quy tac xuat xúr hang hóa duqc quy dinh trong Cot 3 va
-#23 [Score: 0.91]: Cot 4,nha xuat khau hoac nha san xuat co the ap dung Quy tac xuat xu hang hoa
-#24 [Score: 0.92]: duoc quy dinh trong Cot 3 hoac Cot 4.
-#25 [Score: 0.90]: 4. Trong mot sö trung hop, Cot 1 cua Phu luc nay c6 tien toex nghia
-#26 [Score: 0.94]: la Quy täc xuat xú hang hóa duqc quy dinh tai Cot 3 hoac C$t 4 chi ap dung cho
-#27 [Score: 0.94]: mot phan cua Nhóm hoac Phan nhóm hang hóa duqc m ta tai Ct 2.
-#28 [Score: 0.90]: 5. Trung hop Quy täc xuát xúr hang hóa yeu cau nguyen li@u chuyén döi
-#29 [Score: 0.92]: ma sö hang hoa hoac trai qua cong doan gia cong, che bién cu the, Quy tac xuat
-#30 [Score: 0.90]: x hang hóa nay chi ap dung vói nguyen lieu khong có xuat xú.
-#31 [Score: 0.92]: 6. Trung hop Quy tac xuát xú hang hóa áp dung tieu chi chuyén döi ma
-#32 [Score: 0.93]: sö hang hóa, hang hóa chi duqc coi la dap ng khi tirng nguyén liu khong có xuat
-#33 [Score: 0.92]: xur dugc dung de san xuat ra hang hóa chuyén doi ma sö hang hóa.
-#34 [Score: 0.91]: 7.Trurng hop Quy tac xuat xur hang hoa ap dung tieu chi chuyén di ma
+#1 [Score: 0.92]: 7. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đồi mã
+#2 [Score: 0.93]: xứ được dùng để sản xuất ra hàng hóa chuyển đổi mã số hàng hóa.
+#3 [Score: 0.92]: số hàng hóa, hàng hóa chi được coi là đáp ứng khi từng nguyên liệu khống có xuất
+#4 [Score: 0.93]: 6. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đổi mã
+#5 [Score: 0.93]: xứ hàng hóa này chỉ áp dụng với nguyên liệu không có xuất xứ.
+#6 [Score: 0.91]: 1 mã số hàng hóa hoặc trải qua công đoạn gia công, chế biến cụ thể, Quy tắc xuất
+#7 [Score: 0.92]: 5. Trường hợp Quy tắc xuất xứ hàng hóa yêu cầu nguyên liệu chuyền đối
+#8 [Score: 0.93]: một phần của Nhóm hoặc Phân nhóm hàng hóa được mồ tả tại Cột 2.
+#9 [Score: 0.93]: là Quy tắc xuất xứ hàng hóa được quy định tại Cột 3 hoặc Cột 4 chí áp dụng cho
+#10 [Score: 0.93]: 4, Trong một số trường hợp, Cột 1 của Phụ lục này có tiền tố ?ex? nghĩa
+#11 [Score: 0.92]: được quy định trong cột 3 hoặc cột 4.
+#12 [Score: 0.92]: Cột 4, nhà xuất khẩu hoặc nhà sản xuất có thể áp dụng Quy tắc xuất xử hàng hóa
+#13 [Score: 0.93]: 3. Trường hợp Quy tắc xuất xứ hàng hóa được quy định trong Cột 3 và
+#14 [Score: 0.93]: d) Cột 4 - Quy tắc xuất xứ hàng hóa thay thế.
+#15 [Score: 0.92]: c) Cột 3 - Quy tắc xuất xứ hàng hóa.
+#16 [Score: 0.93]: b) Cột 2 - Mô tả hàng hóa, theo Hệ thống hài hòa mô tả và mã số hàng hóa.
+#17 [Score: 0.92]: a) Cột 1 - Mã HS (Nhóm hoặc Phân nhóm).
+#18 [Score: 0.93]: 2. Trong Quy tắc cụ thể mặt hàng, các cột được hiểu như sau:
+#19 [Score: 0.92]: hải hòa mô tả và mã số hàng hóa.
+#20 [Score: 0.93]: đ) Phân nhóm là sáu số đầu của mã số phân loại hàng hóa trong Hệ thống
+#21 [Score: 0.93]: và mã số hàng hóa.
+#22 [Score: 0.93]: d) Nhóm là bốn số đầu của mã số hàng hóa trong Hệ thống hải hòa mô tả
+#23 [Score: 0.93]: và mã hóa hàng hóa.
+#24 [Score: 0.93]: c) Chương là hai số đầu của mã số hàng hóa trong Hệ thống hài hòa mô tả
+#25 [Score: 0.92]: b) Phần là các phần tròng Hệ thống hài hòa mô tả và mã số hàng hóa,
+#26 [Score: 0.91]: hóa, Phiên bản HS được sử dụng là Phiên bản HS 2022.
+#27 [Score: 0.93]: a) Mã HS là mã số hàng hóa trong Hệ thống hài hòa mô tả và mã số hàng
+#28 [Score: 0.93]: 1. Trong Phụ lục này, một số thuật ngữ được hiểu như sau:
+#29 [Score: 0.92]: Việt Nam và Các Tiểu vương quốc Á-rập thống nhất)
+#30 [Score: 0.93]: quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
+#31 [Score: 0.92]: ngày 0g tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương
+#32 [Score: 0.93]: (Ban hành kèm theo Thông tư sốp 4/2026/TT-BCT
+#33 [Score: 0.91]: QUY TẮC CỤ THỂ MẶT HÀNG
+#34 [Score: 0.93]: Phụ lục I

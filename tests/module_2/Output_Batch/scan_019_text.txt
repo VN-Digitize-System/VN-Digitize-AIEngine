@@ -2,185 +2,185 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-Ma HS
-Mo ta hang hoa
-Quy tac cu the mat hang
+phẩm trên.
+tương tự, các bộ phận của các sản
+Chương 64
+Giảy, đép, ghệt và các sản phẩm
+QVC 35%
+CTH
+khác; vải vụn.
+loại hàng dệt đã qua sử dụng
+khác; bộ vài; quấn áo dệt và các
+Chương 63
+Các mặt hàng dệt đã hoàn thiện
+QVC 35%
+CTH
+phụ trợ, không dệt kim hoặc móc.
+Chương 62
+Quần áo và các hàng may mặc
+CTH
+QVC 35%
+trợ, dệt kim hoặc móc.
+Chương 61
+Quần áo và hàng may mặc phụ
+QVC 35%
+CTH
+Chương 60
+Các loại hàng dệt kim hoặc móc.
+QVC 35%
+CTH
+công nghiệp.
+mặt hàng dệt thích hợp dùng trong
+tầm, tráng, phủ hoặc ép lớp; các
+Chương 59
+Các loại vải dệt đã được ngâm
+CTH
+QVC 35%
+hàng thêu.
+thảm trang trí, hàng trang trí;
+loại vải dệt tạo búi, hàng ren;
+Chương 58
+Các loại vải dệt thoi đặc biệt; các
+QVC 35%
+CTH
+khác.
+Chương 57
+Thảm và các loại hàng dệt trải sàn
+CTH
+QVC 35%
+chúng
+và cáp và các sản phẩm của
+sợi xê, chão bện (cordage), thừng
+không dệt, các loại sợi đặc biệt;
+Chương 56
+CTH
+Mền xơ, phớt và các sản phẩm
+QVC 35%
+Xơ sợi staple nhân tạo.
+Chương 55
+QVC 35%
+CTH
+Sợi filament nhân tạo.
+Chương 54
+QVC 35%
+CTH
+và vải dệt thoi từ sợi giấy.
+Chương 53
+Xơ dệt gốc thực vật khác; sợi giấy
+QVC 35%
+CTH
+Bông.
+Chương 52
+QVC 35%
+CTH
+các nguyên liệu trên.
+hoặc bờm ngựa và vải dệt thoi từ
+hoặc loại thô, sợi từ lông đuôi
+Lông cửu, lông động vật loại mịn
+Chương 51
+CTH
+QVC 35%
+Chương 50
+Tơ tằm.
+CTH
+QVC 35%
 (1)
 (2)
-(3)
 (4)
-Chuong 50
-To tam.
-CTH
-QVC35%
-Chuong 51
-Long ciru, long dong vat loai min
-HLO
-QVC35%
-hoac loai th8sgi tur 1ong dui
-hoac bom ngua va vai det thoi tir
-cac nguyen lieu tren.
-Chuong 52
-Bong.
-CTH
-QVC 35%
-Churong 53
-Xo det göc thuc vat khac; soi giay
-CTH
-QVC 35%
-va vai det thoi tur sqi giay.
-Chuong 54
-Sgi filament nhan tao.
-CTH
-QVC 35%
-Chuong 55
-Xo sqi staple nhan tao.
-CTH
-QVC 35%
-Chuong 56
-Men xo, phot va cac san pham
-HLD
-QVC 35%
-khong det cac loai sgi dac biet
-soi xe, chao ben cordage), thing
-va cap va cac san pham cua
-ching.
-Chuong 57
-Tham va cac loai hang det trai san
-CTH
-QVC 35%
-khac.
-Chuong 58
-Cac loai vai det thoi dac biet cac
-CTH
-QVC 35%
-loai vai det tao buihang ren;
-tham trang tri hang trang tri;
-hang theu.
-Chuong 59
-Cac loai vai det da duoc ngam
-CTH
-QVC 35%
-tam,trang,phu hoac ep 1pcac
-mat hang det thich hop dung trong
-cong nghiep.
-Chuong 60
-Cac loai hang det kim hoac moc.
-CTH
-QVC 35%
-Chuong 61
-Quan ao va hang may mac phu
-CTH
-QVC 35%
-try, det kim hoac moc.
-Chuong 62
-Quan ao va cac hang may mac
-CTH
-QVC 35%
-phu tr, khong d@t kim hoac móc.
-Chuong 63
-Cac mat hang det da hoan thien
-CTH
-OVC 35%
-khac bo vai quan ao det va cac
-loai hang detdaqua su dung
-khac; vai vun.
-Chuong 64
-Giay,dep, ghet va cac san pham
-CTH
-QVC 35%
-tuong trcac bo phan cua cac san
-pham tren.
+(3)
+Mã hs
+Mô tả hàng hóa
+Quy tắc cụ thể mặt hàng
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.98]: Ma HS
-#2 [Score: 0.95]: Mo ta hang hoa
-#3 [Score: 0.96]: Quy tac cu the mat hang
-#4 [Score: 0.98]: (1)
-#5 [Score: 0.99]: (2)
-#6 [Score: 0.99]: (3)
-#7 [Score: 0.97]: (4)
-#8 [Score: 0.99]: Chuong 50
-#9 [Score: 0.98]: To tam.
-#10 [Score: 1.00]: CTH
-#11 [Score: 0.98]: QVC35%
-#12 [Score: 0.97]: Chuong 51
-#13 [Score: 0.94]: Long ciru, long dong vat loai min
-#14 [Score: 0.82]: HLO
-#15 [Score: 0.97]: QVC35%
-#16 [Score: 0.81]: hoac loai th8sgi tur 1ong dui
-#17 [Score: 0.95]: hoac bom ngua va vai det thoi tir
-#18 [Score: 0.94]: cac nguyen lieu tren.
-#19 [Score: 0.96]: Chuong 52
-#20 [Score: 0.99]: Bong.
-#21 [Score: 1.00]: CTH
-#22 [Score: 0.99]: QVC 35%
-#23 [Score: 0.95]: Churong 53
-#24 [Score: 0.92]: Xo det göc thuc vat khac; soi giay
-#25 [Score: 1.00]: CTH
-#26 [Score: 1.00]: QVC 35%
-#27 [Score: 0.96]: va vai det thoi tur sqi giay.
-#28 [Score: 0.95]: Chuong 54
-#29 [Score: 0.98]: Sgi filament nhan tao.
-#30 [Score: 1.00]: CTH
-#31 [Score: 0.99]: QVC 35%
-#32 [Score: 0.98]: Chuong 55
-#33 [Score: 0.96]: Xo sqi staple nhan tao.
-#34 [Score: 1.00]: CTH
-#35 [Score: 0.99]: QVC 35%
-#36 [Score: 0.95]: Chuong 56
-#37 [Score: 0.95]: Men xo, phot va cac san pham
-#38 [Score: 0.81]: HLD
-#39 [Score: 0.98]: QVC 35%
-#40 [Score: 0.90]: khong det cac loai sgi dac biet
-#41 [Score: 0.89]: soi xe, chao ben cordage), thing
-#42 [Score: 0.91]: va cap va cac san pham cua
-#43 [Score: 0.85]: ching.
-#44 [Score: 0.98]: Chuong 57
-#45 [Score: 0.95]: Tham va cac loai hang det trai san
-#46 [Score: 1.00]: CTH
-#47 [Score: 0.99]: QVC 35%
-#48 [Score: 0.98]: khac.
-#49 [Score: 1.00]: Chuong 58
-#50 [Score: 0.95]: Cac loai vai det thoi dac biet cac
-#51 [Score: 1.00]: CTH
-#52 [Score: 1.00]: QVC 35%
-#53 [Score: 0.92]: loai vai det tao buihang ren;
-#54 [Score: 0.92]: tham trang tri hang trang tri;
-#55 [Score: 0.98]: hang theu.
-#56 [Score: 0.99]: Chuong 59
-#57 [Score: 0.91]: Cac loai vai det da duoc ngam
-#58 [Score: 1.00]: CTH
-#59 [Score: 0.95]: QVC 35%
-#60 [Score: 0.87]: tam,trang,phu hoac ep 1pcac
-#61 [Score: 0.93]: mat hang det thich hop dung trong
-#62 [Score: 0.94]: cong nghiep.
-#63 [Score: 1.00]: Chuong 60
-#64 [Score: 0.97]: Cac loai hang det kim hoac moc.
-#65 [Score: 1.00]: CTH
-#66 [Score: 0.97]: QVC 35%
-#67 [Score: 1.00]: Chuong 61
-#68 [Score: 0.93]: Quan ao va hang may mac phu
-#69 [Score: 1.00]: CTH
-#70 [Score: 0.96]: QVC 35%
-#71 [Score: 0.97]: try, det kim hoac moc.
-#72 [Score: 1.00]: Chuong 62
-#73 [Score: 0.92]: Quan ao va cac hang may mac
-#74 [Score: 1.00]: CTH
-#75 [Score: 1.00]: QVC 35%
-#76 [Score: 0.96]: phu tr, khong d@t kim hoac móc.
-#77 [Score: 1.00]: Chuong 63
-#78 [Score: 0.92]: Cac mat hang det da hoan thien
-#79 [Score: 1.00]: CTH
-#80 [Score: 0.90]: OVC 35%
-#81 [Score: 0.91]: khac bo vai quan ao det va cac
-#82 [Score: 0.89]: loai hang detdaqua su dung
-#83 [Score: 0.99]: khac; vai vun.
-#84 [Score: 1.00]: Chuong 64
-#85 [Score: 0.92]: Giay,dep, ghet va cac san pham
-#86 [Score: 1.00]: CTH
-#87 [Score: 0.98]: QVC 35%
-#88 [Score: 0.91]: tuong trcac bo phan cua cac san
-#89 [Score: 0.99]: pham tren.
+#1 [Score: 0.88]: phẩm trên.
+#2 [Score: 0.92]: tương tự, các bộ phận của các sản
+#3 [Score: 0.94]: Chương 64
+#4 [Score: 0.92]: Giảy, đép, ghệt và các sản phẩm
+#5 [Score: 0.93]: QVC 35%
+#6 [Score: 0.93]: CTH
+#7 [Score: 0.92]: khác; vải vụn.
+#8 [Score: 0.93]: loại hàng dệt đã qua sử dụng
+#9 [Score: 0.89]: khác; bộ vài; quấn áo dệt và các
+#10 [Score: 0.93]: Chương 63
+#11 [Score: 0.93]: Các mặt hàng dệt đã hoàn thiện
+#12 [Score: 0.93]: QVC 35%
+#13 [Score: 0.88]: CTH
+#14 [Score: 0.93]: phụ trợ, không dệt kim hoặc móc.
+#15 [Score: 0.94]: Chương 62
+#16 [Score: 0.93]: Quần áo và các hàng may mặc
+#17 [Score: 0.90]: CTH
+#18 [Score: 0.93]: QVC 35%
+#19 [Score: 0.93]: trợ, dệt kim hoặc móc.
+#20 [Score: 0.93]: Chương 61
+#21 [Score: 0.93]: Quần áo và hàng may mặc phụ
+#22 [Score: 0.93]: QVC 35%
+#23 [Score: 0.92]: CTH
+#24 [Score: 0.93]: Chương 60
+#25 [Score: 0.93]: Các loại hàng dệt kim hoặc móc.
+#26 [Score: 0.93]: QVC 35%
+#27 [Score: 0.93]: CTH
+#28 [Score: 0.92]: công nghiệp.
+#29 [Score: 0.93]: mặt hàng dệt thích hợp dùng trong
+#30 [Score: 0.93]: tầm, tráng, phủ hoặc ép lớp; các
+#31 [Score: 0.94]: Chương 59
+#32 [Score: 0.93]: Các loại vải dệt đã được ngâm
+#33 [Score: 0.93]: CTH
+#34 [Score: 0.93]: QVC 35%
+#35 [Score: 0.91]: hàng thêu.
+#36 [Score: 0.91]: thảm trang trí, hàng trang trí;
+#37 [Score: 0.91]: loại vải dệt tạo búi, hàng ren;
+#38 [Score: 0.94]: Chương 58
+#39 [Score: 0.93]: Các loại vải dệt thoi đặc biệt; các
+#40 [Score: 0.93]: QVC 35%
+#41 [Score: 0.92]: CTH
+#42 [Score: 0.93]: khác.
+#43 [Score: 0.93]: Chương 57
+#44 [Score: 0.93]: Thảm và các loại hàng dệt trải sàn
+#45 [Score: 0.88]: CTH
+#46 [Score: 0.94]: QVC 35%
+#47 [Score: 0.94]: chúng
+#48 [Score: 0.93]: và cáp và các sản phẩm của
+#49 [Score: 0.92]: sợi xê, chão bện (cordage), thừng
+#50 [Score: 0.92]: không dệt, các loại sợi đặc biệt;
+#51 [Score: 0.93]: Chương 56
+#52 [Score: 0.82]: CTH
+#53 [Score: 0.92]: Mền xơ, phớt và các sản phẩm
+#54 [Score: 0.93]: QVC 35%
+#55 [Score: 0.93]: Xơ sợi staple nhân tạo.
+#56 [Score: 0.94]: Chương 55
+#57 [Score: 0.93]: QVC 35%
+#58 [Score: 0.89]: CTH
+#59 [Score: 0.92]: Sợi filament nhân tạo.
+#60 [Score: 0.93]: Chương 54
+#61 [Score: 0.93]: QVC 35%
+#62 [Score: 0.89]: CTH
+#63 [Score: 0.93]: và vải dệt thoi từ sợi giấy.
+#64 [Score: 0.89]: Chương 53
+#65 [Score: 0.93]: Xơ dệt gốc thực vật khác; sợi giấy
+#66 [Score: 0.92]: QVC 35%
+#67 [Score: 0.92]: CTH
+#68 [Score: 0.91]: Bông.
+#69 [Score: 0.94]: Chương 52
+#70 [Score: 0.93]: QVC 35%
+#71 [Score: 0.92]: CTH
+#72 [Score: 0.91]: các nguyên liệu trên.
+#73 [Score: 0.93]: hoặc bờm ngựa và vải dệt thoi từ
+#74 [Score: 0.93]: hoặc loại thô, sợi từ lông đuôi
+#75 [Score: 0.92]: Lông cửu, lông động vật loại mịn
+#76 [Score: 0.93]: Chương 51
+#77 [Score: 0.93]: CTH
+#78 [Score: 0.93]: QVC 35%
+#79 [Score: 0.93]: Chương 50
+#80 [Score: 0.88]: Tơ tằm.
+#81 [Score: 0.93]: CTH
+#82 [Score: 0.93]: QVC 35%
+#83 [Score: 0.94]: (1)
+#84 [Score: 0.94]: (2)
+#85 [Score: 0.94]: (4)
+#86 [Score: 0.94]: (3)
+#87 [Score: 0.93]: Mã hs
+#88 [Score: 0.93]: Mô tả hàng hóa
+#89 [Score: 0.93]: Quy tắc cụ thể mặt hàng

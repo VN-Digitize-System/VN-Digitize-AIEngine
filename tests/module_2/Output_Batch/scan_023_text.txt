@@ -2,87 +2,87 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-11
-Ma HS
-M6 ta hang hoa
-Quy tac cu the mat hang
-(1)
-(2)
-(3)
-(4)
-Chuong 94
-D ni that b d giung,dm,
-CTH, tuy nhien trong
+tầm và đồ cổ.
+Các tác phẩm nghệ thuật, đồ sưu
+Chương 97
 QVC 35%
-khung dem, nem va cac do dung
-trung hop hang hóa
-nhi tuong tu;den va bden,
-va cac bo phan hoac
-chua duac chi tiét hoac ghi  noi
-phu kien cua chüng
-khac;bien hi@u duoc chieu sang,
-duoc phan loai trong
-bien de ten dugc chieu sang va
-cüng möt nhóm thi áp
-cac loai tuong tur, nha lap ghep.
-dung quy tac CTSH
+CTH
+Chương 96
+Các mặt hàng khác.
+QVC 35%
+CTH
+và phụ kiện của chúng.
+cụ, thiết bị thể thao, các bộ phận
+Chương 95
+Đồ chơi, thiết bị trò chơi và dụng
+CTH
+QVC 35%
 thay vi CTH
-Chuong 95
-Dö choi, thiét bi tr choi va dung 
-CTH
+các loại tương tự, nhà lắp ghép.
+dụng quy tắc CTSH
+biến đề tên được chiếu sáng và
+cùng một nhóm thi áp
+khác; biến hiệu được chiếu sáng,
+được phân loại trong
+phụ kiện của chúng
+chưa được chi tiết hoặc ghi ở nơi
+nhồi tương tự. đèn và bộ đèn,
+và các bộ phận hoặc
+khung đệm, nệm và các đỗ dùng
+trường hợp hàng hóa
+Chương 94
+CTH, tuy nhiên trong
+Đồ nội thất, bộ đồ giường, đệm,
 QVC 35%
-cu,thiet bi the thaocac b phan
-va phu kian cua chung.
-Chuong 96
-Cac mat hang khac.
-CTH
-QVC 35%
-Chuong 97
-Cac tac pham nghe thuat, d suu
-CTH
-QVC 35%
-tam va do co.
+(1)
+(4)
+(3)
+(2)
+Mã hs
+Mô tả hàng hóa
+Quy tắc cụ thể mặt hàng
+11
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 1.00]: 11
-#2 [Score: 0.98]: Ma HS
-#3 [Score: 0.98]: M6 ta hang hoa
-#4 [Score: 0.95]: Quy tac cu the mat hang
-#5 [Score: 0.99]: (1)
-#6 [Score: 0.99]: (2)
-#7 [Score: 1.00]: (3)
-#8 [Score: 0.97]: (4)
-#9 [Score: 1.00]: Chuong 94
-#10 [Score: 0.89]: D ni that b d giung,dm,
-#11 [Score: 0.97]: CTH, tuy nhien trong
-#12 [Score: 1.00]: QVC 35%
-#13 [Score: 0.89]: khung dem, nem va cac do dung
-#14 [Score: 0.95]: trung hop hang hóa
-#15 [Score: 0.89]: nhi tuong tu;den va bden,
-#16 [Score: 0.91]: va cac bo phan hoac
-#17 [Score: 0.93]: chua duac chi tiét hoac ghi  noi
-#18 [Score: 0.87]: phu kien cua chüng
-#19 [Score: 0.89]: khac;bien hi@u duoc chieu sang,
-#20 [Score: 0.97]: duoc phan loai trong
-#21 [Score: 0.86]: bien de ten dugc chieu sang va
-#22 [Score: 0.91]: cüng möt nhóm thi áp
-#23 [Score: 0.94]: cac loai tuong tur, nha lap ghep.
-#24 [Score: 0.98]: dung quy tac CTSH
-#25 [Score: 0.99]: thay vi CTH
-#26 [Score: 1.00]: Chuong 95
-#27 [Score: 0.92]: Dö choi, thiét bi tr choi va dung 
-#28 [Score: 1.00]: CTH
-#29 [Score: 1.00]: QVC 35%
-#30 [Score: 0.89]: cu,thiet bi the thaocac b phan
-#31 [Score: 0.94]: va phu kian cua chung.
-#32 [Score: 1.00]: Chuong 96
-#33 [Score: 0.99]: Cac mat hang khac.
-#34 [Score: 0.99]: CTH
-#35 [Score: 1.00]: QVC 35%
-#36 [Score: 0.99]: Chuong 97
-#37 [Score: 0.94]: Cac tac pham nghe thuat, d suu
-#38 [Score: 1.00]: CTH
-#39 [Score: 1.00]: QVC 35%
-#40 [Score: 0.96]: tam va do co.
+#1 [Score: 0.93]: tầm và đồ cổ.
+#2 [Score: 0.93]: Các tác phẩm nghệ thuật, đồ sưu
+#3 [Score: 0.93]: Chương 97
+#4 [Score: 0.93]: QVC 35%
+#5 [Score: 0.87]: CTH
+#6 [Score: 0.93]: Chương 96
+#7 [Score: 0.93]: Các mặt hàng khác.
+#8 [Score: 0.93]: QVC 35%
+#9 [Score: 0.90]: CTH
+#10 [Score: 0.93]: và phụ kiện của chúng.
+#11 [Score: 0.92]: cụ, thiết bị thể thao, các bộ phận
+#12 [Score: 0.93]: Chương 95
+#13 [Score: 0.93]: Đồ chơi, thiết bị trò chơi và dụng
+#14 [Score: 0.89]: CTH
+#15 [Score: 0.94]: QVC 35%
+#16 [Score: 0.93]: thay vi CTH
+#17 [Score: 0.92]: các loại tương tự, nhà lắp ghép.
+#18 [Score: 0.93]: dụng quy tắc CTSH
+#19 [Score: 0.93]: biến đề tên được chiếu sáng và
+#20 [Score: 0.93]: cùng một nhóm thi áp
+#21 [Score: 0.92]: khác; biến hiệu được chiếu sáng,
+#22 [Score: 0.93]: được phân loại trong
+#23 [Score: 0.94]: phụ kiện của chúng
+#24 [Score: 0.92]: chưa được chi tiết hoặc ghi ở nơi
+#25 [Score: 0.89]: nhồi tương tự. đèn và bộ đèn,
+#26 [Score: 0.93]: và các bộ phận hoặc
+#27 [Score: 0.92]: khung đệm, nệm và các đỗ dùng
+#28 [Score: 0.94]: trường hợp hàng hóa
+#29 [Score: 0.93]: Chương 94
+#30 [Score: 0.93]: CTH, tuy nhiên trong
+#31 [Score: 0.93]: Đồ nội thất, bộ đồ giường, đệm,
+#32 [Score: 0.93]: QVC 35%
+#33 [Score: 0.94]: (1)
+#34 [Score: 0.94]: (4)
+#35 [Score: 0.94]: (3)
+#36 [Score: 0.94]: (2)
+#37 [Score: 0.89]: Mã hs
+#38 [Score: 0.92]: Mô tả hàng hóa
+#39 [Score: 0.94]: Quy tắc cụ thể mặt hàng
+#40 [Score: 0.93]: 11

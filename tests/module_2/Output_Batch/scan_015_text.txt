@@ -2,207 +2,209 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-3
-Ma HS
-Mo ta hang hoa
-Quy tac cu the mat hang
+xuất xứ thuần túy
+thuộc Chương 10 có
+Chương 10
+Ngũ cốc.
+Toàn bộ nguyên liệu
+n/a
+ex 0902
+Chè.
+QVC 35%
+ctsh
+ex 0901
+Cà phê.
+QVC 35%
+CTSH
+loại gia vị.
+Chương 9
+Cà phê, chè, chè Paragoay và các
+QVC 35%
+cc
+đã hoặc chưa bóc vỏ hoặc lột vỏ.
+ex 0802
+nuts) và hạt điều, tươi hoặc khô,
+ex 0801
+Dừa, quả hạch Brazil (Brazil
+ctsh
+35%
+các loại dưa.
+xuất xứ thuần túy
+vỏ quả thuộc họ cam quýt hoặc
+thuộc Chượng 8 có
+Chương 8
+Quả và quả hạch (nuts) ăn được;
+Toàn bộ nguyên liệu
+na
+xuất xứ thuần túy
+rễ ăn được.
+thuộc chượng 7 có
+Chương 7
+Rau và một số loại củ, thân củ và
+Toàn bộ nguyên liệu
+na
+hoa và cành lá trang trí.
+xuất xứ thuần túy
+khác; củ, rễ và loại tương tự, cảnh
+thuộc chượng 6 có
+Chương 6
+Cây sống và các loại cây trồng
+Toàn bộ nguyên liệu
+nia
+khác.
+xuất xứ thuần túy
+được chi tiết hoặc ghi ở các nơi
+thuộc Chượng 5 có
+Chương 5
+Sản phẩm gốc động vật, chưa
+Toàn bộ nguyên liệu
+n/a
+ex 0406
+Phô mai và sữa đông
+CTH
+QVC 35%
+1
+khác.
+chưa được chi tiết hoặc ghi ở nơi
+sản phẩm ăn được gốc động vật,
+xuất xứ thuần túy
+trứng gia cầm; mật ong tự nhiên;
+thuộc Chương 4 có
+Chương 4
+Sản phẩm bơ sữa, trứng chim và
+Toàn bộ nguyên liệu
+n/a
+không xương sống khác.
+xuất xứ thuần túy
+thân mềm và động vật thủy sinh
+thuộc chượng 3 có
+Chương 3
+Cá và động vật giáp xác, động vật
+Toàn bộ nguyên liệu
+na
+xuất xứ thuần túy
+được sau giết mổ.
+thuộc chượng 2 có
+Chương 2
+Thịt và phụ phẩm dạng thịt ăn
+Toàn bộ nguyên liệu
+nia
+có xuất xứ thuần túy
+sống thuộc Chương 1
+Chương 1
+Động vật sống.
+Toàn bộ động vật
+N/A
 (1)
 (2)
 (3)
 (4)
-Chuong 1
-Dong vat söng.
-Toan bo dong vat
-N/A
-song thuc Chuong 1
-c6 xuat xü thuan tüy
-Chuong 2
-Thitva phu pham dang thit an
-Toan b nguyen lieu
-N/A
-dugc sau giet m.
-thuc Chuong 2 c6
-xuat xü thuan tüy
-Chuong 3
-Ca va dong vat giap xac,dong vat
-Toan b nguyen liu
-V/N
-than mem va dong vat thuy sinh
-thuoc Chuong 3 co
-khong xuong song khac.
-xuat xr thuan tüy
-Chuong 4
-San pham bo sua; trung chim va
-Toan b nguyen liu
-N/A
-trümg gia cam mat ong tu nhien
-thuc Chuong 4 c
-san pham an duge goc dng vat,
-xuat xr thuan túy
-chua duoc chi tiet hoac ghi  noi
-khac.
-ex 0406
-Pho mai va stra dong
-CTH
-QVC 35%
-Chuong 5
-San pham goc dong vat, chua
-Toan b nguyen liu
-N/A
-duoc chi ti&t hoac ghi  cac noi
-thuc Chuong 5 c6
-khac.
-xuat x thuan tüy
-Chuong 6
-Cay song va cac loai cay trong
-Toan b nguyen lieu
-N/A
-khac; cu, r va loai tuong tur; canh
-thusc Chuong 6 c6
-hoa va canh la trang tri.
-xuat xür thuan tuy
-Chuong 7
-Rau va mot so loai cu, than cu va
-Toan b nguy&n li@u
-N/A
-re an duoc.
-thuc Chuong 7c6
-xuat xu thuan tüy
-Chuong 8
-Qua va qua hach (nuts) an dugc
-Toan b nguyen liu
-N/A
-v qua thuc ho cam quyt hoac
-thuc Chuong 8 c
-cac loai dua.
-xuat xur thuan tüy
-ex 0801
-Dura,qua hach Brazil (Brazil
-CTSH
-35%
-ex 0802
-nuts va hat dieu, turoi hoac kho,
-da hoac chua bóc vo hoac lot vo.
-Chuong 9
-Ca phe, che, che Paragoay va cac
-cc
-QVC 35%
-loai gia vi.
-ex 0901
-Ca phe.
-CTSH
-QVC 35%
-ex 0902
-Che.
-HS.LO
-QVC 35%
-Chuong 10
-Nga coc.
-Toan b nguyen liu
-N/A
-thuc Chuong 10 co
-xuat xur thuan tuy
+Mã hs
+Mô tả hàng hóa
+Quy tắc cụ thể mặt hàng
+3
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.99]: 3
-#2 [Score: 0.91]: Ma HS
-#3 [Score: 0.92]: Mo ta hang hoa
-#4 [Score: 0.95]: Quy tac cu the mat hang
-#5 [Score: 0.99]: (1)
-#6 [Score: 1.00]: (2)
-#7 [Score: 0.99]: (3)
-#8 [Score: 0.92]: (4)
-#9 [Score: 1.00]: Chuong 1
-#10 [Score: 0.92]: Dong vat söng.
-#11 [Score: 0.91]: Toan bo dong vat
-#12 [Score: 1.00]: N/A
-#13 [Score: 0.95]: song thuc Chuong 1
-#14 [Score: 0.91]: c6 xuat xü thuan tüy
-#15 [Score: 0.92]: Chuong 2
-#16 [Score: 0.92]: Thitva phu pham dang thit an
-#17 [Score: 0.93]: Toan b nguyen lieu
-#18 [Score: 1.00]: N/A
-#19 [Score: 0.90]: dugc sau giet m.
-#20 [Score: 0.92]: thuc Chuong 2 c6
-#21 [Score: 0.87]: xuat xü thuan tüy
-#22 [Score: 0.99]: Chuong 3
-#23 [Score: 0.89]: Ca va dong vat giap xac,dong vat
-#24 [Score: 0.92]: Toan b nguyen liu
-#25 [Score: 0.98]: V/N
-#26 [Score: 0.90]: than mem va dong vat thuy sinh
-#27 [Score: 0.87]: thuoc Chuong 3 co
-#28 [Score: 0.98]: khong xuong song khac.
-#29 [Score: 0.91]: xuat xr thuan tüy
-#30 [Score: 0.99]: Chuong 4
-#31 [Score: 0.90]: San pham bo sua; trung chim va
-#32 [Score: 0.98]: Toan b nguyen liu
-#33 [Score: 1.00]: N/A
-#34 [Score: 0.93]: trümg gia cam mat ong tu nhien
-#35 [Score: 0.92]: thuc Chuong 4 c
-#36 [Score: 0.88]: san pham an duge goc dng vat,
-#37 [Score: 0.91]: xuat xr thuan túy
-#38 [Score: 0.90]: chua duoc chi tiet hoac ghi  noi
-#39 [Score: 0.97]: khac.
-#40 [Score: 0.99]: ex 0406
-#41 [Score: 0.86]: Pho mai va stra dong
-#42 [Score: 1.00]: CTH
-#43 [Score: 1.00]: QVC 35%
-#44 [Score: 1.00]: Chuong 5
-#45 [Score: 0.86]: San pham goc dong vat, chua
-#46 [Score: 0.97]: Toan b nguyen liu
-#47 [Score: 1.00]: N/A
-#48 [Score: 0.90]: duoc chi ti&t hoac ghi  cac noi
-#49 [Score: 0.89]: thuc Chuong 5 c6
-#50 [Score: 0.99]: khac.
-#51 [Score: 0.91]: xuat x thuan tüy
-#52 [Score: 1.00]: Chuong 6
-#53 [Score: 0.95]: Cay song va cac loai cay trong
-#54 [Score: 0.91]: Toan b nguyen lieu
-#55 [Score: 1.00]: N/A
-#56 [Score: 0.91]: khac; cu, r va loai tuong tur; canh
-#57 [Score: 0.95]: thusc Chuong 6 c6
-#58 [Score: 0.98]: hoa va canh la trang tri.
-#59 [Score: 0.90]: xuat xür thuan tuy
-#60 [Score: 0.96]: Chuong 7
-#61 [Score: 0.98]: Rau va mot so loai cu, than cu va
-#62 [Score: 0.92]: Toan b nguy&n li@u
-#63 [Score: 1.00]: N/A
-#64 [Score: 0.91]: re an duoc.
-#65 [Score: 0.92]: thuc Chuong 7c6
-#66 [Score: 0.88]: xuat xu thuan tüy
-#67 [Score: 0.99]: Chuong 8
-#68 [Score: 0.91]: Qua va qua hach (nuts) an dugc
-#69 [Score: 0.93]: Toan b nguyen liu
-#70 [Score: 1.00]: N/A
-#71 [Score: 0.94]: v qua thuc ho cam quyt hoac
-#72 [Score: 0.92]: thuc Chuong 8 c
-#73 [Score: 0.98]: cac loai dua.
-#74 [Score: 0.87]: xuat xur thuan tüy
-#75 [Score: 0.97]: ex 0801
-#76 [Score: 0.90]: Dura,qua hach Brazil (Brazil
-#77 [Score: 1.00]: CTSH
-#78 [Score: 1.00]: 35%
-#79 [Score: 0.94]: ex 0802
-#80 [Score: 0.91]: nuts va hat dieu, turoi hoac kho,
-#81 [Score: 0.93]: da hoac chua bóc vo hoac lot vo.
-#82 [Score: 0.99]: Chuong 9
-#83 [Score: 0.97]: Ca phe, che, che Paragoay va cac
-#84 [Score: 0.62]: cc
-#85 [Score: 0.97]: QVC 35%
-#86 [Score: 0.99]: loai gia vi.
-#87 [Score: 0.99]: ex 0901
-#88 [Score: 0.99]: Ca phe.
-#89 [Score: 1.00]: CTSH
-#90 [Score: 1.00]: QVC 35%
-#91 [Score: 0.92]: ex 0902
-#92 [Score: 0.97]: Che.
-#93 [Score: 0.93]: HS.LO
-#94 [Score: 0.94]: QVC 35%
-#95 [Score: 1.00]: Chuong 10
-#96 [Score: 0.91]: Nga coc.
-#97 [Score: 0.96]: Toan b nguyen liu
-#98 [Score: 1.00]: N/A
-#99 [Score: 0.95]: thuc Chuong 10 co
-#100 [Score: 0.89]: xuat xur thuan tuy
+#1 [Score: 0.93]: xuất xứ thuần túy
+#2 [Score: 0.91]: thuộc Chương 10 có
+#3 [Score: 0.93]: Chương 10
+#4 [Score: 0.91]: Ngũ cốc.
+#5 [Score: 0.93]: Toàn bộ nguyên liệu
+#6 [Score: 0.80]: n/a
+#7 [Score: 0.93]: ex 0902
+#8 [Score: 0.90]: Chè.
+#9 [Score: 0.93]: QVC 35%
+#10 [Score: 0.86]: ctsh
+#11 [Score: 0.93]: ex 0901
+#12 [Score: 0.91]: Cà phê.
+#13 [Score: 0.93]: QVC 35%
+#14 [Score: 0.86]: CTSH
+#15 [Score: 0.92]: loại gia vị.
+#16 [Score: 0.94]: Chương 9
+#17 [Score: 0.92]: Cà phê, chè, chè Paragoay và các
+#18 [Score: 0.94]: QVC 35%
+#19 [Score: 0.93]: cc
+#20 [Score: 0.92]: đã hoặc chưa bóc vỏ hoặc lột vỏ.
+#21 [Score: 0.93]: ex 0802
+#22 [Score: 0.93]: nuts) và hạt điều, tươi hoặc khô,
+#23 [Score: 0.93]: ex 0801
+#24 [Score: 0.92]: Dừa, quả hạch Brazil (Brazil
+#25 [Score: 0.90]: ctsh
+#26 [Score: 0.93]: 35%
+#27 [Score: 0.93]: các loại dưa.
+#28 [Score: 0.94]: xuất xứ thuần túy
+#29 [Score: 0.93]: vỏ quả thuộc họ cam quýt hoặc
+#30 [Score: 0.89]: thuộc Chượng 8 có
+#31 [Score: 0.94]: Chương 8
+#32 [Score: 0.93]: Quả và quả hạch (nuts) ăn được;
+#33 [Score: 0.93]: Toàn bộ nguyên liệu
+#34 [Score: 0.72]: na
+#35 [Score: 0.94]: xuất xứ thuần túy
+#36 [Score: 0.93]: rễ ăn được.
+#37 [Score: 0.92]: thuộc chượng 7 có
+#38 [Score: 0.93]: Chương 7
+#39 [Score: 0.93]: Rau và một số loại củ, thân củ và
+#40 [Score: 0.93]: Toàn bộ nguyên liệu
+#41 [Score: 0.76]: na
+#42 [Score: 0.93]: hoa và cành lá trang trí.
+#43 [Score: 0.94]: xuất xứ thuần túy
+#44 [Score: 0.93]: khác; củ, rễ và loại tương tự, cảnh
+#45 [Score: 0.91]: thuộc chượng 6 có
+#46 [Score: 0.93]: Chương 6
+#47 [Score: 0.91]: Cây sống và các loại cây trồng
+#48 [Score: 0.93]: Toàn bộ nguyên liệu
+#49 [Score: 0.64]: nia
+#50 [Score: 0.93]: khác.
+#51 [Score: 0.94]: xuất xứ thuần túy
+#52 [Score: 0.93]: được chi tiết hoặc ghi ở các nơi
+#53 [Score: 0.91]: thuộc Chượng 5 có
+#54 [Score: 0.93]: Chương 5
+#55 [Score: 0.93]: Sản phẩm gốc động vật, chưa
+#56 [Score: 0.93]: Toàn bộ nguyên liệu
+#57 [Score: 0.85]: n/a
+#58 [Score: 0.93]: ex 0406
+#59 [Score: 0.91]: Phô mai và sữa đông
+#60 [Score: 0.91]: CTH
+#61 [Score: 0.93]: QVC 35%
+#62 [Score: 0.41]: 1
+#63 [Score: 0.93]: khác.
+#64 [Score: 0.93]: chưa được chi tiết hoặc ghi ở nơi
+#65 [Score: 0.93]: sản phẩm ăn được gốc động vật,
+#66 [Score: 0.94]: xuất xứ thuần túy
+#67 [Score: 0.92]: trứng gia cầm; mật ong tự nhiên;
+#68 [Score: 0.90]: thuộc Chương 4 có
+#69 [Score: 0.93]: Chương 4
+#70 [Score: 0.92]: Sản phẩm bơ sữa, trứng chim và
+#71 [Score: 0.93]: Toàn bộ nguyên liệu
+#72 [Score: 0.75]: n/a
+#73 [Score: 0.93]: không xương sống khác.
+#74 [Score: 0.94]: xuất xứ thuần túy
+#75 [Score: 0.93]: thân mềm và động vật thủy sinh
+#76 [Score: 0.90]: thuộc chượng 3 có
+#77 [Score: 0.93]: Chương 3
+#78 [Score: 0.93]: Cá và động vật giáp xác, động vật
+#79 [Score: 0.93]: Toàn bộ nguyên liệu
+#80 [Score: 0.45]: na
+#81 [Score: 0.93]: xuất xứ thuần túy
+#82 [Score: 0.90]: được sau giết mổ.
+#83 [Score: 0.91]: thuộc chượng 2 có
+#84 [Score: 0.93]: Chương 2
+#85 [Score: 0.93]: Thịt và phụ phẩm dạng thịt ăn
+#86 [Score: 0.93]: Toàn bộ nguyên liệu
+#87 [Score: 0.76]: nia
+#88 [Score: 0.93]: có xuất xứ thuần túy
+#89 [Score: 0.92]: sống thuộc Chương 1
+#90 [Score: 0.93]: Chương 1
+#91 [Score: 0.92]: Động vật sống.
+#92 [Score: 0.93]: Toàn bộ động vật
+#93 [Score: 0.83]: N/A
+#94 [Score: 0.94]: (1)
+#95 [Score: 0.94]: (2)
+#96 [Score: 0.94]: (3)
+#97 [Score: 0.94]: (4)
+#98 [Score: 0.90]: Mã hs
+#99 [Score: 0.93]: Mô tả hàng hóa
+#100 [Score: 0.94]: Quy tắc cụ thể mặt hàng
+#101 [Score: 0.93]: 3
