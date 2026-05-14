@@ -2,75 +2,65 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-7. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đồi mã
-xứ được dùng để sản xuất ra hàng hóa chuyển đổi mã số hàng hóa.
-số hàng hóa, hàng hóa chi được coi là đáp ứng khi từng nguyên liệu khống có xuất
-6. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đổi mã
-xứ hàng hóa này chỉ áp dụng với nguyên liệu không có xuất xứ.
-1 mã số hàng hóa hoặc trải qua công đoạn gia công, chế biến cụ thể, Quy tắc xuất
-5. Trường hợp Quy tắc xuất xứ hàng hóa yêu cầu nguyên liệu chuyền đối
-một phần của Nhóm hoặc Phân nhóm hàng hóa được mồ tả tại Cột 2.
-là Quy tắc xuất xứ hàng hóa được quy định tại Cột 3 hoặc Cột 4 chí áp dụng cho
-4, Trong một số trường hợp, Cột 1 của Phụ lục này có tiền tố ?ex? nghĩa
-được quy định trong cột 3 hoặc cột 4.
-Cột 4, nhà xuất khẩu hoặc nhà sản xuất có thể áp dụng Quy tắc xuất xử hàng hóa
-3. Trường hợp Quy tắc xuất xứ hàng hóa được quy định trong Cột 3 và
-d) Cột 4 - Quy tắc xuất xứ hàng hóa thay thế.
-c) Cột 3 - Quy tắc xuất xứ hàng hóa.
-b) Cột 2 - Mô tả hàng hóa, theo Hệ thống hài hòa mô tả và mã số hàng hóa.
-a) Cột 1 - Mã HS (Nhóm hoặc Phân nhóm).
-2. Trong Quy tắc cụ thể mặt hàng, các cột được hiểu như sau:
-hải hòa mô tả và mã số hàng hóa.
-đ) Phân nhóm là sáu số đầu của mã số phân loại hàng hóa trong Hệ thống
-và mã số hàng hóa.
-d) Nhóm là bốn số đầu của mã số hàng hóa trong Hệ thống hải hòa mô tả
-và mã hóa hàng hóa.
-c) Chương là hai số đầu của mã số hàng hóa trong Hệ thống hài hòa mô tả
-b) Phần là các phần tròng Hệ thống hài hòa mô tả và mã số hàng hóa,
-hóa, Phiên bản HS được sử dụng là Phiên bản HS 2022.
-a) Mã HS là mã số hàng hóa trong Hệ thống hài hòa mô tả và mã số hàng
-1. Trong Phụ lục này, một số thuật ngữ được hiểu như sau:
-Việt Nam và Các Tiểu vương quốc Á-rập thống nhất)
-quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
-ngày 0g tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương
-(Ban hành kèm theo Thông tư sốp 4/2026/TT-BCT
-QUY TẮC CỤ THỂ MẶT HÀNG
-Phụ lục I
+số hàng hóa kèm theo cụm từ ?ngoại trừ', Quy tắc xuất xứ hàng hóa này yêu cầu
+nguyên liệu bị loại trừ phải có xuất xứ để hàng hóa có xuất xứ.
+8. Đối với Cột 3 và Cột 4 Phụ lục này, các thuật ngữ dưới đây được hiểu
+như sau:
+a) Thuật ngữ ?Toàn bộ nguyên liệu thuộc Chương (-..) có xuất xứ thuần
+túy (wo)? nghĩa là các nguyện liệu nói trên phải đáp ứng các tiêu chí xuất xứ
+thuần túy theo quy định tại Điều 6 Thông tư này.
+b) CC (Chuyển đổi Chương) nghĩa là tất cả các nguyên liệu không có xuất
+xứ được sử dụng để sản xuất ra hàng hóa phải chuyển đối mã số hàng hóa ở cấp
+độ 2 số.
+c) CTH (Chuyển đổi Nhóm) nghĩa là tất cả các nguyên liệu không có xuất
+xứ được sử dụng để sản xuất ra hàng hóa phải chuyển đối mã số hàng hóa ở cấp
+độ 4 số.
+d) CTSH (Chuyển đổi Phân nhóm) nghĩa là tất cả các nguyên liệu không
+có xuất xứ được sử dụng đề sản xuất ra hàng hóa phải chuyển đối mã số hàng hóa
+ở cấp độ 6 số.
+đ) QVC nghĩa là Hàm lượng giá trị gia tăng đáp ứng quy định tại khoản 1
+Điều 7 Thông tư này.
+e) N/A nghĩa là không có quy tắc xuất xứ nào được áp dụng.
+9. Đối với Chương 3, cá, động vật giáp xác, động vật thân mềm và động
+vật không xương sống dưới nước khác được coi là có xuất xứ ngay cả khi chúng
+được nuôi từ cả con hoặc ấu trùng không có xuất xứ, "Cá con" nghĩa là cá chưa
+trường thành ở giai đoạn hậu ấu trùng, bao gồm cá giống, con, cá hồi non và lươn
+con.
+10. Đối với ghi chú của Phần II (từ Chương 6 đến Chương 14), hàng hóa
+nông nghiệp và trồng vườn được trồng trên lãnh thổ của một Nước thành viên
+được coi là có xuất xứ tại lãnh thổ của Nước thành viên đó ngay cả khi được trồng
+từ hạt, củ, gốc ghép, giâm cành, ghép, chồi, búp hoặc các bộ phận sống khác của
+cây nhập khẩu từ một Nước không tham gia Hiệp định.
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.92]: 7. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đồi mã
-#2 [Score: 0.93]: xứ được dùng để sản xuất ra hàng hóa chuyển đổi mã số hàng hóa.
-#3 [Score: 0.92]: số hàng hóa, hàng hóa chi được coi là đáp ứng khi từng nguyên liệu khống có xuất
-#4 [Score: 0.93]: 6. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đổi mã
-#5 [Score: 0.93]: xứ hàng hóa này chỉ áp dụng với nguyên liệu không có xuất xứ.
-#6 [Score: 0.91]: 1 mã số hàng hóa hoặc trải qua công đoạn gia công, chế biến cụ thể, Quy tắc xuất
-#7 [Score: 0.92]: 5. Trường hợp Quy tắc xuất xứ hàng hóa yêu cầu nguyên liệu chuyền đối
-#8 [Score: 0.93]: một phần của Nhóm hoặc Phân nhóm hàng hóa được mồ tả tại Cột 2.
-#9 [Score: 0.93]: là Quy tắc xuất xứ hàng hóa được quy định tại Cột 3 hoặc Cột 4 chí áp dụng cho
-#10 [Score: 0.93]: 4, Trong một số trường hợp, Cột 1 của Phụ lục này có tiền tố ?ex? nghĩa
-#11 [Score: 0.92]: được quy định trong cột 3 hoặc cột 4.
-#12 [Score: 0.92]: Cột 4, nhà xuất khẩu hoặc nhà sản xuất có thể áp dụng Quy tắc xuất xử hàng hóa
-#13 [Score: 0.93]: 3. Trường hợp Quy tắc xuất xứ hàng hóa được quy định trong Cột 3 và
-#14 [Score: 0.93]: d) Cột 4 - Quy tắc xuất xứ hàng hóa thay thế.
-#15 [Score: 0.92]: c) Cột 3 - Quy tắc xuất xứ hàng hóa.
-#16 [Score: 0.93]: b) Cột 2 - Mô tả hàng hóa, theo Hệ thống hài hòa mô tả và mã số hàng hóa.
-#17 [Score: 0.92]: a) Cột 1 - Mã HS (Nhóm hoặc Phân nhóm).
-#18 [Score: 0.93]: 2. Trong Quy tắc cụ thể mặt hàng, các cột được hiểu như sau:
-#19 [Score: 0.92]: hải hòa mô tả và mã số hàng hóa.
-#20 [Score: 0.93]: đ) Phân nhóm là sáu số đầu của mã số phân loại hàng hóa trong Hệ thống
-#21 [Score: 0.93]: và mã số hàng hóa.
-#22 [Score: 0.93]: d) Nhóm là bốn số đầu của mã số hàng hóa trong Hệ thống hải hòa mô tả
-#23 [Score: 0.93]: và mã hóa hàng hóa.
-#24 [Score: 0.93]: c) Chương là hai số đầu của mã số hàng hóa trong Hệ thống hài hòa mô tả
-#25 [Score: 0.92]: b) Phần là các phần tròng Hệ thống hài hòa mô tả và mã số hàng hóa,
-#26 [Score: 0.91]: hóa, Phiên bản HS được sử dụng là Phiên bản HS 2022.
-#27 [Score: 0.93]: a) Mã HS là mã số hàng hóa trong Hệ thống hài hòa mô tả và mã số hàng
-#28 [Score: 0.93]: 1. Trong Phụ lục này, một số thuật ngữ được hiểu như sau:
-#29 [Score: 0.92]: Việt Nam và Các Tiểu vương quốc Á-rập thống nhất)
-#30 [Score: 0.93]: quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
-#31 [Score: 0.92]: ngày 0g tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương
-#32 [Score: 0.93]: (Ban hành kèm theo Thông tư sốp 4/2026/TT-BCT
-#33 [Score: 0.91]: QUY TẮC CỤ THỂ MẶT HÀNG
-#34 [Score: 0.93]: Phụ lục I
+#1 [Score: 0.91]: số hàng hóa kèm theo cụm từ ?ngoại trừ', Quy tắc xuất xứ hàng hóa này yêu cầu
+#2 [Score: 0.93]: nguyên liệu bị loại trừ phải có xuất xứ để hàng hóa có xuất xứ.
+#3 [Score: 0.92]: 8. Đối với Cột 3 và Cột 4 Phụ lục này, các thuật ngữ dưới đây được hiểu
+#4 [Score: 0.93]: như sau:
+#5 [Score: 0.91]: a) Thuật ngữ ?Toàn bộ nguyên liệu thuộc Chương (-..) có xuất xứ thuần
+#6 [Score: 0.93]: túy (wo)? nghĩa là các nguyện liệu nói trên phải đáp ứng các tiêu chí xuất xứ
+#7 [Score: 0.93]: thuần túy theo quy định tại Điều 6 Thông tư này.
+#8 [Score: 0.92]: b) CC (Chuyển đổi Chương) nghĩa là tất cả các nguyên liệu không có xuất
+#9 [Score: 0.93]: xứ được sử dụng để sản xuất ra hàng hóa phải chuyển đối mã số hàng hóa ở cấp
+#10 [Score: 0.93]: độ 2 số.
+#11 [Score: 0.89]: c) CTH (Chuyển đổi Nhóm) nghĩa là tất cả các nguyên liệu không có xuất
+#12 [Score: 0.92]: xứ được sử dụng để sản xuất ra hàng hóa phải chuyển đối mã số hàng hóa ở cấp
+#13 [Score: 0.91]: độ 4 số.
+#14 [Score: 0.92]: d) CTSH (Chuyển đổi Phân nhóm) nghĩa là tất cả các nguyên liệu không
+#15 [Score: 0.93]: có xuất xứ được sử dụng đề sản xuất ra hàng hóa phải chuyển đối mã số hàng hóa
+#16 [Score: 0.94]: ở cấp độ 6 số.
+#17 [Score: 0.93]: đ) QVC nghĩa là Hàm lượng giá trị gia tăng đáp ứng quy định tại khoản 1
+#18 [Score: 0.91]: Điều 7 Thông tư này.
+#19 [Score: 0.93]: e) N/A nghĩa là không có quy tắc xuất xứ nào được áp dụng.
+#20 [Score: 0.93]: 9. Đối với Chương 3, cá, động vật giáp xác, động vật thân mềm và động
+#21 [Score: 0.93]: vật không xương sống dưới nước khác được coi là có xuất xứ ngay cả khi chúng
+#22 [Score: 0.91]: được nuôi từ cả con hoặc ấu trùng không có xuất xứ, "Cá con" nghĩa là cá chưa
+#23 [Score: 0.93]: trường thành ở giai đoạn hậu ấu trùng, bao gồm cá giống, con, cá hồi non và lươn
+#24 [Score: 0.93]: con.
+#25 [Score: 0.93]: 10. Đối với ghi chú của Phần II (từ Chương 6 đến Chương 14), hàng hóa
+#26 [Score: 0.93]: nông nghiệp và trồng vườn được trồng trên lãnh thổ của một Nước thành viên
+#27 [Score: 0.93]: được coi là có xuất xứ tại lãnh thổ của Nước thành viên đó ngay cả khi được trồng
+#28 [Score: 0.93]: từ hạt, củ, gốc ghép, giâm cành, ghép, chồi, búp hoặc các bộ phận sống khác của
+#29 [Score: 0.92]: cây nhập khẩu từ một Nước không tham gia Hiệp định.

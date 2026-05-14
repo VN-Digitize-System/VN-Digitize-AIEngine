@@ -2,8 +2,85 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-[BLANK_PAGE]
+Điều 8. Hàng hóa trung gian
+Trường hợp hàng hóa có xuất xứ tại lãnh thổ của một Nước thành viên theo
+quy định tại Điều 7 Thống tư này được sử dụng để sản xuất ra một sản phẩm khác,
+các điều kiện áp dụng cho sản phẩm khác đổ không áp dụng đối với hàng hóa
+dùng làm nguyên liệu và không tính đến các nguyễn liệu không có xuất xứ đã
+được sử dụng trong quá trình sản xuất ra hàng hóa đó.
+Điều 9, Cộng gộp
+1. Hàng hóa có xuất xứ tại một Nước thành viên được sử dụng làm nguyên
+liệu cho thành phẩm được chế biến hoặc sản xuất tại lãnh thổ của Nước thành viên
+khác sẽ được coi là nguyên liệu có xuất xứ tại Nước thành viên nơi gia công hoặc
+chế biến ra thành phẩm.
+2. Hàng hóa có xuất xứ tại một Nước thành viên nhưng chỉ trải qua công
+đoạn gia công, chế biến đơn giản theo quy định tại Điều 11 Thống tư này tại Nước
+thành viên khác thì sẽ được giữ nguyên xuất xứ của Nước thành viên ban đầu.
+Điều 10. Hạn mức linh hoạt
+1, Hàng hóa không đáp ứng quy tắc chuyển đồi mã số hàng hóa vẫn được
+coi là có xuất xứ nếu trị giá của tất cả các nguyện liệu không có xuất xứ để sản
+xuất ra hàng hóa không trải qua chuyển đổi mã số hàng hóa, không vượt quá 20%
+giá xuất xưởng của hàng hóa đó.
+2. Trị giá của nguyên liệu không có xuất xứ theo quy định tại khoản 1 Điều
+này vẫn được tính vào V.N.M khi áp dụng tiêu chí Hàm lượng giá trị gia tăng.
+Điều 11. Công đoạn gia công, chế biến đơn giản
+1.?Đơn giản? là hoạt động không cần kỹ năng đặc biệt, máy móc, dụng cụ
+hoặc thiết bị được sản xuất hoặc lắp đặt đặc biệt để thực hiện hoạt động đó. Các
+mặt hàng thủ công do nghệ nhân làm ra như thêu, đồ gốm, chăn dệt may, đồ trang
+sức thủ công và chăn khâu tay không được coi là công đoạn gia công đơn giản.
+2. "Trộn đơn giản" là hoạt động không cần kỹ năng đặc biệt, máy móc, dụng
+cụ hoặc thiết bị được sản xuất hoặc lắp đặt đặc biệt để thực hiện hoạt động đó.
+3, Dù đáp ứng quy định tại Điều 7 Thông tư này, hàng hoá sẽ không được
+coi là có xuất xứ của một Nước thành viên nếu các công đoạn gia công, chế biến
+sau đây được thực hiện riêng rẽ hoặc kết hợp với nhau tại Nước thành viên đó:
+a) Giết mổ động vật.
+b) Các công đoạn bảo quản đề giữ cho hàng hóa vẫn trong tỉnh trạng tốt
+trong quá trình vận chuyền và lưu kho như sấy khô, cấp đông, thông gió, làm lạnh
+và các công đoạn tương tự.
+c) Rây, rửa, cắt đơn giản, rạch, uốn, cuộn hoặc duỗi thắng, mài sắc, nghiền
+đơn giàn, cắt lát.
+d) Làm sạch, bao gồm loại bỏ ôxit, dầu mỡ, sơn hoặc lớp phủ bên ngoài khác.
+đ) Các công đoạn sơn và đánh bóng đơn giản.
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
+#1 [Score: 0.92]: Điều 8. Hàng hóa trung gian
+#2 [Score: 0.93]: Trường hợp hàng hóa có xuất xứ tại lãnh thổ của một Nước thành viên theo
+#3 [Score: 0.93]: quy định tại Điều 7 Thống tư này được sử dụng để sản xuất ra một sản phẩm khác,
+#4 [Score: 0.92]: các điều kiện áp dụng cho sản phẩm khác đổ không áp dụng đối với hàng hóa
+#5 [Score: 0.93]: dùng làm nguyên liệu và không tính đến các nguyễn liệu không có xuất xứ đã
+#6 [Score: 0.93]: được sử dụng trong quá trình sản xuất ra hàng hóa đó.
+#7 [Score: 0.90]: Điều 9, Cộng gộp
+#8 [Score: 0.93]: 1. Hàng hóa có xuất xứ tại một Nước thành viên được sử dụng làm nguyên
+#9 [Score: 0.92]: liệu cho thành phẩm được chế biến hoặc sản xuất tại lãnh thổ của Nước thành viên
+#10 [Score: 0.93]: khác sẽ được coi là nguyên liệu có xuất xứ tại Nước thành viên nơi gia công hoặc
+#11 [Score: 0.91]: chế biến ra thành phẩm.
+#12 [Score: 0.93]: 2. Hàng hóa có xuất xứ tại một Nước thành viên nhưng chỉ trải qua công
+#13 [Score: 0.93]: đoạn gia công, chế biến đơn giản theo quy định tại Điều 11 Thống tư này tại Nước
+#14 [Score: 0.93]: thành viên khác thì sẽ được giữ nguyên xuất xứ của Nước thành viên ban đầu.
+#15 [Score: 0.93]: Điều 10. Hạn mức linh hoạt
+#16 [Score: 0.88]: 1, Hàng hóa không đáp ứng quy tắc chuyển đồi mã số hàng hóa vẫn được
+#17 [Score: 0.93]: coi là có xuất xứ nếu trị giá của tất cả các nguyện liệu không có xuất xứ để sản
+#18 [Score: 0.93]: xuất ra hàng hóa không trải qua chuyển đổi mã số hàng hóa, không vượt quá 20%
+#19 [Score: 0.93]: giá xuất xưởng của hàng hóa đó.
+#20 [Score: 0.93]: 2. Trị giá của nguyên liệu không có xuất xứ theo quy định tại khoản 1 Điều
+#21 [Score: 0.92]: này vẫn được tính vào V.N.M khi áp dụng tiêu chí Hàm lượng giá trị gia tăng.
+#22 [Score: 0.93]: Điều 11. Công đoạn gia công, chế biến đơn giản
+#23 [Score: 0.92]: 1.?Đơn giản? là hoạt động không cần kỹ năng đặc biệt, máy móc, dụng cụ
+#24 [Score: 0.93]: hoặc thiết bị được sản xuất hoặc lắp đặt đặc biệt để thực hiện hoạt động đó. Các
+#25 [Score: 0.93]: mặt hàng thủ công do nghệ nhân làm ra như thêu, đồ gốm, chăn dệt may, đồ trang
+#26 [Score: 0.93]: sức thủ công và chăn khâu tay không được coi là công đoạn gia công đơn giản.
+#27 [Score: 0.91]: 2. "Trộn đơn giản" là hoạt động không cần kỹ năng đặc biệt, máy móc, dụng
+#28 [Score: 0.93]: cụ hoặc thiết bị được sản xuất hoặc lắp đặt đặc biệt để thực hiện hoạt động đó.
+#29 [Score: 0.93]: 3, Dù đáp ứng quy định tại Điều 7 Thông tư này, hàng hoá sẽ không được
+#30 [Score: 0.93]: coi là có xuất xứ của một Nước thành viên nếu các công đoạn gia công, chế biến
+#31 [Score: 0.93]: sau đây được thực hiện riêng rẽ hoặc kết hợp với nhau tại Nước thành viên đó:
+#32 [Score: 0.91]: a) Giết mổ động vật.
+#33 [Score: 0.91]: b) Các công đoạn bảo quản đề giữ cho hàng hóa vẫn trong tỉnh trạng tốt
+#34 [Score: 0.93]: trong quá trình vận chuyền và lưu kho như sấy khô, cấp đông, thông gió, làm lạnh
+#35 [Score: 0.93]: và các công đoạn tương tự.
+#36 [Score: 0.91]: c) Rây, rửa, cắt đơn giản, rạch, uốn, cuộn hoặc duỗi thắng, mài sắc, nghiền
+#37 [Score: 0.90]: đơn giàn, cắt lát.
+#38 [Score: 0.92]: d) Làm sạch, bao gồm loại bỏ ôxit, dầu mỡ, sơn hoặc lớp phủ bên ngoài khác.
+#39 [Score: 0.92]: đ) Các công đoạn sơn và đánh bóng đơn giản.

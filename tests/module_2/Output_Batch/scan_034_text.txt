@@ -2,81 +2,87 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-hàng hóa.
-hoặc tài liệu mang tính thông tin khác đi kẻm với hàng hóa là thông lệ đối với
-b) Số lượng và trị giá của phụ kiện, phụ tủng, dụng cụ và tài liệu hướng dẫn
-thông tin khác đi kêm với hàng hóa không được lập hóa đơn riêng với hàng hóa.
-a) Phụ kiện, phụ tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính
-có đáp ứng tiêu chí chuyển đổi mã số hàng hóa hay không, với hai điều kiện:
-cả các nguyên liệu không có xuất xứ được sử dụng đề sản xuất hàng hóa có xuất xứ
-hóa được coi là một phần của hàng hóa và không được tính đến khi xác định liệu tất
-tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính thông tin khác của hàng
-thông tin khác đi kêm với hàng hóa tạo thành một phần phụ kiện tiêu chuẩn, phụ
-1. Phụ kiện, phụ tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính
-Điều 13. Phụ kiện, phụ tùng và dụng cụ
-hóa cuối cùng.
-xuất, kiểm tra hoặc giám định hàng hóa và không nằm trong thành phần của hàng
-4, Các nguyên liệu hoặc hàng hóa khác được sử dụng trong quá trình sản
-3, Máy móc và dụng cụ.
-2. Nhà xưởng và thiết bị.
-1. Năng lượng và nhiên liệu.
-dụng để sản xuất ra hàng hóa, sẽ được coi là có xuất xứ:
-Để xác định xuất xứ hàng hóa, những yếu tố trung gian dưới đây được sử
-Điều 12. Yếu tố trung gian
-đoạn gia công, chế biển đơn giản theo quy định tại khoản 3 Điều này.
-xem xét để xác định quá trình sản xuất hoặc gia công sản phẩm được coi là công
-4, Tất cả các công đoạn thực hiện tại Nước thành viên xuất khẩu sẽ được
-đặc tính của hàng hóa.
-n) Pha loãng với nước hoặc chất khác mà không làm thay đổi đáng kể các
-m) Xay xát, làm trắng một phần hoặc toàn bộ, đánh bóng và hồ ngũ cốc và gạo.
-sản phẩm hoặc trên bao bì của sản phẩm.
-[) Dán hoặc in nhãn, mác, logo và những dấu hiệu phân biệt tương tự trên
-và ghép các lồ hàng.
-k) Thay đổi đơn giản bao bì, loại bỏ bao bì hoặc đóng gói lại và chia nhỏ
-hoàn chỉnh hoặc thảo rời sản phẩm thành các bộ phận.
-i) Lắp ráp đơn giản các bộ phận của sản phẩm để tạo thành một sản phẩm
-h) Trộn đơn giản các loại hàng hóa dù cùng loại hay khác loại.
-hoặc bảng và các hoạt động đóng gói.
-g) Các thao tác đơn giản để đóng chai, lon, bình, túi, hòm, hộp, gắn trên thẻ
-e) Kiểm tra hoặc hiệu chuẩn đơn giản.
+2, Trường hợp hàng hóa áp dụng tiêu chí Hàm lượng giá trị gia tăng, trị giá
+của phụ kiện, phụ tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính
+thông tin khác, được tính là có xuất xứ hoặc không có xuất xứ, tùy từng trường
+hợp cụ thể khi tính Hàm lượng giá trị gia tăng.
+Điều 14. Nguyên liệu đóng gói và bao bì đóng gói để bán lẻ
+1. Nguyên liệu đóng gói và bao bì đóng gói để bán lẻ khi được phân loại
+cùng với hàng hóa theo Quy tắc 5 của Hệ thống hài hòa, thì không được xét đến
+khi xác định tất cả nguyên liệu không có xuất xứ để sản xuất ra hàng hóa đáp ứng
+hay không đáp ứng tiêu chí chuyển đổi mã số hàng hóa.
+2. Trường hợp hàng hóa áp dụng tiêu chí Hàm lượng giá trị gia tăng, trị giá
+của nguyên liệu đóng gói và bao bì đóng gói để bán lẻ, được tính là có xuất xứ
+hoặc không có xuất xứ, tùy từng trường hợp cụ thể.
+Điều 15. Đơn vị xét xuất xứ hàng hóa
+Đơn vị xét xuất xứ hàng hóa là một sản phẩm cụ thể và được coi là đơn vị
+cơ bản khi phân loại theo hệ thống hải hòa.
+1. Một sản phẩm bao gồm một nhóm hoặc cụm sản phẩm được phân loại
+theo một nhóm duy nhất, toàn bộ nhóm hoặc cụm sản phẩm đó tạo thành đơn vị
+xét xuất xứ hàng hóa.
+2. Một lô hàng bao gồm một số sản phẩm giống nhau được phân loại theo
+một dòng thuế duy nhất, mỗi sản phẩm được xem xét riêng lẻ khi xác định hàng
+hóa có xuất xứ hay không có xuất xứ.
+Điều 16. Nguyên liệu đóng gói và bao bì đóng gói để vận chuyển
+Nguyên liệu đóng gói và bao bì đóng gói hàng hóa để vận chuyển không
+được tính khi xác định xuất xứ của hàng hóa.
+Điều 17. Hàng hóa hoặc nguyên liệu giống nhau và có thể thay thế lẫn nhau
+1. Việc xác định xuất xứ của hàng hóa hoặc nguyên liệu giống nhau và có
+thể thay thể lẫn nhau được thực hiện thông qua phân loại thực tế từng hàng hóa
+hoặc nguyên liệu hoặc trong trường hợp có bất kỳ khó khăn nào, thông qua việc
+sử dụng bất kỳ phương pháp quản lý hàng tồn kho như tính trung bình, nhập sau
+xuất trước hoặc nhập trước xuất trước, được công nhận trong các nguyên tắc kế
+toán tổng hợp của một Nước thành viên nơi mà quá trình sản xuất được thực hiện
+hoặc được chấp nhận bởi Nước thành viên đó.
+2. Phương pháp quản lý hàng tồn kho theo quy định tại khoản 1 Điều này
+đối với hàng hóa hoặc nguyên liệu giống nhau và có thể thay thế lẫn nhau, tiếp
+tục được sử dụng cho hàng hóa hoặc nguyên liệu giống nhau và có thể thay thể
+lẫn nhau đó trong suốt năm tài chính của Nước thành viên đã lựa chọn phương
+pháp quản lý hàng tồn kho.
+Điều 18. Bộ hàng hóa
+Bộ hàng hóa được quy định theo Quy tắc chung của Hệ thống hài hòa được
+coi là có xuất xứ khi tất cả các hàng hóa thành phần của bộ hàng hóa có xuất xứ,
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.93]: hàng hóa.
-#2 [Score: 0.92]: hoặc tài liệu mang tính thông tin khác đi kẻm với hàng hóa là thông lệ đối với
-#3 [Score: 0.93]: b) Số lượng và trị giá của phụ kiện, phụ tủng, dụng cụ và tài liệu hướng dẫn
-#4 [Score: 0.92]: thông tin khác đi kêm với hàng hóa không được lập hóa đơn riêng với hàng hóa.
-#5 [Score: 0.93]: a) Phụ kiện, phụ tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính
-#6 [Score: 0.93]: có đáp ứng tiêu chí chuyển đổi mã số hàng hóa hay không, với hai điều kiện:
-#7 [Score: 0.92]: cả các nguyên liệu không có xuất xứ được sử dụng đề sản xuất hàng hóa có xuất xứ
-#8 [Score: 0.93]: hóa được coi là một phần của hàng hóa và không được tính đến khi xác định liệu tất
-#9 [Score: 0.93]: tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính thông tin khác của hàng
-#10 [Score: 0.92]: thông tin khác đi kêm với hàng hóa tạo thành một phần phụ kiện tiêu chuẩn, phụ
-#11 [Score: 0.93]: 1. Phụ kiện, phụ tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính
-#12 [Score: 0.93]: Điều 13. Phụ kiện, phụ tùng và dụng cụ
-#13 [Score: 0.92]: hóa cuối cùng.
-#14 [Score: 0.93]: xuất, kiểm tra hoặc giám định hàng hóa và không nằm trong thành phần của hàng
-#15 [Score: 0.93]: 4, Các nguyên liệu hoặc hàng hóa khác được sử dụng trong quá trình sản
-#16 [Score: 0.91]: 3, Máy móc và dụng cụ.
-#17 [Score: 0.92]: 2. Nhà xưởng và thiết bị.
-#18 [Score: 0.93]: 1. Năng lượng và nhiên liệu.
-#19 [Score: 0.93]: dụng để sản xuất ra hàng hóa, sẽ được coi là có xuất xứ:
-#20 [Score: 0.93]: Để xác định xuất xứ hàng hóa, những yếu tố trung gian dưới đây được sử
-#21 [Score: 0.92]: Điều 12. Yếu tố trung gian
-#22 [Score: 0.93]: đoạn gia công, chế biển đơn giản theo quy định tại khoản 3 Điều này.
-#23 [Score: 0.92]: xem xét để xác định quá trình sản xuất hoặc gia công sản phẩm được coi là công
-#24 [Score: 0.93]: 4, Tất cả các công đoạn thực hiện tại Nước thành viên xuất khẩu sẽ được
-#25 [Score: 0.93]: đặc tính của hàng hóa.
-#26 [Score: 0.93]: n) Pha loãng với nước hoặc chất khác mà không làm thay đổi đáng kể các
-#27 [Score: 0.93]: m) Xay xát, làm trắng một phần hoặc toàn bộ, đánh bóng và hồ ngũ cốc và gạo.
-#28 [Score: 0.93]: sản phẩm hoặc trên bao bì của sản phẩm.
-#29 [Score: 0.92]: [) Dán hoặc in nhãn, mác, logo và những dấu hiệu phân biệt tương tự trên
-#30 [Score: 0.90]: và ghép các lồ hàng.
-#31 [Score: 0.93]: k) Thay đổi đơn giản bao bì, loại bỏ bao bì hoặc đóng gói lại và chia nhỏ
-#32 [Score: 0.91]: hoàn chỉnh hoặc thảo rời sản phẩm thành các bộ phận.
-#33 [Score: 0.93]: i) Lắp ráp đơn giản các bộ phận của sản phẩm để tạo thành một sản phẩm
-#34 [Score: 0.93]: h) Trộn đơn giản các loại hàng hóa dù cùng loại hay khác loại.
-#35 [Score: 0.93]: hoặc bảng và các hoạt động đóng gói.
-#36 [Score: 0.93]: g) Các thao tác đơn giản để đóng chai, lon, bình, túi, hòm, hộp, gắn trên thẻ
-#37 [Score: 0.93]: e) Kiểm tra hoặc hiệu chuẩn đơn giản.
+#1 [Score: 0.93]: 2, Trường hợp hàng hóa áp dụng tiêu chí Hàm lượng giá trị gia tăng, trị giá
+#2 [Score: 0.93]: của phụ kiện, phụ tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính
+#3 [Score: 0.93]: thông tin khác, được tính là có xuất xứ hoặc không có xuất xứ, tùy từng trường
+#4 [Score: 0.92]: hợp cụ thể khi tính Hàm lượng giá trị gia tăng.
+#5 [Score: 0.93]: Điều 14. Nguyên liệu đóng gói và bao bì đóng gói để bán lẻ
+#6 [Score: 0.92]: 1. Nguyên liệu đóng gói và bao bì đóng gói để bán lẻ khi được phân loại
+#7 [Score: 0.93]: cùng với hàng hóa theo Quy tắc 5 của Hệ thống hài hòa, thì không được xét đến
+#8 [Score: 0.93]: khi xác định tất cả nguyên liệu không có xuất xứ để sản xuất ra hàng hóa đáp ứng
+#9 [Score: 0.87]: hay không đáp ứng tiêu chí chuyển đổi mã số hàng hóa.
+#10 [Score: 0.93]: 2. Trường hợp hàng hóa áp dụng tiêu chí Hàm lượng giá trị gia tăng, trị giá
+#11 [Score: 0.93]: của nguyên liệu đóng gói và bao bì đóng gói để bán lẻ, được tính là có xuất xứ
+#12 [Score: 0.93]: hoặc không có xuất xứ, tùy từng trường hợp cụ thể.
+#13 [Score: 0.93]: Điều 15. Đơn vị xét xuất xứ hàng hóa
+#14 [Score: 0.93]: Đơn vị xét xuất xứ hàng hóa là một sản phẩm cụ thể và được coi là đơn vị
+#15 [Score: 0.91]: cơ bản khi phân loại theo hệ thống hải hòa.
+#16 [Score: 0.92]: 1. Một sản phẩm bao gồm một nhóm hoặc cụm sản phẩm được phân loại
+#17 [Score: 0.93]: theo một nhóm duy nhất, toàn bộ nhóm hoặc cụm sản phẩm đó tạo thành đơn vị
+#18 [Score: 0.93]: xét xuất xứ hàng hóa.
+#19 [Score: 0.92]: 2. Một lô hàng bao gồm một số sản phẩm giống nhau được phân loại theo
+#20 [Score: 0.93]: một dòng thuế duy nhất, mỗi sản phẩm được xem xét riêng lẻ khi xác định hàng
+#21 [Score: 0.93]: hóa có xuất xứ hay không có xuất xứ.
+#22 [Score: 0.93]: Điều 16. Nguyên liệu đóng gói và bao bì đóng gói để vận chuyển
+#23 [Score: 0.92]: Nguyên liệu đóng gói và bao bì đóng gói hàng hóa để vận chuyển không
+#24 [Score: 0.93]: được tính khi xác định xuất xứ của hàng hóa.
+#25 [Score: 0.93]: Điều 17. Hàng hóa hoặc nguyên liệu giống nhau và có thể thay thế lẫn nhau
+#26 [Score: 0.93]: 1. Việc xác định xuất xứ của hàng hóa hoặc nguyên liệu giống nhau và có
+#27 [Score: 0.93]: thể thay thể lẫn nhau được thực hiện thông qua phân loại thực tế từng hàng hóa
+#28 [Score: 0.93]: hoặc nguyên liệu hoặc trong trường hợp có bất kỳ khó khăn nào, thông qua việc
+#29 [Score: 0.93]: sử dụng bất kỳ phương pháp quản lý hàng tồn kho như tính trung bình, nhập sau
+#30 [Score: 0.93]: xuất trước hoặc nhập trước xuất trước, được công nhận trong các nguyên tắc kế
+#31 [Score: 0.93]: toán tổng hợp của một Nước thành viên nơi mà quá trình sản xuất được thực hiện
+#32 [Score: 0.93]: hoặc được chấp nhận bởi Nước thành viên đó.
+#33 [Score: 0.93]: 2. Phương pháp quản lý hàng tồn kho theo quy định tại khoản 1 Điều này
+#34 [Score: 0.93]: đối với hàng hóa hoặc nguyên liệu giống nhau và có thể thay thế lẫn nhau, tiếp
+#35 [Score: 0.93]: tục được sử dụng cho hàng hóa hoặc nguyên liệu giống nhau và có thể thay thể
+#36 [Score: 0.93]: lẫn nhau đó trong suốt năm tài chính của Nước thành viên đã lựa chọn phương
+#37 [Score: 0.93]: pháp quản lý hàng tồn kho.
+#38 [Score: 0.93]: Điều 18. Bộ hàng hóa
+#39 [Score: 0.93]: Bộ hàng hóa được quy định theo Quy tắc chung của Hệ thống hài hòa được
+#40 [Score: 0.92]: coi là có xuất xứ khi tất cả các hàng hóa thành phần của bộ hàng hóa có xuất xứ,

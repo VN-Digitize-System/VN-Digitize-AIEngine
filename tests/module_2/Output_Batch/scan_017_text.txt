@@ -2,161 +2,179 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-tinh bột biến tính; keo hồ; enzym.
-Chương 35
-Các chất chứa albumin; các dạng
-QVC 35%
-CTH
-thành phần cơ bản là thạch cao.
-phẩm dùng trong nha khoa có
-dùng trong nha khoa" và các chế
-nhão dùng làm hình mẫu, "sáp
-và các sản phẩm tương tự, bột
-để đánh bóng hoặc tẩy sạch, nến
-được chế biến, các chế phẩm dùng
-tron, các loại sáp nhân tạo, sáp đã
-để giặt, rửa, các chế phẩm bỏi
-động bề mặt, các chế phẩm dùng
-Chương 34
-Xà phòng, các chất hữu, cơ hoạt
-CTH
-QVC 35%
-phẩm dùng cho vệ sinh.
-nước hoa, mỹ phẩm hoặc các chể
-Chương 33
-Tinh đầu và các chất tựa nhựa;
-cth
-QVC 35%
-loại mực.
-gắn và các loại ma tít khác; các
-chất màu khác; sơn và véc ni; chất
-thuốc nhuộm, thuốc màu và các
-các chất dẫn xuất của chúng;
-nhuộm hoặc thuộc đa; ta nanh và
-Chương 32
-Các chất chiết xuất làm thuốc
-QVC 35%
-CTH
-Chương 31
-Phân bón.
-QVC 35%
-CTH
-Chương 30
-Dược Phẩm.
-CTH
-QVC 35%
-Chương 29
-Hóa chất hữu cơ.
-CTH
-QVC 35%
-phóng xạ hoặc các chất đồng vị.
-kim loại đất hiếm, các nguyên tổ
-cơ hoặc hữu cơ của kim loại quý,
-Chương 28
-Hóa chất vô cơ, các hợp chất vô
-QVC 35%
-CTH
-khoáng chất.
-các chất chứa bi-tum; các loại sáp
-các sản phẩm chưng cất từ chúng;
-Chương 27
-Nhiên liệu khoáng, dầu khoáng và
-QVC 35%
-CTH
-Quặng, xỉ và tro.
-Chương 26
-QVC 35%
-CTH
-ex 2515
-Đá hoa (Marbles).
-CTSH
-QVC 35%
-(1)
-(2)
-(3)
-(4)
-Mã hs
-Mô tả hàng hóa
 Quy tắc cụ thể mặt hàng
-5
+Mã Hs
+Mô tả hàng hóa
+(2)
+(4)
+(3)
+(1)
+Chất nổ; các sản phẩm pháo;
+Chương 36
+QVC 35%
+CTH
+diêm; các hợp kim tự cháy; các
+chế phẩm dễ cháy khác.
+Vật liệu ảnh hoặc điện ảnh.
+QVC 35%
+Chương 37
+CTH
+QVC 35%
+Chương 38
+CTH
+Các sản phẩm hóa chất khác.
+Plastic và các sản phẩm bằng
+Chương 39
+QVC 35%
+CTH
+plastic.
+Cao su và các sản phẩm bằng cao
+Chương 40
+QVC 35%
+CTH
+su.
+CTH
+Chương 41
+Da sống (trừ đa lông) và da thuộc.
+QVC 35%
+Các sản phẩm bằng da thuộc; yên
+Chương 42
+CTH
+QVC 35%
+cương và bộ yên cương; các mặt
+hàng du lịch, túi xách và các loại
+đồ chứa tương tự, các sản phẩm
+làm từ ruột động vật (trừ ruột con
+tầm).
+QVC 35%
+Da lông và da lông nhân tạo; các
+Chương 43
+CTH
+sản phẩm làm từ da lông và đa
+lông nhân tạo.
+QVC 35%
+Gỗ và các mặt hàng bằng gỗ; than
+CTH
+Chương 44
+từ gỗ.
+QVC 35%
+Lie và các sản phẩm bằng lie.
+Chương 45
+CTH
+Sản phẩm làm từ rơm, có giấy
+Chương 46
+QVC 35%
+CTH
+hoặc từ các loại vật liệu tết bện
+khác; các sân phẩm bằng liễu gai
+và song mây.
+Bột giấy từ gỗ hoặc từ nguyên
+Chương 47
+QVC 35%
+CTH
+liệu xơ xenlulo khác; giấy loại
+hoặc bìa loại thu hồi (phế liệu và
+vụn thừa).
+Giấy và bìa; các sản phẩm làm
+Chương 48
+CTH
+QVC 35%
+bằng bột giấy, bằng giấy hoặc
+bằng bìa
+Sách, báo, tranh ảnh và các sản
+CTH
+Chương 49
+QVC 35%
+phẩm khác của công nghiệp in;
+các loại bản thảo viết bằng tay,
+đánh máy và sơ đồ.
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.90]: tinh bột biến tính; keo hồ; enzym.
-#2 [Score: 0.93]: Chương 35
-#3 [Score: 0.93]: Các chất chứa albumin; các dạng
-#4 [Score: 0.93]: QVC 35%
-#5 [Score: 0.92]: CTH
-#6 [Score: 0.93]: thành phần cơ bản là thạch cao.
-#7 [Score: 0.93]: phẩm dùng trong nha khoa có
-#8 [Score: 0.92]: dùng trong nha khoa" và các chế
-#9 [Score: 0.93]: nhão dùng làm hình mẫu, "sáp
-#10 [Score: 0.93]: và các sản phẩm tương tự, bột
-#11 [Score: 0.92]: để đánh bóng hoặc tẩy sạch, nến
-#12 [Score: 0.93]: được chế biến, các chế phẩm dùng
-#13 [Score: 0.93]: tron, các loại sáp nhân tạo, sáp đã
-#14 [Score: 0.91]: để giặt, rửa, các chế phẩm bỏi
-#15 [Score: 0.93]: động bề mặt, các chế phẩm dùng
-#16 [Score: 0.93]: Chương 34
-#17 [Score: 0.93]: Xà phòng, các chất hữu, cơ hoạt
-#18 [Score: 0.90]: CTH
-#19 [Score: 0.93]: QVC 35%
-#20 [Score: 0.92]: phẩm dùng cho vệ sinh.
-#21 [Score: 0.93]: nước hoa, mỹ phẩm hoặc các chể
-#22 [Score: 0.93]: Chương 33
-#23 [Score: 0.93]: Tinh đầu và các chất tựa nhựa;
-#24 [Score: 0.82]: cth
-#25 [Score: 0.94]: QVC 35%
-#26 [Score: 0.93]: loại mực.
-#27 [Score: 0.93]: gắn và các loại ma tít khác; các
-#28 [Score: 0.93]: chất màu khác; sơn và véc ni; chất
-#29 [Score: 0.93]: thuốc nhuộm, thuốc màu và các
-#30 [Score: 0.93]: các chất dẫn xuất của chúng;
-#31 [Score: 0.93]: nhuộm hoặc thuộc đa; ta nanh và
-#32 [Score: 0.93]: Chương 32
-#33 [Score: 0.93]: Các chất chiết xuất làm thuốc
-#34 [Score: 0.93]: QVC 35%
-#35 [Score: 0.90]: CTH
-#36 [Score: 0.93]: Chương 31
-#37 [Score: 0.89]: Phân bón.
-#38 [Score: 0.93]: QVC 35%
-#39 [Score: 0.91]: CTH
-#40 [Score: 0.91]: Chương 30
-#41 [Score: 0.89]: Dược Phẩm.
-#42 [Score: 0.87]: CTH
-#43 [Score: 0.93]: QVC 35%
-#44 [Score: 0.93]: Chương 29
-#45 [Score: 0.93]: Hóa chất hữu cơ.
-#46 [Score: 0.90]: CTH
-#47 [Score: 0.94]: QVC 35%
-#48 [Score: 0.93]: phóng xạ hoặc các chất đồng vị.
-#49 [Score: 0.93]: kim loại đất hiếm, các nguyên tổ
-#50 [Score: 0.92]: cơ hoặc hữu cơ của kim loại quý,
-#51 [Score: 0.94]: Chương 28
-#52 [Score: 0.92]: Hóa chất vô cơ, các hợp chất vô
-#53 [Score: 0.93]: QVC 35%
-#54 [Score: 0.93]: CTH
-#55 [Score: 0.92]: khoáng chất.
-#56 [Score: 0.92]: các chất chứa bi-tum; các loại sáp
-#57 [Score: 0.93]: các sản phẩm chưng cất từ chúng;
-#58 [Score: 0.93]: Chương 27
-#59 [Score: 0.93]: Nhiên liệu khoáng, dầu khoáng và
-#60 [Score: 0.93]: QVC 35%
-#61 [Score: 0.85]: CTH
-#62 [Score: 0.92]: Quặng, xỉ và tro.
-#63 [Score: 0.93]: Chương 26
-#64 [Score: 0.92]: QVC 35%
-#65 [Score: 0.92]: CTH
-#66 [Score: 0.93]: ex 2515
-#67 [Score: 0.89]: Đá hoa (Marbles).
-#68 [Score: 0.91]: CTSH
+#1 [Score: 0.93]: Quy tắc cụ thể mặt hàng
+#2 [Score: 0.83]: Mã Hs
+#3 [Score: 0.93]: Mô tả hàng hóa
+#4 [Score: 0.94]: (2)
+#5 [Score: 0.94]: (4)
+#6 [Score: 0.94]: (3)
+#7 [Score: 0.94]: (1)
+#8 [Score: 0.90]: Chất nổ; các sản phẩm pháo;
+#9 [Score: 0.93]: Chương 36
+#10 [Score: 0.93]: QVC 35%
+#11 [Score: 0.91]: CTH
+#12 [Score: 0.90]: diêm; các hợp kim tự cháy; các
+#13 [Score: 0.93]: chế phẩm dễ cháy khác.
+#14 [Score: 0.92]: Vật liệu ảnh hoặc điện ảnh.
+#15 [Score: 0.94]: QVC 35%
+#16 [Score: 0.93]: Chương 37
+#17 [Score: 0.92]: CTH
+#18 [Score: 0.94]: QVC 35%
+#19 [Score: 0.93]: Chương 38
+#20 [Score: 0.92]: CTH
+#21 [Score: 0.93]: Các sản phẩm hóa chất khác.
+#22 [Score: 0.93]: Plastic và các sản phẩm bằng
+#23 [Score: 0.93]: Chương 39
+#24 [Score: 0.93]: QVC 35%
+#25 [Score: 0.89]: CTH
+#26 [Score: 0.93]: plastic.
+#27 [Score: 0.93]: Cao su và các sản phẩm bằng cao
+#28 [Score: 0.93]: Chương 40
+#29 [Score: 0.93]: QVC 35%
+#30 [Score: 0.91]: CTH
+#31 [Score: 0.92]: su.
+#32 [Score: 0.91]: CTH
+#33 [Score: 0.93]: Chương 41
+#34 [Score: 0.92]: Da sống (trừ đa lông) và da thuộc.
+#35 [Score: 0.93]: QVC 35%
+#36 [Score: 0.93]: Các sản phẩm bằng da thuộc; yên
+#37 [Score: 0.94]: Chương 42
+#38 [Score: 0.93]: CTH
+#39 [Score: 0.93]: QVC 35%
+#40 [Score: 0.93]: cương và bộ yên cương; các mặt
+#41 [Score: 0.93]: hàng du lịch, túi xách và các loại
+#42 [Score: 0.93]: đồ chứa tương tự, các sản phẩm
+#43 [Score: 0.93]: làm từ ruột động vật (trừ ruột con
+#44 [Score: 0.90]: tầm).
+#45 [Score: 0.93]: QVC 35%
+#46 [Score: 0.93]: Da lông và da lông nhân tạo; các
+#47 [Score: 0.93]: Chương 43
+#48 [Score: 0.90]: CTH
+#49 [Score: 0.90]: sản phẩm làm từ da lông và đa
+#50 [Score: 0.92]: lông nhân tạo.
+#51 [Score: 0.94]: QVC 35%
+#52 [Score: 0.93]: Gỗ và các mặt hàng bằng gỗ; than
+#53 [Score: 0.86]: CTH
+#54 [Score: 0.93]: Chương 44
+#55 [Score: 0.94]: từ gỗ.
+#56 [Score: 0.93]: QVC 35%
+#57 [Score: 0.93]: Lie và các sản phẩm bằng lie.
+#58 [Score: 0.93]: Chương 45
+#59 [Score: 0.92]: CTH
+#60 [Score: 0.91]: Sản phẩm làm từ rơm, có giấy
+#61 [Score: 0.93]: Chương 46
+#62 [Score: 0.93]: QVC 35%
+#63 [Score: 0.91]: CTH
+#64 [Score: 0.93]: hoặc từ các loại vật liệu tết bện
+#65 [Score: 0.90]: khác; các sân phẩm bằng liễu gai
+#66 [Score: 0.93]: và song mây.
+#67 [Score: 0.93]: Bột giấy từ gỗ hoặc từ nguyên
+#68 [Score: 0.93]: Chương 47
 #69 [Score: 0.94]: QVC 35%
-#70 [Score: 0.94]: (1)
-#71 [Score: 0.94]: (2)
-#72 [Score: 0.94]: (3)
-#73 [Score: 0.94]: (4)
-#74 [Score: 0.89]: Mã hs
-#75 [Score: 0.93]: Mô tả hàng hóa
-#76 [Score: 0.93]: Quy tắc cụ thể mặt hàng
-#77 [Score: 0.93]: 5
+#70 [Score: 0.92]: CTH
+#71 [Score: 0.91]: liệu xơ xenlulo khác; giấy loại
+#72 [Score: 0.93]: hoặc bìa loại thu hồi (phế liệu và
+#73 [Score: 0.93]: vụn thừa).
+#74 [Score: 0.92]: Giấy và bìa; các sản phẩm làm
+#75 [Score: 0.93]: Chương 48
+#76 [Score: 0.92]: CTH
+#77 [Score: 0.93]: QVC 35%
+#78 [Score: 0.92]: bằng bột giấy, bằng giấy hoặc
+#79 [Score: 0.92]: bằng bìa
+#80 [Score: 0.93]: Sách, báo, tranh ảnh và các sản
+#81 [Score: 0.92]: CTH
+#82 [Score: 0.93]: Chương 49
+#83 [Score: 0.93]: QVC 35%
+#84 [Score: 0.93]: phẩm khác của công nghiệp in;
+#85 [Score: 0.93]: các loại bản thảo viết bằng tay,
+#86 [Score: 0.93]: đánh máy và sơ đồ.

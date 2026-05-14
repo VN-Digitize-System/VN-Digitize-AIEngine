@@ -2,87 +2,85 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-coi là có xuất xứ khi tất cả các hàng hóa thành phần của bộ hàng hóa có xuất xứ,
-Bộ hàng hóa được quy định theo Quy tắc chung của Hệ thống hài hòa được
-Điều 18. Bộ hàng hóa
-pháp quản lý hàng tồn kho.
-lẫn nhau đó trong suốt năm tài chính của Nước thành viên đã lựa chọn phương
-tục được sử dụng cho hàng hóa hoặc nguyên liệu giống nhau và có thể thay thể
-đối với hàng hóa hoặc nguyên liệu giống nhau và có thể thay thế lẫn nhau, tiếp
-2. Phương pháp quản lý hàng tồn kho theo quy định tại khoản 1 Điều này
-hoặc được chấp nhận bởi Nước thành viên đó.
-toán tổng hợp của một Nước thành viên nơi mà quá trình sản xuất được thực hiện
-xuất trước hoặc nhập trước xuất trước, được công nhận trong các nguyên tắc kế
-sử dụng bất kỳ phương pháp quản lý hàng tồn kho như tính trung bình, nhập sau
-hoặc nguyên liệu hoặc trong trường hợp có bất kỳ khó khăn nào, thông qua việc
-thể thay thể lẫn nhau được thực hiện thông qua phân loại thực tế từng hàng hóa
-1. Việc xác định xuất xứ của hàng hóa hoặc nguyên liệu giống nhau và có
-Điều 17. Hàng hóa hoặc nguyên liệu giống nhau và có thể thay thế lẫn nhau
-được tính khi xác định xuất xứ của hàng hóa.
-Nguyên liệu đóng gói và bao bì đóng gói hàng hóa để vận chuyển không
-Điều 16. Nguyên liệu đóng gói và bao bì đóng gói để vận chuyển
-hóa có xuất xứ hay không có xuất xứ.
-một dòng thuế duy nhất, mỗi sản phẩm được xem xét riêng lẻ khi xác định hàng
-2. Một lô hàng bao gồm một số sản phẩm giống nhau được phân loại theo
-xét xuất xứ hàng hóa.
-theo một nhóm duy nhất, toàn bộ nhóm hoặc cụm sản phẩm đó tạo thành đơn vị
-1. Một sản phẩm bao gồm một nhóm hoặc cụm sản phẩm được phân loại
-cơ bản khi phân loại theo hệ thống hải hòa.
-Đơn vị xét xuất xứ hàng hóa là một sản phẩm cụ thể và được coi là đơn vị
-Điều 15. Đơn vị xét xuất xứ hàng hóa
-hoặc không có xuất xứ, tùy từng trường hợp cụ thể.
-của nguyên liệu đóng gói và bao bì đóng gói để bán lẻ, được tính là có xuất xứ
-2. Trường hợp hàng hóa áp dụng tiêu chí Hàm lượng giá trị gia tăng, trị giá
-hay không đáp ứng tiêu chí chuyển đổi mã số hàng hóa.
-khi xác định tất cả nguyên liệu không có xuất xứ để sản xuất ra hàng hóa đáp ứng
-cùng với hàng hóa theo Quy tắc 5 của Hệ thống hài hòa, thì không được xét đến
-1. Nguyên liệu đóng gói và bao bì đóng gói để bán lẻ khi được phân loại
-Điều 14. Nguyên liệu đóng gói và bao bì đóng gói để bán lẻ
-hợp cụ thể khi tính Hàm lượng giá trị gia tăng.
-thông tin khác, được tính là có xuất xứ hoặc không có xuất xứ, tùy từng trường
-của phụ kiện, phụ tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính
-2, Trường hợp hàng hóa áp dụng tiêu chí Hàm lượng giá trị gia tăng, trị giá
+Trường hợp bộ hàng hóa bao gồm hàng hóa có xuất xứ và hàng hóa không có xuất
+xứ, bộ hàng hóa được coi là có xuất xứ nếu trị giá hải quan của hàng hóa không
+có xuất xứ không vượt quá 20% giá xuất xưởng của bộ hàng hóa đó.
+Điều 19. Nguyên tắc lãnh thổ
+1.Quy định tại Điều 5 Thông tư này phải được đảm bảo thực hiện hoàn
+toàn và không bị gián đoạn tại lãnh thổ của một Nước thành viên. "Lãnh thổ" bao
+gồm khu vực tự đo, khu chế xuất được thành lập trên phạm vi lãnh thổ theo quy
+định của mỗi Nước thành viên.
+2, Trường hợp hàng hóa có xuất xứ được xuất khẩu từ lãnh thổ của một
+Nước thành viên đến một Nước không phải là thành viên và sau đó được tái nhập
+về Nước thành viên xuất khẩu, sẽ được coi là không có xuất xứ, trừ trường hợp
+có thể chứng minh được với cơ quan hải quan rằng:
+a) Hàng hóa tái nhập chính là hàng hóa đã được xuất khẩu đi.
+b) Hàng hóa tái nhập không trải qua cộng đoạn vượt quá công đoạn cần
+thiết để bảo quản hàng hóa trong điều kiện tốt trong quá trình lưu kho ở Nước
+không phải thành viên hoặc trong quá trình xuất khẩu.
+Điều 20. Quá cảnh và chuyển tải
+1. Hàng hóa giữ nguyên xuất xứ nếu hàng hóa đó được vận chuyển trực tiếp
+đến Nước thành viên nhập khẩu mà không quá cảnh tại lãnh thổ của một Nước
+không phải thành viên.
+2, Hàng hóa giữ nguyên xuất xứ nếu được quá cảnh hoặc lưu kho tạm thời
+tại một hay nhiều Nước không phải thành viên nếu đáp ứng các điều kiện sau:
+a) Hàng hóa nằm dưới sự giám sát của cơ quan hải quan tại lãnh thổ của
+một hoặc nhiều Nước không phải thành viên nơi hàng hóa quá cảnh hoặc lưu kho
+và không nhằm mục đích thương mại, tiêu dùng, sử dụng hoặc khai thác tại một
+hoặc nhiều Nước không phải thành viên nơi hàng hóa được quá cảnh.
+b) Hàng hóa không trải qua bất kỳ công đoạn nào, ngoại trừ việc dỡ hàng,
+bốc hàng, thêm hoặc dán nhãn theo quy định của Nước thành viên nhập khẩu hay
+của một hoặc nhiều nước không phải thành viên nơi quá cảnh, chia nhỏ lô hàng
+lớn dưới sự giám sát của cơ quan hải quan tại một hoặc nhiều Nước không phải
+thành viên nơi quá cảnh hoặc lưu kho, hoặc bất kỳ công đoạn cần thiết nào để bảo
+quản hàng hóa trong tình trạng tốt.
+3. Nhà nhập khẩu xuất trình chứng từ theo yêu cầu của Cơ quan hải quan
+của Nước thành viên nhập khẩu đề chứng minh hàng hóa nằm dưới sự giám sát
+của cơ quan hải quan tại quốc gia nơi quá cảnh hoặc lưu kho, Chứng từ chứng
+minh việc đáp ứng quy định tại khoản 1 Điều này phải cung cấp cho Cơ quan hải
+quan của Nước thành viên nhập khẩu bao gồm:
+a) Bất kỳ chứng từ vận tải chở suốt đáp ứng các tiêu chuẩn quốc tế và chứng
+minh rằng hàng hóa được vận chuyển trực tiếp từ Nước thành viên xuất khẩu qua
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.92]: coi là có xuất xứ khi tất cả các hàng hóa thành phần của bộ hàng hóa có xuất xứ,
-#2 [Score: 0.93]: Bộ hàng hóa được quy định theo Quy tắc chung của Hệ thống hài hòa được
-#3 [Score: 0.93]: Điều 18. Bộ hàng hóa
-#4 [Score: 0.93]: pháp quản lý hàng tồn kho.
-#5 [Score: 0.93]: lẫn nhau đó trong suốt năm tài chính của Nước thành viên đã lựa chọn phương
-#6 [Score: 0.93]: tục được sử dụng cho hàng hóa hoặc nguyên liệu giống nhau và có thể thay thể
-#7 [Score: 0.93]: đối với hàng hóa hoặc nguyên liệu giống nhau và có thể thay thế lẫn nhau, tiếp
-#8 [Score: 0.93]: 2. Phương pháp quản lý hàng tồn kho theo quy định tại khoản 1 Điều này
-#9 [Score: 0.93]: hoặc được chấp nhận bởi Nước thành viên đó.
-#10 [Score: 0.93]: toán tổng hợp của một Nước thành viên nơi mà quá trình sản xuất được thực hiện
-#11 [Score: 0.93]: xuất trước hoặc nhập trước xuất trước, được công nhận trong các nguyên tắc kế
-#12 [Score: 0.93]: sử dụng bất kỳ phương pháp quản lý hàng tồn kho như tính trung bình, nhập sau
-#13 [Score: 0.93]: hoặc nguyên liệu hoặc trong trường hợp có bất kỳ khó khăn nào, thông qua việc
-#14 [Score: 0.93]: thể thay thể lẫn nhau được thực hiện thông qua phân loại thực tế từng hàng hóa
-#15 [Score: 0.93]: 1. Việc xác định xuất xứ của hàng hóa hoặc nguyên liệu giống nhau và có
-#16 [Score: 0.93]: Điều 17. Hàng hóa hoặc nguyên liệu giống nhau và có thể thay thế lẫn nhau
-#17 [Score: 0.93]: được tính khi xác định xuất xứ của hàng hóa.
-#18 [Score: 0.92]: Nguyên liệu đóng gói và bao bì đóng gói hàng hóa để vận chuyển không
-#19 [Score: 0.93]: Điều 16. Nguyên liệu đóng gói và bao bì đóng gói để vận chuyển
-#20 [Score: 0.93]: hóa có xuất xứ hay không có xuất xứ.
-#21 [Score: 0.93]: một dòng thuế duy nhất, mỗi sản phẩm được xem xét riêng lẻ khi xác định hàng
-#22 [Score: 0.93]: 2. Một lô hàng bao gồm một số sản phẩm giống nhau được phân loại theo
-#23 [Score: 0.93]: xét xuất xứ hàng hóa.
-#24 [Score: 0.93]: theo một nhóm duy nhất, toàn bộ nhóm hoặc cụm sản phẩm đó tạo thành đơn vị
-#25 [Score: 0.93]: 1. Một sản phẩm bao gồm một nhóm hoặc cụm sản phẩm được phân loại
-#26 [Score: 0.91]: cơ bản khi phân loại theo hệ thống hải hòa.
-#27 [Score: 0.93]: Đơn vị xét xuất xứ hàng hóa là một sản phẩm cụ thể và được coi là đơn vị
-#28 [Score: 0.93]: Điều 15. Đơn vị xét xuất xứ hàng hóa
-#29 [Score: 0.93]: hoặc không có xuất xứ, tùy từng trường hợp cụ thể.
-#30 [Score: 0.93]: của nguyên liệu đóng gói và bao bì đóng gói để bán lẻ, được tính là có xuất xứ
-#31 [Score: 0.93]: 2. Trường hợp hàng hóa áp dụng tiêu chí Hàm lượng giá trị gia tăng, trị giá
-#32 [Score: 0.93]: hay không đáp ứng tiêu chí chuyển đổi mã số hàng hóa.
-#33 [Score: 0.93]: khi xác định tất cả nguyên liệu không có xuất xứ để sản xuất ra hàng hóa đáp ứng
-#34 [Score: 0.93]: cùng với hàng hóa theo Quy tắc 5 của Hệ thống hài hòa, thì không được xét đến
-#35 [Score: 0.93]: 1. Nguyên liệu đóng gói và bao bì đóng gói để bán lẻ khi được phân loại
-#36 [Score: 0.93]: Điều 14. Nguyên liệu đóng gói và bao bì đóng gói để bán lẻ
-#37 [Score: 0.92]: hợp cụ thể khi tính Hàm lượng giá trị gia tăng.
-#38 [Score: 0.93]: thông tin khác, được tính là có xuất xứ hoặc không có xuất xứ, tùy từng trường
-#39 [Score: 0.93]: của phụ kiện, phụ tùng, dụng cụ và tài liệu hướng dẫn hoặc tài liệu mang tính
-#40 [Score: 0.93]: 2, Trường hợp hàng hóa áp dụng tiêu chí Hàm lượng giá trị gia tăng, trị giá
+#1 [Score: 0.93]: Trường hợp bộ hàng hóa bao gồm hàng hóa có xuất xứ và hàng hóa không có xuất
+#2 [Score: 0.93]: xứ, bộ hàng hóa được coi là có xuất xứ nếu trị giá hải quan của hàng hóa không
+#3 [Score: 0.92]: có xuất xứ không vượt quá 20% giá xuất xưởng của bộ hàng hóa đó.
+#4 [Score: 0.92]: Điều 19. Nguyên tắc lãnh thổ
+#5 [Score: 0.88]: 1.Quy định tại Điều 5 Thông tư này phải được đảm bảo thực hiện hoàn
+#6 [Score: 0.93]: toàn và không bị gián đoạn tại lãnh thổ của một Nước thành viên. "Lãnh thổ" bao
+#7 [Score: 0.92]: gồm khu vực tự đo, khu chế xuất được thành lập trên phạm vi lãnh thổ theo quy
+#8 [Score: 0.92]: định của mỗi Nước thành viên.
+#9 [Score: 0.93]: 2, Trường hợp hàng hóa có xuất xứ được xuất khẩu từ lãnh thổ của một
+#10 [Score: 0.93]: Nước thành viên đến một Nước không phải là thành viên và sau đó được tái nhập
+#11 [Score: 0.93]: về Nước thành viên xuất khẩu, sẽ được coi là không có xuất xứ, trừ trường hợp
+#12 [Score: 0.92]: có thể chứng minh được với cơ quan hải quan rằng:
+#13 [Score: 0.93]: a) Hàng hóa tái nhập chính là hàng hóa đã được xuất khẩu đi.
+#14 [Score: 0.92]: b) Hàng hóa tái nhập không trải qua cộng đoạn vượt quá công đoạn cần
+#15 [Score: 0.92]: thiết để bảo quản hàng hóa trong điều kiện tốt trong quá trình lưu kho ở Nước
+#16 [Score: 0.92]: không phải thành viên hoặc trong quá trình xuất khẩu.
+#17 [Score: 0.93]: Điều 20. Quá cảnh và chuyển tải
+#18 [Score: 0.93]: 1. Hàng hóa giữ nguyên xuất xứ nếu hàng hóa đó được vận chuyển trực tiếp
+#19 [Score: 0.93]: đến Nước thành viên nhập khẩu mà không quá cảnh tại lãnh thổ của một Nước
+#20 [Score: 0.93]: không phải thành viên.
+#21 [Score: 0.92]: 2, Hàng hóa giữ nguyên xuất xứ nếu được quá cảnh hoặc lưu kho tạm thời
+#22 [Score: 0.93]: tại một hay nhiều Nước không phải thành viên nếu đáp ứng các điều kiện sau:
+#23 [Score: 0.93]: a) Hàng hóa nằm dưới sự giám sát của cơ quan hải quan tại lãnh thổ của
+#24 [Score: 0.93]: một hoặc nhiều Nước không phải thành viên nơi hàng hóa quá cảnh hoặc lưu kho
+#25 [Score: 0.93]: và không nhằm mục đích thương mại, tiêu dùng, sử dụng hoặc khai thác tại một
+#26 [Score: 0.92]: hoặc nhiều Nước không phải thành viên nơi hàng hóa được quá cảnh.
+#27 [Score: 0.92]: b) Hàng hóa không trải qua bất kỳ công đoạn nào, ngoại trừ việc dỡ hàng,
+#28 [Score: 0.93]: bốc hàng, thêm hoặc dán nhãn theo quy định của Nước thành viên nhập khẩu hay
+#29 [Score: 0.93]: của một hoặc nhiều nước không phải thành viên nơi quá cảnh, chia nhỏ lô hàng
+#30 [Score: 0.93]: lớn dưới sự giám sát của cơ quan hải quan tại một hoặc nhiều Nước không phải
+#31 [Score: 0.93]: thành viên nơi quá cảnh hoặc lưu kho, hoặc bất kỳ công đoạn cần thiết nào để bảo
+#32 [Score: 0.93]: quản hàng hóa trong tình trạng tốt.
+#33 [Score: 0.93]: 3. Nhà nhập khẩu xuất trình chứng từ theo yêu cầu của Cơ quan hải quan
+#34 [Score: 0.93]: của Nước thành viên nhập khẩu đề chứng minh hàng hóa nằm dưới sự giám sát
+#35 [Score: 0.93]: của cơ quan hải quan tại quốc gia nơi quá cảnh hoặc lưu kho, Chứng từ chứng
+#36 [Score: 0.93]: minh việc đáp ứng quy định tại khoản 1 Điều này phải cung cấp cho Cơ quan hải
+#37 [Score: 0.93]: quan của Nước thành viên nhập khẩu bao gồm:
+#38 [Score: 0.93]: a) Bất kỳ chứng từ vận tải chở suốt đáp ứng các tiêu chuẩn quốc tế và chứng
+#39 [Score: 0.92]: minh rằng hàng hóa được vận chuyển trực tiếp từ Nước thành viên xuất khẩu qua

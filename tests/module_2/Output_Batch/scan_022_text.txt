@@ -2,157 +2,87 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-kiện của chúng
-QVC 35%
-CTH
-Vũ khí và đạn; các bộ phận và phụ
-Chương 93
-của chúng.
-QVC 35%
-CTH
-Nhạc cụ, các bộ phận và phụ kiện
-Chương 92
-nhân và các bộ phận của chúng.
-QVC 35%
-CTH
-Đồng hồ thời gian, đồng hồ cá
-Chương 91
-thay vi CTH
-dụng quy tắc CTSH
-cùng một nhóm thì áp
-được phân loại trong
-kiện của chúng.
-phụ kiện của chúng
-phẫu thuật, các bộ phận và phụ
-và các bộ phận hoặc
-kiếm tra, chính xác, y tế hoặc
-trường hợp hàng hóa
-nhiếp ảnh, điện ảnh, đo lường,
-QVC 35%
-CTH, tuy nhiên trong
-Dụng cụ và thiết bị quang học,
-Chương 90
-nối.
-QVC 35%
-CTH
-Tàu thủy, thuyền và các kết cấu
-Chương 89
-các bộ phận của chúng.
-QVC 35%
-cth
-Phương tiện bay, tàu vũ trụ, và
-Chương 88
-thay vi CTH
-dụng quy tắc CTSH
-cùng một nhóm thì áp
-được phân loại trong
-phụ kiện của chúng
-chúng.
-và các bộ phận hoặc
-các bộ phận và phụ kiện của
-trường hợp hàng hóa
-đường sất hoặc đường tàu điện, và
-QVC 35%
-CTH, tuy nhiên trong
-Xe trừ phương tiện chạy trên
-Chương 87
-cơ khí (kể cả cơ điện) các loại.
-thiết bị tín hiệu giao thông bằng
-tàu điện và bộ phận của chúng;
-ghép nối đường ray xe lửa hoặc
-chúng; các bộ phận cổ định và
-đường tàu điện và các bộ phận của
-chuyển trên đường sắt hoặc
-QVC 35%
-CTH
-Đầu máy, các phương, tiện di
-Chương 86
-thay vì CTH
-dụng quy tắc CTSH
+11
+Quy tắc cụ thể mặt hàng
+Mô tả hàng hóa
+Mã hs
 (4)
 (3)
 (2)
 (1)
-Quy tắc cụ thể mặt hàng
-Mô tả hàng hóa
-Mã Hs
-10
+CTH, tuy nhiên trong
+Đồ nội thất, bộ đồ giường, đệm,
+QVC 35%
+Chương 94
+trường hợp hàng hóa
+khung đệm, nệm và các đỗ dùng
+và các bộ phận hoặc
+nhồi tương tự. đèn và bộ đèn,
+phụ kiện của chúng
+chưa được chi tiết hoặc ghi ở nơi
+được phân loại trong
+khác; biến hiệu được chiếu sáng,
+cùng một nhóm thi áp
+biến đề tên được chiếu sáng và
+dụng quy tắc CTSH
+các loại tương tự, nhà lắp ghép.
+thay vi CTH
+QVC 35%
+Đồ chơi, thiết bị trò chơi và dụng
+CTH
+Chương 95
+cụ, thiết bị thể thao, các bộ phận
+và phụ kiện của chúng.
+CTH
+QVC 35%
+Các mặt hàng khác.
+Chương 96
+Chương 97
+QVC 35%
+CTH
+Các tác phẩm nghệ thuật, đồ sưu
+tầm và đồ cổ.
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.93]: kiện của chúng
-#2 [Score: 0.93]: QVC 35%
-#3 [Score: 0.89]: CTH
-#4 [Score: 0.93]: Vũ khí và đạn; các bộ phận và phụ
-#5 [Score: 0.93]: Chương 93
-#6 [Score: 0.91]: của chúng.
-#7 [Score: 0.92]: QVC 35%
-#8 [Score: 0.90]: CTH
-#9 [Score: 0.91]: Nhạc cụ, các bộ phận và phụ kiện
-#10 [Score: 0.93]: Chương 92
-#11 [Score: 0.92]: nhân và các bộ phận của chúng.
-#12 [Score: 0.93]: QVC 35%
-#13 [Score: 0.92]: CTH
-#14 [Score: 0.94]: Đồng hồ thời gian, đồng hồ cá
-#15 [Score: 0.93]: Chương 91
-#16 [Score: 0.93]: thay vi CTH
-#17 [Score: 0.93]: dụng quy tắc CTSH
-#18 [Score: 0.93]: cùng một nhóm thì áp
+#1 [Score: 0.93]: 11
+#2 [Score: 0.94]: Quy tắc cụ thể mặt hàng
+#3 [Score: 0.92]: Mô tả hàng hóa
+#4 [Score: 0.89]: Mã hs
+#5 [Score: 0.94]: (4)
+#6 [Score: 0.94]: (3)
+#7 [Score: 0.94]: (2)
+#8 [Score: 0.94]: (1)
+#9 [Score: 0.93]: CTH, tuy nhiên trong
+#10 [Score: 0.90]: Đồ nội thất, bộ đồ giường, đệm,
+#11 [Score: 0.93]: QVC 35%
+#12 [Score: 0.93]: Chương 94
+#13 [Score: 0.91]: trường hợp hàng hóa
+#14 [Score: 0.91]: khung đệm, nệm và các đỗ dùng
+#15 [Score: 0.93]: và các bộ phận hoặc
+#16 [Score: 0.88]: nhồi tương tự. đèn và bộ đèn,
+#17 [Score: 0.94]: phụ kiện của chúng
+#18 [Score: 0.92]: chưa được chi tiết hoặc ghi ở nơi
 #19 [Score: 0.93]: được phân loại trong
-#20 [Score: 0.91]: kiện của chúng.
-#21 [Score: 0.94]: phụ kiện của chúng
-#22 [Score: 0.93]: phẫu thuật, các bộ phận và phụ
-#23 [Score: 0.93]: và các bộ phận hoặc
-#24 [Score: 0.93]: kiếm tra, chính xác, y tế hoặc
-#25 [Score: 0.94]: trường hợp hàng hóa
-#26 [Score: 0.90]: nhiếp ảnh, điện ảnh, đo lường,
-#27 [Score: 0.92]: QVC 35%
-#28 [Score: 0.93]: CTH, tuy nhiên trong
-#29 [Score: 0.93]: Dụng cụ và thiết bị quang học,
-#30 [Score: 0.93]: Chương 90
-#31 [Score: 0.88]: nối.
-#32 [Score: 0.93]: QVC 35%
-#33 [Score: 0.93]: CTH
-#34 [Score: 0.93]: Tàu thủy, thuyền và các kết cấu
-#35 [Score: 0.93]: Chương 89
-#36 [Score: 0.92]: các bộ phận của chúng.
+#20 [Score: 0.92]: khác; biến hiệu được chiếu sáng,
+#21 [Score: 0.93]: cùng một nhóm thi áp
+#22 [Score: 0.93]: biến đề tên được chiếu sáng và
+#23 [Score: 0.91]: dụng quy tắc CTSH
+#24 [Score: 0.92]: các loại tương tự, nhà lắp ghép.
+#25 [Score: 0.93]: thay vi CTH
+#26 [Score: 0.94]: QVC 35%
+#27 [Score: 0.93]: Đồ chơi, thiết bị trò chơi và dụng
+#28 [Score: 0.89]: CTH
+#29 [Score: 0.93]: Chương 95
+#30 [Score: 0.92]: cụ, thiết bị thể thao, các bộ phận
+#31 [Score: 0.93]: và phụ kiện của chúng.
+#32 [Score: 0.90]: CTH
+#33 [Score: 0.93]: QVC 35%
+#34 [Score: 0.93]: Các mặt hàng khác.
+#35 [Score: 0.93]: Chương 96
+#36 [Score: 0.93]: Chương 97
 #37 [Score: 0.93]: QVC 35%
-#38 [Score: 0.86]: cth
-#39 [Score: 0.94]: Phương tiện bay, tàu vũ trụ, và
-#40 [Score: 0.94]: Chương 88
-#41 [Score: 0.93]: thay vi CTH
-#42 [Score: 0.93]: dụng quy tắc CTSH
-#43 [Score: 0.93]: cùng một nhóm thì áp
-#44 [Score: 0.93]: được phân loại trong
-#45 [Score: 0.94]: phụ kiện của chúng
-#46 [Score: 0.89]: chúng.
-#47 [Score: 0.93]: và các bộ phận hoặc
-#48 [Score: 0.94]: các bộ phận và phụ kiện của
-#49 [Score: 0.93]: trường hợp hàng hóa
-#50 [Score: 0.92]: đường sất hoặc đường tàu điện, và
-#51 [Score: 0.94]: QVC 35%
-#52 [Score: 0.93]: CTH, tuy nhiên trong
-#53 [Score: 0.93]: Xe trừ phương tiện chạy trên
-#54 [Score: 0.93]: Chương 87
-#55 [Score: 0.92]: cơ khí (kể cả cơ điện) các loại.
-#56 [Score: 0.93]: thiết bị tín hiệu giao thông bằng
-#57 [Score: 0.93]: tàu điện và bộ phận của chúng;
-#58 [Score: 0.93]: ghép nối đường ray xe lửa hoặc
-#59 [Score: 0.93]: chúng; các bộ phận cổ định và
-#60 [Score: 0.93]: đường tàu điện và các bộ phận của
-#61 [Score: 0.92]: chuyển trên đường sắt hoặc
-#62 [Score: 0.93]: QVC 35%
-#63 [Score: 0.92]: CTH
-#64 [Score: 0.91]: Đầu máy, các phương, tiện di
-#65 [Score: 0.93]: Chương 86
-#66 [Score: 0.92]: thay vì CTH
-#67 [Score: 0.94]: dụng quy tắc CTSH
-#68 [Score: 0.94]: (4)
-#69 [Score: 0.94]: (3)
-#70 [Score: 0.94]: (2)
-#71 [Score: 0.94]: (1)
-#72 [Score: 0.94]: Quy tắc cụ thể mặt hàng
-#73 [Score: 0.93]: Mô tả hàng hóa
-#74 [Score: 0.85]: Mã Hs
-#75 [Score: 0.93]: 10
+#38 [Score: 0.87]: CTH
+#39 [Score: 0.92]: Các tác phẩm nghệ thuật, đồ sưu
+#40 [Score: 0.93]: tầm và đồ cổ.

@@ -2,89 +2,91 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-hợp sau:
-đãi thuế quan theo quy định của Nước thành viên nhập khẩu đối với các trường
-1, Cơ quan hải quan của Nước thành viên nhập khẩu từ chối cho hưởng ưu
-Điều 32. Từ chối cho hưởng ưu đãi thuế quan
-phài thành viên.
-thương mại cho lô hàng. Người bán hàng có thể ở tại lãnh thổ của một Nước không
-3, Nhà xuất khẩu không cần phải là người bán hàng phát hành hóa đơn
-Phụ lục III ban hành kèm theo Thông tư này.
-tự chứng nhận xuất xứ hàng hóa của nhà xuất khẩu đủ điều kiện theo quy định tại
-theo quy định tại Phụ lục II ban hành kèm theo Thông tư này hoặc trên Chứng từ
-và nước của công ty phát hành hoá đơn thương mại phải được thể hiện trên C/0
-2. Nhà xuất khẩu thể hiện ?non-party invoicing? và các thông tin như tên
-xuất khẩu với điều kiện hàng hóa đáp ứng quy định tại Thông tư này.
-thành viên và không bởi nhà xuất khẩu hoặc nhà sản xuất của Nước thành viên
-hưởng ưu đãi thuế quan vì hóa đơn được phát hành bởi một Nước không phải
-1. Cơ quan hải quan của Nước thành viên nhập khẩu không từ chối cho
-Điều 31. Hóa đơn của Nước không phải thành viên
-chứng nhận xuất xứ hàng hóa.
-nếu không có nghi ngờ nào khác về tính xác thực của khai báo trên Chứng từ
-hàng hóa không phải là lý do để từ chối Chứng từ chứng nhận xuất xứ hàng hóa
-2, Các lỗi hình thức như đánh máy sai trên Chứng từ chứng nhận xuất xứ
-hàng hóa nhập khẩu.
-Chứng từ chứng nhận xuất xứ hàng hóa, nếu những chứng từ này phù hợp với
-viên nhập khẩu để làm thủ tục nhập khẩu hàng hóa không làm mất đi hiệu lực của
-hàng hóa và thông tin trên chứng từ nộp cho cơ quan hải quan của Nước thành
-1, Khác biệt nhỏ giữa thông tin khai báo trên Chứng từ chứng nhận xuất xứ
-Điều 30. Khác biệt nhỏ và lỗi hình thức
-kèm theo Thông tư này, C/O thay thế có cùng thời gian hiệu lực với C/O bản gốc.
-được thể hiện tại mục phù hợp trên C/O mới theo quy định tại Phụ lục II ban hành
-cấp một C/O mới thay thế cho C/O bị lỗi. Số tham chiếu của C/O ban đầu phải
-không được phép xóa hoặc ghi đè lên C/O. Thay đổi được thực hiện bằng cách
-Khi C/O bị lỗi, cơ quan tổ chức cấp Giấy chứng nhận xuất xứ hàng hóa
-Điều 29. C/O cấp thay thế
-với điều kiện hàng hóa đó được ghi trong hóa đơn thương mại duy nhất.
-nhận xuất xử hàng hóa một lần cho cơ quan hải quan tại lần nhập khẩu đầu tiên
-hàng hóa được nhập khẩu từng phần, nhà nhập khẩu chi cần nộp Chứng từ chứng
-theo định nghĩa tại Quy tắc chung 2 (a) của Hệ thống hài hòa mô tả và mã hóa
-quan của Nước thành viên nhập khẩu, hàng hóa tháo rời hoặc chưa được lắp ráp
-Trong trường hợp nhà nhập khẩu đề nghị và theo quy định của cơ quạn hải
-Điều 28. Nhập khẩu từng phần
-13
+14
+a) Hàng hóa không đáp ứng quy tắc xuất xứ theo quy định tại Thông tư này.
+b) Nhà nhập khẩu, nhà xuất khẩu hoặc nhà sản xuất hàng hóa không đáp
+ứng các quy định nêu tại Thông tư này.
+c) Cơ quan hải quan hoặc cơ quan có thẩm quyền của Nước thành viên nhập
+khẩu không nhận được đầy đủ các thông tin từ nhà nhập khẩu để chứng minh hàng
+hóa có xuất xứ.
+d) Cơ quan có thẩm quyền hoặc cơ quan hải quan của Nước thành viên xuất
+khẩu không đáp ứng các quy định về kiểm tra, xác minh xuất xứ hàng hóa theo
+quy định tại Thông tư này.
+2, Trường hợp từ chối cho hưởng ưu đãi thuế quan, cợ quan hải quan của
+Nước thành viên nhập khẩu, theo đề nghị của nhà nhập khẩu, thông báo quyết
+định bằng văn bản cho nhà nhập khẩu bao gồm lý do từ chối.
+3. Sau khi được thông báo lý do từ chối cho hưởng ựu đãi thuế quan, trong
+thời hạn quy định pháp luật của Nước thành viên nhập khẩu, người nhập khẩu có
+thể nộp đơn khiếu nại quyết định đó lên cơ quan có thẩm quyền theo quy định
+pháp luật của Nước thành viên nhập khẩu.
+Điều 33. Xác minh Chứng từ chứng nhận xuất xứ hàng hóa
+1. Việc kiểm tra, xác minh Chứng từ chứng nhận xuất xứ hàng hóa được
+thực hiện xác suất hoặc khi Cơ quan hải quan của Nước thành viên nhập khẩu có
+nghi ngờ hợp lý về tính xác thực của chứng từ đó, về xuất xứ của hàng hóa hoặc
+việc đáp ứng các quy định khác tại Thông tư này.
+2. Theo quy định tại khoản 1 Điều này, cơ quan có thẩm quyền hoặc cợ
+quan hải quan của Nước thành viên nhập khẩu, tùy theo từng trường hợp, gửi đề
+nghị kiểm tra, xác minh xuất xứ hàng hóa bằng thư điện tử hoặc hình thức khác
+có ghi nhận việc gửi, kèm theo bản sao của Chứng từ chứng nhận xuất xứ hàng
+hóa và lý do nghỉ ngờ, Bất kỳ chứng từ khác và thông tin chỉ ra rằng thông tin
+khai báo trên Chứng từ chứng nhận xuất xứ hàng hóa không chính xác, phải được
+gửi kèm đề hỗ trợ cho yêu cầu kiểm tra, xác minh xuất xứ hàng hóa.
+3. Cơ quan có thẩm quyền của Nước thành viên xuất khẩu thực hiện việc
+kiểm tra, xác minh xuất xứ hàng hóa, Cơ quan này có quyền yêu cầu kiểm tra tại
+cơ sở sản xuất của nhà xuất khẩu hoặc nhà sản xuất, kiểm tra chứng từ lưu trữ của
+nhà sản xuất hoặc nhà xuất khẩu hoặc bất kỳ chứng từ khác liên quan đến xuất xứ
+hàng hóa theo quy định pháp luật Nước thành viên xuất khẩu.
+4. Cơ quan hải quan hoặc cơ quan có thẩm quyền của Nước thành viên nhập
+khẩu đề nghị xác minh xuất xứ được thông báo về kết quả kiểm tra, xác minh xuất
+xứ hàng hóa trong vòng 06 tháng kể từ ngày cơ quan có thẩm quyền của nước
+xuất khẩu nhận được thư đề nghị kiềm tra xác minh. Kết quả kiểm tra phải nêu rõ
+tính xác thực của các chứng từ, hàng hóa có xuất xứ và đáp ứng các điều kiện
+khác theo quy định của Thông từ này.
+5. Trường hợp không nhận được thư phản hồi về kết quả kiểm tra, xác minh
+trong khoảng thời gian trên hoặc không đủ thông tin cần thiết đề xác định tính xác
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.93]: hợp sau:
-#2 [Score: 0.93]: đãi thuế quan theo quy định của Nước thành viên nhập khẩu đối với các trường
-#3 [Score: 0.93]: 1, Cơ quan hải quan của Nước thành viên nhập khẩu từ chối cho hưởng ưu
-#4 [Score: 0.93]: Điều 32. Từ chối cho hưởng ưu đãi thuế quan
-#5 [Score: 0.90]: phài thành viên.
-#6 [Score: 0.93]: thương mại cho lô hàng. Người bán hàng có thể ở tại lãnh thổ của một Nước không
-#7 [Score: 0.93]: 3, Nhà xuất khẩu không cần phải là người bán hàng phát hành hóa đơn
-#8 [Score: 0.92]: Phụ lục III ban hành kèm theo Thông tư này.
-#9 [Score: 0.93]: tự chứng nhận xuất xứ hàng hóa của nhà xuất khẩu đủ điều kiện theo quy định tại
-#10 [Score: 0.93]: theo quy định tại Phụ lục II ban hành kèm theo Thông tư này hoặc trên Chứng từ
-#11 [Score: 0.93]: và nước của công ty phát hành hoá đơn thương mại phải được thể hiện trên C/0
-#12 [Score: 0.92]: 2. Nhà xuất khẩu thể hiện ?non-party invoicing? và các thông tin như tên
-#13 [Score: 0.93]: xuất khẩu với điều kiện hàng hóa đáp ứng quy định tại Thông tư này.
-#14 [Score: 0.93]: thành viên và không bởi nhà xuất khẩu hoặc nhà sản xuất của Nước thành viên
-#15 [Score: 0.93]: hưởng ưu đãi thuế quan vì hóa đơn được phát hành bởi một Nước không phải
-#16 [Score: 0.93]: 1. Cơ quan hải quan của Nước thành viên nhập khẩu không từ chối cho
-#17 [Score: 0.93]: Điều 31. Hóa đơn của Nước không phải thành viên
-#18 [Score: 0.93]: chứng nhận xuất xứ hàng hóa.
-#19 [Score: 0.93]: nếu không có nghi ngờ nào khác về tính xác thực của khai báo trên Chứng từ
-#20 [Score: 0.93]: hàng hóa không phải là lý do để từ chối Chứng từ chứng nhận xuất xứ hàng hóa
-#21 [Score: 0.93]: 2, Các lỗi hình thức như đánh máy sai trên Chứng từ chứng nhận xuất xứ
-#22 [Score: 0.92]: hàng hóa nhập khẩu.
-#23 [Score: 0.93]: Chứng từ chứng nhận xuất xứ hàng hóa, nếu những chứng từ này phù hợp với
-#24 [Score: 0.93]: viên nhập khẩu để làm thủ tục nhập khẩu hàng hóa không làm mất đi hiệu lực của
-#25 [Score: 0.93]: hàng hóa và thông tin trên chứng từ nộp cho cơ quan hải quan của Nước thành
-#26 [Score: 0.93]: 1, Khác biệt nhỏ giữa thông tin khai báo trên Chứng từ chứng nhận xuất xứ
-#27 [Score: 0.93]: Điều 30. Khác biệt nhỏ và lỗi hình thức
-#28 [Score: 0.92]: kèm theo Thông tư này, C/O thay thế có cùng thời gian hiệu lực với C/O bản gốc.
-#29 [Score: 0.93]: được thể hiện tại mục phù hợp trên C/O mới theo quy định tại Phụ lục II ban hành
-#30 [Score: 0.92]: cấp một C/O mới thay thế cho C/O bị lỗi. Số tham chiếu của C/O ban đầu phải
-#31 [Score: 0.92]: không được phép xóa hoặc ghi đè lên C/O. Thay đổi được thực hiện bằng cách
-#32 [Score: 0.93]: Khi C/O bị lỗi, cơ quan tổ chức cấp Giấy chứng nhận xuất xứ hàng hóa
-#33 [Score: 0.92]: Điều 29. C/O cấp thay thế
-#34 [Score: 0.93]: với điều kiện hàng hóa đó được ghi trong hóa đơn thương mại duy nhất.
-#35 [Score: 0.93]: nhận xuất xử hàng hóa một lần cho cơ quan hải quan tại lần nhập khẩu đầu tiên
-#36 [Score: 0.93]: hàng hóa được nhập khẩu từng phần, nhà nhập khẩu chi cần nộp Chứng từ chứng
-#37 [Score: 0.92]: theo định nghĩa tại Quy tắc chung 2 (a) của Hệ thống hài hòa mô tả và mã hóa
-#38 [Score: 0.93]: quan của Nước thành viên nhập khẩu, hàng hóa tháo rời hoặc chưa được lắp ráp
-#39 [Score: 0.93]: Trong trường hợp nhà nhập khẩu đề nghị và theo quy định của cơ quạn hải
-#40 [Score: 0.92]: Điều 28. Nhập khẩu từng phần
-#41 [Score: 0.93]: 13
+#1 [Score: 0.93]: 14
+#2 [Score: 0.93]: a) Hàng hóa không đáp ứng quy tắc xuất xứ theo quy định tại Thông tư này.
+#3 [Score: 0.93]: b) Nhà nhập khẩu, nhà xuất khẩu hoặc nhà sản xuất hàng hóa không đáp
+#4 [Score: 0.93]: ứng các quy định nêu tại Thông tư này.
+#5 [Score: 0.93]: c) Cơ quan hải quan hoặc cơ quan có thẩm quyền của Nước thành viên nhập
+#6 [Score: 0.93]: khẩu không nhận được đầy đủ các thông tin từ nhà nhập khẩu để chứng minh hàng
+#7 [Score: 0.93]: hóa có xuất xứ.
+#8 [Score: 0.93]: d) Cơ quan có thẩm quyền hoặc cơ quan hải quan của Nước thành viên xuất
+#9 [Score: 0.93]: khẩu không đáp ứng các quy định về kiểm tra, xác minh xuất xứ hàng hóa theo
+#10 [Score: 0.92]: quy định tại Thông tư này.
+#11 [Score: 0.92]: 2, Trường hợp từ chối cho hưởng ưu đãi thuế quan, cợ quan hải quan của
+#12 [Score: 0.92]: Nước thành viên nhập khẩu, theo đề nghị của nhà nhập khẩu, thông báo quyết
+#13 [Score: 0.90]: định bằng văn bản cho nhà nhập khẩu bao gồm lý do từ chối.
+#14 [Score: 0.93]: 3. Sau khi được thông báo lý do từ chối cho hưởng ựu đãi thuế quan, trong
+#15 [Score: 0.93]: thời hạn quy định pháp luật của Nước thành viên nhập khẩu, người nhập khẩu có
+#16 [Score: 0.92]: thể nộp đơn khiếu nại quyết định đó lên cơ quan có thẩm quyền theo quy định
+#17 [Score: 0.91]: pháp luật của Nước thành viên nhập khẩu.
+#18 [Score: 0.93]: Điều 33. Xác minh Chứng từ chứng nhận xuất xứ hàng hóa
+#19 [Score: 0.93]: 1. Việc kiểm tra, xác minh Chứng từ chứng nhận xuất xứ hàng hóa được
+#20 [Score: 0.93]: thực hiện xác suất hoặc khi Cơ quan hải quan của Nước thành viên nhập khẩu có
+#21 [Score: 0.93]: nghi ngờ hợp lý về tính xác thực của chứng từ đó, về xuất xứ của hàng hóa hoặc
+#22 [Score: 0.93]: việc đáp ứng các quy định khác tại Thông tư này.
+#23 [Score: 0.90]: 2. Theo quy định tại khoản 1 Điều này, cơ quan có thẩm quyền hoặc cợ
+#24 [Score: 0.93]: quan hải quan của Nước thành viên nhập khẩu, tùy theo từng trường hợp, gửi đề
+#25 [Score: 0.93]: nghị kiểm tra, xác minh xuất xứ hàng hóa bằng thư điện tử hoặc hình thức khác
+#26 [Score: 0.93]: có ghi nhận việc gửi, kèm theo bản sao của Chứng từ chứng nhận xuất xứ hàng
+#27 [Score: 0.92]: hóa và lý do nghỉ ngờ, Bất kỳ chứng từ khác và thông tin chỉ ra rằng thông tin
+#28 [Score: 0.93]: khai báo trên Chứng từ chứng nhận xuất xứ hàng hóa không chính xác, phải được
+#29 [Score: 0.92]: gửi kèm đề hỗ trợ cho yêu cầu kiểm tra, xác minh xuất xứ hàng hóa.
+#30 [Score: 0.92]: 3. Cơ quan có thẩm quyền của Nước thành viên xuất khẩu thực hiện việc
+#31 [Score: 0.92]: kiểm tra, xác minh xuất xứ hàng hóa, Cơ quan này có quyền yêu cầu kiểm tra tại
+#32 [Score: 0.93]: cơ sở sản xuất của nhà xuất khẩu hoặc nhà sản xuất, kiểm tra chứng từ lưu trữ của
+#33 [Score: 0.93]: nhà sản xuất hoặc nhà xuất khẩu hoặc bất kỳ chứng từ khác liên quan đến xuất xứ
+#34 [Score: 0.93]: hàng hóa theo quy định pháp luật Nước thành viên xuất khẩu.
+#35 [Score: 0.92]: 4. Cơ quan hải quan hoặc cơ quan có thẩm quyền của Nước thành viên nhập
+#36 [Score: 0.92]: khẩu đề nghị xác minh xuất xứ được thông báo về kết quả kiểm tra, xác minh xuất
+#37 [Score: 0.93]: xứ hàng hóa trong vòng 06 tháng kể từ ngày cơ quan có thẩm quyền của nước
+#38 [Score: 0.91]: xuất khẩu nhận được thư đề nghị kiềm tra xác minh. Kết quả kiểm tra phải nêu rõ
+#39 [Score: 0.93]: tính xác thực của các chứng từ, hàng hóa có xuất xứ và đáp ứng các điều kiện
+#40 [Score: 0.92]: khác theo quy định của Thông từ này.
+#41 [Score: 0.92]: 5. Trường hợp không nhận được thư phản hồi về kết quả kiểm tra, xác minh
+#42 [Score: 0.93]: trong khoảng thời gian trên hoặc không đủ thông tin cần thiết đề xác định tính xác

@@ -2,189 +2,161 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-cao, vôi.
-QVC 35%
-CTH
-Muối; lưu huỳnh; đất và đá; thạch
-Chương 25
-lá thuốc lá đã chế biến.
-QVC 35%
-CTH
-Thuốc lá và nguyên liệu thay thế
-Chương 24
-đã chế biến.
-nghiệp thực phẩm; thức ăn gia súc
-QVC 35%
-CTSH
-Chương 23
-Phế liệu và phế thải từ ngành công
-QVC 35%
-CTH
-Chương 22
-Đồ uống, rượu và giấm.
-QVC 35%
-CTSH
-Các chế phẩm ăn được khác.
-Chương 21
-của cây.
-hạch (nuts) hoặc các phần khác
-QVC 35%
-ctsh
-Các chế phẩm từ rau, quả, quả
-Chương 20
-bột hoặc sữa; các loại bánh.
-QVC 35%
-CTH
-Chế phẩm từ ngũ cốc, bột, tinh
-Chương 19
-QVC 35%
-CTSH
-Ca cao và các chế phẩm từ ca cao.
-Chương 18
-QVC 35%
-CTSH
-Đường và các loại kẹo đường.
-Chương 17
-sổng khác.
-động vật thủy sinh không xương
-giáp xác, động vật thân mềm hoặc
-QVC 35%
-ctsh
-Các chế phẩm từ thịt, cá, động vật
-Chương 16
-loại sáp động vật hoặc thực vật.
-chất béo ăn được đã chế biến; các
-và các sản phẩm tách từ chúng;
-động vật, thực vật hoặc vị sinh vật
-QVC 35%
-CTSH
-Chất béo và dầu có nguồn gốc từ
-Chương 15
-chi tiết hoặc ghi ở nơi khác.
-các sản phẩm thực vật chưa được
-QVC 35%
-CTH
-Vật liệu thực vật dùng để tết bện;
-Chương 14
-chiết xuất từ thực vật khác.
-cây, các chất nhựa và các chất
-QVC 35%
-CTH
-Nhựa cánh kiến đỏ, gôm, nhựa
-Chương 13
-rơm, rạ và có khô.
-xuất xứ thuần túy
-công nghiệp hoặc cây được liệu;
-thuộc Chương 12 có
-hạt, hạt giống và quả khác; cây
-N/A
-Toàn bộ nguyên liệu
-Hạt dầu và quả có đầu; các loại
-Chương 12
-bột; inulin, gluten lúa mi.
-QVC 35%
-CTH
-Các sản phẩm xay xát; malt; tỉnh
-Chương 11
+5
+Quy tắc cụ thể mặt hàng
+Mã hs
+Mô tả hàng hóa
 (4)
 (3)
 (2)
 (1)
-Quy tắc cụ thể mặt hàng
-Mô tã hàng hóa
-Mã Hs
+QVC 35%
+CTSH
+ex 2515
+Đá hoa (Marbles).
+QVC 35%
+CTH
+Quặng, xỉ và tro.
+Chương 26
+QVC 35%
+CTH
+Nhiên liệu khoáng, dầu khoáng và
+Chương 27
+các sản phẩm chưng cất từ chúng;
+các chất chứa bi-tum; các loại sáp
+khoáng chất.
+QVC 35%
+CTH
+Hóa chất vô cơ, các hợp chất vô
+Chương 28
+cơ hoặc hữu cơ của kim loại quý,
+kim loại đất hiếm, các nguyên tổ
+phóng xạ hoặc các chất đồng vị.
+QVC 35%
+CTH
+Hóa chất hữu cơ.
+Chương 29
+QVC 35%
+Dược Phẩm.
+CTH
+Chương 30
+QVC 35%
+CTH
+Phân bón.
+Chương 31
+Các chất chiết xuất làm thuốc
+QVC 35%
+CTH
+Chương 32
+nhuộm hoặc thuộc đa; ta nanh và
+các chất dẫn xuất của chúng;
+thuốc nhuộm, thuốc màu và các
+chất màu khác; sơn và véc ni; chất
+gắn và các loại ma tít khác; các
+loại mực.
+QVC 35%
+Tinh đầu và các chất tựa nhựa;
+cth
+Chương 33
+nước hoa, mỹ phẩm hoặc các chể
+phẩm dùng cho vệ sinh.
+QVC 35%
+CTH
+Xà phòng, các chất hữu, cơ hoạt
+Chương 34
+động bề mặt, các chế phẩm dùng
+để giặt, rửa, các chế phẩm bỏi
+tron, các loại sáp nhân tạo, sáp đã
+được chế biến, các chế phẩm dùng
+để đánh bóng hoặc tẩy sạch, nến
+và các sản phẩm tương tự, bột
+nhão dùng làm hình mẫu, "sáp
+dùng trong nha khoa" và các chế
+phẩm dùng trong nha khoa có
+thành phần cơ bản là thạch cao.
+QVC 35%
+CTH
+Các chất chứa albumin; các dạng
+Chương 35
+tinh bột biến tính; keo hồ; enzym.
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.92]: cao, vôi.
-#2 [Score: 0.93]: QVC 35%
-#3 [Score: 0.90]: CTH
-#4 [Score: 0.93]: Muối; lưu huỳnh; đất và đá; thạch
-#5 [Score: 0.93]: Chương 25
-#6 [Score: 0.92]: lá thuốc lá đã chế biến.
-#7 [Score: 0.93]: QVC 35%
-#8 [Score: 0.89]: CTH
-#9 [Score: 0.93]: Thuốc lá và nguyên liệu thay thế
-#10 [Score: 0.93]: Chương 24
-#11 [Score: 0.90]: đã chế biến.
-#12 [Score: 0.92]: nghiệp thực phẩm; thức ăn gia súc
-#13 [Score: 0.94]: QVC 35%
-#14 [Score: 0.91]: CTSH
-#15 [Score: 0.93]: Chương 23
-#16 [Score: 0.93]: Phế liệu và phế thải từ ngành công
+#1 [Score: 0.93]: 5
+#2 [Score: 0.93]: Quy tắc cụ thể mặt hàng
+#3 [Score: 0.89]: Mã hs
+#4 [Score: 0.93]: Mô tả hàng hóa
+#5 [Score: 0.94]: (4)
+#6 [Score: 0.94]: (3)
+#7 [Score: 0.94]: (2)
+#8 [Score: 0.94]: (1)
+#9 [Score: 0.94]: QVC 35%
+#10 [Score: 0.91]: CTSH
+#11 [Score: 0.93]: ex 2515
+#12 [Score: 0.89]: Đá hoa (Marbles).
+#13 [Score: 0.92]: QVC 35%
+#14 [Score: 0.92]: CTH
+#15 [Score: 0.92]: Quặng, xỉ và tro.
+#16 [Score: 0.93]: Chương 26
 #17 [Score: 0.93]: QVC 35%
-#18 [Score: 0.91]: CTH
-#19 [Score: 0.94]: Chương 22
-#20 [Score: 0.92]: Đồ uống, rượu và giấm.
-#21 [Score: 0.92]: QVC 35%
-#22 [Score: 0.83]: CTSH
-#23 [Score: 0.93]: Các chế phẩm ăn được khác.
-#24 [Score: 0.93]: Chương 21
-#25 [Score: 0.93]: của cây.
-#26 [Score: 0.93]: hạch (nuts) hoặc các phần khác
-#27 [Score: 0.93]: QVC 35%
-#28 [Score: 0.87]: ctsh
-#29 [Score: 0.94]: Các chế phẩm từ rau, quả, quả
-#30 [Score: 0.93]: Chương 20
-#31 [Score: 0.92]: bột hoặc sữa; các loại bánh.
-#32 [Score: 0.92]: QVC 35%
-#33 [Score: 0.93]: CTH
-#34 [Score: 0.93]: Chế phẩm từ ngũ cốc, bột, tinh
-#35 [Score: 0.93]: Chương 19
-#36 [Score: 0.94]: QVC 35%
-#37 [Score: 0.89]: CTSH
-#38 [Score: 0.93]: Ca cao và các chế phẩm từ ca cao.
-#39 [Score: 0.93]: Chương 18
-#40 [Score: 0.94]: QVC 35%
-#41 [Score: 0.90]: CTSH
-#42 [Score: 0.92]: Đường và các loại kẹo đường.
-#43 [Score: 0.93]: Chương 17
-#44 [Score: 0.92]: sổng khác.
-#45 [Score: 0.93]: động vật thủy sinh không xương
-#46 [Score: 0.93]: giáp xác, động vật thân mềm hoặc
-#47 [Score: 0.94]: QVC 35%
-#48 [Score: 0.89]: ctsh
-#49 [Score: 0.93]: Các chế phẩm từ thịt, cá, động vật
-#50 [Score: 0.93]: Chương 16
-#51 [Score: 0.93]: loại sáp động vật hoặc thực vật.
-#52 [Score: 0.93]: chất béo ăn được đã chế biến; các
-#53 [Score: 0.93]: và các sản phẩm tách từ chúng;
-#54 [Score: 0.93]: động vật, thực vật hoặc vị sinh vật
-#55 [Score: 0.94]: QVC 35%
-#56 [Score: 0.89]: CTSH
-#57 [Score: 0.93]: Chất béo và dầu có nguồn gốc từ
-#58 [Score: 0.93]: Chương 15
-#59 [Score: 0.92]: chi tiết hoặc ghi ở nơi khác.
-#60 [Score: 0.93]: các sản phẩm thực vật chưa được
-#61 [Score: 0.93]: QVC 35%
-#62 [Score: 0.92]: CTH
-#63 [Score: 0.93]: Vật liệu thực vật dùng để tết bện;
-#64 [Score: 0.93]: Chương 14
-#65 [Score: 0.93]: chiết xuất từ thực vật khác.
-#66 [Score: 0.92]: cây, các chất nhựa và các chất
-#67 [Score: 0.93]: QVC 35%
-#68 [Score: 0.87]: CTH
-#69 [Score: 0.91]: Nhựa cánh kiến đỏ, gôm, nhựa
-#70 [Score: 0.93]: Chương 13
-#71 [Score: 0.93]: rơm, rạ và có khô.
-#72 [Score: 0.94]: xuất xứ thuần túy
-#73 [Score: 0.93]: công nghiệp hoặc cây được liệu;
-#74 [Score: 0.91]: thuộc Chương 12 có
-#75 [Score: 0.93]: hạt, hạt giống và quả khác; cây
-#76 [Score: 0.78]: N/A
-#77 [Score: 0.93]: Toàn bộ nguyên liệu
-#78 [Score: 0.93]: Hạt dầu và quả có đầu; các loại
-#79 [Score: 0.93]: Chương 12
-#80 [Score: 0.91]: bột; inulin, gluten lúa mi.
-#81 [Score: 0.93]: QVC 35%
-#82 [Score: 0.88]: CTH
-#83 [Score: 0.92]: Các sản phẩm xay xát; malt; tỉnh
-#84 [Score: 0.93]: Chương 11
-#85 [Score: 0.94]: (4)
-#86 [Score: 0.94]: (3)
-#87 [Score: 0.94]: (2)
-#88 [Score: 0.94]: (1)
-#89 [Score: 0.94]: Quy tắc cụ thể mặt hàng
-#90 [Score: 0.89]: Mô tã hàng hóa
-#91 [Score: 0.81]: Mã Hs
+#18 [Score: 0.85]: CTH
+#19 [Score: 0.93]: Nhiên liệu khoáng, dầu khoáng và
+#20 [Score: 0.93]: Chương 27
+#21 [Score: 0.93]: các sản phẩm chưng cất từ chúng;
+#22 [Score: 0.92]: các chất chứa bi-tum; các loại sáp
+#23 [Score: 0.92]: khoáng chất.
+#24 [Score: 0.93]: QVC 35%
+#25 [Score: 0.93]: CTH
+#26 [Score: 0.92]: Hóa chất vô cơ, các hợp chất vô
+#27 [Score: 0.94]: Chương 28
+#28 [Score: 0.92]: cơ hoặc hữu cơ của kim loại quý,
+#29 [Score: 0.93]: kim loại đất hiếm, các nguyên tổ
+#30 [Score: 0.93]: phóng xạ hoặc các chất đồng vị.
+#31 [Score: 0.94]: QVC 35%
+#32 [Score: 0.90]: CTH
+#33 [Score: 0.93]: Hóa chất hữu cơ.
+#34 [Score: 0.91]: Chương 29
+#35 [Score: 0.93]: QVC 35%
+#36 [Score: 0.89]: Dược Phẩm.
+#37 [Score: 0.87]: CTH
+#38 [Score: 0.88]: Chương 30
+#39 [Score: 0.93]: QVC 35%
+#40 [Score: 0.91]: CTH
+#41 [Score: 0.89]: Phân bón.
+#42 [Score: 0.89]: Chương 31
+#43 [Score: 0.93]: Các chất chiết xuất làm thuốc
+#44 [Score: 0.93]: QVC 35%
+#45 [Score: 0.90]: CTH
+#46 [Score: 0.93]: Chương 32
+#47 [Score: 0.93]: nhuộm hoặc thuộc đa; ta nanh và
+#48 [Score: 0.93]: các chất dẫn xuất của chúng;
+#49 [Score: 0.93]: thuốc nhuộm, thuốc màu và các
+#50 [Score: 0.93]: chất màu khác; sơn và véc ni; chất
+#51 [Score: 0.93]: gắn và các loại ma tít khác; các
+#52 [Score: 0.93]: loại mực.
+#53 [Score: 0.94]: QVC 35%
+#54 [Score: 0.93]: Tinh đầu và các chất tựa nhựa;
+#55 [Score: 0.82]: cth
+#56 [Score: 0.93]: Chương 33
+#57 [Score: 0.93]: nước hoa, mỹ phẩm hoặc các chể
+#58 [Score: 0.92]: phẩm dùng cho vệ sinh.
+#59 [Score: 0.93]: QVC 35%
+#60 [Score: 0.90]: CTH
+#61 [Score: 0.91]: Xà phòng, các chất hữu, cơ hoạt
+#62 [Score: 0.93]: Chương 34
+#63 [Score: 0.93]: động bề mặt, các chế phẩm dùng
+#64 [Score: 0.89]: để giặt, rửa, các chế phẩm bỏi
+#65 [Score: 0.93]: tron, các loại sáp nhân tạo, sáp đã
+#66 [Score: 0.93]: được chế biến, các chế phẩm dùng
+#67 [Score: 0.91]: để đánh bóng hoặc tẩy sạch, nến
+#68 [Score: 0.91]: và các sản phẩm tương tự, bột
+#69 [Score: 0.89]: nhão dùng làm hình mẫu, "sáp
+#70 [Score: 0.92]: dùng trong nha khoa" và các chế
+#71 [Score: 0.91]: phẩm dùng trong nha khoa có
+#72 [Score: 0.93]: thành phần cơ bản là thạch cao.
+#73 [Score: 0.93]: QVC 35%
+#74 [Score: 0.92]: CTH
+#75 [Score: 0.93]: Các chất chứa albumin; các dạng
+#76 [Score: 0.93]: Chương 35
+#77 [Score: 0.90]: tinh bột biến tính; keo hồ; enzym.

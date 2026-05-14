@@ -2,55 +2,75 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-Lưu: VT, XNK (5)
-các cục, vụ thuộc bộ, các tổ chức cấp c/o;
-Bộ Công Thương: Bộ trưởng, các Thứ trưởng
-Sử công thương các tinh, thành phố
-Cổng thông tin điện tử bộ công thương
-Nguyễn Sinh Nhật Tân
-Cổng thông tịn điện tử chính phủ
-Kiêm toán nhà nước
-Công báo
-Cục Kiểm tra văn bắn và Quản lý XLVPHC - Bộ Tư pháp
-Viện KSND tối cao, Toà án ND tối cao
-UBND các tỉnh, TP trực thuộc TU
-Các bộ, cơ quan ngang bộ, cơ quan thuộc chính phủ;
-Văn phòng Quốc hội, Văn phòng Tư và các Ban của Đảng
-Văn phòng Chủ tịch nước, Văn phòng Tổng Bí thư,
-THỨ TRƯỞNG
-Thủ tướng, các phó thủ tướng chính phủ
-KT. BỘ TRƯỞNG
-Nơi nhận
-03 tháng 02 năm 2026.].
-trong Hiệp định đối với các lô hàng đăng ký tờ khai hải quan nhập khẩu từ ngày
-phát hành theo quy định tại Thông tư này để xem xét cho hưởng ưu đãi thuế quan
-3. Cơ quan hải quan chấp nhận chứng từ chứng nhận xuất xứ hàng hóa được
-16
+Phụ lục I
+QUY TẮC CỤ THỂ MẶT HÀNG
+(Ban hành kèm theo Thông tư sốp 4/2026/TT-BCT
+ngày 0g tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương
+quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
+Việt Nam và Các Tiểu vương quốc Á-rập thống nhất)
+1. Trong Phụ lục này, một số thuật ngữ được hiểu như sau:
+a) Mã HS là mã số hàng hóa trong Hệ thống hài hòa mô tả và mã số hàng
+hóa, Phiên bản HS được sử dụng là Phiên bản HS 2022.
+b) Phần là các phần tròng Hệ thống hài hòa mô tả và mã số hàng hóa,
+c) Chương là hai số đầu của mã số hàng hóa trong Hệ thống hài hòa mô tả
+và mã hóa hàng hóa.
+d) Nhóm là bốn số đầu của mã số hàng hóa trong Hệ thống hải hòa mô tả
+và mã số hàng hóa.
+đ) Phân nhóm là sáu số đầu của mã số phân loại hàng hóa trong Hệ thống
+hải hòa mô tả và mã số hàng hóa.
+2. Trong Quy tắc cụ thể mặt hàng, các cột được hiểu như sau:
+a) Cột 1 - Mã HS (Nhóm hoặc Phân nhóm).
+b) Cột 2 - Mô tả hàng hóa, theo Hệ thống hài hòa mô tả và mã số hàng hóa.
+c) Cột 3 - Quy tắc xuất xứ hàng hóa.
+d) Cột 4 - Quy tắc xuất xứ hàng hóa thay thế.
+3. Trường hợp Quy tắc xuất xứ hàng hóa được quy định trong Cột 3 và
+Cột 4, nhà xuất khẩu hoặc nhà sản xuất có thể áp dụng Quy tắc xuất xử hàng hóa
+được quy định trong cột 3 hoặc cột 4.
+4, Trong một số trường hợp, Cột 1 của Phụ lục này có tiền tố ?ex? nghĩa
+là Quy tắc xuất xứ hàng hóa được quy định tại Cột 3 hoặc Cột 4 chí áp dụng cho
+một phần của Nhóm hoặc Phân nhóm hàng hóa được mồ tả tại Cột 2.
+5. Trường hợp Quy tắc xuất xứ hàng hóa yêu cầu nguyên liệu chuyền đối
+1 mã số hàng hóa hoặc trải qua công đoạn gia công, chế biến cụ thể, Quy tắc xuất
+xứ hàng hóa này chỉ áp dụng với nguyên liệu không có xuất xứ.
+6. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đổi mã
+số hàng hóa, hàng hóa chi được coi là đáp ứng khi từng nguyên liệu khống có xuất
+xứ được dùng để sản xuất ra hàng hóa chuyển đổi mã số hàng hóa.
+7. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đồi mã
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.87]: Lưu: VT, XNK (5)
-#2 [Score: 0.92]: các cục, vụ thuộc bộ, các tổ chức cấp c/o;
-#3 [Score: 0.90]: Bộ Công Thương: Bộ trưởng, các Thứ trưởng
-#4 [Score: 0.90]: Sử công thương các tinh, thành phố
-#5 [Score: 0.91]: Cổng thông tin điện tử bộ công thương
-#6 [Score: 0.93]: Nguyễn Sinh Nhật Tân
-#7 [Score: 0.89]: Cổng thông tịn điện tử chính phủ
-#8 [Score: 0.88]: Kiêm toán nhà nước
-#9 [Score: 0.90]: Công báo
-#10 [Score: 0.90]: Cục Kiểm tra văn bắn và Quản lý XLVPHC - Bộ Tư pháp
-#11 [Score: 0.91]: Viện KSND tối cao, Toà án ND tối cao
-#12 [Score: 0.89]: UBND các tỉnh, TP trực thuộc TU
-#13 [Score: 0.91]: Các bộ, cơ quan ngang bộ, cơ quan thuộc chính phủ;
-#14 [Score: 0.92]: Văn phòng Quốc hội, Văn phòng Tư và các Ban của Đảng
-#15 [Score: 0.91]: Văn phòng Chủ tịch nước, Văn phòng Tổng Bí thư,
-#16 [Score: 0.94]: THỨ TRƯỞNG
-#17 [Score: 0.92]: Thủ tướng, các phó thủ tướng chính phủ
-#18 [Score: 0.94]: KT. BỘ TRƯỞNG
-#19 [Score: 0.92]: Nơi nhận
-#20 [Score: 0.91]: 03 tháng 02 năm 2026.].
-#21 [Score: 0.93]: trong Hiệp định đối với các lô hàng đăng ký tờ khai hải quan nhập khẩu từ ngày
-#22 [Score: 0.92]: phát hành theo quy định tại Thông tư này để xem xét cho hưởng ưu đãi thuế quan
-#23 [Score: 0.93]: 3. Cơ quan hải quan chấp nhận chứng từ chứng nhận xuất xứ hàng hóa được
-#24 [Score: 0.93]: 16
+#1 [Score: 0.93]: Phụ lục I
+#2 [Score: 0.88]: QUY TẮC CỤ THỂ MẶT HÀNG
+#3 [Score: 0.93]: (Ban hành kèm theo Thông tư sốp 4/2026/TT-BCT
+#4 [Score: 0.87]: ngày 0g tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương
+#5 [Score: 0.93]: quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
+#6 [Score: 0.92]: Việt Nam và Các Tiểu vương quốc Á-rập thống nhất)
+#7 [Score: 0.93]: 1. Trong Phụ lục này, một số thuật ngữ được hiểu như sau:
+#8 [Score: 0.93]: a) Mã HS là mã số hàng hóa trong Hệ thống hài hòa mô tả và mã số hàng
+#9 [Score: 0.91]: hóa, Phiên bản HS được sử dụng là Phiên bản HS 2022.
+#10 [Score: 0.92]: b) Phần là các phần tròng Hệ thống hài hòa mô tả và mã số hàng hóa,
+#11 [Score: 0.93]: c) Chương là hai số đầu của mã số hàng hóa trong Hệ thống hài hòa mô tả
+#12 [Score: 0.93]: và mã hóa hàng hóa.
+#13 [Score: 0.92]: d) Nhóm là bốn số đầu của mã số hàng hóa trong Hệ thống hải hòa mô tả
+#14 [Score: 0.93]: và mã số hàng hóa.
+#15 [Score: 0.93]: đ) Phân nhóm là sáu số đầu của mã số phân loại hàng hóa trong Hệ thống
+#16 [Score: 0.92]: hải hòa mô tả và mã số hàng hóa.
+#17 [Score: 0.93]: 2. Trong Quy tắc cụ thể mặt hàng, các cột được hiểu như sau:
+#18 [Score: 0.92]: a) Cột 1 - Mã HS (Nhóm hoặc Phân nhóm).
+#19 [Score: 0.93]: b) Cột 2 - Mô tả hàng hóa, theo Hệ thống hài hòa mô tả và mã số hàng hóa.
+#20 [Score: 0.92]: c) Cột 3 - Quy tắc xuất xứ hàng hóa.
+#21 [Score: 0.93]: d) Cột 4 - Quy tắc xuất xứ hàng hóa thay thế.
+#22 [Score: 0.93]: 3. Trường hợp Quy tắc xuất xứ hàng hóa được quy định trong Cột 3 và
+#23 [Score: 0.92]: Cột 4, nhà xuất khẩu hoặc nhà sản xuất có thể áp dụng Quy tắc xuất xử hàng hóa
+#24 [Score: 0.92]: được quy định trong cột 3 hoặc cột 4.
+#25 [Score: 0.93]: 4, Trong một số trường hợp, Cột 1 của Phụ lục này có tiền tố ?ex? nghĩa
+#26 [Score: 0.93]: là Quy tắc xuất xứ hàng hóa được quy định tại Cột 3 hoặc Cột 4 chí áp dụng cho
+#27 [Score: 0.91]: một phần của Nhóm hoặc Phân nhóm hàng hóa được mồ tả tại Cột 2.
+#28 [Score: 0.92]: 5. Trường hợp Quy tắc xuất xứ hàng hóa yêu cầu nguyên liệu chuyền đối
+#29 [Score: 0.91]: 1 mã số hàng hóa hoặc trải qua công đoạn gia công, chế biến cụ thể, Quy tắc xuất
+#30 [Score: 0.91]: xứ hàng hóa này chỉ áp dụng với nguyên liệu không có xuất xứ.
+#31 [Score: 0.92]: 6. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đổi mã
+#32 [Score: 0.92]: số hàng hóa, hàng hóa chi được coi là đáp ứng khi từng nguyên liệu khống có xuất
+#33 [Score: 0.87]: xứ được dùng để sản xuất ra hàng hóa chuyển đổi mã số hàng hóa.
+#34 [Score: 0.91]: 7. Trường hợp Quy tắc xuất xứ hàng hóa áp dụng tiêu chí chuyển đồi mã

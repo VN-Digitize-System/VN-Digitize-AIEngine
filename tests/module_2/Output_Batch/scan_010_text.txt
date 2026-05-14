@@ -2,91 +2,81 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-trong khoảng thời gian trên hoặc không đủ thông tin cần thiết đề xác định tính xác
-5. Trường hợp không nhận được thư phản hồi về kết quả kiểm tra, xác minh
-khác theo quy định của Thông từ này.
-tính xác thực của các chứng từ, hàng hóa có xuất xứ và đáp ứng các điều kiện
-xuất khẩu nhận được thư đề nghị kiềm tra xác minh. Kết quả kiểm tra phải nêu rõ
-xứ hàng hóa trong vòng 06 tháng kể từ ngày cơ quan có thẩm quyền của nước
-khẩu đề nghị xác minh xuất xứ được thông báo về kết quả kiểm tra, xác minh xuất
-4. Cơ quan hải quan hoặc cơ quan có thẩm quyền của Nước thành viên nhập
-hàng hóa theo quy định pháp luật Nước thành viên xuất khẩu.
-nhà sản xuất hoặc nhà xuất khẩu hoặc bất kỳ chứng từ khác liên quan đến xuất xứ
-cơ sở sản xuất của nhà xuất khẩu hoặc nhà sản xuất, kiểm tra chứng từ lưu trữ của
-kiểm tra, xác minh xuất xứ hàng hóa, Cơ quan này có quyền yêu cầu kiểm tra tại
-3. Cơ quan có thẩm quyền của Nước thành viên xuất khẩu thực hiện việc
-gửi kèm đề hỗ trợ cho yêu cầu kiểm tra, xác minh xuất xứ hàng hóa.
-khai báo trên Chứng từ chứng nhận xuất xứ hàng hóa không chính xác, phải được
-hóa và lý do nghỉ ngờ, Bất kỳ chứng từ khác và thông tin chỉ ra rằng thông tin
-có ghi nhận việc gửi, kèm theo bản sao của Chứng từ chứng nhận xuất xứ hàng
-nghị kiểm tra, xác minh xuất xứ hàng hóa bằng thư điện tử hoặc hình thức khác
-quan hải quan của Nước thành viên nhập khẩu, tùy theo từng trường hợp, gửi đề
-2. Theo quy định tại khoản 1 Điều này, cơ quan có thẩm quyền hoặc cợ
-việc đáp ứng các quy định khác tại Thông tư này.
-nghi ngờ hợp lý về tính xác thực của chứng từ đó, về xuất xứ của hàng hóa hoặc
-thực hiện xác suất hoặc khi Cơ quan hải quan của Nước thành viên nhập khẩu có
-1. Việc kiểm tra, xác minh Chứng từ chứng nhận xuất xứ hàng hóa được
-Điều 33. Xác minh Chứng từ chứng nhận xuất xứ hàng hóa
-pháp luật của Nước thành viên nhập khẩu.
-thể nộp đơn khiếu nại quyết định đó lên cơ quan có thẩm quyền theo quy định
-thời hạn quy định pháp luật của Nước thành viên nhập khẩu, người nhập khẩu có
-3. Sau khi được thông báo lý do từ chối cho hưởng ựu đãi thuế quan, trong
-định bằng văn bản cho nhà nhập khẩu bao gồm lý do từ chối.
-Nước thành viên nhập khẩu, theo đề nghị của nhà nhập khẩu, thông báo quyết
-2, Trường hợp từ chối cho hưởng ưu đãi thuế quan, cợ quan hải quan của
-quy định tại Thông tư này.
-khẩu không đáp ứng các quy định về kiểm tra, xác minh xuất xứ hàng hóa theo
-d) Cơ quan có thẩm quyền hoặc cơ quan hải quan của Nước thành viên xuất
-hóa có xuất xứ.
-khẩu không nhận được đầy đủ các thông tin từ nhà nhập khẩu để chứng minh hàng
-c) Cơ quan hải quan hoặc cơ quan có thẩm quyền của Nước thành viên nhập
-ứng các quy định nêu tại Thông tư này.
-b) Nhà nhập khẩu, nhà xuất khẩu hoặc nhà sản xuất hàng hóa không đáp
-a) Hàng hóa không đáp ứng quy tắc xuất xứ theo quy định tại Thông tư này.
-14
+15
+thực của Chứng từ chứng nhận xuất xứ hàng hóa hoặc xuất xứ của hàng hóa hoặc
+thư trả lời xác nhận hàng hóa không đáp ứng quy tắc xuất xứ hoặc Chứng từ chứng
+nhận xuất xứ hàng hóa không hợp lệ, cơ quan hải quan hoặc cơ quan có thẩm
+quyền của Nước thành viên nhập khẩu, tùy theo từng trường hợp, được phép từ
+chối cho hưởng ưu đãi thuế quan.
+Điều 34. Lưu trữ hồ sơ
+1. Nhà sản xuất, nhà xuất khẩu phải lưu giữ các chứng từ chứng minh hàng
+hóa có xuất xứ không ít hơn 5 năm kể từ ngày phát hành Chứng từ chứng nhận xuất
+xứ hàng hóa hoặc nhiều hơn theo quy định pháp luật của Nước thành viên đó.
+2. Nhà nhập khẩu phải lưu giữ các chứng từ chứng minh hàng hóa có xuất
+xứ để được hưởng ưu đãi thuế quan không ít hơn 5 năm kể từ ngày nhập khẩu
+hoặc nhiều hơn theo quy định pháp luật của Nước thành viên đó.
+3. Cơ quan có thẩm quyền hoặc cơ quan, tổ chức cấp C/O phải lưu giữ các
+chứng từ trong đơn đề nghị cấp Chứng từ chứng nhận xuất xứ hàng hóa không ít
+hơn 5 năm kể từ ngày phát hành Chứng từ chứng nhận xuất xứ hàng hóa hoặc
+nhiều hơn theo quy định pháp luật của Nước thành viên đó.
+4. Hồ sơ lưu trữ theo quy định tại khoản 1, khoản 2 và khoản 3 Điều này
+được lưu trữ bằng bất kỳ hình thức nào có thể cho phép truy xuất nhanh chóng,
+bao gồm cả ở dạng kỹ thuật số, điện tử, quang học, từ tính hoặc văn bản.
+CHƯƠNG IV
+ĐIỀU KHOẢN THI HÀNH
+Điều 35. Tổ chức thực hiện
+1. Các nội dung hướng dẫn, thống nhất cách hiểu liên quan đến Quy tắc
+xuất xứ hàng hóa do Uy ban hỗn hợp thực thi Hiệp định hoặc Tiểu ban về Quy tắc
+xuất xứ hàng hóa thống nhất tại báo cáo trong khuôn khổ Hiệp định là căn cứ để
+các cơ quan, tổ chức cấp C/O và Cơ quan hải quan thực hiện.
+2. Các nội dung nêu tại khoản 1 Điều này được thông báo đến các cơ quan,
+tổ chức cấp C/O và Cơ quan hải quan thông qua Bộ Công Thương và Bộ Tài chính.
+3. Trường hợp các văn bản quy phạm pháp luật viện dẫn tại Thông tư này
+được sửa đổi, bồ sung hoặc thay thể bằng văn bản quy phạm pháp luật khác thì áp
+dụng theo văn bản sửa đổi, bổ sung hoặc thay thế đổ.
+Điều 36. Hiệu lực thi hành
+1. Thông tư này có hiệu lực thi hành kể từ ngày 05 tháng 5 năm 2026.
+2, Cơ quan, tổ chức cấp C/O xem xét cấp sau C/O mẫu UAE-VN theo quy
+định tại Thông tư này đối với hàng hóa của Việt Nam xuất khẩu từ ngày 03 tháng
+02 năm 2026
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.93]: trong khoảng thời gian trên hoặc không đủ thông tin cần thiết đề xác định tính xác
-#2 [Score: 0.93]: 5. Trường hợp không nhận được thư phản hồi về kết quả kiểm tra, xác minh
-#3 [Score: 0.92]: khác theo quy định của Thông từ này.
-#4 [Score: 0.93]: tính xác thực của các chứng từ, hàng hóa có xuất xứ và đáp ứng các điều kiện
-#5 [Score: 0.91]: xuất khẩu nhận được thư đề nghị kiềm tra xác minh. Kết quả kiểm tra phải nêu rõ
-#6 [Score: 0.93]: xứ hàng hóa trong vòng 06 tháng kể từ ngày cơ quan có thẩm quyền của nước
-#7 [Score: 0.92]: khẩu đề nghị xác minh xuất xứ được thông báo về kết quả kiểm tra, xác minh xuất
-#8 [Score: 0.92]: 4. Cơ quan hải quan hoặc cơ quan có thẩm quyền của Nước thành viên nhập
-#9 [Score: 0.93]: hàng hóa theo quy định pháp luật Nước thành viên xuất khẩu.
-#10 [Score: 0.93]: nhà sản xuất hoặc nhà xuất khẩu hoặc bất kỳ chứng từ khác liên quan đến xuất xứ
-#11 [Score: 0.93]: cơ sở sản xuất của nhà xuất khẩu hoặc nhà sản xuất, kiểm tra chứng từ lưu trữ của
-#12 [Score: 0.92]: kiểm tra, xác minh xuất xứ hàng hóa, Cơ quan này có quyền yêu cầu kiểm tra tại
-#13 [Score: 0.92]: 3. Cơ quan có thẩm quyền của Nước thành viên xuất khẩu thực hiện việc
-#14 [Score: 0.92]: gửi kèm đề hỗ trợ cho yêu cầu kiểm tra, xác minh xuất xứ hàng hóa.
-#15 [Score: 0.93]: khai báo trên Chứng từ chứng nhận xuất xứ hàng hóa không chính xác, phải được
-#16 [Score: 0.92]: hóa và lý do nghỉ ngờ, Bất kỳ chứng từ khác và thông tin chỉ ra rằng thông tin
-#17 [Score: 0.93]: có ghi nhận việc gửi, kèm theo bản sao của Chứng từ chứng nhận xuất xứ hàng
-#18 [Score: 0.93]: nghị kiểm tra, xác minh xuất xứ hàng hóa bằng thư điện tử hoặc hình thức khác
-#19 [Score: 0.93]: quan hải quan của Nước thành viên nhập khẩu, tùy theo từng trường hợp, gửi đề
-#20 [Score: 0.93]: 2. Theo quy định tại khoản 1 Điều này, cơ quan có thẩm quyền hoặc cợ
-#21 [Score: 0.93]: việc đáp ứng các quy định khác tại Thông tư này.
-#22 [Score: 0.93]: nghi ngờ hợp lý về tính xác thực của chứng từ đó, về xuất xứ của hàng hóa hoặc
-#23 [Score: 0.93]: thực hiện xác suất hoặc khi Cơ quan hải quan của Nước thành viên nhập khẩu có
-#24 [Score: 0.93]: 1. Việc kiểm tra, xác minh Chứng từ chứng nhận xuất xứ hàng hóa được
-#25 [Score: 0.93]: Điều 33. Xác minh Chứng từ chứng nhận xuất xứ hàng hóa
-#26 [Score: 0.91]: pháp luật của Nước thành viên nhập khẩu.
-#27 [Score: 0.92]: thể nộp đơn khiếu nại quyết định đó lên cơ quan có thẩm quyền theo quy định
-#28 [Score: 0.93]: thời hạn quy định pháp luật của Nước thành viên nhập khẩu, người nhập khẩu có
-#29 [Score: 0.93]: 3. Sau khi được thông báo lý do từ chối cho hưởng ựu đãi thuế quan, trong
-#30 [Score: 0.93]: định bằng văn bản cho nhà nhập khẩu bao gồm lý do từ chối.
-#31 [Score: 0.93]: Nước thành viên nhập khẩu, theo đề nghị của nhà nhập khẩu, thông báo quyết
-#32 [Score: 0.92]: 2, Trường hợp từ chối cho hưởng ưu đãi thuế quan, cợ quan hải quan của
-#33 [Score: 0.92]: quy định tại Thông tư này.
-#34 [Score: 0.93]: khẩu không đáp ứng các quy định về kiểm tra, xác minh xuất xứ hàng hóa theo
-#35 [Score: 0.93]: d) Cơ quan có thẩm quyền hoặc cơ quan hải quan của Nước thành viên xuất
-#36 [Score: 0.93]: hóa có xuất xứ.
-#37 [Score: 0.93]: khẩu không nhận được đầy đủ các thông tin từ nhà nhập khẩu để chứng minh hàng
-#38 [Score: 0.93]: c) Cơ quan hải quan hoặc cơ quan có thẩm quyền của Nước thành viên nhập
-#39 [Score: 0.93]: ứng các quy định nêu tại Thông tư này.
-#40 [Score: 0.93]: b) Nhà nhập khẩu, nhà xuất khẩu hoặc nhà sản xuất hàng hóa không đáp
-#41 [Score: 0.93]: a) Hàng hóa không đáp ứng quy tắc xuất xứ theo quy định tại Thông tư này.
-#42 [Score: 0.93]: 14
+#1 [Score: 0.93]: 15
+#2 [Score: 0.93]: thực của Chứng từ chứng nhận xuất xứ hàng hóa hoặc xuất xứ của hàng hóa hoặc
+#3 [Score: 0.93]: thư trả lời xác nhận hàng hóa không đáp ứng quy tắc xuất xứ hoặc Chứng từ chứng
+#4 [Score: 0.93]: nhận xuất xứ hàng hóa không hợp lệ, cơ quan hải quan hoặc cơ quan có thẩm
+#5 [Score: 0.93]: quyền của Nước thành viên nhập khẩu, tùy theo từng trường hợp, được phép từ
+#6 [Score: 0.93]: chối cho hưởng ưu đãi thuế quan.
+#7 [Score: 0.93]: Điều 34. Lưu trữ hồ sơ
+#8 [Score: 0.93]: 1. Nhà sản xuất, nhà xuất khẩu phải lưu giữ các chứng từ chứng minh hàng
+#9 [Score: 0.93]: hóa có xuất xứ không ít hơn 5 năm kể từ ngày phát hành Chứng từ chứng nhận xuất
+#10 [Score: 0.93]: xứ hàng hóa hoặc nhiều hơn theo quy định pháp luật của Nước thành viên đó.
+#11 [Score: 0.92]: 2. Nhà nhập khẩu phải lưu giữ các chứng từ chứng minh hàng hóa có xuất
+#12 [Score: 0.93]: xứ để được hưởng ưu đãi thuế quan không ít hơn 5 năm kể từ ngày nhập khẩu
+#13 [Score: 0.93]: hoặc nhiều hơn theo quy định pháp luật của Nước thành viên đó.
+#14 [Score: 0.93]: 3. Cơ quan có thẩm quyền hoặc cơ quan, tổ chức cấp C/O phải lưu giữ các
+#15 [Score: 0.93]: chứng từ trong đơn đề nghị cấp Chứng từ chứng nhận xuất xứ hàng hóa không ít
+#16 [Score: 0.93]: hơn 5 năm kể từ ngày phát hành Chứng từ chứng nhận xuất xứ hàng hóa hoặc
+#17 [Score: 0.93]: nhiều hơn theo quy định pháp luật của Nước thành viên đó.
+#18 [Score: 0.93]: 4. Hồ sơ lưu trữ theo quy định tại khoản 1, khoản 2 và khoản 3 Điều này
+#19 [Score: 0.93]: được lưu trữ bằng bất kỳ hình thức nào có thể cho phép truy xuất nhanh chóng,
+#20 [Score: 0.93]: bao gồm cả ở dạng kỹ thuật số, điện tử, quang học, từ tính hoặc văn bản.
+#21 [Score: 0.94]: CHƯƠNG IV
+#22 [Score: 0.93]: ĐIỀU KHOẢN THI HÀNH
+#23 [Score: 0.93]: Điều 35. Tổ chức thực hiện
+#24 [Score: 0.92]: 1. Các nội dung hướng dẫn, thống nhất cách hiểu liên quan đến Quy tắc
+#25 [Score: 0.93]: xuất xứ hàng hóa do Uy ban hỗn hợp thực thi Hiệp định hoặc Tiểu ban về Quy tắc
+#26 [Score: 0.93]: xuất xứ hàng hóa thống nhất tại báo cáo trong khuôn khổ Hiệp định là căn cứ để
+#27 [Score: 0.93]: các cơ quan, tổ chức cấp C/O và Cơ quan hải quan thực hiện.
+#28 [Score: 0.92]: 2. Các nội dung nêu tại khoản 1 Điều này được thông báo đến các cơ quan,
+#29 [Score: 0.93]: tổ chức cấp C/O và Cơ quan hải quan thông qua Bộ Công Thương và Bộ Tài chính.
+#30 [Score: 0.92]: 3. Trường hợp các văn bản quy phạm pháp luật viện dẫn tại Thông tư này
+#31 [Score: 0.92]: được sửa đổi, bồ sung hoặc thay thể bằng văn bản quy phạm pháp luật khác thì áp
+#32 [Score: 0.92]: dụng theo văn bản sửa đổi, bổ sung hoặc thay thế đổ.
+#33 [Score: 0.91]: Điều 36. Hiệu lực thi hành
+#34 [Score: 0.92]: 1. Thông tư này có hiệu lực thi hành kể từ ngày 05 tháng 5 năm 2026.
+#35 [Score: 0.92]: 2, Cơ quan, tổ chức cấp C/O xem xét cấp sau C/O mẫu UAE-VN theo quy
+#36 [Score: 0.93]: định tại Thông tư này đối với hàng hóa của Việt Nam xuất khẩu từ ngày 03 tháng
+#37 [Score: 0.93]: 02 năm 2026

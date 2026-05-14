@@ -2,209 +2,189 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-xuất xứ thuần túy
-thuộc Chương 10 có
-Chương 10
-Ngũ cốc.
-Toàn bộ nguyên liệu
-n/a
-ex 0902
-Chè.
-QVC 35%
-ctsh
-ex 0901
-Cà phê.
-QVC 35%
-CTSH
-loại gia vị.
-Chương 9
-Cà phê, chè, chè Paragoay và các
-QVC 35%
-cc
-đã hoặc chưa bóc vỏ hoặc lột vỏ.
-ex 0802
-nuts) và hạt điều, tươi hoặc khô,
-ex 0801
-Dừa, quả hạch Brazil (Brazil
-ctsh
-35%
-các loại dưa.
-xuất xứ thuần túy
-vỏ quả thuộc họ cam quýt hoặc
-thuộc Chượng 8 có
-Chương 8
-Quả và quả hạch (nuts) ăn được;
-Toàn bộ nguyên liệu
-na
-xuất xứ thuần túy
-rễ ăn được.
-thuộc chượng 7 có
-Chương 7
-Rau và một số loại củ, thân củ và
-Toàn bộ nguyên liệu
-na
-hoa và cành lá trang trí.
-xuất xứ thuần túy
-khác; củ, rễ và loại tương tự, cảnh
-thuộc chượng 6 có
-Chương 6
-Cây sống và các loại cây trồng
-Toàn bộ nguyên liệu
-nia
-khác.
-xuất xứ thuần túy
-được chi tiết hoặc ghi ở các nơi
-thuộc Chượng 5 có
-Chương 5
-Sản phẩm gốc động vật, chưa
-Toàn bộ nguyên liệu
-n/a
-ex 0406
-Phô mai và sữa đông
-CTH
-QVC 35%
-1
-khác.
-chưa được chi tiết hoặc ghi ở nơi
-sản phẩm ăn được gốc động vật,
-xuất xứ thuần túy
-trứng gia cầm; mật ong tự nhiên;
-thuộc Chương 4 có
-Chương 4
-Sản phẩm bơ sữa, trứng chim và
-Toàn bộ nguyên liệu
-n/a
-không xương sống khác.
-xuất xứ thuần túy
-thân mềm và động vật thủy sinh
-thuộc chượng 3 có
-Chương 3
-Cá và động vật giáp xác, động vật
-Toàn bộ nguyên liệu
-na
-xuất xứ thuần túy
-được sau giết mổ.
-thuộc chượng 2 có
-Chương 2
-Thịt và phụ phẩm dạng thịt ăn
-Toàn bộ nguyên liệu
-nia
-có xuất xứ thuần túy
-sống thuộc Chương 1
-Chương 1
-Động vật sống.
-Toàn bộ động vật
-N/A
+Quy tắc cụ thể mặt hàng
+Mã Hs
+Mô tã hàng hóa
 (1)
 (2)
-(3)
 (4)
-Mã hs
-Mô tả hàng hóa
-Quy tắc cụ thể mặt hàng
-3
+(3)
+Các sản phẩm xay xát; malt; tỉnh
+Chương 11
+CTH
+QVC 35%
+bột; inulin, gluten lúa mi.
+Chương 12
+N/A
+Hạt dầu và quả có đầu; các loại
+Toàn bộ nguyên liệu
+hạt, hạt giống và quả khác; cây
+thuộc Chương 12 có
+công nghiệp hoặc cây được liệu;
+xuất xứ thuần túy
+rơm, rạ và có khô.
+Nhựa cánh kiến đỏ, gôm, nhựa
+QVC 35%
+Chương 13
+CTH
+cây, các chất nhựa và các chất
+chiết xuất từ thực vật khác.
+Vật liệu thực vật dùng để tết bện;
+QVC 35%
+Chương 14
+CTH
+các sản phẩm thực vật chưa được
+chi tiết hoặc ghi ở nơi khác.
+Chất béo và dầu có nguồn gốc từ
+Chương 15
+QVC 35%
+CTSH
+động vật, thực vật hoặc vị sinh vật
+và các sản phẩm tách từ chúng;
+chất béo ăn được đã chế biến; các
+loại sáp động vật hoặc thực vật.
+Các chế phẩm từ thịt, cá, động vật
+Chương 16
+QVC 35%
+ctsh
+giáp xác, động vật thân mềm hoặc
+động vật thủy sinh không xương
+sổng khác.
+Đường và các loại kẹo đường.
+Chương 17
+QVC 35%
+CTSH
+Ca cao và các chế phẩm từ ca cao.
+Chương 18
+QVC 35%
+CTSH
+Chương 19
+Chế phẩm từ ngũ cốc, bột, tinh
+QVC 35%
+CTH
+bột hoặc sữa; các loại bánh.
+Các chế phẩm từ rau, quả, quả
+Chương 20
+QVC 35%
+ctsh
+hạch (nuts) hoặc các phần khác
+của cây.
+Các chế phẩm ăn được khác.
+Chương 21
+QVC 35%
+CTSH
+Đồ uống, rượu và giấm.
+QVC 35%
+Chương 22
+CTH
+Phế liệu và phế thải từ ngành công
+QVC 35%
+Chương 23
+CTSH
+nghiệp thực phẩm; thức ăn gia súc
+đã chế biến.
+Thuốc lá và nguyên liệu thay thế
+Chương 24
+QVC 35%
+CTH
+lá thuốc lá đã chế biến.
+Muối; lưu huỳnh; đất và đá; thạch
+Chương 25
+QVC 35%
+CTH
+cao, vôi.
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.93]: xuất xứ thuần túy
-#2 [Score: 0.91]: thuộc Chương 10 có
-#3 [Score: 0.93]: Chương 10
-#4 [Score: 0.91]: Ngũ cốc.
-#5 [Score: 0.93]: Toàn bộ nguyên liệu
-#6 [Score: 0.80]: n/a
-#7 [Score: 0.93]: ex 0902
-#8 [Score: 0.90]: Chè.
-#9 [Score: 0.93]: QVC 35%
-#10 [Score: 0.86]: ctsh
-#11 [Score: 0.93]: ex 0901
-#12 [Score: 0.91]: Cà phê.
-#13 [Score: 0.93]: QVC 35%
-#14 [Score: 0.86]: CTSH
-#15 [Score: 0.92]: loại gia vị.
-#16 [Score: 0.94]: Chương 9
-#17 [Score: 0.92]: Cà phê, chè, chè Paragoay và các
-#18 [Score: 0.94]: QVC 35%
-#19 [Score: 0.93]: cc
-#20 [Score: 0.92]: đã hoặc chưa bóc vỏ hoặc lột vỏ.
-#21 [Score: 0.93]: ex 0802
-#22 [Score: 0.93]: nuts) và hạt điều, tươi hoặc khô,
-#23 [Score: 0.93]: ex 0801
-#24 [Score: 0.92]: Dừa, quả hạch Brazil (Brazil
-#25 [Score: 0.90]: ctsh
-#26 [Score: 0.93]: 35%
-#27 [Score: 0.93]: các loại dưa.
-#28 [Score: 0.94]: xuất xứ thuần túy
-#29 [Score: 0.93]: vỏ quả thuộc họ cam quýt hoặc
-#30 [Score: 0.89]: thuộc Chượng 8 có
-#31 [Score: 0.94]: Chương 8
-#32 [Score: 0.93]: Quả và quả hạch (nuts) ăn được;
-#33 [Score: 0.93]: Toàn bộ nguyên liệu
-#34 [Score: 0.72]: na
-#35 [Score: 0.94]: xuất xứ thuần túy
-#36 [Score: 0.93]: rễ ăn được.
-#37 [Score: 0.92]: thuộc chượng 7 có
-#38 [Score: 0.93]: Chương 7
-#39 [Score: 0.93]: Rau và một số loại củ, thân củ và
-#40 [Score: 0.93]: Toàn bộ nguyên liệu
-#41 [Score: 0.76]: na
-#42 [Score: 0.93]: hoa và cành lá trang trí.
-#43 [Score: 0.94]: xuất xứ thuần túy
-#44 [Score: 0.93]: khác; củ, rễ và loại tương tự, cảnh
-#45 [Score: 0.91]: thuộc chượng 6 có
-#46 [Score: 0.93]: Chương 6
-#47 [Score: 0.91]: Cây sống và các loại cây trồng
-#48 [Score: 0.93]: Toàn bộ nguyên liệu
-#49 [Score: 0.64]: nia
-#50 [Score: 0.93]: khác.
-#51 [Score: 0.94]: xuất xứ thuần túy
-#52 [Score: 0.93]: được chi tiết hoặc ghi ở các nơi
-#53 [Score: 0.91]: thuộc Chượng 5 có
-#54 [Score: 0.93]: Chương 5
-#55 [Score: 0.93]: Sản phẩm gốc động vật, chưa
-#56 [Score: 0.93]: Toàn bộ nguyên liệu
-#57 [Score: 0.85]: n/a
-#58 [Score: 0.93]: ex 0406
-#59 [Score: 0.91]: Phô mai và sữa đông
-#60 [Score: 0.91]: CTH
-#61 [Score: 0.93]: QVC 35%
-#62 [Score: 0.41]: 1
-#63 [Score: 0.93]: khác.
-#64 [Score: 0.93]: chưa được chi tiết hoặc ghi ở nơi
-#65 [Score: 0.93]: sản phẩm ăn được gốc động vật,
-#66 [Score: 0.94]: xuất xứ thuần túy
-#67 [Score: 0.92]: trứng gia cầm; mật ong tự nhiên;
-#68 [Score: 0.90]: thuộc Chương 4 có
-#69 [Score: 0.93]: Chương 4
-#70 [Score: 0.92]: Sản phẩm bơ sữa, trứng chim và
-#71 [Score: 0.93]: Toàn bộ nguyên liệu
-#72 [Score: 0.75]: n/a
-#73 [Score: 0.93]: không xương sống khác.
-#74 [Score: 0.94]: xuất xứ thuần túy
-#75 [Score: 0.93]: thân mềm và động vật thủy sinh
-#76 [Score: 0.90]: thuộc chượng 3 có
-#77 [Score: 0.93]: Chương 3
-#78 [Score: 0.93]: Cá và động vật giáp xác, động vật
-#79 [Score: 0.93]: Toàn bộ nguyên liệu
-#80 [Score: 0.45]: na
-#81 [Score: 0.93]: xuất xứ thuần túy
-#82 [Score: 0.90]: được sau giết mổ.
-#83 [Score: 0.91]: thuộc chượng 2 có
-#84 [Score: 0.93]: Chương 2
-#85 [Score: 0.93]: Thịt và phụ phẩm dạng thịt ăn
-#86 [Score: 0.93]: Toàn bộ nguyên liệu
-#87 [Score: 0.76]: nia
-#88 [Score: 0.93]: có xuất xứ thuần túy
-#89 [Score: 0.92]: sống thuộc Chương 1
-#90 [Score: 0.93]: Chương 1
-#91 [Score: 0.92]: Động vật sống.
-#92 [Score: 0.93]: Toàn bộ động vật
-#93 [Score: 0.83]: N/A
-#94 [Score: 0.94]: (1)
-#95 [Score: 0.94]: (2)
-#96 [Score: 0.94]: (3)
-#97 [Score: 0.94]: (4)
-#98 [Score: 0.90]: Mã hs
-#99 [Score: 0.93]: Mô tả hàng hóa
-#100 [Score: 0.94]: Quy tắc cụ thể mặt hàng
-#101 [Score: 0.93]: 3
+#1 [Score: 0.94]: Quy tắc cụ thể mặt hàng
+#2 [Score: 0.75]: Mã Hs
+#3 [Score: 0.89]: Mô tã hàng hóa
+#4 [Score: 0.94]: (1)
+#5 [Score: 0.94]: (2)
+#6 [Score: 0.94]: (4)
+#7 [Score: 0.94]: (3)
+#8 [Score: 0.92]: Các sản phẩm xay xát; malt; tỉnh
+#9 [Score: 0.93]: Chương 11
+#10 [Score: 0.88]: CTH
+#11 [Score: 0.93]: QVC 35%
+#12 [Score: 0.91]: bột; inulin, gluten lúa mi.
+#13 [Score: 0.93]: Chương 12
+#14 [Score: 0.78]: N/A
+#15 [Score: 0.92]: Hạt dầu và quả có đầu; các loại
+#16 [Score: 0.93]: Toàn bộ nguyên liệu
+#17 [Score: 0.91]: hạt, hạt giống và quả khác; cây
+#18 [Score: 0.91]: thuộc Chương 12 có
+#19 [Score: 0.93]: công nghiệp hoặc cây được liệu;
+#20 [Score: 0.94]: xuất xứ thuần túy
+#21 [Score: 0.93]: rơm, rạ và có khô.
+#22 [Score: 0.91]: Nhựa cánh kiến đỏ, gôm, nhựa
+#23 [Score: 0.93]: QVC 35%
+#24 [Score: 0.93]: Chương 13
+#25 [Score: 0.87]: CTH
+#26 [Score: 0.91]: cây, các chất nhựa và các chất
+#27 [Score: 0.93]: chiết xuất từ thực vật khác.
+#28 [Score: 0.93]: Vật liệu thực vật dùng để tết bện;
+#29 [Score: 0.93]: QVC 35%
+#30 [Score: 0.93]: Chương 14
+#31 [Score: 0.92]: CTH
+#32 [Score: 0.93]: các sản phẩm thực vật chưa được
+#33 [Score: 0.92]: chi tiết hoặc ghi ở nơi khác.
+#34 [Score: 0.93]: Chất béo và dầu có nguồn gốc từ
+#35 [Score: 0.93]: Chương 15
+#36 [Score: 0.94]: QVC 35%
+#37 [Score: 0.89]: CTSH
+#38 [Score: 0.93]: động vật, thực vật hoặc vị sinh vật
+#39 [Score: 0.93]: và các sản phẩm tách từ chúng;
+#40 [Score: 0.93]: chất béo ăn được đã chế biến; các
+#41 [Score: 0.93]: loại sáp động vật hoặc thực vật.
+#42 [Score: 0.93]: Các chế phẩm từ thịt, cá, động vật
+#43 [Score: 0.93]: Chương 16
+#44 [Score: 0.94]: QVC 35%
+#45 [Score: 0.89]: ctsh
+#46 [Score: 0.91]: giáp xác, động vật thân mềm hoặc
+#47 [Score: 0.93]: động vật thủy sinh không xương
+#48 [Score: 0.92]: sổng khác.
+#49 [Score: 0.92]: Đường và các loại kẹo đường.
+#50 [Score: 0.93]: Chương 17
+#51 [Score: 0.94]: QVC 35%
+#52 [Score: 0.90]: CTSH
+#53 [Score: 0.93]: Ca cao và các chế phẩm từ ca cao.
+#54 [Score: 0.93]: Chương 18
+#55 [Score: 0.94]: QVC 35%
+#56 [Score: 0.89]: CTSH
+#57 [Score: 0.93]: Chương 19
+#58 [Score: 0.92]: Chế phẩm từ ngũ cốc, bột, tinh
+#59 [Score: 0.92]: QVC 35%
+#60 [Score: 0.93]: CTH
+#61 [Score: 0.92]: bột hoặc sữa; các loại bánh.
+#62 [Score: 0.91]: Các chế phẩm từ rau, quả, quả
+#63 [Score: 0.93]: Chương 20
+#64 [Score: 0.93]: QVC 35%
+#65 [Score: 0.87]: ctsh
+#66 [Score: 0.93]: hạch (nuts) hoặc các phần khác
+#67 [Score: 0.93]: của cây.
+#68 [Score: 0.93]: Các chế phẩm ăn được khác.
+#69 [Score: 0.93]: Chương 21
+#70 [Score: 0.92]: QVC 35%
+#71 [Score: 0.83]: CTSH
+#72 [Score: 0.92]: Đồ uống, rượu và giấm.
+#73 [Score: 0.93]: QVC 35%
+#74 [Score: 0.94]: Chương 22
+#75 [Score: 0.91]: CTH
+#76 [Score: 0.93]: Phế liệu và phế thải từ ngành công
+#77 [Score: 0.94]: QVC 35%
+#78 [Score: 0.93]: Chương 23
+#79 [Score: 0.91]: CTSH
+#80 [Score: 0.92]: nghiệp thực phẩm; thức ăn gia súc
+#81 [Score: 0.90]: đã chế biến.
+#82 [Score: 0.93]: Thuốc lá và nguyên liệu thay thế
+#83 [Score: 0.93]: Chương 24
+#84 [Score: 0.93]: QVC 35%
+#85 [Score: 0.89]: CTH
+#86 [Score: 0.92]: lá thuốc lá đã chế biến.
+#87 [Score: 0.93]: Muối; lưu huỳnh; đất và đá; thạch
+#88 [Score: 0.89]: Chương 25
+#89 [Score: 0.93]: QVC 35%
+#90 [Score: 0.90]: CTH
+#91 [Score: 0.92]: cao, vôi.

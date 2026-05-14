@@ -2,8 +2,45 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-[BLANK_PAGE]
+Phụ lục III
+MÃU KHAI BÁO CỦA NHÀ XUẤT KHÁU ĐỦ ĐIỀU KIỆN
+(Ban hành kèm theo Thông tư số2 4/2026/TT-BCT
+ngày 05 tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương
+quy định Quy tắc xuất xử hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
+Việt Nam và Các tiểu vương quốc Á-rập Thống nhất)
+The exporter of the goods covered by this document (authorisation No (I)......)
+declares that, except where otherwise clearly indicated, these goods are of (2).....
+preferential origin in accordance with the rules of origin of the UAE-Vietnam
+CEPA and that the origin criteria met is (3).....
+(5) Name, signature and seal of the exporter
+(4) Place and Date
+Trong đó:
+(1) Mã số của nhà xuất khẩu đủ điều kiện.
+(2) Nước xuất xứ của hàng hóa.
+(3) Tiêu chí xuất xứ theo Phụ lục I Thông tư này.
+(4) Địa điểm, ngày khai báo của nhà xuất khẩu đủ điều kiện.
+(5) Tên, chữ ký và con dấu của nhà xuất khẩu, Có thể không cần ghi tên
+người ký trong trường hợp nhà xuất khẩu đủ điều kiện không phải ký tên.
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
+#1 [Score: 0.94]: Phụ lục III
+#2 [Score: 0.85]: MÃU KHAI BÁO CỦA NHÀ XUẤT KHÁU ĐỦ ĐIỀU KIỆN
+#3 [Score: 0.93]: (Ban hành kèm theo Thông tư số2 4/2026/TT-BCT
+#4 [Score: 0.91]: ngày 05 tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương
+#5 [Score: 0.91]: quy định Quy tắc xuất xử hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
+#6 [Score: 0.92]: Việt Nam và Các tiểu vương quốc Á-rập Thống nhất)
+#7 [Score: 0.92]: The exporter of the goods covered by this document (authorisation No (I)......)
+#8 [Score: 0.92]: declares that, except where otherwise clearly indicated, these goods are of (2).....
+#9 [Score: 0.93]: preferential origin in accordance with the rules of origin of the UAE-Vietnam
+#10 [Score: 0.92]: CEPA and that the origin criteria met is (3).....
+#11 [Score: 0.93]: (5) Name, signature and seal of the exporter
+#12 [Score: 0.93]: (4) Place and Date
+#13 [Score: 0.93]: Trong đó:
+#14 [Score: 0.93]: (1) Mã số của nhà xuất khẩu đủ điều kiện.
+#15 [Score: 0.93]: (2) Nước xuất xứ của hàng hóa.
+#16 [Score: 0.93]: (3) Tiêu chí xuất xứ theo Phụ lục I Thông tư này.
+#17 [Score: 0.93]: (4) Địa điểm, ngày khai báo của nhà xuất khẩu đủ điều kiện.
+#18 [Score: 0.90]: (5) Tên, chữ ký và con dấu của nhà xuất khẩu, Có thể không cần ghi tên
+#19 [Score: 0.93]: người ký trong trường hợp nhà xuất khẩu đủ điều kiện không phải ký tên.

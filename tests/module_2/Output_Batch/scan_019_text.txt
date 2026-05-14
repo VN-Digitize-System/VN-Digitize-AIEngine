@@ -2,185 +2,165 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-phẩm trên.
-tương tự, các bộ phận của các sản
-Chương 64
-Giảy, đép, ghệt và các sản phẩm
-QVC 35%
-CTH
-khác; vải vụn.
-loại hàng dệt đã qua sử dụng
-khác; bộ vài; quấn áo dệt và các
-Chương 63
-Các mặt hàng dệt đã hoàn thiện
-QVC 35%
-CTH
-phụ trợ, không dệt kim hoặc móc.
-Chương 62
-Quần áo và các hàng may mặc
-CTH
-QVC 35%
-trợ, dệt kim hoặc móc.
-Chương 61
-Quần áo và hàng may mặc phụ
-QVC 35%
-CTH
-Chương 60
-Các loại hàng dệt kim hoặc móc.
-QVC 35%
-CTH
-công nghiệp.
-mặt hàng dệt thích hợp dùng trong
-tầm, tráng, phủ hoặc ép lớp; các
-Chương 59
-Các loại vải dệt đã được ngâm
-CTH
-QVC 35%
-hàng thêu.
-thảm trang trí, hàng trang trí;
-loại vải dệt tạo búi, hàng ren;
-Chương 58
-Các loại vải dệt thoi đặc biệt; các
-QVC 35%
-CTH
-khác.
-Chương 57
-Thảm và các loại hàng dệt trải sàn
-CTH
-QVC 35%
-chúng
-và cáp và các sản phẩm của
-sợi xê, chão bện (cordage), thừng
-không dệt, các loại sợi đặc biệt;
-Chương 56
-CTH
-Mền xơ, phớt và các sản phẩm
-QVC 35%
-Xơ sợi staple nhân tạo.
-Chương 55
-QVC 35%
-CTH
-Sợi filament nhân tạo.
-Chương 54
-QVC 35%
-CTH
-và vải dệt thoi từ sợi giấy.
-Chương 53
-Xơ dệt gốc thực vật khác; sợi giấy
-QVC 35%
-CTH
-Bông.
-Chương 52
-QVC 35%
-CTH
-các nguyên liệu trên.
-hoặc bờm ngựa và vải dệt thoi từ
-hoặc loại thô, sợi từ lông đuôi
-Lông cửu, lông động vật loại mịn
-Chương 51
-CTH
-QVC 35%
-Chương 50
-Tơ tằm.
-CTH
-QVC 35%
-(1)
+8
+Mã hs
+Quy tắc cụ thể mặt hàng
+Mô tã hàng hóa
 (2)
+(1)
 (4)
 (3)
-Mã hs
-Mô tả hàng hóa
-Quy tắc cụ thể mặt hàng
+Chương 65
+Mũ và các vật đội đầu khác và các
+QVC 35%
+CTH
+bộ phận của chúng.
+QVC 35%
+Ô, dù che, ba toong, gậy tay cầm
+CTH
+Chương 66
+có thể chuyển thành ghế, roi, gậy
+điều khiên, roi điều khiến súc vật
+thồ kéo và các bộ phận của các
+sản phẩm trên
+Chương 67
+QVC 35%
+CTH
+Lông vũ và lông tơ chế biến, các
+sản phẩm bằng lông vũ hoặc lông
+tơ, hoa nhân tạo, các sản phẩm
+làm từ tóc người.
+Sản phẩm làm bằng đá, thạch cao,
+CTH
+Chương 68
+QVC 35%
+xi măng, amiăng, mica hoặc các
+vật liệu tương tự.
+Đồ gốm, sứ.
+Chương 69
+QVC 35%
+CTH
+Thủy tinh và các sản phẩm bằng
+Chương 70
+QVC 35%
+CTH
+thủy tinh.
+Chương 71
+QVC 30%
+CTH
+Ngọc trai tự nhiên hoặc nuôi cấy,
+đá quý hoặc đá bán quý, kim loại
+quý, kim loại được đất phủ kim
+loại quý, và các sản phẩm của
+chúng; đồ trang sức làm bằng chất
+liệu khác; tiền kim loại.
+ex 7102,
+Đá quý hoặc đá bán quý (tự nhiên,
+QVC 30%
+CTSH
+tổng hợp hoặc tái tạo) đã gia công.
+ex 7103 và
+ex 7104
+Kim loại quý;
+7106,
+CTH ngoại trừ từ
+7108 và
+nhóm 7106, 7108 và
+- Chưa gia công
+7110
+7110 hoặc điện phân
+nhiệt phân hoặc tách
+bằng hóa học từ kim
+loại quý thuộc nhóm
+hoặc
+7106,7108
+7110, hoặc nung chảy
+và/hoặc tạo hợp kim
+từ kim loại quý thuộc
+nhóm 7106, 7108
+hoặc 7110 với nhau
+hoặc với kim loại cơ
+bản hoặc tinh luyện
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.88]: phẩm trên.
-#2 [Score: 0.92]: tương tự, các bộ phận của các sản
-#3 [Score: 0.94]: Chương 64
-#4 [Score: 0.92]: Giảy, đép, ghệt và các sản phẩm
-#5 [Score: 0.93]: QVC 35%
-#6 [Score: 0.93]: CTH
-#7 [Score: 0.92]: khác; vải vụn.
-#8 [Score: 0.93]: loại hàng dệt đã qua sử dụng
-#9 [Score: 0.89]: khác; bộ vài; quấn áo dệt và các
-#10 [Score: 0.93]: Chương 63
-#11 [Score: 0.93]: Các mặt hàng dệt đã hoàn thiện
-#12 [Score: 0.93]: QVC 35%
-#13 [Score: 0.88]: CTH
-#14 [Score: 0.93]: phụ trợ, không dệt kim hoặc móc.
-#15 [Score: 0.94]: Chương 62
-#16 [Score: 0.93]: Quần áo và các hàng may mặc
-#17 [Score: 0.90]: CTH
-#18 [Score: 0.93]: QVC 35%
-#19 [Score: 0.93]: trợ, dệt kim hoặc móc.
-#20 [Score: 0.93]: Chương 61
-#21 [Score: 0.93]: Quần áo và hàng may mặc phụ
-#22 [Score: 0.93]: QVC 35%
-#23 [Score: 0.92]: CTH
-#24 [Score: 0.93]: Chương 60
-#25 [Score: 0.93]: Các loại hàng dệt kim hoặc móc.
-#26 [Score: 0.93]: QVC 35%
-#27 [Score: 0.93]: CTH
-#28 [Score: 0.92]: công nghiệp.
-#29 [Score: 0.93]: mặt hàng dệt thích hợp dùng trong
-#30 [Score: 0.93]: tầm, tráng, phủ hoặc ép lớp; các
-#31 [Score: 0.94]: Chương 59
-#32 [Score: 0.93]: Các loại vải dệt đã được ngâm
-#33 [Score: 0.93]: CTH
-#34 [Score: 0.93]: QVC 35%
-#35 [Score: 0.91]: hàng thêu.
-#36 [Score: 0.91]: thảm trang trí, hàng trang trí;
-#37 [Score: 0.91]: loại vải dệt tạo búi, hàng ren;
-#38 [Score: 0.94]: Chương 58
-#39 [Score: 0.93]: Các loại vải dệt thoi đặc biệt; các
-#40 [Score: 0.93]: QVC 35%
-#41 [Score: 0.92]: CTH
-#42 [Score: 0.93]: khác.
-#43 [Score: 0.93]: Chương 57
-#44 [Score: 0.93]: Thảm và các loại hàng dệt trải sàn
-#45 [Score: 0.88]: CTH
-#46 [Score: 0.94]: QVC 35%
-#47 [Score: 0.94]: chúng
-#48 [Score: 0.93]: và cáp và các sản phẩm của
-#49 [Score: 0.92]: sợi xê, chão bện (cordage), thừng
-#50 [Score: 0.92]: không dệt, các loại sợi đặc biệt;
-#51 [Score: 0.93]: Chương 56
-#52 [Score: 0.82]: CTH
-#53 [Score: 0.92]: Mền xơ, phớt và các sản phẩm
-#54 [Score: 0.93]: QVC 35%
-#55 [Score: 0.93]: Xơ sợi staple nhân tạo.
-#56 [Score: 0.94]: Chương 55
-#57 [Score: 0.93]: QVC 35%
-#58 [Score: 0.89]: CTH
-#59 [Score: 0.92]: Sợi filament nhân tạo.
-#60 [Score: 0.93]: Chương 54
-#61 [Score: 0.93]: QVC 35%
-#62 [Score: 0.89]: CTH
-#63 [Score: 0.93]: và vải dệt thoi từ sợi giấy.
-#64 [Score: 0.89]: Chương 53
-#65 [Score: 0.93]: Xơ dệt gốc thực vật khác; sợi giấy
-#66 [Score: 0.92]: QVC 35%
-#67 [Score: 0.92]: CTH
-#68 [Score: 0.91]: Bông.
-#69 [Score: 0.94]: Chương 52
-#70 [Score: 0.93]: QVC 35%
-#71 [Score: 0.92]: CTH
-#72 [Score: 0.91]: các nguyên liệu trên.
-#73 [Score: 0.93]: hoặc bờm ngựa và vải dệt thoi từ
-#74 [Score: 0.93]: hoặc loại thô, sợi từ lông đuôi
-#75 [Score: 0.92]: Lông cửu, lông động vật loại mịn
-#76 [Score: 0.93]: Chương 51
-#77 [Score: 0.93]: CTH
-#78 [Score: 0.93]: QVC 35%
-#79 [Score: 0.93]: Chương 50
-#80 [Score: 0.88]: Tơ tằm.
-#81 [Score: 0.93]: CTH
-#82 [Score: 0.93]: QVC 35%
-#83 [Score: 0.94]: (1)
-#84 [Score: 0.94]: (2)
-#85 [Score: 0.94]: (4)
-#86 [Score: 0.94]: (3)
-#87 [Score: 0.93]: Mã hs
-#88 [Score: 0.93]: Mô tả hàng hóa
-#89 [Score: 0.93]: Quy tắc cụ thể mặt hàng
+#1 [Score: 0.94]: 8
+#2 [Score: 0.82]: Mã hs
+#3 [Score: 0.93]: Quy tắc cụ thể mặt hàng
+#4 [Score: 0.91]: Mô tã hàng hóa
+#5 [Score: 0.94]: (2)
+#6 [Score: 0.93]: (1)
+#7 [Score: 0.94]: (4)
+#8 [Score: 0.94]: (3)
+#9 [Score: 0.91]: Chương 65
+#10 [Score: 0.93]: Mũ và các vật đội đầu khác và các
+#11 [Score: 0.93]: QVC 35%
+#12 [Score: 0.92]: CTH
+#13 [Score: 0.92]: bộ phận của chúng.
+#14 [Score: 0.94]: QVC 35%
+#15 [Score: 0.92]: Ô, dù che, ba toong, gậy tay cầm
+#16 [Score: 0.91]: CTH
+#17 [Score: 0.94]: Chương 66
+#18 [Score: 0.91]: có thể chuyển thành ghế, roi, gậy
+#19 [Score: 0.91]: điều khiên, roi điều khiến súc vật
+#20 [Score: 0.92]: thồ kéo và các bộ phận của các
+#21 [Score: 0.93]: sản phẩm trên
+#22 [Score: 0.93]: Chương 67
+#23 [Score: 0.93]: QVC 35%
+#24 [Score: 0.88]: CTH
+#25 [Score: 0.93]: Lông vũ và lông tơ chế biến, các
+#26 [Score: 0.92]: sản phẩm bằng lông vũ hoặc lông
+#27 [Score: 0.90]: tơ, hoa nhân tạo, các sản phẩm
+#28 [Score: 0.93]: làm từ tóc người.
+#29 [Score: 0.93]: Sản phẩm làm bằng đá, thạch cao,
+#30 [Score: 0.92]: CTH
+#31 [Score: 0.94]: Chương 68
+#32 [Score: 0.93]: QVC 35%
+#33 [Score: 0.93]: xi măng, amiăng, mica hoặc các
+#34 [Score: 0.91]: vật liệu tương tự.
+#35 [Score: 0.88]: Đồ gốm, sứ.
+#36 [Score: 0.92]: Chương 69
+#37 [Score: 0.94]: QVC 35%
+#38 [Score: 0.93]: CTH
+#39 [Score: 0.93]: Thủy tinh và các sản phẩm bằng
+#40 [Score: 0.90]: Chương 70
+#41 [Score: 0.93]: QVC 35%
+#42 [Score: 0.93]: CTH
+#43 [Score: 0.91]: thủy tinh.
+#44 [Score: 0.93]: Chương 71
+#45 [Score: 0.94]: QVC 30%
+#46 [Score: 0.92]: CTH
+#47 [Score: 0.93]: Ngọc trai tự nhiên hoặc nuôi cấy,
+#48 [Score: 0.93]: đá quý hoặc đá bán quý, kim loại
+#49 [Score: 0.92]: quý, kim loại được đất phủ kim
+#50 [Score: 0.92]: loại quý, và các sản phẩm của
+#51 [Score: 0.93]: chúng; đồ trang sức làm bằng chất
+#52 [Score: 0.93]: liệu khác; tiền kim loại.
+#53 [Score: 0.91]: ex 7102,
+#54 [Score: 0.93]: Đá quý hoặc đá bán quý (tự nhiên,
+#55 [Score: 0.94]: QVC 30%
+#56 [Score: 0.88]: CTSH
+#57 [Score: 0.93]: tổng hợp hoặc tái tạo) đã gia công.
+#58 [Score: 0.93]: ex 7103 và
+#59 [Score: 0.93]: ex 7104
+#60 [Score: 0.92]: Kim loại quý;
+#61 [Score: 0.92]: 7106,
+#62 [Score: 0.90]: CTH ngoại trừ từ
+#63 [Score: 0.93]: 7108 và
+#64 [Score: 0.93]: nhóm 7106, 7108 và
+#65 [Score: 0.88]: - Chưa gia công
+#66 [Score: 0.93]: 7110
+#67 [Score: 0.93]: 7110 hoặc điện phân
+#68 [Score: 0.93]: nhiệt phân hoặc tách
+#69 [Score: 0.94]: bằng hóa học từ kim
+#70 [Score: 0.93]: loại quý thuộc nhóm
+#71 [Score: 0.93]: hoặc
+#72 [Score: 0.93]: 7106,7108
+#73 [Score: 0.93]: 7110, hoặc nung chảy
+#74 [Score: 0.94]: và/hoặc tạo hợp kim
+#75 [Score: 0.93]: từ kim loại quý thuộc
+#76 [Score: 0.87]: nhóm 7106, 7108
+#77 [Score: 0.93]: hoặc 7110 với nhau
+#78 [Score: 0.93]: hoặc với kim loại cơ
+#79 [Score: 0.91]: bản hoặc tinh luyện

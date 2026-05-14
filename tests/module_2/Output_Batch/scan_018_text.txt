@@ -2,179 +2,185 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-đánh máy và sơ đồ.
-các loại bản thảo viết bằng tay,
-phẩm khác của công nghiệp in;
-QVC 35%
-CTH
-Sách, báo, tranh ảnh và các sản
-Chương 49
-bằng bìa
-bằng bột giấy, bằng giấy hoặc
-QVC 35%
-CTH
-Giấy và bìa; các sản phẩm làm
-Chương 48
-vụn thừa).
-hoặc bìa loại thu hồi (phế liệu và
-liệu xơ xenlulo khác; giấy loại
-QVC 35%
-CTH
-Bột giấy từ gỗ hoặc từ nguyên
-Chương 47
-và song mây.
-khác; các sân phẩm bằng liễu gai
-hoặc từ các loại vật liệu tết bện
-QVC 35%
-CTH
-Sản phẩm làm từ rơm, có giấy
-Chương 46
-QVC 35%
-CTH
-Lie và các sản phẩm bằng lie.
-Chương 45
-từ gỗ.
-QVC 35%
-CTH
-Chương 44
-Gỗ và các mặt hàng bằng gỗ; than
-lông nhân tạo.
-sản phẩm làm từ da lông và đa
-QVC 35%
-CTH
-Da lông và da lông nhân tạo; các
-Chương 43
-tầm).
-làm từ ruột động vật (trừ ruột con
-đồ chứa tương tự, các sản phẩm
-hàng du lịch, túi xách và các loại
-cương và bộ yên cương; các mặt
-QVC 35%
-CTH
-Các sản phẩm bằng da thuộc; yên
-Chương 42
-QVC 35%
-CTH
-Da sống (trừ đa lông) và da thuộc.
-Chương 41
-su.
-QVC 35%
-CTH
-Cao su và các sản phẩm bằng cao
-Chương 40
-plastic.
-QVC 35%
-CTH
-Plastic và các sản phẩm bằng
-Chương 39
-QVC 35%
-CTH
-Các sản phẩm hóa chất khác.
-Chương 38
-QVC 35%
-CTH
-Vật liệu ảnh hoặc điện ảnh.
-Chương 37
-chế phẩm dễ cháy khác.
-diêm; các hợp kim tự cháy; các
-QVC 35%
-CTH
-Chất nổ; các sản phẩm pháo;
-Chương 36
-(4)
-(3)
-(2)
-(1)
 Quy tắc cụ thể mặt hàng
 Mô tả hàng hóa
-Mã Hs
+Mã hs
+(3)
+(4)
+(2)
+(1)
+QVC 35%
+Chương 50
+CTH
+Tơ tằm.
+QVC 35%
+CTH
+Chương 51
+Lông cửu, lông động vật loại mịn
+hoặc loại thô, sợi từ lông đuôi
+hoặc bờm ngựa và vải dệt thoi từ
+các nguyên liệu trên.
+QVC 35%
+CTH
+Chương 52
+Bông.
+QVC 35%
+CTH
+Chương 53
+Xơ dệt gốc thực vật khác; sợi giấy
+và vải dệt thoi từ sợi giấy.
+QVC 35%
+CTH
+Sợi filament nhân tạo.
+Chương 54
+QVC 35%
+CTH
+Chương 55
+Xơ sợi staple nhân tạo.
+Mền xơ, phớt và các sản phẩm
+QVC 35%
+CTH
+Chương 56
+không dệt, các loại sợi đặc biệt;
+sợi xê, chão bện (cordage), thừng
+và cáp và các sản phẩm của
+chúng
+QVC 35%
+CTH
+Thảm và các loại hàng dệt trải sàn
+Chương 57
+khác.
+QVC 35%
+CTH
+Các loại vải dệt thoi đặc biệt; các
+Chương 58
+loại vải dệt tạo búi, hàng ren;
+thảm trang trí, hàng trang trí;
+hàng thêu.
+QVC 35%
+CTH
+Các loại vải dệt đã được ngâm
+Chương 59
+tầm, tráng, phủ hoặc ép lớp; các
+mặt hàng dệt thích hợp dùng trong
+công nghiệp.
+QVC 35%
+CTH
+Các loại hàng dệt kim hoặc móc.
+Chương 60
+QVC 35%
+CTH
+Quần áo và hàng may mặc phụ
+Chương 61
+trợ, dệt kim hoặc móc.
+QVC 35%
+CTH
+Quần áo và các hàng may mặc
+Chương 62
+phụ trợ, không dệt kim hoặc móc.
+QVC 35%
+CTH
+Các mặt hàng dệt đã hoàn thiện
+Chương 63
+khác; bộ vài; quấn áo dệt và các
+loại hàng dệt đã qua sử dụng
+khác; vải vụn.
+QVC 35%
+CTH
+Giảy, đép, ghệt và các sản phẩm
+Chương 64
+tương tự, các bộ phận của các sản
+phẩm trên.
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.93]: đánh máy và sơ đồ.
-#2 [Score: 0.93]: các loại bản thảo viết bằng tay,
-#3 [Score: 0.93]: phẩm khác của công nghiệp in;
-#4 [Score: 0.93]: QVC 35%
-#5 [Score: 0.92]: CTH
-#6 [Score: 0.93]: Sách, báo, tranh ảnh và các sản
-#7 [Score: 0.93]: Chương 49
-#8 [Score: 0.92]: bằng bìa
-#9 [Score: 0.94]: bằng bột giấy, bằng giấy hoặc
-#10 [Score: 0.93]: QVC 35%
-#11 [Score: 0.92]: CTH
-#12 [Score: 0.92]: Giấy và bìa; các sản phẩm làm
-#13 [Score: 0.93]: Chương 48
-#14 [Score: 0.93]: vụn thừa).
-#15 [Score: 0.93]: hoặc bìa loại thu hồi (phế liệu và
-#16 [Score: 0.93]: liệu xơ xenlulo khác; giấy loại
-#17 [Score: 0.94]: QVC 35%
-#18 [Score: 0.92]: CTH
-#19 [Score: 0.93]: Bột giấy từ gỗ hoặc từ nguyên
-#20 [Score: 0.93]: Chương 47
-#21 [Score: 0.93]: và song mây.
-#22 [Score: 0.92]: khác; các sân phẩm bằng liễu gai
-#23 [Score: 0.93]: hoặc từ các loại vật liệu tết bện
-#24 [Score: 0.93]: QVC 35%
-#25 [Score: 0.91]: CTH
-#26 [Score: 0.93]: Sản phẩm làm từ rơm, có giấy
-#27 [Score: 0.93]: Chương 46
+#1 [Score: 0.93]: Quy tắc cụ thể mặt hàng
+#2 [Score: 0.93]: Mô tả hàng hóa
+#3 [Score: 0.93]: Mã hs
+#4 [Score: 0.94]: (3)
+#5 [Score: 0.94]: (4)
+#6 [Score: 0.94]: (2)
+#7 [Score: 0.94]: (1)
+#8 [Score: 0.93]: QVC 35%
+#9 [Score: 0.93]: Chương 50
+#10 [Score: 0.93]: CTH
+#11 [Score: 0.88]: Tơ tằm.
+#12 [Score: 0.93]: QVC 35%
+#13 [Score: 0.93]: CTH
+#14 [Score: 0.93]: Chương 51
+#15 [Score: 0.92]: Lông cửu, lông động vật loại mịn
+#16 [Score: 0.91]: hoặc loại thô, sợi từ lông đuôi
+#17 [Score: 0.93]: hoặc bờm ngựa và vải dệt thoi từ
+#18 [Score: 0.91]: các nguyên liệu trên.
+#19 [Score: 0.93]: QVC 35%
+#20 [Score: 0.92]: CTH
+#21 [Score: 0.94]: Chương 52
+#22 [Score: 0.91]: Bông.
+#23 [Score: 0.92]: QVC 35%
+#24 [Score: 0.92]: CTH
+#25 [Score: 0.89]: Chương 53
+#26 [Score: 0.93]: Xơ dệt gốc thực vật khác; sợi giấy
+#27 [Score: 0.93]: và vải dệt thoi từ sợi giấy.
 #28 [Score: 0.93]: QVC 35%
-#29 [Score: 0.92]: CTH
-#30 [Score: 0.93]: Lie và các sản phẩm bằng lie.
-#31 [Score: 0.93]: Chương 45
-#32 [Score: 0.94]: từ gỗ.
-#33 [Score: 0.94]: QVC 35%
-#34 [Score: 0.86]: CTH
-#35 [Score: 0.93]: Chương 44
-#36 [Score: 0.93]: Gỗ và các mặt hàng bằng gỗ; than
-#37 [Score: 0.92]: lông nhân tạo.
-#38 [Score: 0.93]: sản phẩm làm từ da lông và đa
-#39 [Score: 0.93]: QVC 35%
-#40 [Score: 0.90]: CTH
-#41 [Score: 0.93]: Da lông và da lông nhân tạo; các
-#42 [Score: 0.93]: Chương 43
-#43 [Score: 0.90]: tầm).
-#44 [Score: 0.93]: làm từ ruột động vật (trừ ruột con
-#45 [Score: 0.93]: đồ chứa tương tự, các sản phẩm
-#46 [Score: 0.93]: hàng du lịch, túi xách và các loại
-#47 [Score: 0.93]: cương và bộ yên cương; các mặt
-#48 [Score: 0.93]: QVC 35%
-#49 [Score: 0.93]: CTH
-#50 [Score: 0.93]: Các sản phẩm bằng da thuộc; yên
-#51 [Score: 0.94]: Chương 42
-#52 [Score: 0.93]: QVC 35%
-#53 [Score: 0.91]: CTH
-#54 [Score: 0.92]: Da sống (trừ đa lông) và da thuộc.
-#55 [Score: 0.93]: Chương 41
-#56 [Score: 0.92]: su.
-#57 [Score: 0.93]: QVC 35%
-#58 [Score: 0.91]: CTH
-#59 [Score: 0.93]: Cao su và các sản phẩm bằng cao
-#60 [Score: 0.93]: Chương 40
-#61 [Score: 0.93]: plastic.
-#62 [Score: 0.93]: QVC 35%
-#63 [Score: 0.89]: CTH
-#64 [Score: 0.93]: Plastic và các sản phẩm bằng
-#65 [Score: 0.93]: Chương 39
-#66 [Score: 0.94]: QVC 35%
-#67 [Score: 0.92]: CTH
-#68 [Score: 0.93]: Các sản phẩm hóa chất khác.
-#69 [Score: 0.93]: Chương 38
-#70 [Score: 0.94]: QVC 35%
-#71 [Score: 0.92]: CTH
-#72 [Score: 0.92]: Vật liệu ảnh hoặc điện ảnh.
-#73 [Score: 0.93]: Chương 37
-#74 [Score: 0.93]: chế phẩm dễ cháy khác.
-#75 [Score: 0.92]: diêm; các hợp kim tự cháy; các
-#76 [Score: 0.93]: QVC 35%
-#77 [Score: 0.91]: CTH
-#78 [Score: 0.90]: Chất nổ; các sản phẩm pháo;
-#79 [Score: 0.93]: Chương 36
-#80 [Score: 0.94]: (4)
-#81 [Score: 0.94]: (3)
-#82 [Score: 0.94]: (2)
-#83 [Score: 0.94]: (1)
-#84 [Score: 0.93]: Quy tắc cụ thể mặt hàng
-#85 [Score: 0.93]: Mô tả hàng hóa
-#86 [Score: 0.83]: Mã Hs
+#29 [Score: 0.89]: CTH
+#30 [Score: 0.92]: Sợi filament nhân tạo.
+#31 [Score: 0.93]: Chương 54
+#32 [Score: 0.93]: QVC 35%
+#33 [Score: 0.89]: CTH
+#34 [Score: 0.94]: Chương 55
+#35 [Score: 0.93]: Xơ sợi staple nhân tạo.
+#36 [Score: 0.92]: Mền xơ, phớt và các sản phẩm
+#37 [Score: 0.93]: QVC 35%
+#38 [Score: 0.82]: CTH
+#39 [Score: 0.93]: Chương 56
+#40 [Score: 0.92]: không dệt, các loại sợi đặc biệt;
+#41 [Score: 0.92]: sợi xê, chão bện (cordage), thừng
+#42 [Score: 0.93]: và cáp và các sản phẩm của
+#43 [Score: 0.94]: chúng
+#44 [Score: 0.94]: QVC 35%
+#45 [Score: 0.88]: CTH
+#46 [Score: 0.93]: Thảm và các loại hàng dệt trải sàn
+#47 [Score: 0.93]: Chương 57
+#48 [Score: 0.93]: khác.
+#49 [Score: 0.93]: QVC 35%
+#50 [Score: 0.92]: CTH
+#51 [Score: 0.93]: Các loại vải dệt thoi đặc biệt; các
+#52 [Score: 0.94]: Chương 58
+#53 [Score: 0.91]: loại vải dệt tạo búi, hàng ren;
+#54 [Score: 0.91]: thảm trang trí, hàng trang trí;
+#55 [Score: 0.87]: hàng thêu.
+#56 [Score: 0.93]: QVC 35%
+#57 [Score: 0.93]: CTH
+#58 [Score: 0.93]: Các loại vải dệt đã được ngâm
+#59 [Score: 0.94]: Chương 59
+#60 [Score: 0.92]: tầm, tráng, phủ hoặc ép lớp; các
+#61 [Score: 0.93]: mặt hàng dệt thích hợp dùng trong
+#62 [Score: 0.92]: công nghiệp.
+#63 [Score: 0.93]: QVC 35%
+#64 [Score: 0.93]: CTH
+#65 [Score: 0.93]: Các loại hàng dệt kim hoặc móc.
+#66 [Score: 0.93]: Chương 60
+#67 [Score: 0.93]: QVC 35%
+#68 [Score: 0.92]: CTH
+#69 [Score: 0.93]: Quần áo và hàng may mặc phụ
+#70 [Score: 0.93]: Chương 61
+#71 [Score: 0.93]: trợ, dệt kim hoặc móc.
+#72 [Score: 0.93]: QVC 35%
+#73 [Score: 0.90]: CTH
+#74 [Score: 0.90]: Quần áo và các hàng may mặc
+#75 [Score: 0.94]: Chương 62
+#76 [Score: 0.93]: phụ trợ, không dệt kim hoặc móc.
+#77 [Score: 0.93]: QVC 35%
+#78 [Score: 0.88]: CTH
+#79 [Score: 0.91]: Các mặt hàng dệt đã hoàn thiện
+#80 [Score: 0.93]: Chương 63
+#81 [Score: 0.89]: khác; bộ vài; quấn áo dệt và các
+#82 [Score: 0.93]: loại hàng dệt đã qua sử dụng
+#83 [Score: 0.92]: khác; vải vụn.
+#84 [Score: 0.93]: QVC 35%
+#85 [Score: 0.93]: CTH
+#86 [Score: 0.90]: Giảy, đép, ghệt và các sản phẩm
+#87 [Score: 0.94]: Chương 64
+#88 [Score: 0.92]: tương tự, các bộ phận của các sản
+#89 [Score: 0.88]: phẩm trên.

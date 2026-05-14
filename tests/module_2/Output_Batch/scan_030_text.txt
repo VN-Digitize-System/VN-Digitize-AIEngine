@@ -2,8 +2,29 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-[BLANK_PAGE]
+Phụ lục IV
+MÃU KHAI BÁO CỦA NHÀ XUẤT KHẢU BÁT KỲ
+(Ban hành kèm theo Thông tư số2 4/2026/TT-BCT
+ngày 05 tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương
+quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
+Việt Nam và Các tiểu vương quốc Á-rập Thống nhất)
+The exporter of the goods covered by this document declares that these goods,
+unless otherwise clearly specified, comply with and satisfy the provisions of
+Chapter 3 (Rules of Origin) of the UAE-Vietnam CEPA.
+Name, signature and seal of the exporter
+Place and Date
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
+#1 [Score: 0.94]: Phụ lục IV
+#2 [Score: 0.90]: MÃU KHAI BÁO CỦA NHÀ XUẤT KHẢU BÁT KỲ
+#3 [Score: 0.93]: (Ban hành kèm theo Thông tư số2 4/2026/TT-BCT
+#4 [Score: 0.86]: ngày 05 tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương
+#5 [Score: 0.93]: quy định Quy tắc xuất xứ hàng hóa trong Hiệp định Đối tác kinh tế toàn diện
+#6 [Score: 0.92]: Việt Nam và Các tiểu vương quốc Á-rập Thống nhất)
+#7 [Score: 0.93]: The exporter of the goods covered by this document declares that these goods,
+#8 [Score: 0.93]: unless otherwise clearly specified, comply with and satisfy the provisions of
+#9 [Score: 0.93]: Chapter 3 (Rules of Origin) of the UAE-Vietnam CEPA.
+#10 [Score: 0.93]: Name, signature and seal of the exporter
+#11 [Score: 0.93]: Place and Date

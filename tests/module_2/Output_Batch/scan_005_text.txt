@@ -2,87 +2,87 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-quy định chi tiết tại Phụ lục này.
-tại Phụ lục I ban hành kèm theo Thông tư này, phải đáp ứng quy tắc cụ thể được
-2, Không xét đến quy định tại khoản 1 Điều này, hàng hóa được phân loại
-cấp đến địa điểm của nhà sản xuất.
-nào khác phát sinh trong quá trình vận chuyển nguyên liệu từ kho của nhà cùng
-liệu này không bao gồm cước phí, bảo hiểm, chi phí đóng gói và bất kỳ chi phí
-tại lãnh thổ của Nước thành viên nơi nhà sản xuất đặt trụ sở, trị giá của nguyên
-xuất khẩu, Trường hợp nhà sản xuất hàng hóa mua nguyên liệu không có xuất xứ
-trị này, là giá đầu tiên có thể xác minh được của nguyên liệu tại Nước thành viên
-viên nhập khẩu hoặc trong trường hợp không biết và không thể xác minh được giá
-quá trình vận chuyền nguyên liệu đến cảng nhập khẩu tại lãnh thổ của Nước thành
-có xuất xứ được sử dụng bao gồm chi phí vận chuyển và bảo hiểm phát sinh trong
-V.N.M là trị giá hải quan tại thời điểm nhập khẩu của nguyên liệu không
-nội địa đã hoặc có thể được hoàn trả khi hàng hóa được xuất khẩu.
-điều kiện giá đó bao gồm trị giá của toàn bộ nguyên liệu được sử dụng, trừ đi thuế
-tại Nước thành viên thực hiện công đoạn gia công hoặc chế biến cuối cùng với
-Giá xuất xưởng là giá thanh toán cho hàng hóa xuất xưởng của nhà sản xuất
-Giá xuất xưởng
-QVC ?
-x 100
-Giá xuất xưởng - V.N.M
-QVC được tính như sau:
-phần trăm (%).
-QVC là Hàm lượng giá trị gia tăng của hàng hóa, được biểu thị dưới dạng
-b) Hàm lượng giá trị gia tăng (QVC) không thấp hơn 35% giá xuất xưởng.
-đổi mã số hàng hóa ở cấp độ 4 số.
-nguyên liệu không có xuất xứ được sử dụng để sản xuất ra hàng hóa, phải chuyển
-a) Chuyển đổi mã số hàng hóa ở cấp độ Nhóm (CTH) có nghĩa là tất cả
-một Nước thành viên nếu hàng hóa đó đáp ứng một trong các điều kiện sau đây:
-đã trải qua công đoạn gia công, chế biến đầy đủ và có xuất xứ tại lãnh thổ của
-1. Theo quy định tại khoản 2, Điều 5 Thông tư này, hàng hóa được coi là
-Điều 7. Công đoạn gia công, chế biến đầy đủ
-hoặc từ các dẫn xuất của chúng trong quá trình sản xuất.
-viên đó chỉ từ các hàng hóa theo quy định từ khoản 1 đến khoản 10 Điều này
-11. Hàng hóa được sản xuất hoặc thu được tại lãnh thổ của Nước thành
-sản xuất tại lãnh thổ của Nước thành viên đó.
-10. Phế thải hoặc phế liệu thu được từ quá trình sử dụng, tiêu dùng hoặc
-với điều kiện hàng hóa đó chỉ phù hợp để tái chế thành nguyên liệu thô.
-9. Vật phẩm đã qua sử dụng thu được tại lãnh thổ của Nước thành viên đó
 5
+9. Vật phẩm đã qua sử dụng thu được tại lãnh thổ của Nước thành viên đó
+với điều kiện hàng hóa đó chỉ phù hợp để tái chế thành nguyên liệu thô.
+10. Phế thải hoặc phế liệu thu được từ quá trình sử dụng, tiêu dùng hoặc
+sản xuất tại lãnh thổ của Nước thành viên đó.
+11. Hàng hóa được sản xuất hoặc thu được tại lãnh thổ của Nước thành
+viên đó chỉ từ các hàng hóa theo quy định từ khoản 1 đến khoản 10 Điều này
+hoặc từ các dẫn xuất của chúng trong quá trình sản xuất.
+Điều 7. Công đoạn gia công, chế biến đầy đủ
+1. Theo quy định tại khoản 2, Điều 5 Thông tư này, hàng hóa được coi là
+đã trải qua công đoạn gia công, chế biến đầy đủ và có xuất xứ tại lãnh thổ của
+một Nước thành viên nếu hàng hóa đó đáp ứng một trong các điều kiện sau đây:
+a) Chuyển đổi mã số hàng hóa ở cấp độ Nhóm (CTH) có nghĩa là tất cả
+nguyên liệu không có xuất xứ được sử dụng để sản xuất ra hàng hóa, phải chuyển
+đổi mã số hàng hóa ở cấp độ 4 số.
+b) Hàm lượng giá trị gia tăng (QVC) không thấp hơn 35% giá xuất xưởng.
+QVC là Hàm lượng giá trị gia tăng của hàng hóa, được biểu thị dưới dạng
+phần trăm (%).
+QVC được tính như sau:
+Giá xuất xưởng - V.N.M
+x 100
+QVC ?
+Giá xuất xưởng
+Giá xuất xưởng là giá thanh toán cho hàng hóa xuất xưởng của nhà sản xuất
+tại Nước thành viên thực hiện công đoạn gia công hoặc chế biến cuối cùng với
+điều kiện giá đó bao gồm trị giá của toàn bộ nguyên liệu được sử dụng, trừ đi thuế
+nội địa đã hoặc có thể được hoàn trả khi hàng hóa được xuất khẩu.
+V.N.M là trị giá hải quan tại thời điểm nhập khẩu của nguyên liệu không
+có xuất xứ được sử dụng bao gồm chi phí vận chuyển và bảo hiểm phát sinh trong
+quá trình vận chuyền nguyên liệu đến cảng nhập khẩu tại lãnh thổ của Nước thành
+viên nhập khẩu hoặc trong trường hợp không biết và không thể xác minh được giá
+trị này, là giá đầu tiên có thể xác minh được của nguyên liệu tại Nước thành viên
+xuất khẩu, Trường hợp nhà sản xuất hàng hóa mua nguyên liệu không có xuất xứ
+tại lãnh thổ của Nước thành viên nơi nhà sản xuất đặt trụ sở, trị giá của nguyên
+liệu này không bao gồm cước phí, bảo hiểm, chi phí đóng gói và bất kỳ chi phí
+nào khác phát sinh trong quá trình vận chuyển nguyên liệu từ kho của nhà cùng
+cấp đến địa điểm của nhà sản xuất.
+2, Không xét đến quy định tại khoản 1 Điều này, hàng hóa được phân loại
+tại Phụ lục I ban hành kèm theo Thông tư này, phải đáp ứng quy tắc cụ thể được
+quy định chi tiết tại Phụ lục này.
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.93]: quy định chi tiết tại Phụ lục này.
-#2 [Score: 0.93]: tại Phụ lục I ban hành kèm theo Thông tư này, phải đáp ứng quy tắc cụ thể được
-#3 [Score: 0.93]: 2, Không xét đến quy định tại khoản 1 Điều này, hàng hóa được phân loại
-#4 [Score: 0.93]: cấp đến địa điểm của nhà sản xuất.
-#5 [Score: 0.92]: nào khác phát sinh trong quá trình vận chuyển nguyên liệu từ kho của nhà cùng
-#6 [Score: 0.93]: liệu này không bao gồm cước phí, bảo hiểm, chi phí đóng gói và bất kỳ chi phí
-#7 [Score: 0.93]: tại lãnh thổ của Nước thành viên nơi nhà sản xuất đặt trụ sở, trị giá của nguyên
-#8 [Score: 0.92]: xuất khẩu, Trường hợp nhà sản xuất hàng hóa mua nguyên liệu không có xuất xứ
-#9 [Score: 0.93]: trị này, là giá đầu tiên có thể xác minh được của nguyên liệu tại Nước thành viên
-#10 [Score: 0.93]: viên nhập khẩu hoặc trong trường hợp không biết và không thể xác minh được giá
-#11 [Score: 0.92]: quá trình vận chuyền nguyên liệu đến cảng nhập khẩu tại lãnh thổ của Nước thành
-#12 [Score: 0.93]: có xuất xứ được sử dụng bao gồm chi phí vận chuyển và bảo hiểm phát sinh trong
-#13 [Score: 0.93]: V.N.M là trị giá hải quan tại thời điểm nhập khẩu của nguyên liệu không
-#14 [Score: 0.93]: nội địa đã hoặc có thể được hoàn trả khi hàng hóa được xuất khẩu.
-#15 [Score: 0.93]: điều kiện giá đó bao gồm trị giá của toàn bộ nguyên liệu được sử dụng, trừ đi thuế
-#16 [Score: 0.93]: tại Nước thành viên thực hiện công đoạn gia công hoặc chế biến cuối cùng với
-#17 [Score: 0.93]: Giá xuất xưởng là giá thanh toán cho hàng hóa xuất xưởng của nhà sản xuất
-#18 [Score: 0.93]: Giá xuất xưởng
-#19 [Score: 0.81]: QVC ?
-#20 [Score: 0.91]: x 100
-#21 [Score: 0.92]: Giá xuất xưởng - V.N.M
-#22 [Score: 0.91]: QVC được tính như sau:
-#23 [Score: 0.93]: phần trăm (%).
-#24 [Score: 0.93]: QVC là Hàm lượng giá trị gia tăng của hàng hóa, được biểu thị dưới dạng
-#25 [Score: 0.93]: b) Hàm lượng giá trị gia tăng (QVC) không thấp hơn 35% giá xuất xưởng.
-#26 [Score: 0.91]: đổi mã số hàng hóa ở cấp độ 4 số.
-#27 [Score: 0.93]: nguyên liệu không có xuất xứ được sử dụng để sản xuất ra hàng hóa, phải chuyển
-#28 [Score: 0.93]: a) Chuyển đổi mã số hàng hóa ở cấp độ Nhóm (CTH) có nghĩa là tất cả
-#29 [Score: 0.93]: một Nước thành viên nếu hàng hóa đó đáp ứng một trong các điều kiện sau đây:
-#30 [Score: 0.93]: đã trải qua công đoạn gia công, chế biến đầy đủ và có xuất xứ tại lãnh thổ của
-#31 [Score: 0.93]: 1. Theo quy định tại khoản 2, Điều 5 Thông tư này, hàng hóa được coi là
-#32 [Score: 0.93]: Điều 7. Công đoạn gia công, chế biến đầy đủ
-#33 [Score: 0.93]: hoặc từ các dẫn xuất của chúng trong quá trình sản xuất.
-#34 [Score: 0.93]: viên đó chỉ từ các hàng hóa theo quy định từ khoản 1 đến khoản 10 Điều này
-#35 [Score: 0.93]: 11. Hàng hóa được sản xuất hoặc thu được tại lãnh thổ của Nước thành
-#36 [Score: 0.93]: sản xuất tại lãnh thổ của Nước thành viên đó.
-#37 [Score: 0.93]: 10. Phế thải hoặc phế liệu thu được từ quá trình sử dụng, tiêu dùng hoặc
-#38 [Score: 0.93]: với điều kiện hàng hóa đó chỉ phù hợp để tái chế thành nguyên liệu thô.
-#39 [Score: 0.93]: 9. Vật phẩm đã qua sử dụng thu được tại lãnh thổ của Nước thành viên đó
-#40 [Score: 0.93]: 5
+#1 [Score: 0.93]: 5
+#2 [Score: 0.93]: 9. Vật phẩm đã qua sử dụng thu được tại lãnh thổ của Nước thành viên đó
+#3 [Score: 0.93]: với điều kiện hàng hóa đó chỉ phù hợp để tái chế thành nguyên liệu thô.
+#4 [Score: 0.92]: 10. Phế thải hoặc phế liệu thu được từ quá trình sử dụng, tiêu dùng hoặc
+#5 [Score: 0.93]: sản xuất tại lãnh thổ của Nước thành viên đó.
+#6 [Score: 0.90]: 11. Hàng hóa được sản xuất hoặc thu được tại lãnh thổ của Nước thành
+#7 [Score: 0.93]: viên đó chỉ từ các hàng hóa theo quy định từ khoản 1 đến khoản 10 Điều này
+#8 [Score: 0.93]: hoặc từ các dẫn xuất của chúng trong quá trình sản xuất.
+#9 [Score: 0.93]: Điều 7. Công đoạn gia công, chế biến đầy đủ
+#10 [Score: 0.93]: 1. Theo quy định tại khoản 2, Điều 5 Thông tư này, hàng hóa được coi là
+#11 [Score: 0.93]: đã trải qua công đoạn gia công, chế biến đầy đủ và có xuất xứ tại lãnh thổ của
+#12 [Score: 0.93]: một Nước thành viên nếu hàng hóa đó đáp ứng một trong các điều kiện sau đây:
+#13 [Score: 0.93]: a) Chuyển đổi mã số hàng hóa ở cấp độ Nhóm (CTH) có nghĩa là tất cả
+#14 [Score: 0.93]: nguyên liệu không có xuất xứ được sử dụng để sản xuất ra hàng hóa, phải chuyển
+#15 [Score: 0.91]: đổi mã số hàng hóa ở cấp độ 4 số.
+#16 [Score: 0.93]: b) Hàm lượng giá trị gia tăng (QVC) không thấp hơn 35% giá xuất xưởng.
+#17 [Score: 0.93]: QVC là Hàm lượng giá trị gia tăng của hàng hóa, được biểu thị dưới dạng
+#18 [Score: 0.93]: phần trăm (%).
+#19 [Score: 0.91]: QVC được tính như sau:
+#20 [Score: 0.92]: Giá xuất xưởng - V.N.M
+#21 [Score: 0.91]: x 100
+#22 [Score: 0.81]: QVC ?
+#23 [Score: 0.93]: Giá xuất xưởng
+#24 [Score: 0.93]: Giá xuất xưởng là giá thanh toán cho hàng hóa xuất xưởng của nhà sản xuất
+#25 [Score: 0.93]: tại Nước thành viên thực hiện công đoạn gia công hoặc chế biến cuối cùng với
+#26 [Score: 0.93]: điều kiện giá đó bao gồm trị giá của toàn bộ nguyên liệu được sử dụng, trừ đi thuế
+#27 [Score: 0.93]: nội địa đã hoặc có thể được hoàn trả khi hàng hóa được xuất khẩu.
+#28 [Score: 0.92]: V.N.M là trị giá hải quan tại thời điểm nhập khẩu của nguyên liệu không
+#29 [Score: 0.93]: có xuất xứ được sử dụng bao gồm chi phí vận chuyển và bảo hiểm phát sinh trong
+#30 [Score: 0.92]: quá trình vận chuyền nguyên liệu đến cảng nhập khẩu tại lãnh thổ của Nước thành
+#31 [Score: 0.93]: viên nhập khẩu hoặc trong trường hợp không biết và không thể xác minh được giá
+#32 [Score: 0.93]: trị này, là giá đầu tiên có thể xác minh được của nguyên liệu tại Nước thành viên
+#33 [Score: 0.92]: xuất khẩu, Trường hợp nhà sản xuất hàng hóa mua nguyên liệu không có xuất xứ
+#34 [Score: 0.93]: tại lãnh thổ của Nước thành viên nơi nhà sản xuất đặt trụ sở, trị giá của nguyên
+#35 [Score: 0.93]: liệu này không bao gồm cước phí, bảo hiểm, chi phí đóng gói và bất kỳ chi phí
+#36 [Score: 0.92]: nào khác phát sinh trong quá trình vận chuyển nguyên liệu từ kho của nhà cùng
+#37 [Score: 0.93]: cấp đến địa điểm của nhà sản xuất.
+#38 [Score: 0.91]: 2, Không xét đến quy định tại khoản 1 Điều này, hàng hóa được phân loại
+#39 [Score: 0.93]: tại Phụ lục I ban hành kèm theo Thông tư này, phải đáp ứng quy tắc cụ thể được
+#40 [Score: 0.93]: quy định chi tiết tại Phụ lục này.

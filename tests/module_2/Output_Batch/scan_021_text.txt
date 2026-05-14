@@ -2,203 +2,157 @@
 
 1. TOÀN BỘ VĂN BẢN (FULL TEXT):
 --------------------------------------------------
-máy trên
-cùng một nhóm thì áp
-bộ phận và phụ kiện của các loại
-được phân loại trong
-hình ảnh và âm thanh truyền hình,
-phụ kiện của chúng
-tạo âm thanh, máy ghi và tái tạo
-và các bộ phận hoặc
-trường hợp hàng hóa
-bộ phận của chúng, máy ghi và tái
-Máy điện và thiết bị điện và các
-Chương 85
-CTH, tuy nhiên trong
-QVC 35%
-thay vi CTH
-dụng quy tắc CTSH
-cùng một nhóm thì áp
-được phân loại trong
-phụ kiện của chúng
-phận của chúng
-và các bộ phận hoặc
-trường hợp hàng hóa
-máy và thiết bị cơ khí, các bộ
-Chương 84
-CTH, tuy nhiên trong
-Lò phản ứng hạt nhân, nồi hơi,
-QVC 35%
-bản.
-Hàng tạp hóa làm từ kim loại cơ
-Chương 83
-QVC 35%
-CTH
-bản.
-phận của chúng làm từ kim loại cơ
-ăn làm từ kim loại cơ bản; các bộ
-Chương 82
-Dụng cụ, đồ nghề, dao, kéo, bộ đồ
-QVC 35%
-CTH
-loại; các sản phẩm của chúng.
-Chương 81
-Kim loại cơ bản khác; gốm kim
-QVC 35%
-CTSH
-Chương 80
-Thiếc và các sản phẩm bằng thiếc.
-QVC 35%
-CTH
-Chương 79
-Kẽm và các sản phẩm bằng kẽm.
-QVC 35%
-CTH
-Chương 78
-Chì và các sản phẩm bằng chì.
-QVC 35%
-CTH
-nhôm.
-Chương 76
-Nhôm và các sản phẩm bằng
-QVC 35%
-CTH
-niken.
-Chương 75
-Niken và các sản phẩm bằng
-cth
-QVC 35%
-Chương 74
-QVC 35%
-CTH
-Đồng và các sản phẩm bằng đồng.
-Chương 73
-Các sản phẩm bằng sắt hoặc thép.
-QVC 35%
-CTH
-Chương 72
-Sắt và thép.
-QVC 35%
-CTH
-ex 7111
-quý, chưa gia công
-quý, bán thành phẩm.
-ex 7109 và
-được dát phủ kim loại
-ex 7107,
-Kim loại được dát phủ kim loại
-Sản xuất từ kim loại
-dạng bột
-quý chưa gia công
-Dạng bán thành phẩm, hoặc
-Sản xuất từ kim loại
-(1)
-(2)
+10
+Quy tắc cụ thể mặt hàng
+Mô tả hàng hóa
+Mã Hs
 (4)
 (3)
-Mã Hs
-Mô tả hàng hóa
-Quy tắc cụ thể mặt hàng
-9
+(2)
+(1)
+dụng quy tắc CTSH
+thay vì CTH
+Đầu máy, các phương, tiện di
+QVC 35%
+CTH
+Chương 86
+chuyển trên đường sắt hoặc
+đường tàu điện và các bộ phận của
+chúng; các bộ phận cổ định và
+ghép nối đường ray xe lửa hoặc
+tàu điện và bộ phận của chúng;
+thiết bị tín hiệu giao thông bằng
+cơ khí (kể cả cơ điện) các loại.
+Xe trừ phương tiện chạy trên
+CTH, tuy nhiên trong
+Chương 87
+QVC 35%
+trường hợp hàng hóa
+đường sất hoặc đường tàu điện, và
+và các bộ phận hoặc
+các bộ phận và phụ kiện của
+chúng.
+phụ kiện của chúng
+được phân loại trong
+cùng một nhóm thì áp
+dụng quy tắc CTSH
+thay vi CTH
+Phương tiện bay, tàu vũ trụ, và
+QVC 35%
+cth
+Chương 88
+các bộ phận của chúng.
+QVC 35%
+CTH
+Tàu thủy, thuyền và các kết cấu
+Chương 89
+nối.
+CTH, tuy nhiên trong
+Dụng cụ và thiết bị quang học,
+Chương 90
+QVC 35%
+nhiếp ảnh, điện ảnh, đo lường,
+trường hợp hàng hóa
+kiếm tra, chính xác, y tế hoặc
+và các bộ phận hoặc
+phụ kiện của chúng
+phẫu thuật, các bộ phận và phụ
+kiện của chúng.
+được phân loại trong
+cùng một nhóm thì áp
+dụng quy tắc CTSH
+thay vi CTH
+QVC 35%
+CTH
+Đồng hồ thời gian, đồng hồ cá
+Chương 91
+nhân và các bộ phận của chúng.
+Nhạc cụ, các bộ phận và phụ kiện
+QVC 35%
+CTH
+Chương 92
+của chúng.
+Vũ khí và đạn; các bộ phận và phụ
+Chương 93
+QVC 35%
+CTH
+kiện của chúng
 
 --------------------------------------------------
 2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
 --------------------------------------------------
-#1 [Score: 0.93]: máy trên
-#2 [Score: 0.92]: cùng một nhóm thì áp
-#3 [Score: 0.93]: bộ phận và phụ kiện của các loại
-#4 [Score: 0.93]: được phân loại trong
-#5 [Score: 0.93]: hình ảnh và âm thanh truyền hình,
-#6 [Score: 0.93]: phụ kiện của chúng
-#7 [Score: 0.93]: tạo âm thanh, máy ghi và tái tạo
-#8 [Score: 0.93]: và các bộ phận hoặc
-#9 [Score: 0.94]: trường hợp hàng hóa
-#10 [Score: 0.92]: bộ phận của chúng, máy ghi và tái
-#11 [Score: 0.93]: Máy điện và thiết bị điện và các
-#12 [Score: 0.94]: Chương 85
-#13 [Score: 0.93]: CTH, tuy nhiên trong
-#14 [Score: 0.93]: QVC 35%
-#15 [Score: 0.93]: thay vi CTH
-#16 [Score: 0.94]: dụng quy tắc CTSH
-#17 [Score: 0.93]: cùng một nhóm thì áp
-#18 [Score: 0.93]: được phân loại trong
-#19 [Score: 0.94]: phụ kiện của chúng
-#20 [Score: 0.93]: phận của chúng
-#21 [Score: 0.93]: và các bộ phận hoặc
-#22 [Score: 0.94]: trường hợp hàng hóa
-#23 [Score: 0.92]: máy và thiết bị cơ khí, các bộ
-#24 [Score: 0.93]: Chương 84
-#25 [Score: 0.93]: CTH, tuy nhiên trong
-#26 [Score: 0.93]: Lò phản ứng hạt nhân, nồi hơi,
-#27 [Score: 0.93]: QVC 35%
-#28 [Score: 0.85]: bản.
-#29 [Score: 0.93]: Hàng tạp hóa làm từ kim loại cơ
-#30 [Score: 0.93]: Chương 83
-#31 [Score: 0.93]: QVC 35%
-#32 [Score: 0.93]: CTH
-#33 [Score: 0.77]: bản.
-#34 [Score: 0.93]: phận của chúng làm từ kim loại cơ
-#35 [Score: 0.93]: ăn làm từ kim loại cơ bản; các bộ
-#36 [Score: 0.94]: Chương 82
-#37 [Score: 0.93]: Dụng cụ, đồ nghề, dao, kéo, bộ đồ
-#38 [Score: 0.93]: QVC 35%
-#39 [Score: 0.92]: CTH
-#40 [Score: 0.93]: loại; các sản phẩm của chúng.
-#41 [Score: 0.93]: Chương 81
-#42 [Score: 0.92]: Kim loại cơ bản khác; gốm kim
-#43 [Score: 0.93]: QVC 35%
-#44 [Score: 0.89]: CTSH
-#45 [Score: 0.93]: Chương 80
-#46 [Score: 0.93]: Thiếc và các sản phẩm bằng thiếc.
-#47 [Score: 0.94]: QVC 35%
-#48 [Score: 0.93]: CTH
-#49 [Score: 0.94]: Chương 79
-#50 [Score: 0.91]: Kẽm và các sản phẩm bằng kẽm.
-#51 [Score: 0.93]: QVC 35%
-#52 [Score: 0.92]: CTH
-#53 [Score: 0.93]: Chương 78
-#54 [Score: 0.93]: Chì và các sản phẩm bằng chì.
-#55 [Score: 0.93]: QVC 35%
-#56 [Score: 0.92]: CTH
-#57 [Score: 0.88]: nhôm.
-#58 [Score: 0.93]: Chương 76
-#59 [Score: 0.93]: Nhôm và các sản phẩm bằng
-#60 [Score: 0.93]: QVC 35%
-#61 [Score: 0.89]: CTH
-#62 [Score: 0.87]: niken.
-#63 [Score: 0.93]: Chương 75
-#64 [Score: 0.92]: Niken và các sản phẩm bằng
-#65 [Score: 0.78]: cth
-#66 [Score: 0.93]: QVC 35%
-#67 [Score: 0.93]: Chương 74
-#68 [Score: 0.93]: QVC 35%
-#69 [Score: 0.91]: CTH
-#70 [Score: 0.93]: Đồng và các sản phẩm bằng đồng.
-#71 [Score: 0.94]: Chương 73
-#72 [Score: 0.93]: Các sản phẩm bằng sắt hoặc thép.
+#1 [Score: 0.93]: 10
+#2 [Score: 0.94]: Quy tắc cụ thể mặt hàng
+#3 [Score: 0.93]: Mô tả hàng hóa
+#4 [Score: 0.85]: Mã Hs
+#5 [Score: 0.94]: (4)
+#6 [Score: 0.94]: (3)
+#7 [Score: 0.94]: (2)
+#8 [Score: 0.94]: (1)
+#9 [Score: 0.94]: dụng quy tắc CTSH
+#10 [Score: 0.92]: thay vì CTH
+#11 [Score: 0.89]: Đầu máy, các phương, tiện di
+#12 [Score: 0.93]: QVC 35%
+#13 [Score: 0.92]: CTH
+#14 [Score: 0.93]: Chương 86
+#15 [Score: 0.88]: chuyển trên đường sắt hoặc
+#16 [Score: 0.93]: đường tàu điện và các bộ phận của
+#17 [Score: 0.93]: chúng; các bộ phận cổ định và
+#18 [Score: 0.93]: ghép nối đường ray xe lửa hoặc
+#19 [Score: 0.93]: tàu điện và bộ phận của chúng;
+#20 [Score: 0.93]: thiết bị tín hiệu giao thông bằng
+#21 [Score: 0.92]: cơ khí (kể cả cơ điện) các loại.
+#22 [Score: 0.93]: Xe trừ phương tiện chạy trên
+#23 [Score: 0.93]: CTH, tuy nhiên trong
+#24 [Score: 0.93]: Chương 87
+#25 [Score: 0.94]: QVC 35%
+#26 [Score: 0.90]: trường hợp hàng hóa
+#27 [Score: 0.92]: đường sất hoặc đường tàu điện, và
+#28 [Score: 0.93]: và các bộ phận hoặc
+#29 [Score: 0.94]: các bộ phận và phụ kiện của
+#30 [Score: 0.89]: chúng.
+#31 [Score: 0.94]: phụ kiện của chúng
+#32 [Score: 0.93]: được phân loại trong
+#33 [Score: 0.93]: cùng một nhóm thì áp
+#34 [Score: 0.93]: dụng quy tắc CTSH
+#35 [Score: 0.93]: thay vi CTH
+#36 [Score: 0.94]: Phương tiện bay, tàu vũ trụ, và
+#37 [Score: 0.93]: QVC 35%
+#38 [Score: 0.86]: cth
+#39 [Score: 0.94]: Chương 88
+#40 [Score: 0.92]: các bộ phận của chúng.
+#41 [Score: 0.93]: QVC 35%
+#42 [Score: 0.93]: CTH
+#43 [Score: 0.93]: Tàu thủy, thuyền và các kết cấu
+#44 [Score: 0.93]: Chương 89
+#45 [Score: 0.88]: nối.
+#46 [Score: 0.93]: CTH, tuy nhiên trong
+#47 [Score: 0.90]: Dụng cụ và thiết bị quang học,
+#48 [Score: 0.92]: Chương 90
+#49 [Score: 0.92]: QVC 35%
+#50 [Score: 0.90]: nhiếp ảnh, điện ảnh, đo lường,
+#51 [Score: 0.91]: trường hợp hàng hóa
+#52 [Score: 0.92]: kiếm tra, chính xác, y tế hoặc
+#53 [Score: 0.93]: và các bộ phận hoặc
+#54 [Score: 0.91]: phụ kiện của chúng
+#55 [Score: 0.93]: phẫu thuật, các bộ phận và phụ
+#56 [Score: 0.91]: kiện của chúng.
+#57 [Score: 0.93]: được phân loại trong
+#58 [Score: 0.90]: cùng một nhóm thì áp
+#59 [Score: 0.91]: dụng quy tắc CTSH
+#60 [Score: 0.93]: thay vi CTH
+#61 [Score: 0.93]: QVC 35%
+#62 [Score: 0.92]: CTH
+#63 [Score: 0.94]: Đồng hồ thời gian, đồng hồ cá
+#64 [Score: 0.93]: Chương 91
+#65 [Score: 0.92]: nhân và các bộ phận của chúng.
+#66 [Score: 0.91]: Nhạc cụ, các bộ phận và phụ kiện
+#67 [Score: 0.92]: QVC 35%
+#68 [Score: 0.90]: CTH
+#69 [Score: 0.93]: Chương 92
+#70 [Score: 0.91]: của chúng.
+#71 [Score: 0.93]: Vũ khí và đạn; các bộ phận và phụ
+#72 [Score: 0.93]: Chương 93
 #73 [Score: 0.93]: QVC 35%
-#74 [Score: 0.86]: CTH
-#75 [Score: 0.94]: Chương 72
-#76 [Score: 0.93]: Sắt và thép.
-#77 [Score: 0.93]: QVC 35%
-#78 [Score: 0.91]: CTH
-#79 [Score: 0.93]: ex 7111
-#80 [Score: 0.92]: quý, chưa gia công
-#81 [Score: 0.92]: quý, bán thành phẩm.
-#82 [Score: 0.93]: ex 7109 và
-#83 [Score: 0.93]: được dát phủ kim loại
-#84 [Score: 0.93]: ex 7107,
-#85 [Score: 0.93]: Kim loại được dát phủ kim loại
-#86 [Score: 0.93]: Sản xuất từ kim loại
-#87 [Score: 0.94]: dạng bột
-#88 [Score: 0.93]: quý chưa gia công
-#89 [Score: 0.93]: Dạng bán thành phẩm, hoặc
-#90 [Score: 0.93]: Sản xuất từ kim loại
-#91 [Score: 0.93]: (1)
-#92 [Score: 0.94]: (2)
-#93 [Score: 0.93]: (4)
-#94 [Score: 0.94]: (3)
-#95 [Score: 0.77]: Mã Hs
-#96 [Score: 0.93]: Mô tả hàng hóa
-#97 [Score: 0.93]: Quy tắc cụ thể mặt hàng
-#98 [Score: 0.94]: 9
+#74 [Score: 0.89]: CTH
+#75 [Score: 0.93]: kiện của chúng
