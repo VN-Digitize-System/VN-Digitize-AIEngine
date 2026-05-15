@@ -51,6 +51,6 @@ def export_final_results(input_folder, output_folder):
 if __name__ == "__main__":
     # Cấu hình đường dẫn
     INPUT_DIR = "tests/module_1/detect_images" # Folder chứa ảnh gốc của bạn
-    OUTPUT_DIR = "tests/module_1/code_c_final_outputs" # Folder sẽ chứa ảnh đã tẩy trắng
+    OUTPUT_DIR = "tests/module_1/code_c_final_outputs_rembg" # Folder sẽ chứa ảnh đã tẩy trắng
     
     export_final_results(INPUT_DIR, OUTPUT_DIR)

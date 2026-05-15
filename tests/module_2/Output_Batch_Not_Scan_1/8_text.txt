@@ -1,0 +1,138 @@
+--- KẾT QUẢ OCR CHO ẢNH: 8.jpg ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+109
+B
+Dapi
+c
+portion of the recanalised vessel (D). Scale bars ? 25 um.
+5. Conclusion
+animals [14] and humans [8]. In normal subject, congenital heart dis-
+This study demonstrates the presence of functionally viable ET re-
+ease and idiopathic pulmonary hypertension subjects the larger calibre
+ceptors in the surgically extracted tissue from patients with CTEPH.
+vessels showed predominant ETA expression with a relative increase in
+The ET receptor was associated with smooth muscle cells, mainly the
+the ET3 expression as the vessels narrow to 0.5-1 mm diameter (while
+contractile phenotype of SMC that surrounds the recanalised channels
+remaining -50% overall expression at this size), In the main pulmonary
+arteries - 90% of ET expression demonstrated in the medial layer is ETA
+and can be seen within the more organised chronic thrombus. Both
+receptor. ETg vascular expression is seen to a lesser degree in the small
+the ET, and ETg receptors were found with the ETa receptor showing
+conduit arteries but at lower levels than seen for ETạ. Within the rest of
+more expression. This shows a potential role for ET receptors to influ-
+the lung ET, expression is found in the parenchyma, airway smooth
+ence both compartments in CTEPH and generates questions about
+muscle and epithelial cells. ETg is seen in high density in airway smooth
+how ET antagonists might influence the pathological development of
+muscle and lower levels in lung parenchyma and airway submucosal
+the chronic thrombus in CTEPH.
+glands.
+Author contributions
+The results of our experiments on PEA specimens have shown that
+RVMR, MS and MG carried out histology, data analysis, contributed
+both receptors are expressed with more expression of ETA receptors
+to writing and manuscript review, REK carried out ligand binding and
+compared with ETg, This would fit with the size ofour cross-sections in-
+dicating that they are conduit artery size where ET, expression has been
+autoradiography, GH, KSS, DPJ identified and selected patient groups,
+shown to be greater, The level of ETz expression we have found is with-
+APD and J P-K designed experiments, analysed data and contributed to
+out question less than ET, but in some specimens seemed greater than
+writing and manuscript review.
+one might predict given data from congenital heart disease and idio-
+pathic pulmonary arterial hypertension patients. Bauer et al, [3] have
+Conflicts of interest statement
+shown, in addition to elevated circulating plasma big ET-1 levels, ele-
+vated levels of ETg mRNA with no change in ET, mRNA in CTEPH spec-
+Funded in part by an unrestricted educational grant to JP-Z from
+imens suggesting ETB is upregulated.
+Actelion Pharmaceuticals, Basle, Switzerland, KKS has received educa-
+Some similarities are thought to exist in the vascular remodelling
+tional support from Actelion, Bayer and GlaxoSmithKline to attend con-
+seen both in CTEPH to those observed in IPAH [21], The implication of
+ferences, MS, RVMR, REK, GH, KKS, DP], MG and APD have no conflicts of
+this on our findings is that ET receptors will also be present in smaller
+interest.
+surgically inaccessible vessel obstructions hence ET receptor antago-
+nists might have some effect on the SMCs in those obstructions. A
+Acknowledgements
+randomised placebo controlled trial of ET receptor antagonist in pa-
+tients with inoperable chronic thromboembolic pulmonary hyperten-
+sion and patients with persistent pulmonary hypertension after
+pulmonary endarterectomy surgery [11] has shown statistically signifi-
+cant improvement in PVR and cardiac output but it is not possible to
+know whether this was because of effects on the distal vasculopathy
+or proximal obstructions described by the 'two compartment model of
+CTEPH' [20].
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.93]: 109
+#2 [Score: 0.92]: B
+#3 [Score: 0.93]: Dapi
+#4 [Score: 0.90]: c
+#5 [Score: 0.88]: portion of the recanalised vessel (D). Scale bars ? 25 um.
+#6 [Score: 0.92]: 5. Conclusion
+#7 [Score: 0.92]: animals [14] and humans [8]. In normal subject, congenital heart dis-
+#8 [Score: 0.93]: This study demonstrates the presence of functionally viable ET re-
+#9 [Score: 0.93]: ease and idiopathic pulmonary hypertension subjects the larger calibre
+#10 [Score: 0.93]: ceptors in the surgically extracted tissue from patients with CTEPH.
+#11 [Score: 0.93]: vessels showed predominant ETA expression with a relative increase in
+#12 [Score: 0.93]: The ET receptor was associated with smooth muscle cells, mainly the
+#13 [Score: 0.93]: the ET3 expression as the vessels narrow to 0.5-1 mm diameter (while
+#14 [Score: 0.93]: contractile phenotype of SMC that surrounds the recanalised channels
+#15 [Score: 0.92]: remaining -50% overall expression at this size), In the main pulmonary
+#16 [Score: 0.93]: arteries - 90% of ET expression demonstrated in the medial layer is ETA
+#17 [Score: 0.93]: and can be seen within the more organised chronic thrombus. Both
+#18 [Score: 0.92]: receptor. ETg vascular expression is seen to a lesser degree in the small
+#19 [Score: 0.91]: the ET, and ETg receptors were found with the ETa receptor showing
+#20 [Score: 0.92]: conduit arteries but at lower levels than seen for ETạ. Within the rest of
+#21 [Score: 0.93]: more expression. This shows a potential role for ET receptors to influ-
+#22 [Score: 0.93]: the lung ET, expression is found in the parenchyma, airway smooth
+#23 [Score: 0.93]: ence both compartments in CTEPH and generates questions about
+#24 [Score: 0.92]: muscle and epithelial cells. ETg is seen in high density in airway smooth
+#25 [Score: 0.93]: how ET antagonists might influence the pathological development of
+#26 [Score: 0.93]: muscle and lower levels in lung parenchyma and airway submucosal
+#27 [Score: 0.93]: the chronic thrombus in CTEPH.
+#28 [Score: 0.92]: glands.
+#29 [Score: 0.93]: Author contributions
+#30 [Score: 0.93]: The results of our experiments on PEA specimens have shown that
+#31 [Score: 0.93]: RVMR, MS and MG carried out histology, data analysis, contributed
+#32 [Score: 0.92]: both receptors are expressed with more expression of ETA receptors
+#33 [Score: 0.93]: to writing and manuscript review, REK carried out ligand binding and
+#34 [Score: 0.92]: compared with ETg, This would fit with the size ofour cross-sections in-
+#35 [Score: 0.93]: dicating that they are conduit artery size where ET, expression has been
+#36 [Score: 0.88]: autoradiography, GH, KSS, DPJ identified and selected patient groups,
+#37 [Score: 0.92]: shown to be greater, The level of ETz expression we have found is with-
+#38 [Score: 0.93]: APD and J P-K designed experiments, analysed data and contributed to
+#39 [Score: 0.93]: out question less than ET, but in some specimens seemed greater than
+#40 [Score: 0.93]: writing and manuscript review.
+#41 [Score: 0.92]: one might predict given data from congenital heart disease and idio-
+#42 [Score: 0.92]: pathic pulmonary arterial hypertension patients. Bauer et al, [3] have
+#43 [Score: 0.93]: Conflicts of interest statement
+#44 [Score: 0.93]: shown, in addition to elevated circulating plasma big ET-1 levels, ele-
+#45 [Score: 0.93]: vated levels of ETg mRNA with no change in ET, mRNA in CTEPH spec-
+#46 [Score: 0.93]: Funded in part by an unrestricted educational grant to JP-Z from
+#47 [Score: 0.93]: imens suggesting ETB is upregulated.
+#48 [Score: 0.93]: Actelion Pharmaceuticals, Basle, Switzerland, KKS has received educa-
+#49 [Score: 0.93]: Some similarities are thought to exist in the vascular remodelling
+#50 [Score: 0.92]: tional support from Actelion, Bayer and GlaxoSmithKline to attend con-
+#51 [Score: 0.93]: seen both in CTEPH to those observed in IPAH [21], The implication of
+#52 [Score: 0.93]: ferences, MS, RVMR, REK, GH, KKS, DP], MG and APD have no conflicts of
+#53 [Score: 0.93]: this on our findings is that ET receptors will also be present in smaller
+#54 [Score: 0.91]: interest.
+#55 [Score: 0.93]: surgically inaccessible vessel obstructions hence ET receptor antago-
+#56 [Score: 0.93]: nists might have some effect on the SMCs in those obstructions. A
+#57 [Score: 0.93]: Acknowledgements
+#58 [Score: 0.93]: randomised placebo controlled trial of ET receptor antagonist in pa-
+#59 [Score: 0.93]: tients with inoperable chronic thromboembolic pulmonary hyperten-
+#60 [Score: 0.93]: sion and patients with persistent pulmonary hypertension after
+#61 [Score: 0.93]: pulmonary endarterectomy surgery [11] has shown statistically signifi-
+#62 [Score: 0.93]: cant improvement in PVR and cardiac output but it is not possible to
+#63 [Score: 0.93]: know whether this was because of effects on the distal vasculopathy
+#64 [Score: 0.93]: or proximal obstructions described by the 'two compartment model of
+#65 [Score: 0.85]: CTEPH' [20].

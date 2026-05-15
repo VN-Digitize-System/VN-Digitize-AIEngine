@@ -23,7 +23,11 @@ class OcrEngine:
         self.detector = PaddleOCR(
             use_angle_cls=self._config.use_angle_cls, 
             lang="en", # Để tiếng Anh cho thuật toán dò khung Box chạy nhanh hơn
-            rec=False  # TẮT chức năng đọc chữ của Paddle
+            rec=False,  # TẮT chức năng đọc chữ của Paddle
+            # Mở rộng giới hạn ảnh từ 960px lên 2048px để bắt chữ nhỏ trên ảnh Camera
+            det_limit_side_len=2048, 
+            # Giảm ngưỡng tự tin xuống một chút để bắt các nét chữ bị mờ (0.3 -> 0.2)
+            det_db_thresh=0.2
         )
 
         # 2. KHỞI TẠO VIETOCR (CHUYÊN GIA ĐỌC CHỮ)

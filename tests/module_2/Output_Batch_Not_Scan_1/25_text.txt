@@ -1,0 +1,222 @@
+--- KẾT QUẢ OCR CHO ẢNH: 25.jpg ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+Computational and Mathematical Methods in Medicine
+7
+If the error has reached threshold (an acceptable error accept)
+To compute the error, we considered all intensities of
+brain MR images. In other words, the estimated distribution
+that is defined in the first stage) then estimation is
+and real image histogram should be compared at each inten-
+complete.
+sity. The amount of error is the average difference between
+If error is more than threshold, estimation will be
+estimated distribution and original distribution at related
+continued.
+intensity:
+(6) Continue steps (4) and (5) until the convergence of
+the sequence of parameters is reached.
+Error -
+(8)
+(7) Keep the estimated distribution and estimate the next
+separated distribution.
+where N is the number of intensities that consists of Gaussian
+(8) Compute the membership probability with the esti-
+distribution, f, is the number of voxels in related intensity
+mated parameters.
+of real histogram, and gị is the number of voxels in related
+intensity of estimated histogram. Consequently, in this sec-
+(9) Assign each voxel to the Kth class.
+tion minimum error and optimum parameters are estimated.
+However, because of the intensity similarity between GM
+Finally, it is repeated two more times to provide the three
+and CSF or CSF and WM and overlapping problem in the
+distributions that best fit the histogram.
+brain MR images the next improvement stage is required to
+After the modified EM converges, the parameters that
+have powerful segmentation. To have a robust and accurate
+maximize the likelihood function are then applied to segment
+segmentation in the next step we will extract some textural
+brain image into three tissue classes. In this step we compute
+features from the image and finally use SVM to improve the
+the membership probability with the estimated parameters.
+classification process.
+The initial brain volume is updated by adding the voxels,
+which are labeled as brain regions (WM, GM, and CSF)
+2.8. Feature Extraction. The goal of feature extraction is to
+based on the value of membership probability. The process
+reduce the original dataset by extracting the most impor-
+continues by checking every neighboring voxel of an already
+tant features. Choosing the optimal features has a strong
+labeled one, until the left and right brain volumes remain
+effect on classification results. Image intensities are the most
+unaltered. The outermost voxels of corresponding unaltered
+prominent features for image segmentation. Using intensity
+brain volumes provide the final left and right brain borders.
+information as the only features in MR image is not sufficient
+The coordinates of each labeled voxels are stored to avoid
+due to several reasons.
+double-checking of neighboring voxels during the brain
+volume updating.
+(i) In some scans, the nonbrain voxels have a similar inten-
+The modified algorithm is summarized as follows.
+sity to GM, WM, and CS.
+(1) Choose the number of Gaussian distributions and
+(ii) The intensity of constructing brain tissues varies
+separate them based on the gradient-based method.
+among different slices.
+(2) Select one Gaussian distribution in the split his-
+(iii) In some slices, the intensity of different tissues is
+togram.
+similar.
+(3) Parameter initialization is as follows.
+Therefore, we carried out texture analysis for describing
+E-step: estimate distribution over labels given a
+texture of the images to have adequate features for accurate
+certain fixed model.
+segmentation. We also extracted useful features such as first-
+M-step: choose new parameters for model to
+and second-order texture information in this study to have an
+maximize expected log-likelihood of observed
+appropriate segmentation for all cases.
+data and hidden variables.
+In the previous section voxel labeling is initially applied
+Outputs: these are Hj and Ofirst-side-
+on each voxel of the brain using intensity information with
+some new ideas. Since overlapped voxels (voxels ofbrain bor-
+(4) Assume the following.
+ders) have two labels (GM, CSF or GM, wm) instead of one,
+to compensate for this problem, the overlapped voxels should
+(a) The estimated mean is correct and the ol is the 1999
+be classified to identify which classes they exactly belong to.
+19 standard deviation of one side.
+Thus, in this section to have robust and accurate brain
+(b) Standard deviation of the other side is o2 - r-
+segmentation, each overlapped voxel and its 18-connected
+01.
+neighbors are used as input for 3D statistical features extrac-
+tion technique, which is an improvement stage, In other
+ar changes 10 percent at each calculation.
+words the input of 3D GLCM is the target area in the
+The defined threshold determines when calculation
+rectangular region of interest (33) that is demonstrated in
+should be stopped.
+Figure 6.
+One of the important issues in the field of image analysis
+(5) Calculate error between the estimated distribution
+is the question of how to determine the texture differences
+and real image histogram and obtain the optimal
+of complex images, These differences are often due to
+value ofr.
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.93]: Computational and Mathematical Methods in Medicine
+#2 [Score: 0.93]: 7
+#3 [Score: 0.87]: If the error has reached threshold (an acceptable error accept)
+#4 [Score: 0.93]: To compute the error, we considered all intensities of
+#5 [Score: 0.92]: brain MR images. In other words, the estimated distribution
+#6 [Score: 0.93]: that is defined in the first stage) then estimation is
+#7 [Score: 0.93]: and real image histogram should be compared at each inten-
+#8 [Score: 0.93]: complete.
+#9 [Score: 0.93]: sity. The amount of error is the average difference between
+#10 [Score: 0.93]: If error is more than threshold, estimation will be
+#11 [Score: 0.93]: estimated distribution and original distribution at related
+#12 [Score: 0.92]: continued.
+#13 [Score: 0.93]: intensity:
+#14 [Score: 0.91]: (6) Continue steps (4) and (5) until the convergence of
+#15 [Score: 0.93]: the sequence of parameters is reached.
+#16 [Score: 0.88]: Error -
+#17 [Score: 0.94]: (8)
+#18 [Score: 0.93]: (7) Keep the estimated distribution and estimate the next
+#19 [Score: 0.93]: separated distribution.
+#20 [Score: 0.93]: where N is the number of intensities that consists of Gaussian
+#21 [Score: 0.92]: (8) Compute the membership probability with the esti-
+#22 [Score: 0.92]: distribution, f, is the number of voxels in related intensity
+#23 [Score: 0.93]: mated parameters.
+#24 [Score: 0.92]: of real histogram, and gị is the number of voxels in related
+#25 [Score: 0.93]: intensity of estimated histogram. Consequently, in this sec-
+#26 [Score: 0.93]: (9) Assign each voxel to the Kth class.
+#27 [Score: 0.93]: tion minimum error and optimum parameters are estimated.
+#28 [Score: 0.93]: However, because of the intensity similarity between GM
+#29 [Score: 0.93]: Finally, it is repeated two more times to provide the three
+#30 [Score: 0.93]: and CSF or CSF and WM and overlapping problem in the
+#31 [Score: 0.93]: distributions that best fit the histogram.
+#32 [Score: 0.93]: brain MR images the next improvement stage is required to
+#33 [Score: 0.93]: After the modified EM converges, the parameters that
+#34 [Score: 0.93]: have powerful segmentation. To have a robust and accurate
+#35 [Score: 0.93]: maximize the likelihood function are then applied to segment
+#36 [Score: 0.93]: segmentation in the next step we will extract some textural
+#37 [Score: 0.93]: brain image into three tissue classes. In this step we compute
+#38 [Score: 0.93]: features from the image and finally use SVM to improve the
+#39 [Score: 0.93]: the membership probability with the estimated parameters.
+#40 [Score: 0.92]: classification process.
+#41 [Score: 0.92]: The initial brain volume is updated by adding the voxels,
+#42 [Score: 0.93]: which are labeled as brain regions (WM, GM, and CSF)
+#43 [Score: 0.93]: 2.8. Feature Extraction. The goal of feature extraction is to
+#44 [Score: 0.92]: based on the value of membership probability. The process
+#45 [Score: 0.93]: reduce the original dataset by extracting the most impor-
+#46 [Score: 0.93]: continues by checking every neighboring voxel of an already
+#47 [Score: 0.93]: tant features. Choosing the optimal features has a strong
+#48 [Score: 0.93]: labeled one, until the left and right brain volumes remain
+#49 [Score: 0.93]: effect on classification results. Image intensities are the most
+#50 [Score: 0.93]: unaltered. The outermost voxels of corresponding unaltered
+#51 [Score: 0.93]: prominent features for image segmentation. Using intensity
+#52 [Score: 0.93]: brain volumes provide the final left and right brain borders.
+#53 [Score: 0.93]: information as the only features in MR image is not sufficient
+#54 [Score: 0.93]: The coordinates of each labeled voxels are stored to avoid
+#55 [Score: 0.93]: due to several reasons.
+#56 [Score: 0.93]: double-checking of neighboring voxels during the brain
+#57 [Score: 0.91]: volume updating.
+#58 [Score: 0.93]: (i) In some scans, the nonbrain voxels have a similar inten-
+#59 [Score: 0.93]: The modified algorithm is summarized as follows.
+#60 [Score: 0.91]: sity to GM, WM, and CS.
+#61 [Score: 0.92]: (1) Choose the number of Gaussian distributions and
+#62 [Score: 0.93]: (ii) The intensity of constructing brain tissues varies
+#63 [Score: 0.93]: separate them based on the gradient-based method.
+#64 [Score: 0.93]: among different slices.
+#65 [Score: 0.93]: (2) Select one Gaussian distribution in the split his-
+#66 [Score: 0.91]: (iii) In some slices, the intensity of different tissues is
+#67 [Score: 0.93]: togram.
+#68 [Score: 0.92]: similar.
+#69 [Score: 0.93]: (3) Parameter initialization is as follows.
+#70 [Score: 0.93]: Therefore, we carried out texture analysis for describing
+#71 [Score: 0.93]: E-step: estimate distribution over labels given a
+#72 [Score: 0.93]: texture of the images to have adequate features for accurate
+#73 [Score: 0.93]: certain fixed model.
+#74 [Score: 0.92]: segmentation. We also extracted useful features such as first-
+#75 [Score: 0.93]: M-step: choose new parameters for model to
+#76 [Score: 0.93]: and second-order texture information in this study to have an
+#77 [Score: 0.93]: maximize expected log-likelihood of observed
+#78 [Score: 0.92]: appropriate segmentation for all cases.
+#79 [Score: 0.93]: data and hidden variables.
+#80 [Score: 0.93]: In the previous section voxel labeling is initially applied
+#81 [Score: 0.93]: Outputs: these are Hj and Ofirst-side-
+#82 [Score: 0.93]: on each voxel of the brain using intensity information with
+#83 [Score: 0.93]: some new ideas. Since overlapped voxels (voxels ofbrain bor-
+#84 [Score: 0.93]: (4) Assume the following.
+#85 [Score: 0.91]: ders) have two labels (GM, CSF or GM, wm) instead of one,
+#86 [Score: 0.93]: to compensate for this problem, the overlapped voxels should
+#87 [Score: 0.88]: (a) The estimated mean is correct and the ol is the 1999
+#88 [Score: 0.93]: be classified to identify which classes they exactly belong to.
+#89 [Score: 0.88]: 19 standard deviation of one side.
+#90 [Score: 0.93]: Thus, in this section to have robust and accurate brain
+#91 [Score: 0.92]: (b) Standard deviation of the other side is o2 - r-
+#92 [Score: 0.93]: segmentation, each overlapped voxel and its 18-connected
+#93 [Score: 0.73]: 01.
+#94 [Score: 0.93]: neighbors are used as input for 3D statistical features extrac-
+#95 [Score: 0.90]: tion technique, which is an improvement stage, In other
+#96 [Score: 0.90]: ar changes 10 percent at each calculation.
+#97 [Score: 0.93]: words the input of 3D GLCM is the target area in the
+#98 [Score: 0.93]: The defined threshold determines when calculation
+#99 [Score: 0.92]: rectangular region of interest (33) that is demonstrated in
+#100 [Score: 0.93]: should be stopped.
+#101 [Score: 0.93]: Figure 6.
+#102 [Score: 0.93]: One of the important issues in the field of image analysis
+#103 [Score: 0.93]: (5) Calculate error between the estimated distribution
+#104 [Score: 0.93]: is the question of how to determine the texture differences
+#105 [Score: 0.93]: and real image histogram and obtain the optimal
+#106 [Score: 0.93]: of complex images, These differences are often due to
+#107 [Score: 0.93]: value ofr.

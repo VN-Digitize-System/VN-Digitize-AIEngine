@@ -81,14 +81,19 @@ class ImagePreprocessor:
         # BƯỚC 2 & 3: TRANG TRẮNG VÀ TẨY TRẮNG
         # ==========================================
         is_blank = detect_blank_page(cropped, self._config.detect)
+
+        # 🛑 ĐÃ TẮT ENHANCE THEO YÊU CẦU CỦA MODULE 2 (AI CẦN ẢNH GỐC ĐỂ ĐỌC CHỮ)
+        # Bất kể là ảnh scan hay ảnh chụp, ta chỉ lấy kết quả cắt góc, không tẩy trắng
+        logger.info("🔘 Đã tắt hàm Enhance. Truyền ảnh màu gốc (đã crop) sang Module 2.")
+        processed = cropped
         
         # Nếu đã skip_crop hoặc crop_failed, BỎ QUA LUÔN ENHANCE
-        if crop_failed or skip_crop:
-            logger.info("🔘 Bỏ qua tẩy trắng (Enhance) để giữ nguyên độ sắc nét của bản Scan.")
-            processed = cropped 
-        else:
-            # Chỉ tẩy trắng đối với ảnh chụp thật (đã qua crop thành công)
-            processed = enhance_image(cropped, self._config.enhance)
+        # if crop_failed or skip_crop:
+        #     logger.info("🔘 Bỏ qua tẩy trắng (Enhance) để giữ nguyên độ sắc nét của bản Scan.")
+        #     processed = cropped 
+        # else:
+        #     # Chỉ tẩy trắng đối với ảnh chụp thật (đã qua crop thành công)
+        #     processed = enhance_image(cropped, self._config.enhance)
 
         logger.info(
             f"Done — blank={is_blank}, angle={skew_angle:.1f}°, barcodes={len(barcodes)}"

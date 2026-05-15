@@ -63,5 +63,5 @@ def batch_compare_with_corners(input_folder, output_folder):
 
 # Chạy Test
 INPUT_DIR = "tests/module_1/detect_images"
-OUTPUT_DIR = "tests/module_1/corner_less_30"
+OUTPUT_DIR = "tests/module_1/corner_less_30_rembg"
 batch_compare_with_corners(INPUT_DIR, OUTPUT_DIR)

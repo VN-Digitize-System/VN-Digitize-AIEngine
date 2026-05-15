@@ -1,0 +1,50 @@
+--- KẾT QUẢ OCR CHO ẢNH: 11.jpg ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+International Journal of Telemedicine and Applications
+5
+where Ky is the attenuation coefficient and A is the wave-
+length in distance D [18]; (2) surface reconstruction mode:
+isovalue, gradient [19] and semitransparent with general
+energy form:
+I(s) ?
+C(t)a(t)T(t)dt
+(2)
+reconstructed radiographs (DRRs) (Figure 5).
+(a)
+4 1000,
+Pwater
+(3)
+(b)
+volume estimation [21, 28, 33].
+in a limited object space.
+(0.8 sec to 2.3 sec).
+two assumptions [21].
+I(s) ? Io exp(?(- K.(t)dt).
+(1)
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.93]: International Journal of Telemedicine and Applications
+#2 [Score: 0.92]: 5
+#3 [Score: 0.92]: where Ky is the attenuation coefficient and A is the wave-
+#4 [Score: 0.92]: length in distance D [18]; (2) surface reconstruction mode:
+#5 [Score: 0.92]: isovalue, gradient [19] and semitransparent with general
+#6 [Score: 0.93]: energy form:
+#7 [Score: 0.84]: I(s) ?
+#8 [Score: 0.91]: C(t)a(t)T(t)dt
+#9 [Score: 0.94]: (2)
+#10 [Score: 0.93]: reconstructed radiographs (DRRs) (Figure 5).
+#11 [Score: 0.94]: (a)
+#12 [Score: 0.81]: 4 1000,
+#13 [Score: 0.93]: Pwater
+#14 [Score: 0.94]: (3)
+#15 [Score: 0.94]: (b)
+#16 [Score: 0.92]: volume estimation [21, 28, 33].
+#17 [Score: 0.93]: in a limited object space.
+#18 [Score: 0.93]: (0.8 sec to 2.3 sec).
+#19 [Score: 0.91]: two assumptions [21].
+#20 [Score: 0.78]: I(s) ? Io exp(?(- K.(t)dt).
+#21 [Score: 0.94]: (1)

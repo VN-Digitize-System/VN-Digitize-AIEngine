@@ -6,7 +6,7 @@ from module_2_core_ocr.visualizer import draw_ocr_results
 
 def run_batch_test(input_folder: str, output_folder: str):
     # Khởi tạo Config (Đã bật công tắc Bypass cho ảnh Scan)
-    config = OcrConfig(skip_preprocessing_crop=True) 
+    config = OcrConfig() 
     
     preprocessor = ImagePreprocessor.from_yaml("configs/module1_defaults.yaml")
     ocr_engine = OcrEngine(config=config)
@@ -55,6 +55,6 @@ def run_batch_test(input_folder: str, output_folder: str):
                 print(f"❌ Lỗi OCR với ảnh {filename}: {m2_result.error_message}")
 
 if __name__ == "__main__":
-    folder_anh_scan = "tests/module_2/Image_Scan_Folder"
-    folder_ket_qua = "tests/module_2/Output_Batch"
+    folder_anh_scan = "tests/module_2/Image_Camera_Folder"
+    folder_ket_qua = "tests/module_2/Output_Batch_Not_Scan_1"
     run_batch_test(folder_anh_scan, folder_ket_qua)
