@@ -1,0 +1,164 @@
+--- KẾT QUẢ OCR CHO ẢNH: 8.jpg ---
+
+1. TOÀN BỘ VĂN BẢN (FULL TEXT):
+--------------------------------------------------
+109
+M. Southwood et al. / Life Sciences 159 (2016) 104?110
+A
+windles
+Dapi
+C
+Fit AFT, recogotors an expresed by neveseds in PRA material To codim the vacular epresion ofFT, in distal PFA material ve underto
+Ideled wasing 4 [5 liamdino 2 phropymode (1941 was 1974 th [000dent he / protareng rese 1970 land the using access (green), conju
+ET
+polydinal rabit ant human Fia Minied with Tene no (no) (10/0/00-Readson stome 16 werrea strog En expression to be asociated with 
+portion of the recanalised vessel (D). Scale bars ? 25 um.
+5. Conclusion
+animals [14] and humans [8]. In normal subject, congenital heart dis-
+It is 1991 This study demonstrates the presence of functionally viable ET re-to 1990
+ease and idiopathic pulmonary hypertension subjects the larger calibre
+It is ceptors in the surgically extracted tissue from patients with CTEPH.
+a vessels showed predominant ET, expression with a relative increase in
+It is The ET receptor was associated with smooth muscle cells, mainly the contraction
+It is the ET; expression as the vessels narrow to 0.5-1 mm diameter (while 1991)
+and contractile phenotype of SMC that surrounds the recanalised channels a station
+"In remaining %50% overall expression at this size),In the main pulmonary"
+A 1980 and can be seen within the more organised chronic thrombus. Both 1996
+He arteries - 90% of ET expression demonstrated in the medial layer is ETA CONTER
+He was the ET, and ET; receptors were found with the ET, receptor showing the state
+receptor. ET3 vascular expression is seen to a lesser degree in the small
+It was more expression. This shows a potential role for ET receptors to influ-comment
+He conduit arteries but at lower levels than seen for ET,, Within the rest of 1990
+where ence both compartments in CTEPH and generates questions about the state
+In 1970 the lung ET, expression is found in the parenchyma, airway smooth the state
+how ET antagonists might influence the pathological development of the state
+It is muscle and epithelial cells.ET3 is seen in high density in airway smooth the state
+muscle and lower levels in lung parenchyma and airway submucosal
+the chronic thrombus in CTEPH.
+Author contributions
+glands.
+It is The results of our experiments on PEA specimens have shown that the state
+RVMR, MS and MG carried out histology, data analysis, contributed
+It is both receptors are expressed with more expression of ET, receptors
+He was to writing and manuscript review, REK carried out ligand binding and the state
+It is compared with ET3, This would fit with the size ofour cross-sections in-1990
+1990 autoradiography, GH, KSS, DPJ identified and selected patient groups, provision
+He dicating that they are conduit artery size where ET, expression has been the state
+He was APD and J P-K designed experiments, analysed data and contributed to contribute
+It was shown to be greater, The level of ET; expression we have found is with-with was the state
+and writing and manuscript review.
+And out question less than ET, but in some specimens seemed greater than the state
+whone might predict given data from congenital heart disease and idio-ware
+Conflicts of interest statement
+A pathic pulmonary arterial hypertension patients, Bauer et al, [3] have the 1996
+He shown, in addition to elevated circulating plasma big ET-1 levels, ele-the state
+And Funded in part by an unrestricted educational grant to [P-Z from 1996
+He wated levels of ET; mRNA with no change in ET, mRNA in CTEPH spec-1990
+Actelion Pharmaceuticals, Basle, Switzerland, KKS has received educa
+It imens suggesting ETg is upregulated.
+The tional support from Actelion, Bayer and GlaxoSmithKline to attend con trans
+It was Some similarities are thought to exist in the vascular remodelling the is 1996
+19 ferences, MS, RVMR, REK, GH, KKS, DP], MG and APD have no conflicts o
+He seen both in CTEPH to those observed in IPAH [21], The implication of 1996)
+It is this on our findings is that ET receptors will also be present in smaller the state
+interest.
+surgically inaccessible vessel obstructions hence ET receptor antago-
+And nists might have some effect on the SMCs in those obstructions, A provision
+Acknowledgements
+randomised placebo controlled trial of ET receptor antagonist in pa-
+and the tients with inoperable chronic thromboembolic pulmonary hyperten-work the state
+We acknowledge the support of the referring UK centres for PH; th
+and sion and patients with persistent pulmonary hypertension after and the in
+Pulmonary Hypertension Association-UK, Wellcome Trust award 1996
+and pulmonary endarterectomy surgery [11] has shown statistically signifi-1996)
+WT107715/2/15/Z, Programmes in Translational Medicines and Thera
+And the cant improvement in PVR and cardiac output but it is not possible to the state
+He peutics (085686) and in Metabolic and Cardiovascular Disease 1986
+and was know whether this was because of effects on the distal vasculopathy and in 1996
+(096822/2/11/Z), the British Heart Foundation PG/09/050/27734, and 1996
+after proximal obstructions described by the 'two compartment model of the state
+the NIHR Cambridge Biomedical Research Centre, We also acknowledge
+CTEPH' [20].
+the support of the Cambridge NIHR BRC Cell Phenotyping Hub and the
+
+--------------------------------------------------
+2. CHI TIẾT TỪNG DÒNG (KÈM ĐIỂM TIN CẬY):
+--------------------------------------------------
+#1 [Score: 0.92]: 109
+#2 [Score: 0.92]: M. Southwood et al. / Life Sciences 159 (2016) 104?110
+#3 [Score: 0.94]: A
+#4 [Score: 0.69]: windles
+#5 [Score: 0.93]: Dapi
+#6 [Score: 0.49]: C
+#7 [Score: 0.84]: Fit AFT, recogotors an expresed by neveseds in PRA material To codim the vacular epresion ofFT, in distal PFA material ve underto
+#8 [Score: 0.60]: Ideled wasing 4 [5 liamdino 2 phropymode (1941 was 1974 th [000dent he / protareng rese 1970 land the using access (green), conju
+#9 [Score: 0.93]: ET
+#10 [Score: 0.73]: polydinal rabit ant human Fia Minied with Tene no (no) (10/0/00-Readson stome 16 werrea strog En expression to be asociated with 
+#11 [Score: 0.71]: portion of the recanalised vessel (D). Scale bars ? 25 um.
+#12 [Score: 0.92]: 5. Conclusion
+#13 [Score: 0.90]: animals [14] and humans [8]. In normal subject, congenital heart dis-
+#14 [Score: 0.83]: It is 1991 This study demonstrates the presence of functionally viable ET re-to 1990
+#15 [Score: 0.93]: ease and idiopathic pulmonary hypertension subjects the larger calibre
+#16 [Score: 0.91]: It is ceptors in the surgically extracted tissue from patients with CTEPH.
+#17 [Score: 0.91]: a vessels showed predominant ET, expression with a relative increase in
+#18 [Score: 0.84]: It is The ET receptor was associated with smooth muscle cells, mainly the contraction
+#19 [Score: 0.84]: It is the ET; expression as the vessels narrow to 0.5-1 mm diameter (while 1991)
+#20 [Score: 0.85]: and contractile phenotype of SMC that surrounds the recanalised channels a station
+#21 [Score: 0.78]: "In remaining %50% overall expression at this size),In the main pulmonary"
+#22 [Score: 0.83]: A 1980 and can be seen within the more organised chronic thrombus. Both 1996
+#23 [Score: 0.85]: He arteries - 90% of ET expression demonstrated in the medial layer is ETA CONTER
+#24 [Score: 0.85]: He was the ET, and ET; receptors were found with the ET, receptor showing the state
+#25 [Score: 0.92]: receptor. ET3 vascular expression is seen to a lesser degree in the small
+#26 [Score: 0.86]: It was more expression. This shows a potential role for ET receptors to influ-comment
+#27 [Score: 0.88]: He conduit arteries but at lower levels than seen for ET,, Within the rest of 1990
+#28 [Score: 0.84]: where ence both compartments in CTEPH and generates questions about the state
+#29 [Score: 0.82]: In 1970 the lung ET, expression is found in the parenchyma, airway smooth the state
+#30 [Score: 0.87]: how ET antagonists might influence the pathological development of the state
+#31 [Score: 0.85]: It is muscle and epithelial cells.ET3 is seen in high density in airway smooth the state
+#32 [Score: 0.93]: muscle and lower levels in lung parenchyma and airway submucosal
+#33 [Score: 0.93]: the chronic thrombus in CTEPH.
+#34 [Score: 0.93]: Author contributions
+#35 [Score: 0.93]: glands.
+#36 [Score: 0.85]: It is The results of our experiments on PEA specimens have shown that the state
+#37 [Score: 0.84]: RVMR, MS and MG carried out histology, data analysis, contributed
+#38 [Score: 0.87]: It is both receptors are expressed with more expression of ET, receptors
+#39 [Score: 0.85]: He was to writing and manuscript review, REK carried out ligand binding and the state
+#40 [Score: 0.85]: It is compared with ET3, This would fit with the size ofour cross-sections in-1990
+#41 [Score: 0.83]: 1990 autoradiography, GH, KSS, DPJ identified and selected patient groups, provision
+#42 [Score: 0.83]: He dicating that they are conduit artery size where ET, expression has been the state
+#43 [Score: 0.85]: He was APD and J P-K designed experiments, analysed data and contributed to contribute
+#44 [Score: 0.81]: It was shown to be greater, The level of ET; expression we have found is with-with was the state
+#45 [Score: 0.89]: and writing and manuscript review.
+#46 [Score: 0.84]: And out question less than ET, but in some specimens seemed greater than the state
+#47 [Score: 0.87]: whone might predict given data from congenital heart disease and idio-ware
+#48 [Score: 0.93]: Conflicts of interest statement
+#49 [Score: 0.85]: A pathic pulmonary arterial hypertension patients, Bauer et al, [3] have the 1996
+#50 [Score: 0.84]: He shown, in addition to elevated circulating plasma big ET-1 levels, ele-the state
+#51 [Score: 0.87]: And Funded in part by an unrestricted educational grant to [P-Z from 1996
+#52 [Score: 0.87]: He wated levels of ET; mRNA with no change in ET, mRNA in CTEPH spec-1990
+#53 [Score: 0.90]: Actelion Pharmaceuticals, Basle, Switzerland, KKS has received educa
+#54 [Score: 0.85]: It imens suggesting ETg is upregulated.
+#55 [Score: 0.86]: The tional support from Actelion, Bayer and GlaxoSmithKline to attend con trans
+#56 [Score: 0.83]: It was Some similarities are thought to exist in the vascular remodelling the is 1996
+#57 [Score: 0.82]: 19 ferences, MS, RVMR, REK, GH, KKS, DP], MG and APD have no conflicts o
+#58 [Score: 0.83]: He seen both in CTEPH to those observed in IPAH [21], The implication of 1996)
+#59 [Score: 0.86]: It is this on our findings is that ET receptors will also be present in smaller the state
+#60 [Score: 0.92]: interest.
+#61 [Score: 0.93]: surgically inaccessible vessel obstructions hence ET receptor antago-
+#62 [Score: 0.83]: And nists might have some effect on the SMCs in those obstructions, A provision
+#63 [Score: 0.93]: Acknowledgements
+#64 [Score: 0.93]: randomised placebo controlled trial of ET receptor antagonist in pa-
+#65 [Score: 0.82]: and the tients with inoperable chronic thromboembolic pulmonary hyperten-work the state
+#66 [Score: 0.90]: We acknowledge the support of the referring UK centres for PH; th
+#67 [Score: 0.85]: and sion and patients with persistent pulmonary hypertension after and the in
+#68 [Score: 0.87]: Pulmonary Hypertension Association-UK, Wellcome Trust award 1996
+#69 [Score: 0.85]: and pulmonary endarterectomy surgery [11] has shown statistically signifi-1996)
+#70 [Score: 0.80]: WT107715/2/15/Z, Programmes in Translational Medicines and Thera
+#71 [Score: 0.85]: And the cant improvement in PVR and cardiac output but it is not possible to the state
+#72 [Score: 0.87]: He peutics (085686) and in Metabolic and Cardiovascular Disease 1986
+#73 [Score: 0.84]: and was know whether this was because of effects on the distal vasculopathy and in 1996
+#74 [Score: 0.86]: (096822/2/11/Z), the British Heart Foundation PG/09/050/27734, and 1996
+#75 [Score: 0.86]: after proximal obstructions described by the 'two compartment model of the state
+#76 [Score: 0.89]: the NIHR Cambridge Biomedical Research Centre, We also acknowledge
+#77 [Score: 0.86]: CTEPH' [20].
+#78 [Score: 0.92]: the support of the Cambridge NIHR BRC Cell Phenotyping Hub and the

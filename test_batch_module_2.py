@@ -56,5 +56,5 @@ def run_batch_test(input_folder: str, output_folder: str):
 
 if __name__ == "__main__":
     folder_anh_scan = "tests/module_2/Image_Camera_Folder"
-    folder_ket_qua = "tests/module_2/Output_Batch_Not_Scan_1"
+    folder_ket_qua = "tests/module_2/Output_Batch_Not_Scan_2"
     run_batch_test(folder_anh_scan, folder_ket_qua)
