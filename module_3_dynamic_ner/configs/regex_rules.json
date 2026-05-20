@@ -1,0 +1,46 @@
+{
+    "so_van_ban": {
+      "description": "Số và ký hiệu của văn bản hành chính",
+      "patterns": [
+        "(?i)Số:\\s*([0-9]+(?:\\/[0-9]+)?\\/[A-ZĐa-zđ]+-[A-ZĐa-zđ]+)", 
+        "(?i)Số:\\s*([0-9]+\\s*\\/\\s*[A-ZĐ]+)", 
+        "([0-9]+(?:\\/[0-9]+)?\\/[A-ZĐa-zđ]+-[A-ZĐa-zđ]+)"
+      ]
+    },
+    "ngay_thang_nam": {
+      "description": "Ngày tháng năm ban hành văn bản (Bao trọn mọi định dạng)",
+      "patterns": [
+        "(?i)Ngày\\s+([0-9]{1,2})\\s+tháng\\s+([0-9]{1,2})\\s+năm\\s+([0-9]{4})",
+        "\\b([0-9]{1,2})\\/([0-9]{1,2})\\/([0-9]{4})\\b",
+        "\\b([0-9]{1,2})-([0-9]{1,2})-([0-9]{4})\\b",
+        "\\b([0-9]{1,2})\\.([0-9]{1,2})\\.([0-9]{4})\\b"
+      ]
+    },
+    "cccd": {
+      "description": "Căn cước công dân (Đúng 12 số)",
+      "patterns": [
+        "(?i)(?:CCCD|Căn cước công dân|Số định danh).*?([0-9]{12})\\b",
+        "\\b([0-9]{12})\\b"
+      ]
+    },
+    "ma_so_thue": {
+      "description": "Mã số thuế doanh nghiệp (10 số hoặc 14 số có gạch ngang)",
+      "patterns": [
+        "(?i)(?:MST|Mã số thuế).*?([0-9]{10}(?:-[0-9]{3})?)\\b",
+        "\\b([0-9]{10}(?:-[0-9]{3})?)\\b"
+      ]
+    },
+    "so_dien_thoai": {
+      "description": "Số điện thoại di động Việt Nam",
+      "patterns": [
+        "(?i)(?:SĐT|Tel|Phone).*?((?:\\+84|0)[3|5|7|8|9][0-9]{8})\\b",
+        "\\b((?:\\+84|0)[3|5|7|8|9][0-9]{8})\\b"
+      ]
+    },
+    "email": {
+      "description": "Địa chỉ Email",
+      "patterns": [
+        "\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,7}\\b"
+      ]
+    }
+  }

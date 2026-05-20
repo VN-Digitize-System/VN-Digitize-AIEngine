@@ -1,0 +1,25 @@
+module_3_extraction/
+├── __init__.py
+├── pipeline.py                 # File tổng chỉ huy (Nhận Text từ Module 2 -> Trả JSON cuối cùng)
+│
+├── schemas/                    # Tầng 1: Định nghĩa cấu trúc dữ liệu (Admin Config)
+│   ├── __init__.py
+│   └── template_schema.py      # Các class Pydantic định nghĩa form (VD: Form Tòa án, Form BHXH)
+│
+├── configs/                    # Nơi chứa các file cấu hình cứng (Database tĩnh)
+│   └── regex_rules.json        # Chứa các mẫu Regex (Pattern) cho Ngày tháng, Số văn bản...
+│
+├── extractors/                 # Tầng 2: Các "công nhân" bóc tách
+│   ├── __init__.py
+│   ├── base_extractor.py       # Class trừu tượng (Interface) định ra khung chuẩn
+│   ├── regex_extractor.py      # Công nhân Regex (Chạy siêu nhanh cho các trường cố định)
+│   └── llm_extractor.py        # Công nhân LLM (Dự phòng cho Zero-shot sau này)
+│
+├── router/                     # Tầng 3: Bộ não định tuyến
+│   ├── __init__.py
+│   └── strategy_router.py      # Quyết định xem trường này giao cho Regex hay LLM xử lý
+│
+└── validators/                 # Tầng 4: Lớp kiểm duyệt & Sửa lỗi (Auto-correction)
+    ├── __init__.py
+    ├── rule_validator.py       # Kiểm tra logic (VD: Ngày tháng có hợp lệ không, đủ 10 số không)
+    └── spell_corrector.py      # Sửa lỗi chính tả nhẹ (Chỉ dùng cho text thường)

@@ -1,0 +1,45 @@
+{
+    "domain_name": "hanh_chinh_phap_ly",
+    "version": "1.0",
+    "fields": {
+      
+      "loai_van_ban": {
+        "type": "keyword",
+        "description": "Bắt loại văn bản bằng từ khóa cứng",
+        "patterns": [
+          "(?i)^(QUYẾT ĐỊNH|CHỈ THỊ|THÔNG BÁO|TỜ TRÌNH|CÔNG VĂN|BIÊN BẢN|BÁO CÁO|KẾ HOẠCH|ĐƠN KHỞI KIỆN|BẢN ÁN)\\b"
+        ]
+      },
+  
+      "co_quan_ban_hanh": {
+        "type": "layout_regex",
+        "description": "Bắt tên cơ quan dựa trên vị trí (Góc trái, trên cùng) và Regex",
+        "layout_hint": {
+          "x_max_percent": 0.45, 
+          "y_max_percent": 0.20
+        },
+        "patterns": [
+          "(?i)^(ỦY BAN NHÂN DÂN|BỘ|SỞ|TRƯỜNG|CÔNG TY|TÒA ÁN|VIỆN KIỂM SÁT).*$"
+        ]
+      },
+  
+      "so_van_ban": {
+        "type": "regex",
+        "description": "Số và ký hiệu của văn bản",
+        "patterns": [
+          "(?i)Số:\\s*([0-9]+(?:\\/[0-9]+)?\\/[A-ZĐa-zđ]+-[A-ZĐa-zđ]+)",
+          "(?i)Số:\\s*([0-9]+\\s*\\/\\s*[A-ZĐ]+)",
+          "([0-9]+(?:\\/[0-9]+)?\\/[A-ZĐa-zđ]+-[A-ZĐa-zđ]+)"
+        ]
+      },
+  
+      "ngay_thang_nam": {
+        "type": "regex",
+        "description": "Ngày tháng năm ban hành",
+        "patterns": [
+          "(?i)Ngày\\s+([0-9]{1,2})\\s+tháng\\s+([0-9]{1,2})\\s+năm\\s+([0-9]{4})",
+          "\\b([0-9]{1,2})\\/([0-9]{1,2})\\/([0-9]{4})\\b"
+        ]
+      }
+    }
+  }
