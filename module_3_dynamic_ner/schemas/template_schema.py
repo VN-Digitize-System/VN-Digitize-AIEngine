@@ -21,10 +21,12 @@ class DocumentInput(BaseModel):
     image_height: int
     lines: List[LineData]
 
-# 4. Định nghĩa Kết quả Bóc tách (Output của Module 3)
+# 4. Định nghĩa Kết quả Bóc tách (Đã cập nhật tính năng Validation - 2B)
 class ExtractedField(BaseModel):
     field_name: str
-    raw_value: str          # Trả về nguyên văn chuỗi gốc theo yêu cầu của bạn
+    raw_value: str
     confidence: float
     bounding_box: BoundingBox
     page_number: int
+    is_valid: bool = True                  # Mặc định là True, nếu lỗi sẽ chuyển thành False
+    error_reason: Optional[str] = None     # Ghi nhận lý do lỗi chi tiết để đưa lên UI

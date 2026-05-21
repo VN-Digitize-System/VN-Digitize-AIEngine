@@ -43,22 +43,20 @@ def run_automated_test():
     # Router sẽ tự động phân luồng và xử lý toàn bộ
     results = router.process_document(document, fields_config)
 
-    # 4. In báo cáo đẹp mắt (Tùy chọn 3B)
-    print("\n" + "="*85)
-    print(f"{'BÁO CÁO KẾT QUẢ TRÍCH XUẤT (MODULE 3 - PHASE 1)':^85}")
-    print("="*85)
-    print(f"{'TÊN TRƯỜNG':<18} | {'GIÁ TRỊ BẮT ĐƯỢC':<25} | {'ĐỘ TIN CẬY':<10} | {'TỌA ĐỘ (BBOX)'}")
-    print("-" * 85)
+    # 4. In báo cáo đẹp mắt
+    print("\n" + "="*110)
+    print(f"{'BÁO CÁO KẾT QUẢ TRÍCH XUẤT & KIỂM DUYỆT (MODULE 3)':^110}")
+    print("="*110)
+    print(f"{'TÊN TRƯỜNG':<18} | {'GIÁ TRỊ BẮT ĐƯỢC':<25} | {'TRẠNG THÁI':<12} | {'GHI CHÚ / LỖI'}")
+    print("-" * 110)
 
     for res in results:
         if res:
-            bbox_str = f"[{res.bounding_box.x_min}, {res.bounding_box.y_min}, {res.bounding_box.x_max}, {res.bounding_box.y_max}]"
-            print(f"{res.field_name:<18} | {res.raw_value:<25} | {res.confidence:<10} | {bbox_str}")
-        else:
-            # Nếu RegexExtractor trả về None
-            print(f"{'UNKNOWN':<18} | {'[Không tìm thấy]':<25} | {'N/A':<10} | N/A")
+            status = "✅ HỢP LỆ" if res.is_valid else "❌ CẢNH BÁO"
+            error_msg = res.error_reason if not res.is_valid else ""
+            print(f"{res.field_name:<18} | {res.raw_value:<25} | {status:<12} | {error_msg}")
             
-    print("="*85 + "\n")
+    print("="*110 + "\n")
 
 if __name__ == "__main__":
     run_automated_test()
