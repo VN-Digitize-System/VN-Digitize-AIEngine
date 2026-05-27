@@ -1,19 +1,28 @@
+import os
 from typing import Dict, Any, List
 from schemas.template_schema import DocumentInput, ExtractedField
 from router.strategy_router import StrategyRouter
 from llm_engine.gemini_provider import GeminiProvider
 from llm_engine.auto_corrector import AutoCorrector
 from llm_engine.retriever import HeuristicRetriever
+from llm_engine.local_llm_provider import LocalLLMProvider
 
 class DocumentPipeline:
     def __init__(self, api_key: str):
-        self.llm_provider = GeminiProvider(api_key=api_key)
-        self.auto_corrector = AutoCorrector(api_key=api_key)
+        # Đọc biến môi trường, mặc định là gemini nếu không có
+        self.engine = os.getenv("LLM_ENGINE", "gemini").lower()
         
-        # Khởi tạo Router và cắm Provider vào
+        # 1. Khởi tạo Engine bóc tách tương ứng
+        if self.engine == "local":
+            print("⚙️ [Pipeline] Khởi chạy hệ thống ở chế độ OFFLINE (Local LLM)")
+            self.llm_provider = LocalLLMProvider()
+        else:
+            print("⚙️ [Pipeline] Khởi chạy hệ thống ở chế độ CLOUD (Gemini API)")
+            self.llm_provider = GeminiProvider(api_key=api_key)
+            
+        self.auto_corrector = AutoCorrector(api_key=api_key)
         self.router = StrategyRouter(llm_provider=self.llm_provider)
         
-        # Đăng ký các Extractor (Import từ các bài trước)
         from extractors.regex_extractor import RegexExtractor
         from extractors.layout_regex_extractor import LayoutRegexExtractor
         self.router.register_extractor("regex", RegexExtractor)
