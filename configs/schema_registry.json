@@ -1,0 +1,14 @@
+{
+    "toa_an": {
+      "so_quyet_dinh": "string",
+      "ngay_thang_nam": "string",
+      "ten_bi_cao": "string",
+      "toi_danh": "string",
+      "so_tien_phat": "integer"
+    },
+    "bao_hiem": {
+      "so_so_bhxh": "string",
+      "ten_nguoi_lao_dong": "string",
+      "ma_co_quan_bh": "string"
+    }
+  }

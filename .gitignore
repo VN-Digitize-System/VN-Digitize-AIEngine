@@ -16,5 +16,4 @@ logs/
 wandb/
 
 # Test data (images thường nặng, không commit)
-input_images/
-output_images/
+tests/

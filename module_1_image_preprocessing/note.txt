@@ -1,0 +1,41 @@
+VN-Digitize-AIEngine/
+├── configs/
+│   └── module1_defaults.yaml
+├── logs/
+├── module_1_image_preprocessing/      <-- [CHỈ CHỨA CODE LÕI VÀ CLI]
+│   ├── _crop_deskew.py
+│   ├── _detect.py
+│   ├── _enhance.py
+│   ├── cli.py                         <-- Màng bọc siêu mỏng
+│   ├── config.py
+│   ├── models.py
+│   ├── preprocessor.py                <-- Đã tích hợp hàm process_folder
+│   ├── visualizer.py
+│   └── __init__.py
+├── scripts/                           <-- [CHỨA CÁC FILE CHẠY THỬ LẺ TẺ]
+│   └── module_1/
+│       ├── test_batch_rembg.py
+│       ├── test_detect.py
+│       ├── visualise_corner.py
+│       └── export_code_c.py
+├── tests/
+│   ├── data/                          <-- [PHÂN TÁCH DATA HOÀN TOÀN]
+│   │   ├── unit_tests/                # Test tính năng lẻ (Input)
+│   │   │   ├── module_1_barcode/
+│   │   │   ├── module_1_blank/
+│   │   │   └── module_1_corner/
+│   │   ├── integration/               # Test luồng Pipeline (Input)
+│   │   │   └── ho_so_toa_an_01/
+│   │   └── outputs/                   <-- [CHỨA TOÀN BỘ OUTPUT]
+│   │       ├── integration/           # Output của luồng tổng
+│   │       │   └── module_1/ho_so_toa_an_01/
+│   │       └── unit_tests/            # Output của test tính năng lẻ
+│   │           └── module_1_barcode/
+│   │   └── archive/                   <-- [MỚI] NƠI LƯU TRỮ LỊCH SỬ THỦ CÔNG
+│   │       └── module_1/
+│   │           └── barcode_v1_hoan_hao_20260602/  <-- Bạn tự copy từ outputs/ sang đây  
+    └── rename.py
+├── shared_utils/
+├── .gitignore
+├── README.md
+└── requirements.txt

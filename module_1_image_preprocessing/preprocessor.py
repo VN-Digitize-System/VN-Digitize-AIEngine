@@ -1,9 +1,10 @@
 from __future__ import annotations
-
 from pathlib import Path
 
 import cv2
 import numpy as np
+import os
+import json
 
 from .config import PreprocessConfig
 from .models import PreprocessResult
@@ -139,3 +140,58 @@ class ImagePreprocessor:
             return None, "ERR_TOO_SMALL", f"Image too small: {img.shape[1]}x{img.shape[0]}px"
 
         return img, None, None
+    
+    import os
+    import json
+    # (Đảm bảo bạn đã import os và json ở đầu file preprocessor.py)
+
+    def process_folder(self, input_dir: str | Path, output_dir: str | Path) -> None:
+        """
+        Quét toàn bộ ảnh trong input_dir, gọi self.process() cho từng ảnh,
+        lưu ảnh kết quả và xuất file m1_summary.json (Siêu dữ liệu) vào output_dir.
+        """
+        input_path = Path(input_dir)
+        output_path = Path(output_dir)
+        output_path.mkdir(parents=True, exist_ok=True)
+
+        summary_data = {}
+        logger.info(f"Bắt đầu xử lý hàng loạt thư mục: {input_path}")
+
+        if not input_path.exists():
+            logger.error(f"Thư mục đầu vào không tồn tại: {input_path}")
+            return
+
+        for file_path in input_path.iterdir():
+            if file_path.suffix.lower() not in _SUPPORTED_EXTENSIONS:
+                continue
+
+            # 1. Gọi lõi xử lý cho 1 ảnh
+            result = self.process(str(file_path))
+
+            # 2. Xử lý ghi file ảnh đầu ra
+            out_file = output_path / f"{file_path.name}"
+            
+            if result.processed_image is not None:
+                # Nếu có ảnh xử lý thành công, lưu đè bằng ảnh sạch
+                cv2.imwrite(str(out_file), result.processed_image)
+            elif result.is_blank:
+                # Nếu là trang trắng (Passthrough with Empty State), copy nguyên bản ảnh gốc sang
+                # để Module 2 vẫn thấy file ảnh tồn tại và giữ nguyên Index
+                original_img = cv2.imread(str(file_path))
+                cv2.imwrite(str(out_file), original_img)
+
+            # 3. Gom nhặt Siêu dữ liệu (Metadata)
+            summary_data[file_path.name] = {
+                "is_blank": result.is_blank,
+                "is_wrong_orientation": result.is_wrong_orientation,
+                "skew_angle": result.skew_angle,
+                "barcodes": [bc.data for bc in result.barcodes],
+                "error": result.error_code
+            }
+
+        # 4. Ghi file bàn giao m1_summary.json
+        summary_file = output_path / "m1_summary.json"
+        with open(summary_file, 'w', encoding='utf-8') as f:
+            json.dump(summary_data, f, indent=4, ensure_ascii=False)
+
+        logger.info(f"Hoàn tất! Đã lưu ảnh và file bàn giao tại: {summary_file}")
