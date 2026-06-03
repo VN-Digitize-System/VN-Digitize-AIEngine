@@ -79,21 +79,12 @@ def detect_blank_page(image: np.ndarray, cfg: DetectConfig) -> bool:
 
     return is_blank
 
-
-import cv2
-import numpy as np
-
-# from .config import DetectConfig
-# from shared_utils.logger import get_logger
-# logger = get_logger(__name__)
-
 def detect_wrong_orientation(image: np.ndarray, cfg: DetectConfig) -> bool:
     """
     Detect wrong orientation using an advanced hybrid approach:
     1. Aspect Ratio check to adjust thresholds.
     2. Morphological Line Removal to prevent 'Table Traps'.
     3. Sobel Gradient Energy for fast 90/270 degree detection.
-    4. Tesseract OSD fallback for 180-degree and conflict resolution.
     """
     if not cfg.orientation.enabled:
         return False

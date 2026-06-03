@@ -1,13 +1,3 @@
-# crop_deskew:
-#   enabled: true
-#   blur_kernel_size: 5 # GaussianBlur kernel — must be odd
-#   canny_threshold1: 75
-#   canny_threshold2: 200
-#   morph_kernel_size: 20 # Morphological closing kernel size
-#   min_area_ratio: 0.10 # Min contour area relative to full image area
-#   perspective_padding: 10 # Pixel padding added after perspective warp
-#   max_skew_angle: 45.0 # Max angle (degrees) deskew will correct
-
 crop_deskew:
   enabled: true
   blur_kernel_size: 5
@@ -23,7 +13,7 @@ crop_deskew:
 # (Các phần dưới như enhance, detect giữ nguyên)
 
 enhance:
-  enabled: true
+  enabled: false
   clahe:
     clip_limit: 2.0
     tile_grid_size: [8, 8]

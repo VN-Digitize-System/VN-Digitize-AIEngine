@@ -32,11 +32,12 @@ def main():
     
     # THIẾT LẬP ĐƯỜNG DẪN MẶC ĐỊNH THEO CẤU TRÚC MỚI CỦA BẠN
     # Mặc định sẽ lấy folder test barcode làm ví dụ, bạn có thể truyền tên folder khác qua Terminal
-    default_input = str(PROJECT_ROOT / "tests/data/unit_tests/module_1/module_1_barcode")
-    default_output = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_1_runner_results")
+    default_input = str(PROJECT_ROOT / "tests/data/unit_tests/module_1/module_1_image")
+    default_output = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_1/module_1_runner_results")
     
     parser.add_argument("--input_dir", type=str, default=default_input)
     parser.add_argument("--output_dir", type=str, default=default_output)
+    parser.add_argument("--skip_crop", action="store_true", help="Bỏ qua bước cắt góc AI")
     args = parser.parse_args()
 
     input_dir = Path(args.input_dir)
@@ -68,7 +69,7 @@ def main():
     for img_path in image_paths:
         t0 = time.perf_counter()
         original = cv2.imread(str(img_path))
-        result = processor.process(img_path)
+        result = processor.process(img_path, skip_crop=args.skip_crop)
         elapsed = time.perf_counter() - t0
 
         if result.error_code:

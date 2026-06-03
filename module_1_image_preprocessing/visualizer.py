@@ -43,17 +43,14 @@ def visualize_result(
         )
 
     if result.processed_image is not None:
-        axes[1].imshow(result.processed_image, cmap="gray")
+        # Tự động nhận diện: Nếu ảnh có 3 kênh (ảnh màu BGR) -> Phải chuyển sang RGB
+        if len(result.processed_image.shape) == 3:
+            proc_rgb = cv2.cvtColor(result.processed_image, cv2.COLOR_BGR2RGB)
+            axes[1].imshow(proc_rgb)
+        else:
+            # Nếu ảnh có 2 kênh (Trắng đen / Grayscale) -> Dùng cmap gray
+            axes[1].imshow(result.processed_image, cmap="gray")
         axes[1].set_title("Processed (crop → deskew → enhance)")
-    else:
-        axes[1].text(
-            0.5, 0.5,
-            f"ERROR\n{result.error_code}\n{result.error_message}",
-            ha="center", va="center", transform=axes[1].transAxes,
-            color="red", fontsize=12,
-        )
-        axes[1].set_title("Processing Failed")
-    axes[1].axis("off")
 
     barcode_str = (
         f"{len(result.barcodes)} ({result.barcodes[0].barcode_type})"
