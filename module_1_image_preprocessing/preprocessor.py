@@ -7,7 +7,7 @@ import os
 import json
 
 from .config import PreprocessConfig
-from .models import PreprocessResult
+from .models import PreprocessResult, OrientationStatus  # Đã đồng bộ Import Enum
 from ._crop_deskew import detect_and_crop
 from ._detect import detect_barcodes, detect_blank_page, detect_wrong_orientation
 from ._enhance import enhance_image
@@ -36,7 +36,7 @@ class ImagePreprocessor:
             return PreprocessResult(
                 processed_image=None,
                 is_blank=False,
-                is_wrong_orientation=False,
+                orientation_status=OrientationStatus.LIKELY_CORRECT,
                 skew_angle=0.0,
                 barcodes=[],
                 warnings=[],
@@ -48,48 +48,50 @@ class ImagePreprocessor:
 
         barcodes = detect_barcodes(original, self._config.detect)
 
-       # ==========================================
-        # BƯỚC 1: CẮT GÓC & XOAY PHẲNG (CÓ CÔNG TẮC)
         # ==========================================
+        # CƠ CHẾ OVERRIDE: YAML vs CLI
+        # ==========================================
+        crop_cfg = self._config.crop_deskew
+        original_enabled = crop_cfg.enabled  
+        
         if skip_crop:
-            # NẾU BẬT CÔNG TẮC: Bypass hoàn toàn hàm Crop
-            logger.info("🔘 CÔNG TẮC BẬT (skip_crop=True): Bỏ qua cắt viền, dùng thẳng ảnh gốc.")
-            cropped = original.copy()
-            skew_angle = 0.0
-            crop_failed = False
+            crop_cfg.enabled = False
+            logger.info("🔘 MỆNH LỆNH CLI: Ép tắt chức năng cắt viền (Ghi đè YAML).")
             
-            # THÊM DÒNG NÀY: Khởi tạo debug_img khi không crop
-            debug_img = None 
-            
-        else:
-            # NẾU TẮT CÔNG TẮC: Chạy Crop bình thường cho ảnh chụp
-            cropped, skew_angle, debug_img = detect_and_crop(original, self._config.crop_deskew)
-            
+        # ==========================================
+        # BƯỚC 1: CẮT GÓC & XOAY PHẲNG
+        # ==========================================
+        cropped, skew_angle, debug_img = detect_and_crop(original, crop_cfg)
+        crop_failed = False
+        
+        if crop_cfg.enabled:
             crop_area = cropped.shape[0] * cropped.shape[1]
             orig_area = original.shape[0] * original.shape[1]
             crop_ratio = crop_area / orig_area
             
-            # Giữ lại lớp phòng thủ kép để bọc lót
             crop_failed = (crop_ratio >= 0.90) or (crop_ratio <= 0.30)
             
             if crop_failed:
                 warnings.append("CROP_FAILED_PLEASE_RETAKE")
                 logger.warning(f"⚠️ Lỗi Crop (Tỷ lệ: {crop_ratio:.2f}). Kích hoạt Bypass tự động.")
-                cropped = original.copy() # Lùi về dùng ảnh gốc
+                cropped = original.copy() 
                 skew_angle = 0.0
 
+        crop_cfg.enabled = original_enabled
+
         # ==========================================
-        # BƯỚC 2 & 3: TRANG TRẮNG VÀ TẨY TRẮNG
+        # BƯỚC 2 & 3: TRANG TRẮNG VÀ CHẨN ĐOÁN HƯỚNG CHỮ (ĐÃ ĐỔI THÀNH ENUM)
         # ==========================================
         is_blank = detect_blank_page(cropped, self._config.detect)
-        is_wrong_orientation = detect_wrong_orientation(cropped, self._config.detect)
+        orientation_status = detect_wrong_orientation(cropped, self._config.detect)
 
         # LOGIC SMART ENHANCE (Áp dụng có điều kiện)
-        if crop_failed or skip_crop:
+        is_bypassed = (not original_enabled) or skip_crop or crop_failed
+        
+        if is_bypassed:
             logger.info("🔘 Bỏ qua tẩy trắng (Enhance) để giữ nguyên độ sắc nét của bản Scan / Ảnh bypass.")
             processed = cropped 
         else:
-            # Gọi hàm enhance_image (Bên trong hàm này sẽ tự động kiểm tra cờ config.enabled)
             processed = enhance_image(cropped, self._config.enhance)
             
             if self._config.enhance.enabled:
@@ -98,23 +100,21 @@ class ImagePreprocessor:
                 logger.info("🔘 Công tắc Enhance đang TẮT. Truyền ảnh màu gốc sang Module 2.")
 
         logger.info(
-            f"Done — blank={is_blank}, angle={skew_angle:.1f}°, barcodes={len(barcodes)}"
+            f"Done — blank={is_blank}, orientation={orientation_status.value}, angle={skew_angle:.1f}°, barcodes={len(barcodes)}"
         )
 
-        # Khởi tạo gói hàng kết quả
+        # Khởi tạo gói hàng kết quả bàn giao sang Module 2
         result = PreprocessResult(
             processed_image=processed,
             is_blank=is_blank,
-            is_wrong_orientation=is_wrong_orientation, 
+            orientation_status=orientation_status, # Đã đồng bộ tên trường dữ liệu mới
             skew_angle=skew_angle,
             barcodes=barcodes,
             warnings=warnings,
             error_code=None
         )
         
-        # --- THÊM ĐÚNG 1 DÒNG NÀY ĐỂ NHÉT ẢNH DEBUG VÀO GÓI HÀNG ---
         result.debug_image = debug_img
-        
         return result
 
     def _load_image(
@@ -126,7 +126,6 @@ class ImagePreprocessor:
             return image, None, None
 
         path = Path(image)
-
         if not path.exists():
             return None, "ERR_FILE_NOT_FOUND", f"File not found: {path}"
 
@@ -142,14 +141,9 @@ class ImagePreprocessor:
 
         return img, None, None
     
-    import os
-    import json
-    # (Đảm bảo bạn đã import os và json ở đầu file preprocessor.py)
-
-def process_folder(self, input_dir: str | Path, output_dir: str | Path, skip_crop: bool = False) -> None:
+    def process_folder(self, input_dir: str | Path, output_dir: str | Path, skip_crop: bool = False) -> None:
         """
-        Quét toàn bộ ảnh trong input_dir, gọi self.process() cho từng ảnh,
-        lưu ảnh kết quả và xuất file m1_summary.json (Siêu dữ liệu) vào output_dir.
+        Quét toàn bộ ảnh trong input_dir, xuất file m1_summary.json chứa thông số Enum mới.
         """
         input_path = Path(input_dir)
         output_path = Path(output_dir)
@@ -157,7 +151,6 @@ def process_folder(self, input_dir: str | Path, output_dir: str | Path, skip_cro
 
         summary_data = {}
         logger.info(f"Bắt đầu xử lý hàng loạt thư mục: {input_path}")
-        logger.info(f"Trạng thái CÔNG TẮC SKIP_CROP: {skip_crop}")
 
         if not input_path.exists():
             logger.error(f"Thư mục đầu vào không tồn tại: {input_path}")
@@ -167,31 +160,24 @@ def process_folder(self, input_dir: str | Path, output_dir: str | Path, skip_cro
             if file_path.suffix.lower() not in _SUPPORTED_EXTENSIONS:
                 continue
 
-            # 1. Gọi lõi xử lý cho 1 ảnh và truyền cờ skip_crop xuống
             result = self.process(str(file_path), skip_crop=skip_crop)
-
-            # 2. Xử lý ghi file ảnh đầu ra
             out_file = output_path / f"{file_path.name}"
             
             if result.processed_image is not None:
-                # Nếu có ảnh xử lý thành công, lưu đè bằng ảnh sạch
                 cv2.imwrite(str(out_file), result.processed_image)
             elif result.is_blank:
-                # Nếu là trang trắng (Passthrough with Empty State), copy nguyên bản ảnh gốc sang
-                # để Module 2 vẫn thấy file ảnh tồn tại và giữ nguyên Index
                 original_img = cv2.imread(str(file_path))
                 cv2.imwrite(str(out_file), original_img)
 
-            # 3. Gom nhặt Siêu dữ liệu (Metadata)
+            # Đã đồng bộ xuất nhãn dạng chuỗi chữ (value) vào file JSON bàn giao
             summary_data[file_path.name] = {
                 "is_blank": result.is_blank,
-                "is_wrong_orientation": result.is_wrong_orientation,
+                "orientation_status": result.orientation_status.value, 
                 "skew_angle": result.skew_angle,
                 "barcodes": [bc.data for bc in result.barcodes],
                 "error": result.error_code
             }
 
-        # 4. Ghi file bàn giao m1_summary.json
         summary_file = output_path / "m1_summary.json"
         with open(summary_file, 'w', encoding='utf-8') as f:
             json.dump(summary_data, f, indent=4, ensure_ascii=False)

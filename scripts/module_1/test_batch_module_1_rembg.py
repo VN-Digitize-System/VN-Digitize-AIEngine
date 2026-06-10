@@ -78,9 +78,9 @@ def test_batch_background_removal(input_folder: str, output_folder: str):
 
 if __name__ == "__main__":
     # Bạn hãy đổi đường dẫn này thành thư mục chứa ảnh camera của bạn nhé
-    INPUT_FOLDER = "tests/data/unit_tests/module_1/module_1_image" 
+    INPUT_FOLDER = "F:/VN-Digitize-AIEngine/tests/data/unit_tests/module_1/for_demo_video/module_1_rembg" 
     
     # Thư mục xuất kết quả (code sẽ tự tạo nếu chưa có)
-    OUTPUT_FOLDER = "tests/data/outputs/unit_tests/module_1/remove_background_rembg"
+    OUTPUT_FOLDER = "F:/VN-Digitize-AIEngine/tests/data/outputs/unit_tests/module_1/for_demo_video/test_batch_module_1_rembg"
     
     test_batch_background_removal(INPUT_FOLDER, OUTPUT_FOLDER)

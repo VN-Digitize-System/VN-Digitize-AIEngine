@@ -90,14 +90,20 @@ def detect_and_crop(
     cv2.polylines(debug_img, [corners_original.astype(np.int32)], True, (0, 255, 0), 5)
 
     # =====================================================================
-    # 4. NHÂN TỶ LỆ LÊN ẢNH GỐC & CẮT PHỐI CẢNH
+    # 4. NHÂN TỶ LỆ LÊN ẢNH GỐC, TÍNH GÓC & CẮT PHỐI CẢNH
     # =====================================================================
+    
+    # Tính góc nghiêng vật lý ban đầu dựa trên cạnh trên cùng (Top-Left -> Top-Right)
+    tl, tr = corners_original[0], corners_original[1]
+    delta_x = tr[0] - tl[0]
+    delta_y = tr[1] - tl[1]
+    skew_angle = np.degrees(np.arctan2(delta_y, delta_x))
 
-    # Cắt và nắn thẳng y hệt như code cũ của bạn
+    # Cắt và nắn thẳng
     warped = _perspective_transform(image, corners_original, padding=10)
 
-    # Đã nắn thẳng góc (Perspective) thì skew angle bằng 0
-    return warped, 0.0, debug_img
+    # Trả về góc nghiêng vật lý thực sự
+    return warped, float(skew_angle), debug_img
 
 
 def _order_corner_points(pts: np.ndarray) -> np.ndarray:

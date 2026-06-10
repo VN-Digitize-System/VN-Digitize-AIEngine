@@ -55,6 +55,6 @@ def run_batch_test(input_folder: str, output_folder: str):
                 print(f"❌ Lỗi OCR với ảnh {filename}: {m2_result.error_message}")
 
 if __name__ == "__main__":
-    folder_anh_scan = "tests/module_2/Image_Camera_Folder"
-    folder_ket_qua = "tests/module_2/Output_Batch_Not_Scan_2"
+    folder_anh_scan = "F:/VN-Digitize-AIEngine/tests/data/unit_tests/module_1/for_demo_video/module_1_Test_meeting"
+    folder_ket_qua = "F:/VN-Digitize-AIEngine/tests/data/outputs/unit_tests/module_2/test_batch_module_2"
     run_batch_test(folder_anh_scan, folder_ket_qua)

@@ -8,4 +8,4 @@ class OcrConfig:
     
     # True: Nếu Đạt đang test folder chứa toàn ảnh Scan/Digital
     # False: Nếu Đạt đang test folder chứa ảnh chụp camera
-    skip_preprocessing_crop: bool = False
+    skip_preprocessing_crop: bool = True

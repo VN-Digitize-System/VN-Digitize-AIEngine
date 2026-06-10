@@ -122,27 +122,22 @@ def detect_wrong_orientation(image: np.ndarray, cfg: DetectConfig) -> bool:
     cleaned_blurred = cv2.add(blurred, horizontal_lines)
 
     # ==========================================
-    # TÍNH TOÁN NĂNG LƯỢNG SOBEL (CORE LOGIC)
+    # TÍNH TOÁN NĂNG LƯỢNG SOBEL 
     # ==========================================
     energy_x = float(np.mean(np.abs(cv2.Sobel(cleaned_blurred, cv2.CV_64F, 1, 0, ksize=3))))
     energy_y = float(np.mean(np.abs(cv2.Sobel(cleaned_blurred, cv2.CV_64F, 0, 1, ksize=3))))
     ratio = energy_x / (energy_y + 1e-9)
 
-    is_wrong = ratio < current_threshold
+    # BỘ LỌC NHANH (FAST HEURISTIC) 3 TRẠNG THÁI
+    if ratio <= 1.0:
+        status = OrientationStatus.LIKELY_CORRECT
+    elif ratio <= 1.2:
+        status = OrientationStatus.UNCERTAIN
+    else:
+        status = OrientationStatus.LIKELY_ROTATED
 
-    
-    # Log kết quả cuối cùng
-    logger.debug(
-        f"Orientation check: X/Y={ratio:.3f}, landscape={is_landscape}, "
-        f"threshold={current_threshold:.2f}, result={is_wrong}"
-    )
-    return is_wrong
-
-
-# from .config import DetectConfig
-# from .models import BarcodeInfo
-# from shared_utils.logger import get_logger
-# logger = get_logger(__name__)
+    logger.debug(f"Orientation check: X/Y={ratio:.3f}, status={status.value}")
+    return status
 
 def detect_barcodes(image: np.ndarray, cfg: DetectConfig) -> list[BarcodeInfo]:
     if not cfg.barcode.enabled:

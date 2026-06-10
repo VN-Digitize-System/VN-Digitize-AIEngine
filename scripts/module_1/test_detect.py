@@ -1,17 +1,22 @@
 import cv2
 import os
 import sys
+from pathlib import Path
 
-# Đảm bảo import được module
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+# =========================================================================
+# 1. THIẾT LẬP ĐƯỜNG DẪN DỰ ÁN BẰNG PATHLIB
+# =========================================================================
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(PROJECT_ROOT))
 
 from module_1_image_preprocessing.preprocessor import ImagePreprocessor
 
 def test_detection_features(input_folder):
     print("=== BẮT ĐẦU TEST CHỨC NĂNG NHẬN DIỆN (MODULE 1.2) ===")
     
-    # Load cấu hình chuẩn của team
-    config_path = "configs/module1_defaults.yaml"
+    # Sử dụng PROJECT_ROOT để trỏ đường dẫn tuyệt đối đến file YAML
+    config_path = PROJECT_ROOT / "configs" / "module1_defaults.yaml"
     processor = ImagePreprocessor.from_yaml(config_path)
 
     image_paths = [os.path.join(input_folder, f) for f in os.listdir(input_folder) 
@@ -72,5 +77,5 @@ def test_detection_features(input_folder):
 
 if __name__ == "__main__":
     # Trỏ vào thư mục chứa tấm hình mồi nhử của bạn
-    INPUT_DIR = "tests/module_1/Barcode_images"
+    INPUT_DIR = "F:/VN-Digitize-AIEngine/tests/data/unit_tests/module_1/for_demo_video/module_1_blank_demo"
     test_detection_features(INPUT_DIR)

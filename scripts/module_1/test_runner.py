@@ -32,8 +32,8 @@ def main():
     
     # THIẾT LẬP ĐƯỜNG DẪN MẶC ĐỊNH THEO CẤU TRÚC MỚI CỦA BẠN
     # Mặc định sẽ lấy folder test barcode làm ví dụ, bạn có thể truyền tên folder khác qua Terminal
-    default_input = str(PROJECT_ROOT / "tests/data/unit_tests/module_1/module_1_image")
-    default_output = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_1/module_1_runner_results")
+    default_input = str(PROJECT_ROOT / "tests/data/unit_tests/module_1/for_demo_video/module_1_Test_meeting")
+    default_output = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_1/for_demo_video/module_1_runner_results_test")
     
     parser.add_argument("--input_dir", type=str, default=default_input)
     parser.add_argument("--output_dir", type=str, default=default_output)
@@ -77,7 +77,7 @@ def main():
             err_count += 1
             continue
 
-        orientation_str = "WARN_ROTATED" if result.is_wrong_orientation else "OK"
+        orientation_str = "WARN_ROTATED" if result.orientation_status.value else "OK"
         barcode_str = (
             f"{len(result.barcodes)} ({result.barcodes[0].barcode_type})"
             if result.barcodes else "0"
