@@ -1,33 +1,45 @@
 import argparse
-import sys
 import os
 import json
-from ocr_pipeline import OcrEngine
+import dataclasses
+from pathlib import Path
+
+from module_2_core_ocr.ocr_pipeline import OcrPipeline
+from module_2_core_ocr.config import OcrConfig
+
+class EnhancedJSONEncoder(json.JSONEncoder):
+    def default(self, o):
+        if dataclasses.is_dataclass(o):
+            return dataclasses.asdict(o)
+        return super().default(o)
 
 def main():
-    parser = argparse.ArgumentParser(description="Màng bọc CLI cho Module 2 (Core OCR)")
-    # Các tham số này phải khớp y chang lúc Nhạc trưởng gọi m2_cmd
-    parser.add_argument("--input_dir", required=True, help="Thư mục chứa ảnh đã tiền xử lý")
-    parser.add_argument("--output_json", required=True, help="Đường dẫn file JSON lưu kết quả OCR")
+    parser = argparse.ArgumentParser(description="CLI Khởi chạy Module 2 (Core OCR)")
+    parser.add_argument("--input_dir", required=True, help="Thư mục chứa ảnh và JSON từ Module 1")
+    parser.add_argument("--output_dir", required=True, help="Thư mục lưu file JSON kết quả OCR")
+    parser.add_argument("--engine", default="paddle_vietocr", help="Tên Động cơ OCR muốn khởi chạy")
     args = parser.parse_args()
     
-    print(f"[M2-CLI] Đang tải mô hình OCR và quét thư mục: {args.input_dir}")
+    input_path = Path(args.input_dir)
+    output_path = Path(args.output_dir)
+    output_path.mkdir(parents=True, exist_ok=True)
     
-    # === VIẾT LOGIC GỌI HÀM CỦA BẠN Ở ĐÂY ===
-    ocr_engine = OcrEngine()
-    ocr_result_data = ocr_engine.process_folder(args.input_dir)
+    print(f"[M2-CLI] Khởi tạo Nhạc trưởng Pipeline với động cơ: {args.engine}")
+    config = OcrConfig()
+    pipeline = OcrPipeline(active_engine_name=args.engine, config=config)
     
-    # Mock data tạm thời để test luồng
-    ocr_result_data = [
-        {"page_number": 1, "lines": [{"text": "Cộng hòa xã hội chủ nghĩa Việt Nam", "box": [0,0,100,20]}]}
-    ]
-    # ========================================
-
-    # Lưu file kết quả để Module 3 đọc
-    with open(args.output_json, 'w', encoding='utf-8') as f:
-        json.dump(ocr_result_data, f, ensure_ascii=False, indent=2)
+    print(f"[M2-CLI] Bắt đầu quét và xử lý thư mục: {input_path}")
+    batch_results = pipeline.process_folder(input_path)
+    
+    # LƯU KẾT QUẢ RA FILE JSON
+    for filename, result_obj in batch_results.items():
+        base_name = os.path.splitext(filename)[0]
+        json_file_path = output_path / f"{base_name}_ocr.json"
         
-    print(f"[M2-CLI] Đã lưu kết quả OCR tại: {args.output_json}")
+        with open(json_file_path, 'w', encoding='utf-8') as f:
+            json.dump(result_obj, f, cls=EnhancedJSONEncoder, indent=4, ensure_ascii=False)
+            
+        print(f"✅ Đã lưu kết quả JSON tại: {json_file_path}")
 
 if __name__ == "__main__":
     main()

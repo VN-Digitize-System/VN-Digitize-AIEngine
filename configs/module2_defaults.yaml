@@ -1,0 +1,18 @@
+engine:
+  active: "paddle_vietocr"
+  use_gpu: true
+  lang: "vi"
+
+paddle:
+  # Các thông số chuyên trị văn bản dày đặc cho thuật toán dò khung
+  det_limit_side_len: 2048
+  det_db_thresh: 0.3
+  det_db_box_thresh: 0.6
+
+vietocr:
+  # Cấu hình kiến trúc mạng đọc chữ
+  config_name: "vgg_transformer"
+
+heuristic_sorting:
+  # Tỷ lệ dung sai (0.5 = 50% chiều cao chữ) để gom các chữ vào cùng 1 dòng
+  y_tolerance_ratio: 0.5
