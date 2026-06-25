@@ -51,12 +51,6 @@ python scripts/module_1/test_batch_runner.py
 **Kết quả mong đợi:** 
 Terminal sẽ in ra quá trình xử lý từng ảnh và cuối cùng hiển thị bảng **BÁO CÁO HIỆU NĂNG MODULE 1** (bao gồm số lượng ảnh thành công, ảnh lỗi, tổng thời gian và tốc độ FPS). Một file metadata `m1_summary.json` cũng sẽ được sinh ra tại thư mục đầu ra.
 
-Chào bạn, dựa trên mã nguồn `test_batch_runner.py` của Module 2 mà bạn cung cấp, tôi nhận thấy một điểm nối kiến trúc rất hay: **Module 2 bắt buộc phải đọc file `m1_summary.json` từ Module 1**. Điều này tạo ra một luồng Pipeline dữ liệu (Data Pipeline) rất chặt chẽ.
-
-Chúng ta cần phải nhấn mạnh điều này trong tài liệu để người mới clone dự án về không bị hoang mang khi gặp lỗi "KHÔNG TÌM THẤY file".
-
-Dưới đây là nội dung tiếp theo cho phần **Module 2** trong file `README.md`. Bạn có thể copy và dán ngay bên dưới phần Module 1:
-
 ---
 
 ## 🔍 Hướng dẫn chạy Module 2 (Nhận dạng chữ - OCR Core)
