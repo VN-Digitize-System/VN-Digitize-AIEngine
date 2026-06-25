@@ -7,6 +7,7 @@ from pyzbar.pyzbar import decode, ZBarSymbol
 from .config import DetectConfig
 from .models import BarcodeInfo
 from shared_utils.logger import get_logger
+from shared_utils.models import OrientationStatus
 
 logger = get_logger(__name__)
 

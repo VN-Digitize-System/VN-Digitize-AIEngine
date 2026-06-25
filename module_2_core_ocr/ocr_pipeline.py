@@ -8,7 +8,7 @@ from shared_utils.logger import get_logger
 from .config import OcrConfig
 from .engines.factory import OcrEngineFactory
 from .utils import auto_rotate_page
-from module_1_image_preprocessing.models import OrientationStatus
+from shared_utils.models import OrientationStatus
 
 logger = get_logger(__name__)
 

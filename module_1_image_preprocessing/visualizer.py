@@ -59,7 +59,7 @@ def visualize_result(
     status_str = "OK" if result.error_code is None else result.error_code
     info = (
         f"Blank: {result.is_blank}  |  "
-        f"Wrong orientation: {result.is_wrong_orientation}  |  "
+        f"Orientation: {result.orientation_status.value}  |  "
         f"Skew: {result.skew_angle:.1f}°  |  "
         f"Barcodes: {barcode_str}  |  "
         f"Warnings: {', '.join(result.warnings) or 'none'}  |  "

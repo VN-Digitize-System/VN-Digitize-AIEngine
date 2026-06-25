@@ -15,6 +15,7 @@ class OcrWord:
 @dataclass
 class OcrResult:
     is_success: bool
-    words: List[OcrWord]       # Danh sách chi tiết từng dòng chữ kèm tọa độ
-    full_text: str             # Toàn bộ text thô ghép lại (Dành cho Module 3 xài)
+    words: List[OcrWord]
+    full_text: str
+    page_number: int = 1  # <--- THÊM DÒNG NÀY (Mặc định là 1)
     error_message: str | None = None

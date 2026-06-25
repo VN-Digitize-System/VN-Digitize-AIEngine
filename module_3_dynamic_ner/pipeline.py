@@ -1,58 +1,74 @@
 import os
+import json
+from pathlib import Path
 from typing import Dict, Any, List
-from schemas.template_schema import DocumentInput, ExtractedField
-from router.strategy_router import StrategyRouter
-from llm_engine.gemini_provider import GeminiProvider
-from llm_engine.auto_corrector import AutoCorrector
-from llm_engine.retriever import HeuristicRetriever
-from llm_engine.local_llm_provider import LocalLLMProvider
-from validators.output_validator import OutputValidator, ReflexionRetryException
+from .schemas.template_schema import DocumentInput, ExtractedField
+from .router.strategy_router import StrategyRouter
+from .router.classifier import DocumentClassifier
+from .llm_engine.gemini_provider import GeminiProvider
+from .llm_engine.local_llm_provider import LocalLLMProvider
+from .llm_engine.auto_corrector import AutoCorrector
+from .validators.output_validator import OutputValidator
 
 class DocumentPipeline:
     def __init__(self, api_key: str):
-        # Đọc biến môi trường, mặc định là gemini nếu không có
         self.engine = os.getenv("LLM_ENGINE", "gemini").lower()
         
-        # 1. Khởi tạo Engine bóc tách tương ứng
         if self.engine == "local":
-            print("⚙️ [Pipeline] Khởi chạy hệ thống ở chế độ OFFLINE (Local LLM)")
+            print("⚙️ [Pipeline] Khởi chạy chế độ OFFLINE (Local LLM)")
             self.llm_provider = LocalLLMProvider()
         else:
-            print("⚙️ [Pipeline] Khởi chạy hệ thống ở chế độ CLOUD (Gemini API)")
+            print("⚙️ [Pipeline] Khởi chạy chế độ CLOUD (Gemini API)")
             self.llm_provider = GeminiProvider(api_key=api_key)
             
         self.auto_corrector = AutoCorrector(api_key=api_key)
         self.router = StrategyRouter(llm_provider=self.llm_provider)
         
-        from extractors.regex_extractor import RegexExtractor
-        from extractors.layout_regex_extractor import LayoutRegexExtractor
+        from .extractors.regex_extractor import RegexExtractor
+        from .extractors.layout_regex_extractor import LayoutRegexExtractor
         self.router.register_extractor("regex", RegexExtractor)
         self.router.register_extractor("keyword", RegexExtractor)
         self.router.register_extractor("layout_regex", LayoutRegexExtractor)
-        self.validator = OutputValidator() 
-
-    def process_with_reflexion(self, context_text: str, json_schema: dict, system_prompt: str) -> dict:
-        max_retries = 3
-        current_attempt = 1
-        current_prompt = system_prompt
-        last_raw_result = {}
         
-        while current_attempt <= max_retries:
-            # Bước 1: Gọi LLM (Local hoặc Cloud)
-            raw_result = self.llm_provider.extract_batch_json(context_text, json_schema, current_prompt)
-            last_raw_result = raw_result
-            
-            # Bước 2: Đưa qua Tầng Kiểm Duyệt
-            try:
-                valid_result = self.validator.validate_and_parse(raw_result, json_schema)
-                return valid_result # Nếu mượt mà, trả về luôn
-                
-            except ReflexionRetryException as e:
-                print(f"⚠️ [Reflexion] Lần {current_attempt}: AI trả về sai định dạng. Đang yêu cầu AI sửa lại...")
-                # Nối thêm lời cảnh báo vào System Prompt để AI tự phản tư (Self-Correction)
-                current_prompt = system_prompt + f"\n\n[CẢNH BÁO HỆ THỐNG]: Lần trước bạn đã tạo ra JSON sai cấu trúc. Chi tiết lỗi:\n{e.errors}\nHãy tự sửa lại cho chuẩn xác."
-                current_attempt += 1
-                
-        # Bước 3: Nếu thử 3 lần vẫn thất bại -> Kích hoạt Graceful Degradation
-        print("❌ [Reflexion] Đã thử 3 lần thất bại. Kích hoạt Xuống cấp ôn hòa (Graceful Degradation).")
-        return last_raw_result
+        self.validator = OutputValidator()
+        
+        # 1. KHỞI TẠO NGƯỜI GÁC CỔNG
+        self.classifier = DocumentClassifier()
+
+    def _load_dynamic_config(self, rule_file_name: str) -> Dict[str, Any]:
+        """Nạp cấu hình động (Lazy Loading) và Fail-Fast nếu cấu hình bị lỗi"""
+        
+        # Tự động định vị: Lấy thư mục hiện tại chứa pipeline.py (chính là module_3_dynamic_ner)
+        current_dir = Path(__file__).resolve().parent
+        config_path = current_dir / "configs" / rule_file_name
+    
+        try:
+            with open(config_path, "r", encoding="utf-8") as f:
+                config_data = json.load(f)
+                return config_data.get("fields", {})
+        except FileNotFoundError:
+            # Chết nhanh: Báo động đỏ nếu thiếu file
+            raise RuntimeError(f"Lỗi hệ thống: Không tìm thấy file cấu hình '{rule_file_name}'")
+        except json.JSONDecodeError:
+            # Chết nhanh: Báo động đỏ nếu file JSON sai cú pháp
+            raise RuntimeError(f"Lỗi hệ thống: File '{rule_file_name}' bị sai định dạng JSON")
+
+    def process(self, document: DocumentInput, enable_auto_correct: bool = False) -> List[ExtractedField]:
+        # BƯỚC 1: Phân loại tài liệu để lấy tên file cấu hình
+        rule_file = self.classifier.classify(document)
+        
+        # BƯỚC 2: Tải cấu hình động (Lazy Load)
+        fields_config = self._load_dynamic_config(rule_file)
+        
+        # BƯỚC 3: Định tuyến và Bóc tách
+        results = self.router.process_document(document, fields_config)
+        
+        # BƯỚC 4: Tự động sửa lỗi (Auto-Correct) nếu Client yêu cầu
+        if enable_auto_correct:
+            # Gom chữ của toàn bộ các trang lại thành 1 chuỗi ngữ cảnh duy nhất
+            context_text = "\n".join([line.text for line in document.lines])
+            for field in results:
+                if not field.is_valid:
+                    self.auto_corrector.correct_field(field, context_text)
+                    
+        return results

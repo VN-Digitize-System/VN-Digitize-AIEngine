@@ -77,5 +77,5 @@ def test_detection_features(input_folder):
 
 if __name__ == "__main__":
     # Trỏ vào thư mục chứa tấm hình mồi nhử của bạn
-    INPUT_DIR = "F:/VN-Digitize-AIEngine/tests/data/unit_tests/module_1/for_demo_video/module_1_blank_demo"
+    INPUT_DIR = "F:/VN-Digitize-AIEngine/tests/data/unit_tests/module_1/for_demo_video/module_1_qr_demo"
     test_detection_features(INPUT_DIR)

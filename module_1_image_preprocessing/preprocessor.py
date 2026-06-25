@@ -7,7 +7,8 @@ import os
 import json
 
 from .config import PreprocessConfig
-from .models import PreprocessResult, OrientationStatus  # Đã đồng bộ Import Enum
+from .models import PreprocessResult  # Đã đồng bộ Import Enum
+from shared_utils.models import OrientationStatus
 from ._crop_deskew import detect_and_crop
 from ._detect import detect_barcodes, detect_blank_page, detect_wrong_orientation
 from ._enhance import enhance_image
@@ -132,7 +133,14 @@ class ImagePreprocessor:
         if path.suffix.lower() not in _SUPPORTED_EXTENSIONS:
             return None, "ERR_UNSUPPORTED_FORMAT", f"Unsupported format: {path.suffix}"
 
-        img = cv2.imread(str(path))
+        # --- FIX UNICODE: Dùng numpy đọc byte stream thay vì cv2.imread ---
+        try:
+            img_array = np.fromfile(str(path), dtype=np.uint8)
+            img = cv2.imdecode(img_array, cv2.IMREAD_COLOR)
+        except Exception as e:
+            logger.error(f"Lỗi khi đọc file {path}: {e}")
+            img = None
+
         if img is None:
             return None, "ERR_CORRUPTED", f"Cannot decode image (corrupted or invalid): {path.name}"
 
@@ -162,12 +170,24 @@ class ImagePreprocessor:
 
             result = self.process(str(file_path), skip_crop=skip_crop)
             out_file = output_path / f"{file_path.name}"
+            ext = out_file.suffix if out_file.suffix else '.png'
             
+            # --- FIX UNICODE LƯU FILE: Dùng cv2.imencode và numpy tofile thay vì cv2.imwrite ---
             if result.processed_image is not None:
-                cv2.imwrite(str(out_file), result.processed_image)
+                success, encoded_image = cv2.imencode(ext, result.processed_image)
+                if success:
+                    encoded_image.tofile(str(out_file))
             elif result.is_blank:
-                original_img = cv2.imread(str(file_path))
-                cv2.imwrite(str(out_file), original_img)
+                try:
+                    # Nạp lại ảnh gốc bằng numpy và lưu lại nếu là trang trắng
+                    img_array = np.fromfile(str(file_path), dtype=np.uint8)
+                    original_img = cv2.imdecode(img_array, cv2.IMREAD_COLOR)
+                    if original_img is not None:
+                        success, encoded_image = cv2.imencode(ext, original_img)
+                        if success:
+                            encoded_image.tofile(str(out_file))
+                except Exception as e:
+                    logger.error(f"Lỗi khi copy trang trắng {file_path.name}: {e}")
 
             # Đã đồng bộ xuất nhãn dạng chuỗi chữ (value) vào file JSON bàn giao
             summary_data[file_path.name] = {

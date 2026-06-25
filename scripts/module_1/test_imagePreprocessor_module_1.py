@@ -15,7 +15,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from module_1_image_preprocessing.preprocessor import ImagePreprocessor
 
 def export_final_results(input_folder, output_folder):
-    print(f"--- BẮT ĐẦU XUẤT KẾT QUẢ CODE C (PIPELINE HOÀN CHỈNH) ---")
+    print(f"--- BẮT ĐẦU XUẤT KẾT QUẢ CODE (PIPELINE HOÀN CHỈNH) ---")
     
     # Tạo thư mục output nếu chưa có
     if not os.path.exists(output_folder):

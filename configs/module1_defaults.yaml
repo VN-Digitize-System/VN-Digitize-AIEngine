@@ -1,5 +1,5 @@
 crop_deskew:
-  enabled: False
+  enabled: false
   blur_kernel_size: 5
   
   # Đưa Canny về mức nhạy của Code A

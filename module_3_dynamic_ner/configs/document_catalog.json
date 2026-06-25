@@ -1,0 +1,29 @@
+{
+  "catalog": {
+    "van_ban_phap_luat": {
+      "name": "Văn bản Quy phạm Pháp luật",
+      "regex_patterns": [
+        "(?i)(nghị định|thông tư|quyết định|chỉ thị)",
+        "(?i)cộng h.a x. hội",
+        "(?i)văn bản quy phạm pháp luật",
+        "(?i)công báo/số"
+      ],
+      "rule_file": "rules_vbpl.json"
+    },
+    "hanh_chinh_phap_ly": {
+      "name": "Văn bản Hành chính Thông thường",
+      "regex_patterns": [
+        "(?i)cộng h.a x. hội"
+      ],
+      "rule_file": "rules_hanh_chinh.json"
+    },
+    "can_cuoc_cong_dan": {
+      "name": "Căn cước Công dân",
+      "regex_patterns": [
+        "(?i)c[aăá]n c[ưu]ớc c.ng d.n",
+        "(?i)s[ốo] đ[ịi]nh danh"
+      ],
+      "rule_file": "rules_cccd.json"
+    }
+  }
+}

@@ -1,12 +1,7 @@
-from enum import Enum
 from dataclasses import dataclass, field
 import numpy as np
+from shared_utils.models import OrientationStatus
 
-# 1. THÊM CLASS ENUM NÀY
-class OrientationStatus(str, Enum):
-    LIKELY_CORRECT = "LIKELY_CORRECT"
-    UNCERTAIN = "UNCERTAIN"
-    LIKELY_ROTATED = "LIKELY_ROTATED"
 
 @dataclass
 class BarcodeInfo:

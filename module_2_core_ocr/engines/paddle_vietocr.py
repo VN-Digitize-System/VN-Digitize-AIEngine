@@ -29,15 +29,8 @@ class PaddleVietOcrEngine(BaseOcrEngine):
             det_db_box_thresh=self.config.paddle.det_db_box_thresh
         )
         
-        # Lấy model Classifier ra để hàm xoay 3 miền (auto_rotate_page) mượn dùng
-        from paddleocr.tools.infer.predict_cls import TextClassifier
-        import argparse
-        args = argparse.Namespace(
-            use_gpu=self.config.use_gpu, gpu_mem=500, cls_model_dir=self.detector.ocr_version,
-            cls_image_shape="3, 48, 192", cls_batch_num=6, cls_thresh=0.9, use_tensorrt=False
-        )
-        # Khởi tạo ngầm bộ phân loại góc để xài chung
-        self.classifier = self.detector.text_classifier if hasattr(self.detector, 'text_classifier') else None
+        # Lấy model Classifier đã được bọc sẵn bên trong detector để dùng chung
+        self.classifier = self.detector
         
         # 2. KHỞI TẠO VIETOCR (CHỈ DÙNG RECOGNITION ĐỂ ĐỌC CHỮ)
         logger.info("[ENGINE] Đang khởi tạo VietOCR (Recognition)...")
@@ -123,6 +116,12 @@ class PaddleVietOcrEngine(BaseOcrEngine):
                 texts, probs = self.recognizer.predict_batch(pil_images, return_prob=True)
                 for i, box_coords in enumerate(sorted_boxes):
                     text, prob = texts[i], probs[i]
+
+                    # Bỏ qua nếu text rỗng, toàn dấu cách, hoặc prob là NaN
+                    if not text.strip() or prob is None or np.isnan(prob):
+                        continue
+                    # ---------------------------------
+
                     words.append(OcrWord(
                         text=text,
                         confidence=prob,

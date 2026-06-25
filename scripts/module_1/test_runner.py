@@ -30,9 +30,9 @@ def clean_output_dir(output_dir: Path) -> None:
 def main():
     parser = argparse.ArgumentParser(description="Test Runner tổng hợp cho Module 1")
     
-    # THIẾT LẬP ĐƯỜNG DẪN MẶC ĐỊNH THEO CẤU TRÚC MỚI CỦA BẠN
+    # THIẾT LẬP ĐƯỜNG DẪN MẶC ĐỊNH THEO CẤU TRÚC MỚI
     # Mặc định sẽ lấy folder test barcode làm ví dụ, bạn có thể truyền tên folder khác qua Terminal
-    default_input = str(PROJECT_ROOT / "tests/data/unit_tests/module_1/for_demo_video/module_1_Test_meeting")
+    default_input = str(PROJECT_ROOT / "tests/data/unit_tests/module_1/for_demo_video/module_1_rotate_crop_demo")
     default_output = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_1/for_demo_video/module_1_runner_results_test")
     
     parser.add_argument("--input_dir", type=str, default=default_input)
@@ -77,7 +77,7 @@ def main():
             err_count += 1
             continue
 
-        orientation_str = "WARN_ROTATED" if result.orientation_status.value else "OK"
+        orientation_str = result.orientation_status.value
         barcode_str = (
             f"{len(result.barcodes)} ({result.barcodes[0].barcode_type})"
             if result.barcodes else "0"

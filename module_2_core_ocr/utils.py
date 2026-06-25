@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import math
-from module_1_image_preprocessing.models import OrientationStatus
+from shared_utils.models import OrientationStatus
 
 def get_rotated_crop(image, box, padding=3):
     """

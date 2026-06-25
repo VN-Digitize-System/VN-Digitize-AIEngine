@@ -1,14 +1,14 @@
+import json
 from typing import Dict, Type, Any, List
 from extractors.base_extractor import BaseExtractor
 from schemas.template_schema import DocumentInput, ExtractedField, BoundingBox
 from validators.field_validator import FieldValidator
-from llm_engine.retriever import HeuristicRetriever
-from llm_engine.gemini_provider import GeminiProvider
+from llm_engine.llm_provider import BaseLLMProvider  # Sửa lỗi Dependency: Dùng Interface trừu tượng
 
 class StrategyRouter:
-    def __init__(self, llm_provider: GeminiProvider = None):
+    def __init__(self, llm_provider: BaseLLMProvider = None):
         self._registry: Dict[str, Type[BaseExtractor]] = {}
-        self.llm_provider = llm_provider # Nhận Provider từ bên ngoài truyền vào
+        self.llm_provider = llm_provider
 
     def register_extractor(self, strategy_type: str, extractor_class: Type[BaseExtractor]):
         self._registry[strategy_type] = extractor_class
@@ -17,57 +17,59 @@ class StrategyRouter:
     def process_document(self, document: DocumentInput, fields_config: Dict[str, Any]) -> List[ExtractedField]:
         results = []
         llm_batch_schema = {}
-        llm_keywords = []
-        llm_field_configs = {} # SỬA LỖI TẠI ĐÂY: Thêm biến để lưu lại cấu hình của Tầng 2
         
-        llm_system_prompt = "Bạn là trợ lý AI bóc tách dữ liệu." 
+        print("\n--- BẮT ĐẦU ĐỊNH TUYẾN VÀ BÓC TÁCH ---")
         
-        # PHẦN 1: XỬ LÝ RULE-BASED VÀ GOM NHÓM LLM
+        # PHẦN 1: QUÉT REGEX VÀ GOM NHÓM FALLBACK
         for field_name, config in fields_config.items():
-            strategy_type = config.get("type")
+            extraction_method = config.get("extraction_method", "regex") # Mặc định regex (Tương thích ngược)
             
-            if strategy_type == "llm_batch":
-                llm_system_prompt = config.get("system_prompt", llm_system_prompt)
-                
-                # SỬA LỖI TẠI ĐÂY: Lấy danh sách các trường con (Tầng 2)
-                nested_fields = config.get("fields", {})
-                llm_field_configs = nested_fields # Lưu lại để lát gọi Validator
-                
-                # Duyệt qua từng trường con (ten_bi_cao, toi_danh...)
-                for sub_field, sub_config in nested_fields.items():
-                    llm_batch_schema[sub_field] = sub_config.get("description")
-                    llm_keywords.extend(sub_config.get("retrieval_keywords", []))
+            # 1.1 Trực tiếp chỉ định dùng AI (Các trường quá khó)
+            if extraction_method == "llm":
+                llm_batch_schema[field_name] = config.get("description", "")
                 continue
                 
-            if strategy_type not in self._registry:
-                continue
+            # 1.2 Xử lý bằng Regex
+            strategy_type = extraction_method 
+            if strategy_type in self._registry:
+                extractor_instance = self._registry[strategy_type](field_name, config)
+                result = extractor_instance.extract(document)
                 
-            extractor_instance = self._registry[strategy_type](field_name, config)
-            result = extractor_instance.extract(document)
-            
-            if result:
-                validated_result = FieldValidator.validate(result, config.get("validation", {}))
-                results.append(validated_result)
+                if result:
+                    # Chạy màng lọc Validator
+                    validated_result = FieldValidator.validate(result, config.get("validation", {}))
+                    results.append(validated_result)
+                else:
+                    # LƯỚI AN TOÀN (FALLBACK): Regex trượt -> Ném sang cho AI
+                    print(f"⚠️ [Fallback] Regex bắt trượt trường '{field_name}'. Chuyển giao cho LLM...")
+                    llm_batch_schema[field_name] = config.get("description", "")
 
-        # PHẦN 2: KÍCH HOẠT LLM BATCH EXTRACTION
+        # PHẦN 2: KÍCH HOẠT LLM BATCH EXTRACTION (GOM MẺ 1 LẦN)
         if llm_batch_schema and self.llm_provider:
-            context = HeuristicRetriever.retrieve_context(document, llm_keywords)
-            llm_results = self.llm_provider.extract_batch_json(context, llm_batch_schema, llm_system_prompt)
+            # Lấy toàn bộ văn bản làm ngữ cảnh
+            context_text = "\n".join([line.text for line in document.lines])
             
-            for sub_field, value in llm_results.items():
+            # Tích hợp JSON Healing ngầm định: Yêu cầu AI tuyệt đối không markdown
+            system_prompt = "Bạn là AI bóc tách tài liệu. Chỉ trả về JSON hợp lệ, tuyệt đối không có markdown hay text dư thừa."
+            
+            print(f"📦 [Batching] Đang gọi LLM đọc 1 lần để bóc tách {len(llm_batch_schema)} trường còn thiếu...")
+            llm_results = self.llm_provider.extract_batch_json(context_text, llm_batch_schema, system_prompt)
+            
+            # PHẦN 3: ĐÓNG GÓI VÀ GÁN CONFIDENCE TĨNH
+            for field_name, value in llm_results.items():
                 safe_value = str(value) if value is not None else ""
                 
                 field_obj = ExtractedField(
-                    field_name=sub_field,
+                    field_name=field_name,
                     raw_value=safe_value.strip(),
-                    confidence=0.85, 
+                    confidence=0.85, # Điểm tĩnh chốt theo cấu hình hiệu năng cao
                     bounding_box=BoundingBox(x_min=0, y_min=0, x_max=0, y_max=0), 
                     page_number=1
                 )
                 
-                # SỬA LỖI TẠI ĐÂY: Lấy validation config từ Tầng 2 (llm_field_configs) thay vì Tầng 1
-                original_config = llm_field_configs.get(sub_field, {})
-                validated_obj = FieldValidator.validate(field_obj, original_config.get("validation", {}))
+                # Chạy Validator cho kết quả của AI
+                field_config = fields_config.get(field_name, {})
+                validated_obj = FieldValidator.validate(field_obj, field_config.get("validation", {}))
                 results.append(validated_obj)
 
         return results
