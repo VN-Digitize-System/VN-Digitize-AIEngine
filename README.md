@@ -187,8 +187,15 @@ Hệ thống sử dụng mô hình Qwen chạy cục bộ thông qua Ollama đ�
 ollama pull qwen2.5
 
 ```
+3. Sau khi tải được mô hình về máy thì tiếp theo chạy lệnh:
+```bash
+ollama run qwen2.5:7b
+```
 
-3. Đảm bảo ứng dụng Ollama đang được bật và chạy ngầm trước khi thực hiện bước tiếp theo.
+4. Sau khi chạy lệnh xong, nếu như có kết quả như sau thì chỉ cần hạ Terminal/Command Prompt (không được đóng)
+```bash
+>> Send a message (/? for help)
+```
 
 
 ### Bước 4: Chạy kịch bản bóc tách Sandbox
