@@ -116,18 +116,6 @@ python scripts/module_2/test_batch_runner.py
 * Thư mục `debug_images/`: Chứa ảnh đã được vẽ khung đỏ (bounding box) bao quanh chữ để kiểm tra trực quan.
 * File báo cáo hiệu năng `m2_performance_summary.json` và bảng báo cáo in trực tiếp trên Terminal.
 
-Chào bạn, tôi hiểu ý. Để người mới có thể tái hiện chính xác luồng chạy Sandbox thành công mà chúng ta vừa làm, phần hướng dẫn cho Module 3 cần cực kỳ gãy gọn và phải nhấn mạnh vào file `.env`.
-
-Dưới đây là đoạn Markdown cho Module 3, bạn có thể copy và nối tiếp ngay vào file `README.md` của mình:
-
----
-
-Chào bạn, bạn phát hiện **cực kỳ chuẩn xác**! Đây là một thiếu sót rất lớn của tôi dưới góc độ rà soát tài liệu.
-
-Nếu không có hướng dẫn cài đặt Ollama và kéo (pull) model Qwen 2.5 về máy, người khác khi chạy Module 3 ở chế độ `LLM_ENGINE=local` chắc chắn sẽ bị báo lỗi "Connection Refused" hoặc Timeout do không có máy chủ LLM nào đang chạy ngầm cả.
-
-Tôi đã bổ sung ngay **Bước 3 (Cài đặt Local LLM)** vào tài liệu. Dưới đây là bản cập nhật hoàn chỉnh cho **Module 3**, bạn hãy dùng bản này để đưa vào file `README.md` nhé:
-
 ---
 
 
