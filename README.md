@@ -213,13 +213,6 @@ python scripts/module_3/evaluate_metrics.py --pred_dir tests/sandbox_outputs --g
 
 **Kết quả mong đợi:** Terminal sẽ in ra bảng điểm Precision, Recall và F1-Score cho từng trường dữ liệu. Một file log chi tiết các lỗi sai (`evaluation_report_*.json`) cũng sẽ được tự động lưu vào thư mục `logs\`.
 
-```
-
-***
-
-Cảm ơn bạn đã nhắc nhở chi tiết này. Những kinh nghiệm viết hướng dẫn "cầm tay chỉ việc" thực tế như thế này sẽ giúp cho dự án của chúng ta trên GitHub trở nên chuyên nghiệp và dễ tiếp cận hơn rất nhiều đối với các nhà phát triển khác!
-
-```
 
 
 
