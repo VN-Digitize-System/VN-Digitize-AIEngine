@@ -1,100 +1,55 @@
-# VN-Digitize AI Engine Project
+## 🚀 Hướng dẫn chạy Module 1 (Tiền xử lý ảnh)
 
-```markdown
-# 📖 CẨM NANG VẬN HÀNH HỆ THỐNG (RUN GUIDE)
-**Dự án:** VN-Digitize-AIEngine
-**Kiến trúc:** Micro-Environments & Modular CLI
+Module 1 đảm nhiệm việc tiếp nhận ảnh tài liệu thô, cắt viền, xoay chuẩn và lọc bỏ các ảnh trắng/lỗi trước khi đưa vào hệ thống OCR.
 
-Tài liệu này hướng dẫn cách thiết lập môi trường và chạy các module trong luồng xử lý tài liệu. Hệ thống được thiết kế theo chuẩn Enterprise, hỗ trợ chạy tự động hàng loạt và có thể tùy biến linh hoạt qua Terminal.
-
----
-
-## 🛠 1. QUẢN LÝ MÔI TRƯỜNG (ENVIRONMENT SETUP)
-Để đảm bảo không xung đột thư viện giữa các module (ví dụ: Module 1 dùng AI cắt góc, Module 2 dùng mô hình OCR chuyên biệt), hệ thống sử dụng các môi trường Conda phân lập.
-
-**Trước khi chạy bất kỳ Module nào, bạn BẮT BUỘC phải kích hoạt đúng môi trường của Module đó:**
-```bash
-# Đối với Module 1:
-conda activate module_1_HL
-
-# (Các môi trường cho Module 2, 3 sẽ được cập nhật sau)
-
-```
-
----
-
-## 🖼 2. MODULE 1: TIỀN XỬ LÝ ẢNH (IMAGE PREPROCESSING)
-
-**Mục tiêu:** Dọn dẹp ảnh gốc, cắt viền, nắn thẳng, lọc trang trắng và nhận diện mã vạch.
-
-### 2.1. Chạy Thử nghiệm bằng Cổng Phụ (Dành cho Developer)
-
-Sử dụng công cụ `test_runner.py` để quét một thư mục bất kỳ và in ra bảng thống kê chi tiết kèm ảnh debug (có vẽ khung xanh).
-
-**Lệnh tiêu chuẩn (Khuyên dùng):**
+### Bước 1: Tạo và kích hoạt môi trường ảo
+Mở Terminal (hoặc Command Prompt / PowerShell) tại thư mục gốc của dự án `VN-Digitize-AIEngine` và chạy lệnh sau để tạo môi trường ảo có tên `venv_m1`:
 
 ```bash
-python scripts/module_1/test_runner.py
+python -m venv venv_m1
 
 ```
 
-> 💡 **Giải thích Mặc định:** Nếu không truyền tham số, hệ thống sẽ tự động lấy ảnh từ `tests/data/unit_tests/module_1/module_1_image` và lưu kết quả ra `tests/data/outputs/unit_tests/module_1/module_1_runner_results`. Thư mục output sẽ bị dọn sạch (Auto-Clean) trước khi chạy để tránh rác.
+Sau khi tạo xong, bạn cần kích hoạt môi trường ảo này:
 
-**Lệnh tùy biến (Test một thư mục khác):**
+* **Trên Windows (Command Prompt / PowerShell):**
+```cmd
+venv_m1\Scripts\activate
+
+```
+
+
+* **Trên macOS / Linux:**
+```bash
+source venv_m1/bin/activate
+
+```
+
+*(Dấu hiệu thành công: Bạn sẽ thấy chữ `(venv_m1)` xuất hiện ở đầu dòng lệnh).*
+
+### Bước 2: Cài đặt thư viện
+
+Sử dụng file requirement đã được xuất sẵn để cài đặt các thư viện xử lý ảnh (như OpenCV) cần thiết cho Module 1:
 
 ```bash
-python scripts/module_1/test_runner.py --input_dir "đường_dẫn_vào" --output_dir "đường_dẫn_ra"
+pip install -r requirements_module1.txt
 
 ```
 
-> 💡 **Giải thích Tham số:**
-> * `--input_dir`: Thư mục chứa ảnh gốc bạn muốn test.
-> * `--output_dir`: Thư mục lưu ảnh đã xử lý và ảnh debug.
-> 
-> 
+### Bước 3: Chạy kịch bản kiểm thử (Batch Runner)
 
-### 2.2. Chạy Thực tế bằng Cổng Chính (Production Pipeline)
+Kịch bản test của Module 1 đã được cấu hình sẵn các đường dẫn trỏ tới thư mục dữ liệu mẫu (dành cho demo video).
 
-Khi tích hợp vào luồng chạy thật, sử dụng `cli.py`. File này không in bảng màu mè mà tập trung xuất ra file ảnh sạch và file `m1_summary.json` bàn giao cho Module 2.
-
-**Lệnh chạy tiêu chuẩn:**
+**Cách 1: Chạy với cấu hình mặc định (Khuyên dùng cho người mới)**
+Chỉ cần gõ lệnh sau, hệ thống sẽ tự động lấy ảnh từ `tests/data/unit_tests/...` và lưu kết quả vào thư mục test tương ứng:
 
 ```bash
-python module_1_image_preprocessing/cli.py --input_dir "data/raw_hoso" --output_dir "data/processed_hoso"
+python scripts/module_1/test_batch_runner.py
 
 ```
 
-### 2.3. 🎛 CÔNG TẮC ĐẶC BIỆT: `--skip_crop`
-
-Cả `test_runner.py` và `cli.py` đều hỗ trợ một công tắc bí mật để tối ưu hóa thời gian khi gặp dữ liệu sạch.
-
-**Lệnh sử dụng:**
-Thêm `--skip_crop` vào cuối bất kỳ câu lệnh nào ở trên.
-*Ví dụ:* `python module_1_image_preprocessing/cli.py --input_dir "..." --output_dir "..." --skip_crop`
-
-> 💡 **Khi nào nên dùng `--skip_crop`?**
-> * **Mặc định (Không ghi gì):** Hệ thống luôn gọi AI U2-Net để tìm mép giấy và nắn góc. Dành cho **Ảnh chụp từ điện thoại**.
-> * **Bật công tắc (`--skip_crop`):** Hệ thống bỏ qua bước cắt góc, dùng thẳng ảnh gốc. Siêu nhanh. Dành cho **File PDF chuẩn hoặc ảnh Scan từ máy photocopy** đã vuông vức sẵn.
-> 
-> 
-
----
-
-## 🗄 3. LƯU TRỮ LỊCH SỬ KIỂM THỬ (ARCHIVING)
-
-Hệ thống có cơ chế tự động xóa sạch thư mục `outputs/` mỗi khi chạy lệnh mới để tiết kiệm ổ cứng. Nếu bạn chạy được một kết quả test quá ưng ý và muốn lưu lại làm chuẩn (Golden Record):
-
-1. Mở thư mục `tests/data/outputs/...`
-2. **Copy thủ công** thư mục kết quả đó.
-3. Dán vào `tests/data/archive/module_1/`.
-4. Đổi tên thư mục thành một cái tên gợi nhớ (VD: `test_barcode_pass_03_06_2026`).
-
----
-
-*Cẩm nang sẽ tiếp tục được cập nhật khi kiến trúc Module 2 và Module 3 hoàn thiện.*
+**Kết quả mong đợi:** 
+Terminal sẽ in ra quá trình xử lý từng ảnh và cuối cùng hiển thị bảng **BÁO CÁO HIỆU NĂNG MODULE 1** (bao gồm số lượng ảnh thành công, ảnh lỗi, tổng thời gian và tốc độ FPS). Một file metadata `m1_summary.json` cũng sẽ được sinh ra tại thư mục đầu ra.
 
 ```
 
----
-
-```
