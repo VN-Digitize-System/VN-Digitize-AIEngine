@@ -4,14 +4,14 @@
     "co_quan_ban_hanh": {
       "type": "string",
       "extraction_method": "llm",
-      "description": "Tên cơ quan ban hành văn bản, thường nằm ở góc trên cùng bên trái hoặc ngay trên Quốc hiệu. Trích xuất nguyên bản bằng chữ in hoa. Ví dụ: BỘ GIÁO DỤC VÀ ĐÀO TẠO.",
+      "description": "Tên cơ quan ban hành văn bản, thường nằm ở góc trên cùng bên trái hoặc ngay trên Quốc hiệu. Trích xuất nguyên bản bằng chữ in hoa.",
       "required": true
     },
     "so_hieu_van_ban": {
       "type": "string",
       "extraction_method": "regex",
       "aliases": ["Số", "So", "Sỏ", "Sô", "Sö", "S0", "Sơ", "Só"],
-      "regex_pattern": "(?i){LABEL}[\\s:]*([0-9]+\\s*[/\\-]\\s*[0-9]+\\s*[/\\-]\\s*[a-zđA-ZĐ0-9\\-\\s]+)",
+      "regex_pattern": "(?i){LABEL}[\\s:]*([0-9]+\\s*[/\\-]\\s*[0-9]+\\s*[/\\-]\\s*[a-zđA-ZĐ0-9\\- ]+)",
       "fallback_to_llm": true,
       "description": "Số hiệu và ký hiệu của văn bản pháp luật. Ví dụ: Số 45/2026/TT-BGDĐT.",
       "required": true
@@ -19,16 +19,16 @@
     "ngay_thang_ban_hanh": {
       "type": "string",
       "extraction_method": "regex",
-      "aliases": ["ngày", "tháng", "năm", "Hà Nội", "TP"],
+      "aliases": ["ngày", "tháng", "năm", "TP"],
       "regex_pattern": "(?i)([a-zàáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ ]+,[\\s]*ngày[\\s]*\\d{1,2}[\\s]*tháng[\\s]*\\d{1,2}[\\s]*năm[\\s]*\\d{4})",
       "fallback_to_llm": true,
-      "description": "Địa danh và ngày tháng năm ban hành văn bản. Trích xuất nguyên bản. Ví dụ: Hà Nội, ngày 7 tháng 3 năm 2026.",
+      "description": "Địa danh và ngày tháng năm ban hành văn bản. Trích xuất nguyên bản.",
       "required": true
     },
     "ten_loai_van_ban": {
       "type": "string",
       "extraction_method": "llm",
-      "description": "Tên loại văn bản (như THÔNG TƯ, NGHỊ ĐỊNH) và toàn bộ phần trích yếu nội dung đi kèm ngay bên dưới. Hãy ghép các dòng lại thành một câu hoàn chỉnh. Yêu cầu: Tự động nắn lại các lỗi chính tả quang học OCR đối với các danh từ chung. Tuyệt đối KHÔNG tự ý sửa đổi danh từ riêng, địa danh hay số hiệu.",
+      "description": "Tên loại văn bản (như THÔNG TƯ, NGHỊ ĐỊNH) và toàn bộ phần trích yếu nội dung đi kèm ngay bên dưới. Hãy ghép các dòng lại thành một câu hoàn chỉnh. Yêu cầu: Tự động nắn lại lỗi chính tả OCR. Lưu ý ranh giới: Các từ chỉ cơ quan hành chính (Ủy ban, Sở, Bộ) là danh từ chung, được phép sửa lỗi (VD từ văn bản khác: 'Thử tướng' -> 'Thủ tướng', 'thi hảnh' -> 'thi hành'). Tuyệt đối KHÔNG sửa danh từ riêng, địa danh cụ thể hay số hiệu.",
       "required": true
     }
   }
