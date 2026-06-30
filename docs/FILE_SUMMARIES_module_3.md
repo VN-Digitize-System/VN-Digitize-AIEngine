@@ -28,13 +28,40 @@ Known Issues: None (Kỹ thuật dùng dấu . trong Regex giúp chống lỗi O
 **Known Issues:** Uses the older `patterns` array structure instead of the new `{LABEL}` and `aliases` injection format.
 
 ## `rules_vbpl.json`
-Purpose: Định nghĩa lược đồ cấu hình bóc tách lai (Hybrid Extraction) chuyên dụng cho văn bản pháp luật (van_ban_phap_luat). Phân chia rành mạch nhiệm vụ bóc tách bằng regex (hỗ trợ fallback_to_llm tự động cứu hộ) và llm (bóc tách ngữ nghĩa).
-Inputs: None (Static JSON file).
-Outputs: Cấu hình chi tiết các trường (fields), chứa từ khóa aliases, regex_pattern tiêm {LABEL}, kiểu dữ liệu và System Prompt.
-Key Classes: N/A.
-Key Functions: N/A.
-Dependencies: Gắn kết chặt chẽ với StrategyRouter, RegexExtractor và các lớp LLMProvider.
-Known Issues: None.
+**Purpose:**
+Cấu hình trích xuất dữ liệu cho nhóm tài liệu **Văn bản pháp luật (VBPL)**. Định nghĩa danh sách field cần lấy, phương pháp trích xuất, regex, alias OCR và quy tắc fallback sang LLM. 
+
+**Inputs:**
+* Nội dung tài liệu VBPL đã được OCR.
+* Được nạp động bởi `DocumentPipeline` sau khi tài liệu được classifier nhận diện là VBPL. 
+
+**Outputs:**
+* Cấu hình `fields` dùng cho extractor và router.
+* Metadata hướng dẫn LLM hoặc RegexExtractor thực hiện bóc tách dữ liệu. 
+
+**Key Classes:**
+* Không có (JSON Configuration File).
+
+**Key Functions:**
+* Không có.
+* Chứa cấu hình cho các field:
+  * `co_quan_ban_hanh`
+  * `so_hieu_van_ban`
+  * `ngay_thang_ban_hanh`
+  * `ten_loai_van_ban` 
+
+**Dependencies:**
+* `DocumentPipeline`
+* `StrategyRouter`
+* `RegexExtractor`
+* LLM Provider (Gemini hoặc Local LLM)
+* `document_catalog.json` để được định tuyến đúng loại tài liệu. 
+
+**Known Issues:**
+* Regex được thiết kế cho định dạng VBPL chuẩn, có thể giảm độ chính xác với văn bản OCR nhiễu nặng hoặc bố cục bất thường.
+* Alias OCR hiện chỉ bao phủ một số biến thể lỗi phổ biến.
+* Prompt sửa lỗi trong field `ten_loai_van_ban` phụ thuộc chất lượng suy luận của LLM.
+* Nếu cấu hình field, regex hoặc alias sai, toàn bộ pipeline sẽ trích xuất sai nhưng không tự phát hiện được lỗi cấu hình nghiệp vụ.  
 
 ---
 
@@ -59,13 +86,56 @@ Known Issues: None.
 **Known Issues:** Processes text line-by-line; vulnerable to extraction failures if the target text is split across multiple lines due to OCR formatting errors.
 
 ## `regex_extractor.py`
-**Purpose:** Advanced regex-based extraction featuring full-text concatenation to bypass OCR line-breaks, automated whitespace compression, auto-formatting, and dual-format configuration support (legacy `patterns` array vs. modern `aliases` with `{LABEL}` injection).
-**Inputs:** `DocumentInput` object.
-**Outputs:** `ExtractedField` object with a hardcoded confidence of 1.0, or `None` (triggering LLM fallback).
-**Key Classes:** `RegexExtractor`.
-**Key Functions:** `__init__` (fail-fast regex compilation), `_compress_whitespace`, `_auto_format_output`, `extract`.
-**Dependencies:** `re`, `extractors.base_extractor`, `schemas.template_schema`.
-**Known Issues:** Reconstructs bounding boxes using "approximate line tracing" after a full-text search; the resulting bounding box may point to the first line only if the text actually spans multiple lines.
+
+**Purpose:**
+Extractor dựa trên Regex dùng để bóc tách dữ liệu từ văn bản OCR. Hỗ trợ cả cấu hình rule cũ và mới, xử lý alias OCR, truy vết vị trí dòng dữ liệu và trả về kết quả chuẩn hóa. 
+
+**Inputs:**
+* `field_name`
+  * Tên field cần trích xuất.
+* `config`
+  * Cấu hình regex, alias, patterns.
+* `DocumentInput document`
+  * Tài liệu OCR chứa text, bounding box và page number.  
+
+**Outputs:**
+* `ExtractedField`
+  * Kết quả trích xuất kèm confidence, tọa độ và số trang.
+* `None`
+  * Khi không tìm thấy dữ liệu phù hợp. 
+
+**Key Classes:**
+* `RegexExtractor`
+  * Extractor chính sử dụng Regex matching để lấy dữ liệu từ tài liệu. 
+
+**Key Functions:**
+* `__init__(field_name, config)`
+  * Nạp và biên dịch regex từ cấu hình.
+  * Hỗ trợ cả rule format cũ và mới.
+* `_compile_and_add(pattern_str)`
+  * Compile regex và kiểm tra lỗi fail-fast.
+* `_compress_whitespace(text)`
+  * Chuẩn hóa khoảng trắng OCR.
+* `_auto_format_output(text)`
+  * Làm sạch dữ liệu sau khi match.
+* `extract(document)`
+  * Tìm dữ liệu bằng Regex.
+  * Truy vết dòng nguồn.
+  * Đóng gói thành `ExtractedField`.  
+
+**Dependencies:**
+* `re`
+* `BaseExtractor`
+* `DocumentInput`
+* `ExtractedField`
+* Rule JSON chứa regex, aliases hoặc patterns. 
+
+**Known Issues:**
+* Áp dụng chiến lược "First Match Wins", có thể bỏ qua kết quả tốt hơn xuất hiện phía sau.
+* Truy vết bounding box dựa trên so khớp chuỗi nên chỉ mang tính xấp xỉ.
+* Khi truy vết thất bại sẽ dùng tọa độ dòng đầu tiên làm fallback.
+* Confidence luôn bằng 1.0 nếu regex match, không phản ánh chất lượng thực tế của OCR.
+* Lỗi cấu hình regex sẽ làm hệ thống fail-fast ngay khi khởi tạo extractor.    
 
 ---
 # File Summaries: module_3_dynamic_ner/ground_truth
@@ -141,22 +211,94 @@ Known Issues: Sử dụng Regex (\{.*\}) để trích xuất JSON có thể gặ
 # File Summaries: module_3_dynamic_ner/router
 
 ## `classifier.py`
-**Purpose:** Acts as the gatekeeper for Module 3. Scans the first 15 lines of a document against regex patterns in the catalog to determine its type and load the correct rule file. Enforces a "Strict Rejection" policy if the document type is unknown.
-**Inputs:** `DocumentInput` object, optional catalog path string.
-**Outputs:** Target rule filename (string) or raises an `UnknownDocumentError`.
-**Key Classes:** `UnknownDocumentError`, `DocumentClassifier`.
-**Key Functions:** `__init__`, `_load_catalog`, `classify`.
-**Dependencies:** `json`, `re`, `pathlib`, `schemas.template_schema.DocumentInput`.
-**Known Issues:** Relies exclusively on the first 15 lines; if OCR fails on the header or the identifying keywords are pushed down by long logos/letterheads, classification will fail.
+**Purpose:**
+Xác định loại tài liệu dựa trên nội dung đầu tài liệu bằng Regex và trả về file rule tương ứng để xử lý tiếp. 
+**Inputs:**
+* `DocumentInput document`
+  * Chứa danh sách các dòng văn bản (`document.lines`)
+* `catalog_path` (optional)
+  * Đường dẫn tới `document_catalog.json` 
+**Outputs:**
+* `str`
+  * Tên file rule JSON tương ứng (ví dụ: `rules_hanh_chinh.json`)
+* Hoặc ném `UnknownDocumentError` nếu không nhận diện được tài liệu. 
+
+**Key Classes:**
+* `UnknownDocumentError`
+  * Exception dùng khi tài liệu không thuộc danh mục hỗ trợ.
+* `DocumentClassifier`
+  * Bộ phân loại tài liệu dựa trên Regex. 
+
+**Key Functions:**
+* `__init__(catalog_path=None)`
+  * Khởi tạo classifier và nạp catalog.
+* `_load_catalog()`
+  * Đọc `document_catalog.json`.
+* `classify(document)`
+  * Quét tối đa 15 dòng đầu.
+  * So khớp Regex với catalog.
+  * Trả về file rule phù hợp hoặc từ chối tài liệu. 
+
+**Dependencies:**
+* `json`
+* `re`
+* `pathlib.Path`
+* `DocumentInput`
+* `document_catalog.json` (external config) 
+
+**Known Issues:**
+* Chỉ kiểm tra 15 dòng đầu tiên nên có thể bỏ sót tín hiệu nhận diện nằm sâu trong tài liệu.
+* Regex lỗi chỉ được log và bỏ qua, không chặn hệ thống.
+* Nếu catalog không tồn tại sẽ trả catalog rỗng, dẫn tới mọi tài liệu bị từ chối.
+* Hiệu quả nhận diện phụ thuộc hoàn toàn vào chất lượng Regex trong catalog.  
+
 
 ## `strategy_router.py`
-**Purpose:** Nhạc trưởng định tuyến quá trình bóc tách. Quét các trường bằng Regex Extractor trước, nếu thất bại (Fallback) hoặc được cấu hình sẵn là "llm", sẽ gom nhóm lại (Batching) để gửi cho LLM xử lý một lần nhằm tiết kiệm tài nguyên. Áp dụng FieldValidator cho mọi kết quả.
-**Inputs:** Đối tượng `DocumentInput`, từ điển `fields_config`, đối tượng `BaseLLMProvider`.
-**Outputs:** Danh sách các đối tượng `ExtractedField` đã qua kiểm duyệt.
-**Key Classes:** `StrategyRouter`.
-**Key Functions:** `__init__`, `register_extractor`, `process_document`.
-**Dependencies:** `json`, `typing`, `extractors.base_extractor`, `schemas.template_schema`, `validators.field_validator`, `llm_engine.llm_provider.BaseLLMProvider`.
-**Known Issues:** Các trường dữ liệu do LLM bóc tách đang bị gán cứng tọa độ không gian `BoundingBox(0,0,0,0)` và độ tự tin tĩnh `0.85`, khiến UI không thể vẽ khung highlight cho các trường này.
+
+**Purpose:**
+Điều phối chiến lược trích xuất dữ liệu. Quyết định field nào xử lý bằng Regex/Extractor, field nào xử lý bằng LLM, đồng thời quản lý cơ chế fallback từ Regex sang LLM và thực hiện validation kết quả. 
+
+**Inputs:**
+* `DocumentInput document`
+  * Nội dung tài liệu đã OCR.
+* `fields_config`
+  * Cấu hình field được nạp từ rule JSON.
+* `llm_provider`
+  * Provider dùng cho batch extraction bằng AI.  
+
+**Outputs:**
+* `List[ExtractedField]`
+  * Danh sách field đã được trích xuất và xác thực.  
+
+**Key Classes:**
+* `StrategyRouter`
+  * Registry và orchestration layer cho toàn bộ extractor. 
+
+**Key Functions:**
+* `register_extractor(strategy_type, extractor_class)`
+  * Đăng ký extractor theo tên chiến lược.
+* `process_document(document, fields_config)`
+  * Điều phối toàn bộ quá trình trích xuất.
+  * Chạy extractor tương ứng.
+  * Thực hiện validation.
+  * Fallback sang LLM khi extractor thất bại.
+  * Gom nhiều field thành một lần gọi LLM (batch extraction).  
+
+**Dependencies:**
+* `BaseExtractor`
+* `FieldValidator`
+* `BaseLLMProvider`
+* `DocumentInput`
+* `ExtractedField`
+* `BoundingBox`
+* Các extractor được đăng ký động từ bên ngoài. 
+
+**Known Issues:**
+* Confidence của kết quả từ LLM được gán giá trị tĩnh (0.85), không phản ánh độ tin cậy thực tế.
+* Bounding box của kết quả LLM là giá trị giả (0,0,0,0), không hỗ trợ truy vết vị trí trong tài liệu.
+* Nếu extractor không được đăng ký trong registry, field tương ứng sẽ không được xử lý.
+* Toàn bộ tài liệu được gửi vào LLM khi batch extraction, có thể làm tăng token và chi phí xử lý đối với tài liệu lớn.
+* Validation phụ thuộc hoàn toàn vào cấu hình rule JSON.   
 
 ---
 
@@ -225,10 +367,46 @@ Known Issues: Sử dụng Regex (\{.*\}) để trích xuất JSON có thể gặ
 **Known Issues:** Bộ luật sửa lỗi (correction_rules) bị fix cứng trong code. Nếu văn bản gốc tình cờ chứa các ký tự giống lỗi OCR, chúng có thể bị thay thế nhầm (False Positive).
 
 ## `pipeline.py`
-**Purpose:** Lớp nhạc trưởng (Orchestrator) điều phối toàn bộ luồng chạy của Module 3: Phân loại tài liệu $\rightarrow$ Tải cấu hình (Lazy Load) $\rightarrow$ Định tuyến bóc tách $\rightarrow$ (Tùy chọn) Sửa lỗi chính tả.
-**Inputs:** Đối tượng `DocumentInput`, cờ `enable_auto_correct`.
-**Outputs:** Danh sách các đối tượng `ExtractedField` chứa dữ liệu cuối cùng.
-**Key Classes:** `DocumentPipeline`.
-**Key Functions:** `__init__`, `_load_dynamic_config`, `process`.
-**Dependencies:** `os`, `json`, `pathlib`, `.router`, `.llm_engine`, `.extractors`, `.validators`.
-**Known Issues:** Đường dẫn thư mục `configs` đang bị gán cứng (hardcode) trong hàm `_load_dynamic_config`. Khâu gom văn bản cho Auto-Corrector (`\n".join(...)`) có thể gây tràn Token Context của LLM nếu tài liệu quá dài (hàng trăm trang).
+**Purpose:**
+Điều phối toàn bộ luồng xử lý tài liệu: phân loại tài liệu, nạp cấu hình động, chọn extractor phù hợp, trích xuất dữ liệu, kiểm tra kết quả và tự động sửa lỗi bằng LLM khi cần. 
+
+**Inputs:**
+* `api_key`
+  * Khóa truy cập Gemini và Auto-Corrector.
+* `DocumentInput document`
+  * Tài liệu OCR đã được chuẩn hóa.
+* `enable_auto_correct`
+  * Bật/tắt bước sửa lỗi hậu xử lý.  
+
+**Outputs:**
+* `List[ExtractedField]`
+  * Danh sách trường dữ liệu đã được trích xuất và kiểm tra. 
+
+**Key Classes:**
+* `DocumentPipeline`
+  * Orchestrator chính của Module 3. 
+
+**Key Functions:**
+* `__init__(api_key)`
+  * Khởi tạo LLM provider, router, validator, auto-corrector và classifier.
+* `_load_dynamic_config(rule_file_name)`
+  * Lazy-load file rule JSON tương ứng với loại tài liệu.
+* `process(document, enable_auto_correct=False)`
+  * Thực thi pipeline hoàn chỉnh từ phân loại → trích xuất → sửa lỗi.  
+
+**Dependencies:**
+* `DocumentClassifier`
+* `StrategyRouter`
+* `GeminiProvider`
+* `LocalLLMProvider`
+* `AutoCorrector`
+* `OutputValidator`
+* `RegexExtractor`
+* `LayoutRegexExtractor`
+*  Rule JSON trong thư mục `configs/`  
+
+**Known Issues:**
+* Khởi tạo thất bại nếu file rule JSON bị thiếu hoặc sai cú pháp.
+* Auto-correct chỉ chạy với các field không hợp lệ.
+* Toàn bộ context tài liệu được ghép thành một chuỗi khi sửa lỗi, có thể làm tăng chi phí LLM với tài liệu lớn.
+* Chế độ hoạt động phụ thuộc biến môi trường `LLM_ENGINE`.   

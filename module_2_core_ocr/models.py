@@ -1,5 +1,5 @@
-from dataclasses import dataclass
-from typing import List, Tuple
+from dataclasses import dataclass, field
+from typing import List, Tuple, Dict, Optional
 
 @dataclass
 class BoundingBox:
@@ -11,11 +11,15 @@ class OcrWord:
     text: str
     confidence: float
     bbox: BoundingBox
+    # Hướng B: Nền tảng Siêu dữ liệu (Metadata Foundation)
+    block_type: str = "text"  # Các nhãn từ YOLO: 'text', 'title', 'table', 'figure'...
+    metadata: Dict = field(default_factory=dict)  # Chứa tọa độ hàng/cột hoặc mã HTML nếu là bảng
 
 @dataclass
 class OcrResult:
     is_success: bool
     words: List[OcrWord]
     full_text: str
-    page_number: int = 1  # <--- THÊM DÒNG NÀY (Mặc định là 1)
-    error_message: str | None = None
+    page_number: int = 1  
+    error_message: Optional[str] = None
+    markdown_text: str = ""

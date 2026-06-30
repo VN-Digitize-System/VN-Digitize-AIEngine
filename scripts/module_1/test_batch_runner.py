@@ -96,8 +96,8 @@ def run_module_1_benchmark(input_folder: str, output_folder: str):
 
 
 if __name__ == "__main__":
-    DEFAULT_INPUT = str(PROJECT_ROOT / "tests/data/unit_tests/module_1/for_demo_video/module_1_input/scan_images")
-    DEFAULT_OUTPUT = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_1/for_demo_video/test_result")
+    DEFAULT_INPUT = str(PROJECT_ROOT / "tests/data/unit_tests/module_1/for_demo_video/module_1_input/real_2")
+    DEFAULT_OUTPUT = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_1/for_demo_video/test_batch_real_2")
 
     parser = argparse.ArgumentParser(description="Chạy Benchmark Module 1")
     # Sử dụng 'nargs="?"' và 'default=' để hỗ trợ cả 2 cách chạy

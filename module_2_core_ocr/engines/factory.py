@@ -7,8 +7,9 @@ logger = get_logger(__name__)
 class OcrEngineFactory:
     # DANH BẠ TƯỜNG MINH (Explicit Registry)
     _REGISTRY = {
-        "paddle_vietocr": "module_2_core_ocr.engines.paddle_vietocr.PaddleVietOcrEngine"
-        # Thêm các engine khác vào đây trong tương lai (vd: "tesseract": "...")
+        "paddle_vietocr": "module_2_core_ocr.engines.paddle_vietocr.PaddleVietOcrEngine",
+        # Hướng 1: Đăng ký tĩnh cho động cơ DeepDoc mới vào hệ thống
+        "deepdoc": "module_2_core_ocr.engines.deepdoc_engine.DeepdocEngine"
     }
 
     @classmethod

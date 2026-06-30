@@ -1,18 +1,23 @@
 engine:
-  active: "paddle_vietocr"
+  active: "deepdoc"  # Đổi sang engine mới để chuẩn bị kích hoạt
   use_gpu: true
   lang: "vi"
 
 paddle:
-  # Các thông số chuyên trị văn bản dày đặc cho thuật toán dò khung
   det_limit_side_len: 2048
   det_db_thresh: 0.3
-  det_db_box_thresh: 0.6
+  det_db_box_thresh: 0.3
 
 vietocr:
-  # Cấu hình kiến trúc mạng đọc chữ
   config_name: "vgg_transformer"
 
 heuristic_sorting:
-  # Tỷ lệ dung sai (0.5 = 50% chiều cao chữ) để gom các chữ vào cùng 1 dòng
   y_tolerance_ratio: 0.5
+
+deepdoc:
+  # Trỏ đích danh file Layout và TSR
+  yolo_layout_path: "../weights/layout.onnx"
+  yolo_tsr_path: "../weights/tsr.onnx"
+  # VietOCR chỉ cần trỏ vào thư mục, code của tác giả sẽ tự tìm cnn, encoder, decoder bên trong
+  vietocr_model_dir: "../weights"
+  confidence_threshold: 0.5

@@ -151,8 +151,8 @@ def run_module_2_benchmark(input_dir: str, output_dir: str):
 if __name__ == "__main__":
     # ĐƯỜNG DẪN MẶC ĐỊNH (Hỗ trợ nút Run VSCode)
     # TRỎ VÀO THƯ MỤC OUTPUT CỦA MODULE 1 MÀ BẠN VỪA CHẠY XONG
-    DEFAULT_INPUT = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_1/for_demo_video/test_result")
-    DEFAULT_OUTPUT = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_2/test_batch_runner_GPU_test_result")
+    DEFAULT_INPUT = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_1/for_demo_video/test_batch_crop_real_2")
+    DEFAULT_OUTPUT = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_2/test_batch_runner_GPU_crop_real_2")
 
     parser = argparse.ArgumentParser(description="Chạy Benchmark Module 2")
     parser.add_argument("--input_dir", type=str, nargs="?", default=DEFAULT_INPUT, help="Thư mục chứa ảnh và m1_summary.json")

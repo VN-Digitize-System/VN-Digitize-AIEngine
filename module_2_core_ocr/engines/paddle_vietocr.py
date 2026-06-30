@@ -19,7 +19,7 @@ class PaddleVietOcrEngine(BaseOcrEngine):
         # 1. KHỞI TẠO PADDLE OCR (CHỈ DÙNG DETECTION ĐỂ TÌM KHUNG)
         logger.info("[ENGINE] Đang khởi tạo PaddleOCR (Detection)...")
         self.detector = PaddleOCR(
-            use_angle_cls=False,  # Đã tắt vì Module 2 tự xoay toàn trang rồi
+            use_angle_cls=True,  # Đã tắt vì Module 2 tự xoay toàn trang rồi
             lang=self.config.lang, # Lấy từ config gốc
             rec=False,
             show_log=False,

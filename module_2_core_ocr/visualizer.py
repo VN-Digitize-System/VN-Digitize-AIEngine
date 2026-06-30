@@ -1,38 +1,49 @@
 import cv2
 import numpy as np
+from pathlib import Path
 from .models import OcrResult
 
-def draw_ocr_results(image: np.ndarray, ocr_result: OcrResult, save_path: str = "debug_ocr_result.jpg"):
+def draw_ocr_results(image: np.ndarray, ocr_result: OcrResult, output_path: str | Path) -> np.ndarray:
     """
-    Hàm vẽ Bounding Box lên ảnh để trực quan hóa kết quả OCR.
+    Vẽ Bounding Box kèm nhãn lên ảnh dựa trên block_type.
+    - Bảng (table): Đỏ
+    - Tiêu đề (title): Xanh dương
+    - Văn bản thường (text): Xanh lá
     """
-    # Tạo bản sao của ảnh để không làm hỏng ảnh gốc
-    vis_img = image.copy()
-
-    # KÍCH HOẠT KÊNH MÀU NẾU LÀ ẢNH TRẮNG ĐEN
-    if len(vis_img.shape) == 2:
-        vis_img = cv2.cvtColor(vis_img, cv2.COLOR_GRAY2BGR)
-
-    if not ocr_result.is_success or not ocr_result.words:
-        print("⚠️ Không có dữ liệu OCR để vẽ.")
-        return vis_img
-
-    for i, word in enumerate(ocr_result.words):
-        # 1. Chuyển đổi tọa độ thành mảng numpy cho OpenCV
-        pts = np.array(word.bbox.points, np.int32)
-        pts = pts.reshape((-1, 1, 2))
-
-        # 2. Vẽ khung Bounding Box (Màu xanh lá cây, viền độ dày 2)
-        cv2.polylines(vis_img, [pts], isClosed=True, color=(0, 255, 0), thickness=2)
-
-        # 3. Ghi số thứ tự và Confidence Score (Màu đỏ) ở góc trên cùng bên trái của box
-        x, y = word.bbox.points[0]
-        # Dịch chữ lên trên một chút để không đè vào khung (y - 5)
-        label = f"#{i+1} ({word.confidence:.2f})"
-        cv2.putText(vis_img, label, (x, max(y - 5, 10)), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1, cv2.LINE_AA)
-
-    # Lưu ảnh xuống ổ cứng
-    cv2.imwrite(save_path, vis_img)
-    print(f"📸 Đã xuất ảnh vẽ Bounding Box tại: {save_path}")
+    annotated_img = image.copy()
     
-    return vis_img
+    # Định nghĩa bảng màu (B, G, R) trong OpenCV
+    COLOR_MAP = {
+        "table": (0, 0, 255),    # Đỏ
+        "title": (255, 0, 0),    # Xanh dương
+        "text": (0, 255, 0),     # Xanh lá
+        "figure": (0, 255, 255)  # Vàng
+    }
+    
+    for word in ocr_result.words:
+        block_type = word.block_type.lower()
+        color = COLOR_MAP.get(block_type, (255, 0, 255)) # Mặc định màu tím nếu nhãn lạ
+        
+        # Lấy tọa độ
+        points = np.array(word.bbox.points, dtype=np.int32)
+        
+        # Vẽ đa giác Bounding Box
+        cv2.polylines(annotated_img, [points], isClosed=True, color=color, thickness=2)
+        
+        # Vẽ nhãn (Label) lên góc trên bên trái của Box
+        x, y = points[0]
+        label_text = f"[{block_type.upper()}] {word.confidence:.2f}"
+        
+        # Vẽ nền đen mờ cho chữ dễ đọc
+        (text_w, text_h), _ = cv2.getTextSize(label_text, cv2.FONT_HERSHEY_SIMPLEX, 0.5, 1)
+        cv2.rectangle(annotated_img, (x, y - text_h - 5), (x + text_w, y + 2), (0, 0, 0), -1)
+        
+        # Ghi chữ
+        cv2.putText(annotated_img, label_text, (x, y - 5), 
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 1, cv2.LINE_AA)
+
+    # Lưu ảnh nếu có đường dẫn
+    if output_path:
+        cv2.imwrite(str(output_path), annotated_img)
+        
+    return annotated_img
