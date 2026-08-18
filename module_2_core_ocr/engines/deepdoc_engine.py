@@ -1,42 +1,16 @@
-import sys
-import os
 import logging
-from pathlib import Path
+import cv2
 import numpy as np
 import re
 
-# =====================================================================
-# THỦ THUẬT VENDORING & QUẢN LÝ BỐI CẢNH (CONTEXT MANAGER)
-# =====================================================================
-CURRENT_DIR = Path(__file__).parent
-VENDOR_PATH = CURRENT_DIR / "deepdoc_vendor"
-VIETOCR_PATH = VENDOR_PATH / "vietocr"
-
-sys.path.insert(0, str(VENDOR_PATH.resolve()))
-sys.path.insert(0, str(VIETOCR_PATH.resolve()))
-
-# 🌟 BỌC TOÀN BỘ IMPORT VENDOR VÀO TRONG VÙNG DỊCH CHUYỂN CWD
-_original_cwd = os.getcwd()
-try:
-    # Dịch chuyển tức thời vào lõi vietocr
-    os.chdir(str(VIETOCR_PATH.resolve()))
-    
-    # Lúc này, mọi phản ứng dây chuyền import đều diễn ra trong thư mục chuẩn
-    from module.layout_recognizer import LayoutRecognizer   # type: ignore
-    from module.table_structure_recognizer import TableStructureRecognizer  # type: ignore
-    from module.ocr import OCR  # type: ignore
-finally:
-    # Lập tức trả hệ thống về vị trí làm việc gốc
-    os.chdir(_original_cwd) 
-
 from .base_engine import BaseOcrEngine
-from ..models import OcrResult, OcrWord, BoundingBox
-
+from module_2_core_ocr.models import OcrResult, OcrWord, BoundingBox
+from .paddle_vietocr import PaddleVietOcrEngine 
 
 logger = logging.getLogger(__name__)
 
 def convert_html_table_to_md(html_str: str) -> str:
-    """Dịch mã HTML thô của DeepDoc thành Bảng Markdown chuẩn"""
+    """Dịch mã HTML thô thành Bảng Markdown chuẩn"""
     if not html_str: return ""
     rows = re.findall(r'<tr.*?>(.*?)</tr>', html_str, re.IGNORECASE | re.DOTALL)
     if not rows: return ""
@@ -44,24 +18,16 @@ def convert_html_table_to_md(html_str: str) -> str:
     md_table = []
     for i, row in enumerate(rows):
         cells = re.findall(r'<t[dh].*?>(.*?)</t[dh]>', row, re.IGNORECASE | re.DOTALL)
-        # Xóa các thẻ HTML thừa bên trong ô
         clean_cells = [re.sub(r'<[^>]+>', '', cell).strip() for cell in cells]
         md_row = "| " + " | ".join(clean_cells) + " |"
         md_table.append(md_row)
-        
-        # Thêm dòng kẻ phân cách tiêu đề bảng
         if i == 0:
             md_table.append("|" + "|".join(["---"] * len(cells)) + "|")
-            
     return "\n" + "\n".join(md_table) + "\n"
 
 def build_markdown_from_words(words_list, img_w, img_h) -> str:
-    """Gom cụm không gian (Y-Tolerance, X-Gap) để tạo Markdown"""
-    # Ngưỡng động dựa trên kích thước ảnh (Chống hardcode)
-    y_tolerance = max(10, int(img_h * 0.012))  # ~1.2% chiều cao ảnh
-    x_gap_threshold = max(30, int(img_w * 0.03)) # ~3.0% chiều rộng ảnh
-    
-    # Sắp xếp toàn bộ các khối (Text + Table) từ trên xuống dưới
+    y_tolerance = max(10, int(img_h * 0.012)) 
+    x_gap_threshold = max(30, int(img_w * 0.03)) 
     sorted_words = sorted(words_list, key=lambda w: w.bbox.points[0][1])
     
     md_output = []
@@ -70,40 +36,29 @@ def build_markdown_from_words(words_list, img_w, img_h) -> str:
     
     def flush_line():
         if not current_line: return
-        # Sắp xếp các từ trong cùng 1 dòng từ trái qua phải
         current_line.sort(key=lambda x: x.bbox.points[0][0])
         line_str = ""
         prev_right = None
-        
         for w in current_line:
             txt = w.text.strip()
             if not txt: continue
-            
             left, right = w.bbox.points[0][0], w.bbox.points[1][0]
-            
             if prev_right is not None:
                 gap = left - prev_right
-                # Nếu khoảng trống X đủ lớn -> Mô phỏng phân cột bằng ký tự '|'
                 if gap > x_gap_threshold:
                     line_str += " \t|  " + txt 
                 else:
                     line_str += " " + txt
             else:
                 line_str += txt
-                
             prev_right = right
-        
         if line_str:
-            # Gắn thẻ Tiêu đề Markdown nếu DeepDoc phát hiện đó là Title
-            if any(w.block_type == 'title' for w in current_line):
-                line_str = "## " + line_str
             md_output.append(line_str)
         current_line.clear()
 
-    # Vòng lặp phân luồng
     for w in sorted_words:
         if w.block_type == 'table':
-            flush_line() # Đẩy hết chữ đang chờ ra trước
+            flush_line() 
             html_content = w.metadata.get("html", "")
             md_table = convert_html_table_to_md(html_content)
             md_output.append(md_table)
@@ -119,136 +74,137 @@ def build_markdown_from_words(words_list, img_w, img_h) -> str:
                 current_y = y
                 current_line.append(w)
                 
-    flush_line() # Đẩy dòng cuối cùng
+    flush_line() 
     return "\n".join(md_output)
 
 class DeepdocEngine(BaseOcrEngine):
     def __init__(self, config):
         super().__init__(config)
-        self.cfg = config.deepdoc
         
-        # 1. Khởi tạo Layout Recognizer
-        # Bắt buộc phải truyền chuỗi "layout" làm tham số domain
-        logger.info("Đang nạp mô hình Layout mặc định của Vendor...")
-        self.layout_detector = LayoutRecognizer("layout")
+        logger.info("Đang nạp Động cơ Đọc chữ (Paddle + VietOCR)...")
+        self.paddle_engine = PaddleVietOcrEngine(config)
         
-        # 2. Khởi tạo Table Structure Recognizer
-        # Tương tự, nếu hàm này cần domain, ta có thể phải truyền "table", tạm thời để trống thử xem tác giả có gán mặc định không.
-        logger.info("Đang nạp mô hình TSR mặc định của Vendor...")
-        self.table_recognizer = TableStructureRecognizer() 
+        # 🌟 KHỞI TẠO LƯỜI BIẾNG (LAZY INITIALIZATION)
+        # Mô hình PP-Structure sẽ ngủ đông ở đây, không tốn 1MB VRAM nào.
+        self.table_engine = None 
+
+    def _init_paddle_table_engine(self):
+        """Hàm đánh thức PP-Structure khi có biến"""
+        if self.table_engine is None:
+            logger.info("Phát hiện Bảng! Đang đánh thức mô hình PP-Structure (TableSystem)...")
+            from paddleocr import PPStructure
+            # Chỉ nạp mô hình Table, tắt Layout để tiết kiệm bộ nhớ
+            self.table_engine = PPStructure(layout=False, show_log=False)
+            
+    def _find_tables_opencv(self, image: np.ndarray):
+        """Mắt thần OpenCV: Tìm lưới kẻ bảng (Grid Catcher)"""
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        thresh = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY_INV, 15, -2)
         
-        # 3. Khởi tạo VietOCR ONNX
-        logger.info("Đang nạp mô hình VietOCR ONNX mặc định của Vendor...")
-        self.ocr_recognizer = OCR()
+        h_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (40, 1))
+        h_lines = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, h_kernel, iterations=2)
+        
+        v_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, 40))
+        v_lines = cv2.morphologyEx(thresh, cv2.MORPH_OPEN, v_kernel, iterations=2)
+        
+        table_mask = cv2.addWeighted(h_lines, 0.5, v_lines, 0.5, 0.0)
+        table_mask = cv2.threshold(table_mask, 50, 255, cv2.THRESH_BINARY)[1]
+        
+        contours, _ = cv2.findContours(table_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        
+        table_bboxes = []
+        h_img, w_img = image.shape[:2]
+        min_area = (h_img * w_img) * 0.015 
+        
+        for c in contours:
+            x, y, w, h = cv2.boundingRect(c)
+            if w * h > min_area:
+                pad = 10
+                x1, y1 = max(0, x-pad), max(0, y-pad)
+                x2, y2 = min(w_img, x+w+pad), min(h_img, y+h+pad)
+                table_bboxes.append([x1, y1, x2, y2])
+                
+        return table_bboxes
+
+    def _is_inside_table(self, word_bbox: BoundingBox, table_bbox: BoundingBox) -> bool:
+        pts = word_bbox.points
+        centroid_x = sum(p[0] for p in pts) / 4.0
+        centroid_y = sum(p[1] for p in pts) / 4.0
+        t_pts = table_bbox.points
+        t_left = min(p[0] for p in t_pts)
+        t_right = max(p[0] for p in t_pts)
+        t_top = min(p[1] for p in t_pts)
+        t_bottom = max(p[1] for p in t_pts)
+        return (t_left <= centroid_x <= t_right) and (t_top <= centroid_y <= t_bottom)
 
     def process_image(self, image: np.ndarray) -> OcrResult:
-        logger.info("DeepDoc đang phân tích bố cục hình ảnh...")
-        words_list = []
+        logger.info("OpenCV đang quét lưới Bảng biểu (Grid Catcher)...")
+        final_words = []
+        table_bboxes_objs = []
         
         try:
-            # 1. DÒ TÌM BỐ CỤC (LAYOUT DETECTION)
-            layout_res = self.layout_detector([image], [[]])
-            layout_blocks = layout_res[0] if layout_res else []
+            # =================================================================
+            # GIAI ĐOẠN 1: OPENCV BẮT BẢNG VÀ PADDLE TABLE DỊCH HTML
+            # =================================================================
+            opencv_boxes = self._find_tables_opencv(image)
             
-            # 2. XỬ LÝ NẾU CÓ BỐ CỤC (Dành cho PDF, văn bản in chuẩn)
-            for block in layout_blocks:
-                raw_bbox = block.get('bbox', [])
-                if not raw_bbox or len(raw_bbox) < 4:
-                    continue
-                    
-                if isinstance(raw_bbox[0], (int, float)):
-                    x1, y1, x2, y2 = map(int, raw_bbox[:4])
-                    bbox_points = [[x1, y1], [x2, y1], [x2, y2], [x1, y2]] 
-                else:
-                    x1, y1 = int(raw_bbox[0][0]), int(raw_bbox[0][1])
-                    x2, y2 = int(raw_bbox[2][0]), int(raw_bbox[2][1])
-                    bbox_points = np.array(raw_bbox).tolist()
+            if len(opencv_boxes) > 0:
+                # Chỉ đánh thức TableSystem nếu OpenCV tìm thấy Bảng
+                self._init_paddle_table_engine()
                 
-                h, w = image.shape[:2]
-                x1, y1 = max(0, min(x1, w-1)), max(0, min(y1, h-1))
-                x2, y2 = max(0, min(x2, w)), max(0, min(y2, h))
+            for box in opencv_boxes:
+                x1, y1, x2, y2 = box
+                bbox_points = [[x1, y1], [x2, y1], [x2, y2], [x1, y2]] 
+                table_box = BoundingBox(points=bbox_points)
+                table_bboxes_objs.append(table_box)
                 
-                if x2 <= x1 or y2 <= y1:
-                    continue 
-                    
-                block_type = block.get('type', 'text').lower()
+                table_img = image[y1:y2, x1:x2]
                 
-                if block_type == 'table':
-                    table_img = image[y1:y2, x1:x2]
-                    tsr_res = self.table_recognizer([table_img])
-                    html_content = tsr_res[0] if tsr_res else ""
-                    
-                    word_obj = OcrWord(
-                        text="[BẢNG DỮ LIỆU]",
-                        confidence=1.0,
-                        bbox=BoundingBox(points=bbox_points),
-                        block_type="table",
-                        metadata={"html": str(html_content)} 
-                    )
-                    words_list.append(word_obj)
-                else:
-                    text_img = image[y1:y2, x1:x2]
-                    ocr_results = self.ocr_recognizer(text_img)
-                    
-                    texts, confs = [], []
-                    if ocr_results:
-                        for res in ocr_results:
-                            texts.append(str(res[1][0]))
-                            confs.append(float(res[1][1]))
-                            
-                    if texts:
-                        recognized_text = "\n".join(texts)
-                        conf = sum(confs) / len(confs)
-                        
-                        word_obj = OcrWord(
-                            text=recognized_text,
-                            confidence=conf,
-                            bbox=BoundingBox(points=bbox_points),
-                            block_type=block_type,
-                            metadata={}
-                        )
-                        words_list.append(word_obj)
+                # Ném ảnh cho Paddle PP-Structure dịch HTML
+                pp_res = self.table_engine(table_img)
+                html_content = ""
+                
+                # PP-Structure trả về list dictionary, lọc tìm key 'html'
+                for region in pp_res:
+                    if region.get('type') == 'table' and 'res' in region:
+                        html_content = region['res'].get('html', '')
+                        break
+                
+                table_word = OcrWord(
+                    text="[BẢNG DỮ LIỆU]",
+                    confidence=1.0,
+                    bbox=table_box,
+                    block_type="table",
+                    metadata={"html": html_content} 
+                )
+                final_words.append(table_word)
 
-            # 3. 🌟 FALLBACK: QUÉT TOÀN BỘ ẢNH (Dành cho ảnh chụp, form viết tay)
-            # Nếu mô hình Bố cục không tìm thấy gì, ta dùng thẳng bộ nhận diện DBNet + VietOCR quét lên toàn bộ ảnh gốc!
-            if len(words_list) == 0:
-                logger.info("Không nhận diện được bố cục khối. Chuyển sang quét OCR toàn bộ ảnh...")
-                ocr_results = self.ocr_recognizer(image) 
-                
-                if ocr_results:
-                    for res in ocr_results:
-                        box_points = res[0] # Tọa độ 4 góc do AI tự cắt ra
-                        text = str(res[1][0]) # Chữ nhận diện được
-                        conf = float(res[1][1])
-                        
-                        word_obj = OcrWord(
-                            text=text,
-                            confidence=conf,
-                            bbox=BoundingBox(points=box_points),
-                            block_type="text",
-                            metadata={}
-                        )
-                        words_list.append(word_obj)
+            # =================================================================
+            # GIAI ĐOẠN 2: ĐỘNG CƠ PADDLE QUÉT CHỮ VÙNG AN TOÀN
+            # =================================================================
+            paddle_result = self.paddle_engine.process_image(image)
+            
+            for word in paddle_result.words:
+                is_inside = any(self._is_inside_table(word.bbox, t_box) for t_box in table_bboxes_objs)
+                if not is_inside:
+                    final_words.append(word)
 
-            words_list.sort(key=lambda w: w.bbox.points[0][1])
-            full_text = "\n".join([w.text for w in words_list if w.text])
+            # =================================================================
+            # GIAI ĐOẠN 3: ĐÓNG GÓI MARKDOWN
+            # =================================================================
+            final_words.sort(key=lambda w: w.bbox.points[0][1])
+            full_text = "\n".join([w.text for w in final_words if w.text])
 
             markdown_text = ""
             try:
                 h, w = image.shape[:2]
-                markdown_text = build_markdown_from_words(words_list, w, h)
-                
-                # CẮM MÁY TRỢ THÍNH VÀO ĐÂY:
-                print(f"\n[DEBUG ENGINE]: Đã sinh ra chuỗi Markdown dài {len(markdown_text)} ký tự.\n")
-                
+                markdown_text = build_markdown_from_words(final_words, w, h)
             except Exception as e:
-                # Ép lỗi sinh Markdown phải in ra Terminal bằng màu đỏ
-                print(f"\n❌ [LỖI TẠO MARKDOWN]: {e}\n")
+                logger.error(f"[LỖI TẠO MARKDOWN]: {e}")
 
-            # Cập nhật kết quả trả về
             return OcrResult(
                 is_success=True,
-                words=words_list,
+                words=final_words,
                 full_text=full_text,
                 markdown_text=markdown_text 
             )

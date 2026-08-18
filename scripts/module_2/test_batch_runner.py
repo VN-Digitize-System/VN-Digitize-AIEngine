@@ -84,11 +84,14 @@ def run_module_2_benchmark(input_dir: str, output_dir: str):
         t_img_start = time.perf_counter()
         
         # 2. Xoay ảnh nếu Module 1 báo UNCERTAIN hoặc LIKELY_ROTATED
-        orientation_status = meta.get("orientation_status", "LIKELY_CORRECT")
+        # orientation_status = meta.get("orientation_status", "LIKELY_CORRECT")
+        # rotated_image = image
+        # if orientation_status != "LIKELY_CORRECT":
+        #     # Sử dụng classifier ngầm của Paddle để check lật ngược
+        #     rotated_image = auto_rotate_page(image, classifier=engine.classifier)
+
+        # 2. Bỏ qua tự động xoay ảnh (Tối ưu tốc độ cho ảnh đã scan chuẩn)
         rotated_image = image
-        if orientation_status != "LIKELY_CORRECT":
-            # Sử dụng classifier ngầm của Paddle để check lật ngược
-            rotated_image = auto_rotate_page(image, classifier=engine.classifier)
 
         # 3. Chạy OCR
         ocr_result = engine.process_image(rotated_image)
@@ -151,8 +154,8 @@ def run_module_2_benchmark(input_dir: str, output_dir: str):
 if __name__ == "__main__":
     # ĐƯỜNG DẪN MẶC ĐỊNH (Hỗ trợ nút Run VSCode)
     # TRỎ VÀO THƯ MỤC OUTPUT CỦA MODULE 1 MÀ BẠN VỪA CHẠY XONG
-    DEFAULT_INPUT = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_1/for_demo_video/test_batch_crop_real_2")
-    DEFAULT_OUTPUT = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_2/test_batch_runner_GPU_crop_real_2")
+    DEFAULT_INPUT = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_1/for_demo_video/test_batch_zalo")
+    DEFAULT_OUTPUT = str(PROJECT_ROOT / "tests/data/outputs/unit_tests/module_2/test_batch_runner_GPU_zalo_2240")
 
     parser = argparse.ArgumentParser(description="Chạy Benchmark Module 2")
     parser.add_argument("--input_dir", type=str, nargs="?", default=DEFAULT_INPUT, help="Thư mục chứa ảnh và m1_summary.json")

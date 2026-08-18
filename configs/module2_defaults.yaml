@@ -1,15 +1,15 @@
 engine:
-  active: "deepdoc"  # Đổi sang engine mới để chuẩn bị kích hoạt
+  active: "paddle_vietocr"  # Đổi sang engine mới để chuẩn bị kích hoạt
   use_gpu: true
   lang: "vi"
 
 paddle:
-  det_limit_side_len: 2048
+  det_limit_side_len: 2560
   det_db_thresh: 0.3
-  det_db_box_thresh: 0.3
+  det_db_box_thresh: 0.5
 
 vietocr:
-  config_name: "vgg_transformer"
+  config_name: "vgg_seq2seq"
 
 heuristic_sorting:
   y_tolerance_ratio: 0.5

@@ -7,13 +7,16 @@ logger = logging.getLogger(__name__)
 
 @dataclass
 class PaddleConfig:
-    det_limit_side_len: int = 2048
+    det_limit_side_len: int = 1536
     det_db_thresh: float = 0.3
     det_db_box_thresh: float = 0.6
 
 @dataclass
 class VietOcrConfig:
-    config_name: str = "vgg_transformer"
+    config_name: str = "vgg_seq2seq"
+
+    # 🌟 VÁ LỖI ÉP XUNG: Ép VietOCR phải xử lý một lô lớn ảnh cùng lúc
+    batch_size: int = 64  # Tùy VRAM (nếu VRAM >= 8GB, có thể nâng lên 64 hoặc 128)
 
 @dataclass
 class HeuristicSortingConfig:

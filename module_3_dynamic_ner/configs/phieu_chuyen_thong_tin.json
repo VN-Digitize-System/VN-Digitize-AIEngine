@@ -1,0 +1,45 @@
+{
+    "document_type": "phieu_chuyen_thong_tin",
+    "start_triggers": [
+      "PHIẾU CHUYỂN THÔNG TIN"
+    ],
+    "radar_lines": 15,
+    "exclude_triggers": [
+        "Nộp thuế", 
+        "THÔNG BÁO NỘP LỆ PHÍ TRƯỚC BẠ" 
+    ],
+    "end_triggers": [
+      "Trường hợp có nhiều nhà ở",
+      "công trình kèm theo đơn"
+    ],
+    "start_threshold": 85,
+    "end_threshold": 85,
+    "extraction_rules": [
+      {
+        "field_name": "so_ky_hieu_tai_lieu",
+        "extraction_method": "fuzzy_key_value",
+        "anchor_keyword": "Mẫu số",
+        "value_regex": "Mẫu số\\s*([0-9A-Za-z\\-]+)",
+        "match_threshold": 50
+      },
+      {
+        "field_name": "ngay_thang_van_ban",
+        "extraction_method": "fixed_value",
+        "value": ""
+      },
+      {
+        "field_name": "ten_loai_tai_lieu",
+        "extraction_method": "fixed_value",
+        "value": "Phiếu chuyển thông tin xác định nghĩa vụ tài chính về đất đai"
+      },
+      {
+        "field_name": "tac_gia",
+        "extraction_method": "extract_between_anchors",
+        "start_anchor": "(Viết chữ in hoa)",
+        "end_anchor": "Địa chỉ liên lạc:",
+        "match_threshold": 85,
+        "strict_start": false,
+        "strict_end": false
+      }
+    ]
+  }

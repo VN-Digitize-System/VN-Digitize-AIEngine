@@ -34,10 +34,13 @@ class PaddleVietOcrEngine(BaseOcrEngine):
         
         # 2. KHỞI TẠO VIETOCR (CHỈ DÙNG RECOGNITION ĐỂ ĐỌC CHỮ)
         logger.info("[ENGINE] Đang khởi tạo VietOCR (Recognition)...")
-        # Lấy tên mạng từ class lồng nhau VietOcrConfig
         vgg_config = Cfg.load_config_from_name(self.config.vietocr.config_name)
         vgg_config['cnn']['pretrained'] = False
         vgg_config['device'] = 'cuda:0' if self.config.use_gpu else 'cpu'
+        
+        # 🌟 VÁ LỖI ÉP XUNG: Ép cấu hình Dataset DataLoader phải nhận batch_size khổng lồ
+        vgg_config['predictor']['batch_size'] = self.config.vietocr.batch_size
+        
         self.recognizer = Predictor(vgg_config)
 
     def _sort_and_group_boxes(self, boxes: list) -> list:

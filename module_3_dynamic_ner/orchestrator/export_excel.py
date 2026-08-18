@@ -1,94 +1,88 @@
 import os
-import json
-import pandas as pd
-import logging
+import openpyxl
+from openpyxl.styles import Font, Alignment, Border, Side, PatternFill
 
-# Cấu hình log
-logging.basicConfig(level=logging.INFO, format='%(message)s')
-logger = logging.getLogger(__name__)
+def export_to_excel(data_records: list, output_filepath: str):
+    """
+    Hàm nhận mảng dữ liệu (List of Dictionaries) và vẽ file Excel chuẩn A4.
+    """
+    wb = openpyxl.Workbook()
+    ws = wb.active
+    ws.title = "Muc_Luc_Ho_So"
 
-# =====================================================================
-# CẤU HÌNH ĐƯỜNG DẪN
-# =====================================================================
-CHECKPOINT_DIR = "../module_3_workspace/checkpoints/"
-OUTPUT_EXCEL = "../module_3_workspace/tong_hop_bien_muc.xlsx"
-
-def export_to_excel():
-    logger.info("📊 ĐANG TỔNG HỢP DỮ LIỆU TỪ CHECKPOINTS...")
+    # --- 1. KHAI BÁO CÁC STYLE CSS CHO EXCEL ---
+    font_header = Font(name='Times New Roman', bold=True, size=12)
+    font_body = Font(name='Times New Roman', size=12)
     
-    all_docs = []
-    # 1. Đọc và gom toàn bộ file JSON
-    for filename in os.listdir(CHECKPOINT_DIR):
-        if filename.endswith(".json"):
-            filepath = os.path.join(CHECKPOINT_DIR, filename)
-            with open(filepath, 'r', encoding='utf-8') as f:
-                try:
-                    data = json.load(f)
-                    # Tách siêu dữ liệu (Metadata) ra khỏi dữ liệu bóc tách
-                    metadata = data.pop("_metadata", {})
-                    data["start_page"] = metadata.get("start_page", "")
-                    data["end_page"] = metadata.get("end_page", "")
-                    data["is_incomplete_scan"] = metadata.get("is_incomplete_scan", False)
-                    data["file_nguon"] = filename
-                    all_docs.append(data)
-                except Exception as e:
-                    logger.error(f"[LỖI] Không thể đọc file {filename}: {e}")
+    # Nền xám cho tiêu đề
+    fill_header = PatternFill(start_color="D9D9D9", end_color="D9D9D9", fill_type="solid")
+    
+    # Kẻ viền đen mỏng cho mọi ô
+    thin_border = Side(border_style="thin", color="000000")
+    border = Border(left=thin_border, right=thin_border, top=thin_border, bottom=thin_border)
+    
+    # Ép xuống dòng (Wrap Text)
+    align_center = Alignment(horizontal='center', vertical='center', wrap_text=True)
+    align_left = Alignment(horizontal='left', vertical='center', wrap_text=True)
 
-    if not all_docs:
-        logger.warning("[CẢNH BÁO] Không có dữ liệu Checkpoint để xuất Excel.")
-        return
+    # --- 2. VẼ DÒNG TIÊU ĐỀ ---
+    headers = [
+        "Số TT", 
+        "Số, ký hiệu tài liệu", 
+        "Ngày tháng văn bản", 
+        "Tên loại hoặc trích yếu nội dung tài liệu", 
+        "Tác giả tài liệu", 
+        "Tờ số/Trang số"
+    ]
+    ws.append(headers)
 
-    # 2. Hướng B: Phân trang theo Lược đồ (Multi-Tab Pivot)
-    # Nhóm các tài liệu có chung tập hợp các trường (Keys) lại với nhau
-    grouped_docs = {}
-    for doc in all_docs:
-        # Lấy danh sách keys làm "chữ ký" schema (loại trừ các cột hệ thống)
-        schema_keys = [k for k in doc.keys() if k not in ["start_page", "end_page", "is_incomplete_scan", "file_nguon"]]
-        schema_signature = tuple(sorted(schema_keys))
+    for cell in ws[1]:
+        cell.font = font_header
+        cell.fill = fill_header
+        cell.alignment = align_center
+        cell.border = border
+
+    # --- 3. FIX CỨNG TỶ LỆ CỘT THEO KHUNG A4 TRỌC PHÚ ---
+    # Tổng độ rộng khoảng 110-120 đơn vị là vừa khít trang A4 khổ dọc
+    col_widths = {
+        'A': 6,   # STT
+        'B': 18,  # Số, ký hiệu
+        'C': 15,  # Ngày tháng
+        'D': 45,  # Tên loại (Dài nhất)
+        'E': 25,  # Tác giả
+        'F': 10   # Tờ số
+    }
+    for col_letter, width in col_widths.items():
+        ws.column_dimensions[col_letter].width = width
+
+    # --- 4. ĐỔ DỮ LIỆU & FORMAT TỪNG DÒNG ---
+    for idx, record in enumerate(data_records, 1):
+        row_data = [
+            idx,
+            record.get('so_ky_hieu_tai_lieu', ''),
+            record.get('ngay_thang_van_ban', ''),
+            record.get('ten_loai_tai_lieu', ''),
+            record.get('tac_gia', ''),
+            record.get('to_so_trang_so', '')
+        ]
+        ws.append(row_data)
         
-        if schema_signature not in grouped_docs:
-            grouped_docs[schema_signature] = []
-        grouped_docs[schema_signature].append(doc)
+        # Lấy dòng vừa mới thêm vào để format
+        current_row = ws[ws.max_row]
+        for cell in current_row:
+            cell.font = font_body
+            cell.border = border
+            
+        # Căn trái riêng cho cột Tên loại (cột D), còn lại căn giữa
+        current_row[0].alignment = align_center
+        current_row[1].alignment = align_center
+        current_row[2].alignment = align_center
+        current_row[3].alignment = align_left
+        current_row[4].alignment = align_center
+        current_row[5].alignment = align_center
 
-    # 3. Ghi ra Excel và Áp dụng Định dạng Trực quan
-    with pd.ExcelWriter(OUTPUT_EXCEL, engine='xlsxwriter') as writer:
-        workbook = writer.book
-        # Định dạng màu vàng phản quang, chữ đỏ cho các lỗi thiếu trang
-        warning_format = workbook.add_format({'bg_color': '#FFEB9C', 'font_color': '#9C0006'})
-        
-        for idx, (signature, docs) in enumerate(grouped_docs.items()):
-            sheet_name = f"Lược_Đồ_Loại_{idx + 1}"
-            df = pd.DataFrame(docs)
-            
-            # Sắp xếp lại thứ tự cột: Cột hệ thống lên đầu, dữ liệu bóc tách ở sau
-            sys_cols = ["file_nguon", "start_page", "end_page", "is_incomplete_scan"]
-            data_cols = [c for c in df.columns if c not in sys_cols]
-            df = df[sys_cols + data_cols]
-            
-            # Ghi DataFrame ra Sheet
-            df.to_excel(writer, sheet_name=sheet_name, index=False)
-            worksheet = writer.sheets[sheet_name]
-            
-            # Tính toán và Auto-fit độ rộng cột cho đẹp
-            for col_num, col_name in enumerate(df.columns):
-                max_len = max(df[col_name].astype(str).map(len).max(), len(col_name)) + 2
-                # Giới hạn độ rộng tối đa là 50 để tránh cột quá dài
-                worksheet.set_column(col_num, col_num, min(max_len, 50))
-            
-            # Lấy vị trí chữ cái của cột 'is_incomplete_scan' (Thường là cột D)
-            col_idx = df.columns.get_loc("is_incomplete_scan")
-            excel_col_letter = chr(65 + col_idx)
-            
-            # Hướng B: Cài đặt Conditional Formatting
-            # Nếu cột is_incomplete_scan == TRUE, tô màu toàn bộ hàng đó
-            max_row = len(df) + 1
-            worksheet.conditional_format(f'A2:Z{max_row}', {
-                'type': 'formula',
-                'criteria': f'=${excel_col_letter}2=TRUE',
-                'format': warning_format
-            })
-            
-    logger.info(f"✅ ĐÃ XUẤT THÀNH CÔNG BÁO CÁO EXCEL TẠI: {OUTPUT_EXCEL}")
-
-if __name__ == "__main__":
-    export_to_excel()
+    # --- 5. LƯU FILE ---
+    # Đảm bảo thư mục tồn tại
+    os.makedirs(os.path.dirname(output_filepath), exist_ok=True)
+    wb.save(output_filepath)
+    print(f"\n✅ Đã xuất báo cáo Excel thành công tại: {output_filepath}")

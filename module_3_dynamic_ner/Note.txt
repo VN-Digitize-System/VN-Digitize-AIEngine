@@ -1,25 +1,24 @@
-module_3_extraction/
-├── __init__.py
-├── pipeline.py                 # File tổng chỉ huy (Nhận Text từ Module 2 -> Trả JSON cuối cùng)
-│
-├── schemas/                    # Tầng 1: Định nghĩa cấu trúc dữ liệu (Admin Config)
-│   ├── __init__.py
-│   └── template_schema.py      # Các class Pydantic định nghĩa form (VD: Form Tòa án, Form BHXH)
-│
-├── configs/                    # Nơi chứa các file cấu hình cứng (Database tĩnh)
-│   └── regex_rules.json        # Chứa các mẫu Regex (Pattern) cho Ngày tháng, Số văn bản...
-│
-├── extractors/                 # Tầng 2: Các "công nhân" bóc tách
-│   ├── __init__.py
-│   ├── base_extractor.py       # Class trừu tượng (Interface) định ra khung chuẩn
-│   ├── regex_extractor.py      # Công nhân Regex (Chạy siêu nhanh cho các trường cố định)
-│   └── llm_extractor.py        # Công nhân LLM (Dự phòng cho Zero-shot sau này)
-│
-├── router/                     # Tầng 3: Bộ não định tuyến
-│   ├── __init__.py
-│   └── strategy_router.py      # Quyết định xem trường này giao cho Regex hay LLM xử lý
-│
-└── validators/                 # Tầng 4: Lớp kiểm duyệt & Sửa lỗi (Auto-correction)
-    ├── __init__.py
-    ├── rule_validator.py       # Kiểm tra logic (VD: Ngày tháng có hợp lệ không, đủ 10 số không)
-    └── spell_corrector.py      # Sửa lỗi chính tả nhẹ (Chỉ dùng cho text thường)
+└── configs/
+    ├── master_router.json           <-- Tầng 1: Chứa keyword gốc để chỉ đường vào các thư mục con
+    ├── bien_ban/                    <-- Tầng 2
+    │   ├── bien_ban_tham_tra_do_dac.json
+    │   └── bien_ban_giai_quyet_khieu_nai.json
+    ├── giay_chung_nhan/             <-- Tầng 2
+    │   ├── giay_chung_nhan_qsdd.json
+    │   └── giay_chung_nhan_quyen_so_huu_nha_o.json
+    ├── quyet_dinh/                  <-- Tầng 2
+    ├── don_tu/                      <-- Tầng 2 (Các loại Đơn đề nghị, Tờ trình)
+    ├── thue_phi_bien_lai/           <-- Tầng 2 (Thuế, biên lai, tờ khai)
+    ├── ban_do_trich_luc/            <-- Tầng 2 (Trích đo, trích lục, bản đồ)
+    └── dictionaries/                <-- Gom file .txt và typo vào đây
+
+└── orchestrator/
+    ├── engine/
+    │   ├── line_cluster.py     <-- Chuyên gia Gom dòng OCR (Tấm khiên 2 chiều nằm ở đây)
+    │   ├── document_router.py  <-- Chuyên gia Định tuyến (Đọc master_router -> load sub-configs)
+    │   ├── session_state.py    <-- Quản lý vòng đời Phiên (Đóng/Mở/Lưu Context)
+    │   └── __init__.py
+    ├── export_excel.py
+    ├── export_pdf.py
+    ├── post_processors.py
+    └── session_manager.py      <-- Bây giờ chỉ còn là Facade Pattern (Gọi các module trên ráp lại)
