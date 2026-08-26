@@ -1,3 +1,4 @@
+# Ongoing
 ## 🚀 Hướng dẫn chạy Module 1 (Tiền xử lý ảnh)
 
 Module 1 đảm nhiệm việc tiếp nhận ảnh tài liệu thô, cắt viền, xoay chuẩn và lọc bỏ các ảnh trắng/lỗi trước khi đưa vào hệ thống OCR.
